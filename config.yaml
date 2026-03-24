@@ -5,20 +5,21 @@
 # ============================================================
 
 # --- API Keys ---
-instantly_api_key: "NjE3MDVkYTctYjk4YS00NzgyLWEzNjAtMzNiODZiMGNlZDNhOmtGTkFVQlNIcEltQw=="
-anthropic_api_key: "YOUR_ANTHROPIC_API_KEY"
+instantly_api_key: ${INSTANTLY_API_KEY}
+anthropic_api_key: ${ANTHROPIC_API_KEY}
 
 # --- Slack ---
 # See setup_guide.md Step 2 for how to get these.
+# Actual tokens are stored in .env file (not committed to git).
 slack:
-  bot_token: "xoxb-YOUR-SLACK-BOT-TOKEN"
-  app_token: "xapp-YOUR-SLACK-APP-TOKEN"
-  channel_id: "C0123456789"  # Right-click channel → View channel details → copy ID at bottom
+  bot_token: ${SLACK_BOT_TOKEN}
+  app_token: ${SLACK_APP_TOKEN}
+  channel_id: ${SLACK_CHANNEL_ID}
 
 # --- Google Sheets CRM ---
 # The ID from your Google Sheet URL:
 # https://docs.google.com/spreadsheets/d/THIS_PART_IS_THE_ID/edit
-google_sheet_id: "1Ebn83H3yXX2xo2kzDXSbPuXn22Rg3VhnLpupwTLSxcA"
+google_sheet_id: ${GOOGLE_SHEET_ID}
 # Path to your Google service account credentials JSON
 google_credentials_path: "credentials/service_account.json"
 

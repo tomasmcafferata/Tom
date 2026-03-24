@@ -47,9 +47,37 @@ def save_state(state: dict):
 # =====================================================================
 # CONFIG
 # =====================================================================
+def _load_env_file(path: str = ".env"):
+    """Load environment variables from a .env file if it exists."""
+    if os.path.exists(path):
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, _, value = line.partition("=")
+                    os.environ.setdefault(key.strip(), value.strip())
+
+
+def _resolve_env_vars(obj):
+    """Recursively resolve ${VAR} references in config values."""
+    import re
+    if isinstance(obj, str):
+        match = re.fullmatch(r"\$\{(\w+)\}", obj)
+        if match:
+            return os.environ.get(match.group(1), obj)
+        return re.sub(r"\$\{(\w+)\}", lambda m: os.environ.get(m.group(1), m.group(0)), obj)
+    elif isinstance(obj, dict):
+        return {k: _resolve_env_vars(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [_resolve_env_vars(item) for item in obj]
+    return obj
+
+
 def load_config() -> dict:
+    _load_env_file()
     with open("config.yaml") as f:
-        return yaml.safe_load(f)
+        config = yaml.safe_load(f)
+    return _resolve_env_vars(config)
 
 
 def find_client_for_inbox(config: dict, inbox_email: str) -> dict | None:
