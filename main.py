@@ -4,7 +4,7 @@ EMAIL RESPONSE AGGREGATOR
 ==========================
 Polls Instantly for new campaign replies, classifies them,
 logs leads to Google Sheets CRM, generates AI response drafts,
-and creates drafts in the original inbox for review.
+and sends them to a Slack channel for one-click approval.
 
 Usage:
     python main.py              # Run once (process new replies)
@@ -13,7 +13,6 @@ Usage:
 """
 
 import os
-import sys
 import json
 import time
 import yaml
@@ -23,7 +22,8 @@ from datetime import datetime
 from instantly_client import InstantlyClient
 from sheets_crm import SheetsCRM
 from response_generator import ResponseGenerator
-from draft_creator import GmailDraftCreator, OutlookDraftCreator
+from email_sender import EmailSender
+from slack_handler import SlackHandler
 
 
 # =====================================================================
@@ -74,9 +74,8 @@ def find_inbox_provider(config: dict, inbox_email: str) -> str:
 # MAIN PROCESSING
 # =====================================================================
 def process_replies(config: dict, instantly: InstantlyClient, crm: SheetsCRM,
-                    ai: ResponseGenerator, gmail_drafts: GmailDraftCreator,
-                    outlook_drafts: OutlookDraftCreator):
-    """Fetch new replies, classify, update CRM, generate drafts."""
+                    ai: ResponseGenerator, slack: SlackHandler):
+    """Fetch new replies, classify, update CRM, send to Slack for approval."""
     state = load_state()
     print(f"\n{'='*60}")
     print(f"  CHECKING FOR NEW REPLIES — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
@@ -108,31 +107,19 @@ def process_replies(config: dict, instantly: InstantlyClient, crm: SheetsCRM,
         classification = ai.classify_reply(reply["body"])
         print(f"  → {classification['classification']} (respond: {classification['should_respond']})")
 
-        # 3. Update CRM
-        print(f"  Updating CRM...")
-        lead_data = {
-            "email": lead_email,
-            "name": reply.get("lead_name", ""),
-            "company": "",  # Could extract from email domain
-            "client": client["name"],
-            "campaign": reply.get("campaign_name", reply.get("campaign_id", "")),
-            "inbox": inbox_email,
-            "status": classification.get("status", "New Reply"),
-            "classification": classification.get("classification", "unknown"),
-            "reply_snippet": reply["body"][:200],
-        }
-
-        # Extract company from email domain
+        # 3. Extract company from email domain
+        company = ""
         if "@" in lead_email:
             domain = lead_email.split("@")[1]
             if domain not in ("gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com"):
-                lead_data["company"] = domain.split(".")[0].title()
+                company = domain.split(".")[0].title()
 
         # 4. Generate response if needed
+        proposed_response = ""
         if classification.get("should_respond", False):
             print(f"  Generating AI response draft...")
             thread = instantly.get_lead_thread(reply.get("campaign_id", ""), lead_email)
-            draft_text = ai.generate_response(
+            proposed_response = ai.generate_response(
                 thread=thread,
                 reply_body=reply["body"],
                 client_name=client["name"],
@@ -141,42 +128,50 @@ def process_replies(config: dict, instantly: InstantlyClient, crm: SheetsCRM,
                 scheduling_link=client["scheduling_link"],
                 classification=classification["classification"],
             )
-            lead_data["draft"] = draft_text
-            print(f"  Draft generated ({len(draft_text)} chars)")
+            print(f"  Draft generated ({len(proposed_response)} chars)")
 
-            # 5. Create draft in inbox
-            provider = find_inbox_provider(config, inbox_email)
-            subject = reply.get("subject", "")
-            if not subject.lower().startswith("re:"):
-                subject = f"Re: {subject}"
+        # 5. Build subject
+        subject = reply.get("subject", "")
+        if subject and not subject.lower().startswith("re:"):
+            subject = f"Re: {subject}"
 
-            try:
-                if provider == "google":
-                    gmail_drafts.create_draft(
-                        inbox_email=inbox_email,
-                        to_email=lead_email,
-                        subject=subject,
-                        body=draft_text,
-                        thread_id=reply.get("thread_id"),
-                        in_reply_to=reply.get("message_id"),
-                    )
-                elif provider == "microsoft":
-                    outlook_drafts.create_draft(
-                        inbox_email=inbox_email,
-                        to_email=lead_email,
-                        subject=subject,
-                        body=draft_text,
-                    )
-            except Exception as e:
-                print(f"  [ERROR] Failed to create draft: {e}")
-                print(f"  (Draft saved in CRM sheet for manual copy-paste)")
-        else:
-            print(f"  No response needed for {classification['classification']}")
+        provider = find_inbox_provider(config, inbox_email)
 
-        # 6. Save to CRM
+        # 6. Send to Slack for review
+        print(f"  Sending to Slack...")
+        slack.notify_new_reply({
+            "lead_email": lead_email,
+            "lead_name": reply.get("lead_name", ""),
+            "company": company,
+            "client_name": client["name"],
+            "campaign": reply.get("campaign_name", reply.get("campaign_id", "")),
+            "inbox_email": inbox_email,
+            "classification": classification.get("classification", "unknown"),
+            "reply_body": reply["body"],
+            "proposed_response": proposed_response,
+            "subject": subject,
+            "thread_id": reply.get("thread_id", ""),
+            "message_id": reply.get("message_id", ""),
+            "provider": provider,
+        })
+
+        # 7. Update CRM
+        print(f"  Updating CRM...")
+        lead_data = {
+            "email": lead_email,
+            "name": reply.get("lead_name", ""),
+            "company": company,
+            "client": client["name"],
+            "campaign": reply.get("campaign_name", reply.get("campaign_id", "")),
+            "inbox": inbox_email,
+            "status": classification.get("status", "New Reply"),
+            "classification": classification.get("classification", "unknown"),
+            "reply_snippet": reply["body"][:200],
+            "draft": proposed_response[:500] if proposed_response else "",
+        }
         crm.add_or_update_lead(lead_data)
 
-        # 7. Mark as processed
+        # 8. Mark as processed
         state["processed_ids"].append(reply["message_id"])
         if reply.get("timestamp", 0) > state["last_timestamp"]:
             state["last_timestamp"] = reply["timestamp"]
@@ -191,8 +186,8 @@ def process_replies(config: dict, instantly: InstantlyClient, crm: SheetsCRM,
 
 
 def process_followups(config: dict, crm: SheetsCRM, ai: ResponseGenerator,
-                      gmail_drafts: GmailDraftCreator, outlook_drafts: OutlookDraftCreator):
-    """Check for stale leads and generate follow-up drafts."""
+                      slack: SlackHandler):
+    """Check for stale leads and generate follow-up drafts, sent to Slack."""
     print(f"\n{'='*60}")
     print(f"  CHECKING FOR STALE LEADS — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*60}")
@@ -231,34 +226,31 @@ def process_followups(config: dict, crm: SheetsCRM, ai: ResponseGenerator,
             reply_count=int(lead.get("Reply Count", 1)),
         )
 
-        # Create draft
         provider = find_inbox_provider(config, inbox)
-        try:
-            if provider == "google":
-                gmail_drafts.create_draft(
-                    inbox_email=inbox,
-                    to_email=email,
-                    subject=f"Re: Following up",
-                    body=followup_text,
-                )
-            elif provider == "microsoft":
-                outlook_drafts.create_draft(
-                    inbox_email=inbox,
-                    to_email=email,
-                    subject=f"Re: Following up",
-                    body=followup_text,
-                )
-        except Exception as e:
-            print(f"  [ERROR] Failed to create follow-up draft: {e}")
+
+        # Send to Slack for approval
+        slack.notify_new_reply({
+            "lead_email": email,
+            "lead_name": lead.get("Lead Name", ""),
+            "company": lead.get("Company", ""),
+            "client_name": client_name,
+            "campaign": lead.get("Campaign", ""),
+            "inbox_email": inbox,
+            "classification": "followup",
+            "reply_body": f"[STALE LEAD — no reply in 2+ days]\nLast message: {lead.get('Last Reply Snippet', '')}",
+            "proposed_response": followup_text,
+            "subject": "Re: Following up",
+            "thread_id": "",
+            "message_id": "",
+            "provider": provider,
+        })
 
         # Update CRM
         row = lead.get("_row_num")
         if row:
             crm.update_cell(row, "draft", followup_text[:500])
-            crm.update_cell(row, "last_reply", datetime.now().strftime("%Y-%m-%d %H:%M"))
-            crm.update_cell(row, "notes", f"Auto follow-up sent {datetime.now().strftime('%m/%d')}")
 
-        print(f"  Follow-up draft created.\n")
+        print(f"  Follow-up sent to Slack for approval.\n")
 
 
 # =====================================================================
@@ -279,25 +271,27 @@ def main():
     crm = SheetsCRM(config["google_sheet_id"], config["google_credentials_path"])
     ai = ResponseGenerator(config["anthropic_api_key"])
 
-    # Initialize draft creators
-    gmail_drafts = GmailDraftCreator(
-        credentials_path="credentials/gmail_oauth_credentials.json"
+    # Initialize email sender
+    ms_config = config.get("microsoft", {})
+    email_sender = EmailSender(
+        gmail_credentials_path="credentials/gmail_oauth_credentials.json",
+        microsoft_config=ms_config if ms_config else None,
     )
 
-    # Microsoft drafts (only if you have MS inboxes)
-    outlook_drafts = None
-    ms_config = config.get("microsoft", {})
-    if ms_config:
-        outlook_drafts = OutlookDraftCreator(
-            client_id=ms_config.get("client_id", ""),
-            tenant_id=ms_config.get("tenant_id", ""),
-            client_secret=ms_config.get("client_secret", ""),
-        )
+    # Initialize Slack
+    slack_config = config["slack"]
+    slack = SlackHandler(
+        bot_token=slack_config["bot_token"],
+        app_token=slack_config["app_token"],
+        channel_id=slack_config["channel_id"],
+        email_sender=email_sender,
+    )
+    slack.start()
 
     print("Services initialized.\n")
 
     if args.followups:
-        process_followups(config, crm, ai, gmail_drafts, outlook_drafts)
+        process_followups(config, crm, ai, slack)
         return
 
     if args.loop:
@@ -305,7 +299,7 @@ def main():
         print(f"Running in loop mode (every {interval}s). Press Ctrl+C to stop.\n")
         while True:
             try:
-                process_replies(config, instantly, crm, ai, gmail_drafts, outlook_drafts)
+                process_replies(config, instantly, crm, ai, slack)
             except KeyboardInterrupt:
                 print("\nStopped.")
                 break
@@ -313,7 +307,7 @@ def main():
                 print(f"\n  [ERROR] {e}\n  Retrying in {interval}s...")
             time.sleep(interval)
     else:
-        process_replies(config, instantly, crm, ai, gmail_drafts, outlook_drafts)
+        process_replies(config, instantly, crm, ai, slack)
 
 
 if __name__ == "__main__":
