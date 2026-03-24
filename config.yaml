@@ -1,0 +1,53 @@
+# ============================================================
+# EMAIL RESPONSE AGGREGATOR - CONFIGURATION
+# ============================================================
+# Fill in your details below. See setup_guide.md for help.
+# ============================================================
+
+# --- API Keys ---
+instantly_api_key: "YOUR_INSTANTLY_API_KEY"
+anthropic_api_key: "YOUR_ANTHROPIC_API_KEY"
+
+# --- Google Sheets CRM ---
+# The ID from your Google Sheet URL:
+# https://docs.google.com/spreadsheets/d/THIS_PART_IS_THE_ID/edit
+google_sheet_id: "YOUR_GOOGLE_SHEET_ID"
+# Path to your Google service account credentials JSON
+google_credentials_path: "credentials/service_account.json"
+
+# --- Polling ---
+# How often to check for new replies (in seconds)
+poll_interval_seconds: 300  # 5 minutes
+
+# --- Clients & Inboxes ---
+# Define each client and their inboxes below.
+clients:
+  - name: "Client A"
+    tone: "professional and friendly"
+    service_description: "We help SaaS companies scale their outbound sales pipeline."
+    scheduling_link: "https://calendly.com/client-a/30min"
+    inboxes:
+      - email: "clienta1@gmail.com"
+        provider: "google"        # "google" or "microsoft"
+      - email: "clienta2@gmail.com"
+        provider: "google"
+
+  - name: "Client B"
+    tone: "casual and direct"
+    service_description: "We provide AI-powered lead generation for B2B companies."
+    scheduling_link: "https://calendly.com/client-b/30min"
+    inboxes:
+      - email: "clientb1@outlook.com"
+        provider: "microsoft"
+      - email: "clientb2@gmail.com"
+        provider: "google"
+
+  - name: "Client C"
+    tone: "professional and consultative"
+    service_description: "We offer fractional CFO services for startups."
+    scheduling_link: "https://calendly.com/client-c/30min"
+    inboxes:
+      - email: "clientc1@gmail.com"
+        provider: "google"
+      - email: "clientc2@outlook.com"
+        provider: "microsoft"
