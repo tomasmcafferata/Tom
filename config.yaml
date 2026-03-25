@@ -36,32 +36,34 @@ poll_interval_seconds: 300  # 5 minutes
 # --- Clients & Inboxes ---
 # Define each client and their inboxes below.
 clients:
-  - name: "Client A"
+  - name: "Tomas"
     tone: "professional and friendly"
-    service_description: "We help SaaS companies scale their outbound sales pipeline."
-    scheduling_link: "https://calendly.com/client-a/30min"
+    service_description: "REPLACE_ME"        # one sentence about your service
+    scheduling_link: "REPLACE_ME"            # your Calendly/Cal.com link
     inboxes:
-      - email: "clienta1@gmail.com"
-        provider: "google"        # "google" or "microsoft"
-      - email: "clienta2@gmail.com"
+      - email: "tomascafferata19@gmail.com"
         provider: "google"
 
-  - name: "Client B"
-    tone: "casual and direct"
-    service_description: "We provide AI-powered lead generation for B2B companies."
-    scheduling_link: "https://calendly.com/client-b/30min"
+  - name: "Agupá"
+    tone: "professional and friendly"
+    service_description: "REPLACE_ME"        # one sentence about Agupá's service
+    scheduling_link: "REPLACE_ME"            # Agupá's scheduling link
     inboxes:
-      - email: "clientb1@outlook.com"
+      - email: "agus@agupawood.com"
         provider: "microsoft"
-      - email: "clientb2@gmail.com"
-        provider: "google"
+      - email: "agustin@agupawood.com"
+        provider: "microsoft"
 
-  - name: "Client C"
-    tone: "professional and consultative"
-    service_description: "We offer fractional CFO services for startups."
-    scheduling_link: "https://calendly.com/client-c/30min"
+  - name: "NDC"
+    tone: "professional and friendly"
+    service_description: "REPLACE_ME"        # one sentence about NDC's service
+    scheduling_link: "REPLACE_ME"            # NDC's scheduling link
     inboxes:
-      - email: "clientc1@gmail.com"
-        provider: "google"
-      - email: "clientc2@outlook.com"
+      - email: "marketing@enedece.com"
+        provider: "microsoft"
+      - email: "tomas@enedece.com"
+        provider: "microsoft"
+      - email: "tomas@ndcgrafica.com"
+        provider: "microsoft"
+      - email: "tomasmarketing@ndcgrafica.com"
         provider: "microsoft"
