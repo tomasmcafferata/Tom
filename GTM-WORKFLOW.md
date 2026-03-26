@@ -2,7 +2,7 @@
 
 ## System Overview
 
-This is a multi-client outbound GTM engine built on 20 Claude Code skills + 5 parallel agents. It takes a client URL or description as input and produces a complete outbound system: ICP, market sizing, positioning, messaging, email sequences, ad campaigns, ABM playbook, and landing page specs.
+This is a multi-client outbound GTM engine built on 21 Claude Code skills + 5 parallel agents. It takes a client URL or description as input and produces a complete outbound system: strategy foundation, ICP, market sizing, positioning, messaging, email sequences, ABM playbook, and optional ad/landing assets.
 
 ---
 
@@ -24,13 +24,13 @@ This is a multi-client outbound GTM engine built on 20 Claude Code skills + 5 pa
     ┌──────────┘                        │               ┌────────┘
     │                                   │               │
     ▼                                   ▼               ▼
-  audit                              icp             emails
-  quick                              tam             social
-  seo                                competitors     ads
-  funnel                             positioning     copy
-  landing                            messaging       launch
-  brand                              abm
-  competitors
+  audit                           strategy        emails
+  quick                              icp             social
+  seo                                tam             ads
+  funnel                         competitors         copy
+  landing                         positioning       launch
+  brand                            messaging
+  competitors                        abm
 ```
 
 ---
@@ -38,65 +38,101 @@ This is a multi-client outbound GTM engine built on 20 Claude Code skills + 5 pa
 ## Track 1: Outbound GTM Stack (Sequential Pipeline)
 
 This is the core revenue engine. Skills run in order — each reads the output of the previous.
+Run everything at once with: `/market gtm <url> <client-name>`
 
 ```
-┌──────────┐     ┌──────────┐     ┌──────────────┐     ┌──────────────┐
-│  /market │     │  /market │     │   /market    │     │   /market    │
-│   icp    │────▶│   tam    │  ┌─▶│  positioning │────▶│  messaging   │
-│          │     │          │  │  │              │     │              │
-└────┬─────┘     └──────────┘  │  └──────────────┘     └──────┬───────┘
-     │                         │                              │
-     │  ┌──────────────┐       │                    ┌─────────┼──────────┐
-     │  │   /market    │       │                    │         │          │
-     └─▶│ competitors  │───────┘               ┌────▼───┐ ┌───▼──┐ ┌────▼────┐
-        │              │                       │/market │ │/market│ │ /market │
-        └──────────────┘                       │  abm   │ │emails │ │  ads    │
-                                               └────────┘ └──────┘ └─────────┘
-                                                    │
-                                               ┌────▼────┐
-                                               │ /market │
-                                               │ landing │
-                                               └─────────┘
+STRATEGIC LAYER
+───────────────
+┌──────────────┐
+│ /market      │  → STRATEGY.md  (business model, brand voice, growth vectors, buying triggers)
+│  strategy    │
+└──────┬───────┘
+       │
+┌──────▼───────┐     ┌──────────┐     ┌──────────────┐
+│ /market icp  │────▶│  /market │     │   /market    │
+│              │     │   tam    │  ┌─▶│  competitors │
+└──────────────┘     └──────────┘  │  └──────┬───────┘
+                                   │         │
+POSITIONING + MESSAGING LAYER      │         │
+──────────────────────────────     │         ▼
+                          ┌────────┴──────────────────┐
+                          │     /market positioning    │  → POSITIONING.md
+                          └────────────────┬──────────┘
+                                           │
+                          ┌────────────────▼──────────┐
+                          │     /market messaging      │  → MESSAGING.md
+                          │  [+ internal content scan] │  (iterates existing copy)
+                          └────────────────┬──────────┘
+
+EXECUTION LAYER
+───────────────
+                          ┌────────────────▼──────────┐
+                          │       /market abm          │  → ABM.md
+                          └────────────────┬──────────┘
+                                           │
+                          ┌────────────────▼──────────┐
+                          │      /market emails        │  → EMAIL-SEQUENCES.md  ← PRIMARY
+                          └────────────┬──────────────┘
+                                       │
+               COMPLEMENTARY (optional, feed from emails)
+               ────────────────────────────────────────
+                        ┌──────┴──────┐
+               ┌────────▼───┐  ┌──────▼──────┐
+               │/market ads │  │/market      │
+               │            │  │ landing     │
+               └────────────┘  └─────────────┘
 ```
 
 ### Step-by-Step with Deliverables
 
 ```
-STEP  SKILL              READS                           PRODUCES              PURPOSE
-─────────────────────────────────────────────────────────────────────────────────────────
- 1    /market icp         [website/description]            ICP.md               WHO to target
- 2    /market tam         ICP.md                           TAM.md               HOW MANY targets exist
- 3    /market competitors [website]                        COMPETITOR-REPORT.md  WHO you're up against
- 4    /market positioning ICP.md + COMPETITOR-REPORT.md    POSITIONING.md        WHERE you stand
- 5    /market messaging   POSITIONING.md + ICP.md          MESSAGING.md         WHAT to say
- 6    /market abm         ICP + TAM + MESSAGING + POS.    ABM.md               HOW to engage accounts
- 7    /market emails      MESSAGING.md + ABM.md            EMAIL-SEQUENCES.md   EXACT sequences to send
- 8    /market ads         MESSAGING.md                     AD-CAMPAIGNS.md      PAID channel copy
- 9    /market landing     MESSAGING.md                     LANDING-CRO.md       WHERE traffic converts
+     SKILL                READS                               PRODUCES               PURPOSE
+──────────────────────────────────────────────────────────────────────────────────────────────────
+STRATEGIC LAYER
+ 1   /market strategy     [website/description]               STRATEGY.md            WHY — business model, brand, growth vectors
+ 2   /market icp          STRATEGY.md                         ICP.md                 WHO to target
+ 3   /market tam          ICP.md                              TAM.md                 HOW MANY targets exist
+ 4   /market competitors  [website]                           COMPETITOR-REPORT.md   WHO you're up against
+
+POSITIONING + MESSAGING LAYER
+ 5   /market positioning  ICP.md + COMPETITORS + STRATEGY     POSITIONING.md         WHERE you stand vs. market
+ 6   /market messaging    POSITIONING + ICP + STRATEGY        MESSAGING.md           WHAT to say (iterates existing copy)
+                          + [internal content analysis]
+
+EXECUTION LAYER
+ 7   /market abm          ICP + TAM + MESSAGING + POS.        ABM.md                 HOW to engage specific accounts
+ 8   /market emails       MESSAGING.md + ABM.md               EMAIL-SEQUENCES.md     EXACT sequences to send  ← PRIMARY
+
+COMPLEMENTARY (optional — feed from emails for alignment)
+ 9   /market ads          MESSAGING + EMAIL-SEQUENCES         AD-CAMPAIGNS.md        PAID channel copy
+10   /market landing      MESSAGING + EMAIL-SEQUENCES         LANDING-CRO.md         WHERE traffic converts
 ```
 
 ### Data Flow Diagram
 
 ```
-ICP.md ──────┬───────────────────────────────────────────────────────────┐
-             │                                                           │
-             ▼                                                           │
-         TAM.md ──────────────────────────────────────┐                  │
-             │                                        │                  │
-             │    COMPETITOR-REPORT.md ────┐           │                  │
-             │                            ▼           │                  │
-             │                     POSITIONING.md ────┤                  │
-             │                            │           │                  │
-             │                            ▼           │                  │
-             │                      MESSAGING.md ─────┤──────┬───────────┤
-             │                            │           │      │           │
-             │                            │           ▼      ▼           ▼
-             │                            │        ABM.md  ADS.md   LANDING.md
-             │                            │           │
-             │                            ▼           │
-             │                    EMAIL-SEQUENCES.md ◀┘
-             │
-             └──────────────────────────────────▶ [All downstream skills]
+STRATEGY.md ─────┬──────────────────────────────────────────────────────┐
+                 │                                                      │
+                 ▼                                                      │
+             ICP.md ──────┬──────────────────────────────────────────┐  │
+                          │                                          │  │
+                          ▼                                          │  │
+                      TAM.md ────────────────────────────┐           │  │
+                          │                             │           │  │
+                          │  COMPETITOR-REPORT.md ──┐   │           │  │
+                          │                         ▼   │           │  │
+                          │               POSITIONING.md─┤           │  │
+                          │                         │   │           │  │
+                          │                         ▼   │           │  │
+                          │                   MESSAGING.md ──────────┴──┘
+                          │               (+ content scan)    │
+                          │                                   │
+                          │                            ABM.md─┘
+                          │                               │
+                          │                    EMAIL-SEQUENCES.md  ← PRIMARY
+                          │                        │         │
+                          └──────────────▶  AD-CAMPAIGNS  LANDING-CRO
+                                             (optional)   (optional)
 ```
 
 ---
@@ -205,21 +241,34 @@ Tom/
 
 ## Full GTM Run: Single Command Reference
 
-To run the complete outbound GTM stack for a new client:
-
+**One command to run the full outbound GTM stack:**
 ```
-Step 1:  /market icp <url>              → saves to clients/<name>/ICP.md
-Step 2:  /market tam <url>              → saves to clients/<name>/TAM.md
-Step 3:  /market competitors <url>      → saves to clients/<name>/COMPETITOR-REPORT.md
-Step 4:  /market positioning <url>      → saves to clients/<name>/POSITIONING.md
-Step 5:  /market messaging <url>        → saves to clients/<name>/MESSAGING.md
-Step 6:  /market abm <url>             → saves to clients/<name>/ABM.md
-Step 7:  /market emails <url>           → saves to clients/<name>/EMAIL-SEQUENCES.md
-Step 8:  /market ads <url>             → saves to clients/<name>/AD-CAMPAIGNS.md
-Step 9:  /market landing <url>          → saves to clients/<name>/LANDING-CRO.md
+/market gtm <url> <client-name>
+```
+Creates `clients/<client-name>/`, runs all 10 steps in sequence, saves every deliverable there.
+
+**Or run steps individually:**
+```
+STRATEGIC LAYER
+Step 1:  /market strategy <url>        → clients/<name>/STRATEGY.md
+Step 2:  /market icp <url>             → clients/<name>/ICP.md
+Step 3:  /market tam <url>             → clients/<name>/TAM.md
+Step 4:  /market competitors <url>     → clients/<name>/COMPETITOR-REPORT.md
+
+POSITIONING + MESSAGING
+Step 5:  /market positioning <url>     → clients/<name>/POSITIONING.md
+Step 6:  /market messaging <url>       → clients/<name>/MESSAGING.md
+
+EXECUTION
+Step 7:  /market abm <url>             → clients/<name>/ABM.md
+Step 8:  /market emails <url>          → clients/<name>/EMAIL-SEQUENCES.md  ← PRIMARY
+
+COMPLEMENTARY (optional)
+Step 9:  /market ads <url>             → clients/<name>/AD-CAMPAIGNS.md
+Step 10: /market landing <url>         → clients/<name>/LANDING-CRO.md
 ```
 
-Optional analysis add-ons (run before or after):
+Optional analysis add-ons (run anytime):
 ```
          /market audit <url>            → clients/<name>/MARKETING-AUDIT.md
          /market seo <url>              → clients/<name>/SEO-AUDIT.md
@@ -230,16 +279,17 @@ Optional analysis add-ons (run before or after):
 
 ---
 
-## Skill Inventory: 20 Skills + 5 Agents
+## Skill Inventory: 21 Skills + 5 Agents
 
 ### Skills Created In-House (GTM-specific)
-| Skill | Created | Purpose |
-|-------|---------|---------|
-| market-icp | This session | ICP builder for outbound |
-| market-tam | This session | TAM/SAM/SOM sizing |
-| market-positioning | This session | Competitive positioning |
-| market-messaging | This session | Full messaging architecture |
-| market-abm | This session | Account-Based Marketing |
+| Skill | Purpose | GTM Layer |
+|-------|---------|-----------|
+| market-strategy | Business model, brand voice, growth vectors, buying triggers | Strategic — Step 1 |
+| market-icp | ICP builder for outbound | Strategic — Step 2 |
+| market-tam | TAM/SAM/SOM sizing | Strategic — Step 3 |
+| market-positioning | Competitive positioning | Positioning — Step 5 |
+| market-messaging | Messaging architecture (iterates existing content) | Messaging — Step 6 |
+| market-abm | Account-Based Marketing playbook | Execution — Step 7 |
 
 ### Skills from Marketing Toolkit (GitHub)
 | Skill | Source | Purpose |
@@ -277,15 +327,16 @@ Optional analysis add-ons (run before or after):
     GTM STACK OUTPUT                    EXECUTION LAYER
     ────────────────                    ───────────────
 
+    STRATEGY.md               ──▶      Pitch deck narrative, brand guidelines, sales brief
     ICP.md                    ──▶      Apollo / Sales Navigator list building
     TAM.md                    ──▶      Account prioritization & quota planning
     COMPETITOR-REPORT.md      ──▶      Battle cards for sales calls
     POSITIONING.md            ──▶      Website copy, pitch deck, sales narrative
     MESSAGING.md              ──▶      Cold email copy, LinkedIn DMs, call scripts
     ABM.md                    ──▶      CRM account tiers, engagement tracking
-    EMAIL-SEQUENCES.md        ──▶      Instantly / Smartlead / Lemlist sequences
-    AD-CAMPAIGNS.md           ──▶      Google Ads, Meta Ads, LinkedIn Ads
-    LANDING-CRO.md            ──▶      Webflow / Framer / custom landing page build
+    EMAIL-SEQUENCES.md        ──▶      Instantly / Smartlead / Lemlist sequences  ← PRIMARY
+    AD-CAMPAIGNS.md           ──▶      Google Ads, Meta Ads, LinkedIn Ads (aligned to emails)
+    LANDING-CRO.md            ──▶      Webflow / Framer landing page (aligned to emails)
 ```
 
 ### Outbound Tech Stack Integration Points
@@ -311,10 +362,9 @@ LANDING-CRO.md           →  Webflow/Framer          →  Build landing page
 Each client gets their own folder under `clients/`. The workflow is identical per client — only the input URL changes.
 
 **To onboard a new client:**
-1. Create folder: `clients/<ClientName>/`
-2. Run the 9-step GTM stack (all outputs save to that folder)
-3. Optional: run analysis track for deeper audit
-4. Optional: compile into report/proposal
+1. Run: `/market gtm <url> <ClientName>` — creates the folder and runs all 10 steps automatically
+2. Optional: run analysis track for deeper audit
+3. Optional: compile into report/proposal
 
 **Cross-client insights:**
 - Competitor reports may overlap (same industry)
