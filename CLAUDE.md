@@ -24,13 +24,24 @@ Or run steps individually:
 ## Structure
 
 ```
-.claude/commands/   ← all GTM skills (loaded automatically by Claude Code)
-.claude/agents/     ← parallel subagents for /market audit
-clients/            ← one folder per client
-  NDC/              ← enedece.com.ar (active)
-scripts/            ← Python execution layer
-GTM-WORKFLOW.md     ← full system reference map
-config.yaml         ← API keys and configuration (use .env for secrets)
+.claude/commands/market.md  ← single orchestrator slash command
+skills/                     ← all GTM sub-skills (loaded by orchestrator)
+  market-strategy/SKILL.md
+  market-icp/SKILL.md
+  market-tam/SKILL.md
+  market-competitors/SKILL.md
+  market-competitive/SKILL.md
+  market-positioning/SKILL.md
+  market-messaging/SKILL.md
+  market-abm/SKILL.md
+  market-emails/SKILL.md
+  market-report/SKILL.md
+  market-proposal/SKILL.md
+clients/                    ← one folder per client
+  NDC/                      ← enedece.com.ar (active)
+scripts/                    ← Python execution layer
+GTM-WORKFLOW.md             ← full system reference map
+config.yaml                 ← API keys and configuration (use .env for secrets)
 ```
 
 ## Active clients
