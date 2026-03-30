@@ -24,24 +24,43 @@ Read the following files from `clients/<ClientName>/`:
 REGLAS DE ORO
 =============
 
-1. El objetivo de cada email es UNO: conseguir una respuesta.
-   No educar. No vender. No demostrar expertise. Conseguir una respuesta.
+VOZ Y TONO
+  Escribí como un colega inteligente que notó algo relevante, no como un vendedor.
+  Leé cada email en voz alta. Si suena a brochure, reescribilo.
+  Dominá el "vos/tú" — nunca el "nosotros" hasta que el prospecto responda.
+  Eliminá jargon de ventas: "sinergia", "soluciones integrales", "de clase mundial".
+  Si quitás el nombre del prospecto y el email sigue igual → no está personalizado.
 
-2. Nunca empezar con el nombre de la empresa ni con "Me llamo X de Y".
-   Empezar con el mundo del prospecto o con el trigger.
+ESTRUCTURA
+  1. El objetivo de cada email es UNO: conseguir una respuesta.
+     No educar. No vender. No demostrar expertise. Conseguir una respuesta.
+  2. Nunca empezar con el nombre de la empresa ni con "Me llamo X de Y".
+     Empezar con el mundo del prospecto o con el trigger.
+  3. Máximo 5 oraciones por email. Si no entra en 5 líneas, es demasiado largo.
+  4. Un solo CTA por email. CTA de interés, no de reunión:
+     "¿Vale la pena explorar?" > "¿Tenés 30 minutos esta semana?"
+  5. Cada follow-up tiene un ángulo nuevo. Nunca "solo quería saber si recibiste mi email".
+  6. El email 4 (breakup) siempre deja la puerta abierta. No quemar el contacto.
 
-3. Máximo 5 oraciones por email. Si no entra en 5 líneas, es demasiado largo.
+SUBJECT LINES
+  7. 2-4 palabras, minúsculas, parecen mensajes internos:
+     "expo rural — stand" > "Una propuesta interesante para su empresa"
+     "stand para alimentaria" > "Consulta sobre sus próximos eventos"
+     "flota — identidad visual" > "Soluciones de comunicación visual"
+  8. Específicos y bajos en curiosidad — la especificidad genera confianza,
+     la curiosidad genérica genera desconfianza en cold email B2B.
 
-4. Un solo CTA por email. Nunca dos preguntas ni dos opciones.
+PERSONALIZACIÓN
+  9. Mínimo requerido: nombre + trigger específico o detalle de la empresa.
+     Sin personalización real = spam.
+  10. La personalización debe conectar directamente al problema:
+      quitar el párrafo personalizado no debería dejar un email genérico intacto.
 
-5. Cada follow-up tiene un ángulo nuevo. Nunca "solo quería saber si recibiste mi email".
-
-6. El email 4 (breakup) siempre deja la puerta abierta. No quemar el contacto.
-
-7. Subject lines: específicos y bajos en curiosidad. "Expo Rural — stand" > "Una pregunta rápida"
-
-8. Personalización mínima requerida: nombre + trigger específico o detalle de la empresa.
-   Sin personalización real = spam.
+FRAMEWORKS POR TIPO DE EMAIL
+  Email 1 (trigger): Observación → Problema → Propuesta de valor → Pedido
+  Email 2 (prueba):  Caso similar → Resultado concreto → Pregunta
+  Email 3 (urgencia): Restricción práctica → Ventana de tiempo → CTA
+  Email 4 (breakup): Reconocimiento → Salida limpia → Puerta abierta
 ```
 
 ---

@@ -11,6 +11,7 @@ When the user runs `/market <command>`, load the corresponding skill from `skill
 | Command | Skill File | Output | GTM Step |
 |---------|-----------|--------|----------|
 | `/market gtm <url> <ClientName>` | Runs all 8 steps in sequence | Full GTM stack | Full pipeline |
+| `/market research <url>` | `skills/market-research/SKILL.md` | `CUSTOMER-RESEARCH.md` | Step 0 |
 | `/market strategy <url>` | `skills/market-strategy/SKILL.md` | `STRATEGY.md` | Step 1 |
 | `/market icp` | `skills/market-icp/SKILL.md` | `ICP.md` | Step 2 |
 | `/market tam` | `skills/market-tam/SKILL.md` | `TAM.md` | Step 3 |
@@ -19,6 +20,8 @@ When the user runs `/market <command>`, load the corresponding skill from `skill
 | `/market messaging` | `skills/market-messaging/SKILL.md` | `MESSAGING.md` | Step 6 |
 | `/market abm` | `skills/market-abm/SKILL.md` | `ABM.md` | Step 7 |
 | `/market emails` | `skills/market-emails/SKILL.md` | `EMAIL-SEQUENCES.md` | Step 8 |
+| `/market enablement` | `skills/market-enablement/SKILL.md` | `SALES-ENABLEMENT.md` | Deliverable |
+| `/market revops` | `skills/market-revops/SKILL.md` | `REVOPS.md` | Deliverable |
 | `/market report` | `skills/market-report/SKILL.md` | `MARKETING-REPORT.md` | Deliverable |
 | `/market proposal` | `skills/market-proposal/SKILL.md` | `CLIENT-PROPOSAL.md` | Deliverable |
 

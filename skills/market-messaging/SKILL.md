@@ -31,13 +31,34 @@ Before writing any copy, establish the rules of the voice:
 MESSAGING RULES
 ===============
 
-1. Never open with the company. Open with the prospect's pain or world.
-2. Never use generic quality claims without anchoring to a specific outcome.
-3. Flag and eliminate commoditized phrases — replace with differentiating language.
-4. Every message has one goal: get a response. Not sell. Not explain. Get a reply.
-5. Tone: [direct / warm / peer-to-peer] — match to the ICP's communication style.
-6. Formality: [vos/tú/usted — or English equivalent] — match to target market norms.
-7. Each follow-up adds new value. Never "just checking in."
+COPY QUALITY STANDARDS (from conversion copywriting)
+  Clarity over cleverness — if it sounds smart but unclear, rewrite it plainly.
+  Benefits over features — "el stand llega armado" > "instalación incluida".
+  Specificity over vagueness — "coordinás 4 proveedores" > "proceso complejo".
+  Customer language over vendor language — use the words buyers use, not yours.
+  Active voice — "NDC produce e instala" > "la producción e instalación es realizada".
+  Cut qualifiers — eliminate "casi", "bastante", "muy" — they weaken every claim.
+  Show outcomes, don't state them — "el stand se veía exactamente como el render"
+    > "entregamos calidad garantizada".
+
+OUTBOUND RULES
+  1. Never open with the company. Open with the prospect's pain or world.
+  2. Never use generic quality claims without anchoring to a specific outcome.
+  3. Flag and eliminate commoditized phrases — replace with differentiating language.
+  4. Every message has one goal: get a response. Not sell. Not explain. Get a reply.
+  5. Tone: [direct / warm / peer-to-peer] — match to the ICP's communication style.
+  6. Formality: [vos/tú/usted — or English equivalent] — match to target market norms.
+  7. Each follow-up adds new value. Never "just checking in."
+
+PSYCHOLOGY PRINCIPLES TO APPLY
+  Social proof:   People do what peers do — use client types, not just claims.
+  Specificity:    Specific numbers are more believable than round numbers.
+                  "4 proveedores" > "varios proveedores".
+  Loss aversion:  "El stand que llega incompleto el día antes" >
+                  "mejores resultados en tu próximo evento".
+  Trigger timing: A message arriving at the right moment (trigger) is 10x more
+                  effective than the same message at the wrong moment.
+  Reciprocity:    Lead with value (observation, insight, relevant info) before the ask.
 ```
 
 ---
