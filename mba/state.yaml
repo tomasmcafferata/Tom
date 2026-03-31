@@ -1,0 +1,43 @@
+system_version: "1.0"
+last_updated: null
+
+courses:
+  economia:
+    name: "Economía y Negocios"
+    schedule_day: "Monday"
+    modality: "in-person"
+    classes_completed: 0
+    total_classes: 6
+    last_class_date: null
+    last_class_topic: null
+    topics_covered: []
+    # Format: [{topic, class_number, urgency: high/medium/low, last_reviewed: date}]
+    concepts_to_review: []
+    bibliography_priority: []
+    # Format: [{class_number, date, topic, summary, key_concepts: [], practice_questions: []}]
+    class_history: []
+
+  gestion:
+    name: "Gestión de Personas"
+    schedule_day: "Wednesday"
+    modality: "virtual"
+    classes_completed: 0
+    total_classes: 6
+    last_class_date: null
+    last_class_topic: null
+    topics_covered: []
+    concepts_to_review: []
+    bibliography_priority: []
+    class_history: []
+
+current_week:
+  number: 1
+  study_sessions_planned: []
+  study_sessions_completed: []
+  notebooklm_doc_generated: false
+  notebooklm_doc_uploaded: false
+
+preferences:
+  study_session_duration_preference: "flexible"  # "3hr_blocks" | "short_batches" | "flexible"
+  podcast_style: "conversational"
+  language: "spanish"

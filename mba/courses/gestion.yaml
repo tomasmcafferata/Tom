@@ -1,0 +1,27 @@
+name: "Gestión de Personas"
+schedule_day: Wednesday
+modality: virtual
+total_classes: 6
+language: spanish
+
+clickup:
+  folder_id: "901317927697"
+  clases_list_id: "901326652803"
+  conceptos_list_id: "901326652804"
+  evaluaciones_list_id: "901326652807"
+  hub_doc_id: "8cm37vq-10913"
+  hub_pages:
+    overview: "8cm37vq-10473"
+    workflow: "8cm37vq-10493"
+    glosario: "8cm37vq-10513"
+    progreso: "8cm37vq-10553"
+    # Class knowledge pages added automatically after each "clase" trigger:
+    # clase_1: "page_id"
+    # clase_2: "page_id"
+
+professor: ""
+evaluation_breakdown: {}
+
+notebooklm_notebook: ""
+
+syllabus_actual: {}
