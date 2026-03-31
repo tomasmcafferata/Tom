@@ -298,4 +298,244 @@ Identified → Aware → Interested → Evaluating → Selecting
 
 ---
 
+## Section 7: Best Intent Signals (2026)
+*Source: coldiq.com / Michel Lieben*
+
+A three-layer signal map showing where buying signals come from, from most owned (1st party) to most external (3rd party).
+
+### First Party Signals (innermost — highest intent)
+| Signal | Tools |
+|--------|-------|
+| Product Usage | Mixpanel, Amplitude, etc. |
+| Meeting Forms | Chili Piper, HubSpot, Calendly |
+| Gated Content | Webflow, Docsend, etc. |
+| CRM Data | HubSpot, Salesforce, Clay |
+| Call Transcripts | Fireflies, Gong, etc. |
+| Marketing Sequence | ActiveCampaign, HubSpot, etc. |
+| LinkedIn Signals | Clay, PhantomBuster, etc. |
+| Website Visitor | RB2B, Instantly, Keyplay, Vento |
+
+### Second Party Signals (middle layer)
+| Signal | Tools |
+|--------|-------|
+| Afinity Signals | Affinity, Salesforce, etc. |
+| Ad Engagement | Metadata, LinkedIn Ads, etc. |
+| Review Sites | G2, Capterra, Trustpilot |
+| Champion Tracking | Clay, Keyplay, etc. |
+
+### Third Party Signals (outermost — broadest reach)
+| Signal | Tools |
+|--------|-------|
+| Web Data | Similarweb, SparkToro, etc. |
+| Funding Announcements | Crunchbase, Harmonic, LinkedIn, Elegrow |
+| Job Openings Data | Clay, Keyplay, LinkedIn, Elegrow |
+| Social Engagement | PhantomBuster, Clay, etc. |
+| Person Data | LinkedIn, Clay, Claude |
+| Lookalike Search | Ocean.io, Keyplay, etc. |
+| Ads Activity | Aritic, SemRush, Ahrefs |
+| Custom Scraping | Aritic, PhantomBuster, Clay |
+| News | Keyplay, Google Alerts, etc. |
+| Search Trends | Semrush, SimilarWeb, Ahrefs |
+| Firmographic Data | Clay, Apollo, etc. |
+| Technographic Data | BuiltWith, Keyplay, etc. |
+
+---
+
+## Section 8: Marketing Head Toolkit
+*Practical AI + automation stack for a Head of Marketing*
+
+| Category | Tool | What It Does |
+|----------|------|-------------|
+| **Sales Intelligence** | NotebookLM | Analyzes 2,000+ sales calls. Extracts patterns you'd never catch manually. |
+| **Workflow Automation** | n8n | Reduces newsletter production from 2 hours → 15 min. Tracks 100+ sources via RSS. |
+| **Content Drafting** | Claude | Connected to Drive + Notion. Knows your positioning. |
+| **Vibe Coding** | Lovable | Builds sales tools in a day (vs. $5K+ agency quote + 2 months). |
+| **Transcription** | Gemini | Best transcriptions on the market. Pulls context from your world. |
+| **Engagement Alerts** | Slack Automations | Pings when ICP prospects post. No missed engagement windows. |
+
+---
+
+## Section 9: The One-Person AI Business — $1M Roadmap
+*Source: chris-donnelly.co.uk*
+
+**A 6-part roadmap to $1M with 0 employees.**
+
+### 1. Spot the Pain
+Find a boring pain point (repetitive, costly, ignored).
+- Examples: sorting messy email inboxes, re-entering data into spreadsheets, filling repetitive online forms
+- Map out the workflow: INPUTS → STEPS → OUTPUTS
+
+### 2. Start as a Service
+Do the job manually as a productised service.
+- Prove demand before automation
+- Charge from day one
+
+### 3. Business Models
+| Model | Description |
+|-------|-------------|
+| Productised Services | Fixed scope, fixed price |
+| Cohorts / Courses | Time-boxed, outcome-driven |
+| SaaS / Micro-tools | Automate one sharp workflow |
+| Templates / Digital Assets | Recurring passive sales |
+
+### 4. Marketing Engine
+- **Listen:** Identify customer pain points using Listen Labs & AI research
+- **Create:** Build site & content with Lovable + Searchable
+- **Compound:** Drive traffic and earn mentions in ChatGPT & Perplexity using Searchable
+- **Personalise:** Tailor experiences with Clay & Mutiny
+
+### 5. Operations OS
+**Rule:**
+- If it repeats → automate
+- If it needs judgement → template
+
+**Key Tools:**
+| Tool | Use |
+|------|-----|
+| Lindy | Inbox, scheduling, CRM |
+| Fathom | Call memory |
+| Cursor | Internal automations |
+| Precision | Cockpit of live KPIs |
+
+### 6. Sales Engine
+```
+CAPTURE → QUALIFY → NURTURE → CLOSE → EXPAND
+```
+- AI replies instantly, revives no-shows
+
+**Deck structure (Gamma):** Problem → Proof → Plan → Price
+
+**Offer Maths:**
+- $3k/mo × 28 clients = $1M
+- $1k product × 84/month = $1M
+- $199 SaaS × 420 subs = $1M
+
+---
+
+## Section 10: GTM Engineer Cheat Sheet
+*Source: coldiq.com / Michel Lieben*
+
+### Responsibilities — Developing Effective Cold Outbound Strategies
+- Understanding the target audience and segmenting it effectively
+- Crafting compelling and concise email copy that captures attention and encourages action
+- Ensuring emails meet inboxing criteria to minimize bounce rates and avoid spam filters
+- Following industry best practices for deliverability and compliance
+- Continually optimizing campaigns for lasting performance
+- Monitoring campaign analytics to ensure optimal deliverability and engagement
+- A/B testing email variations to determine the best approach
+- Refreshing email content to avoid recipient fatigue
+- Analyzing campaign responses to refine audience targeting
+- Generating new strategies based on insights to keep campaigns fresh and compelling
+
+### Sales Org Structure
+
+```
+GTM Engineer
+├── Email Infrastructure
+├── List Building
+├── Account Enrichments
+├── Contact Enrichments
+├── Account & Contact Scoring
+└── AI Personalized Copywriting
+        ↓
+      SDRs
+├── Follow up with campaign replies
+├── 1:1 manual prospecting top 1000 accounts
+└── Inbound-led outbound plays
+        ↓
+      AEs
+├── Demos
+└── 1:1 manual prospecting top 200 accounts
+```
+
+### Tools Stack
+
+**Data:** Clay, Apollo.io, Prospeo, FullEnrich, LinkedIn, Wiza, Exa, Spify, Openmart
+
+**Deliverability:** Cloudflare, Gmail, Outlook
+
+**AI Models:** ChatGPT, Claude, Gemini, OpenRouter
+
+**Intent Signals:** Vector, CommonRoom, Halbounce, Relevance AI, Claude Code
+
+**Automations:** n8n, Conductor
+
+**Sales Engagement:** Lemlist, Instantly, Smartlead
+
+### Metrics
+
+| Category | KPIs |
+|----------|------|
+| **Deliverability** | Bounce rate, Unsubscribe rate, Domain reputation |
+| **Engagement** | Open rate, CTR rate, Reply rate, Positive reply rate, Lead to positive reply ratio |
+| **Outcome** | Meeting booked rate, Show up rate, Pipeline contribution, CAC, LTV/CAC, Revenue generated from campaigns |
+
+### Campaign Playbook — Trigger Ideas
+
+**Standard triggers:**
+- G2 reviews, Attended Company Webinar, Attended LinkedIn Event, Engaged with company's posts, Engaged with founders' posts, Founders & CEOs Followers, Following company LinkedIn page, Following a competitor, Using a competitor
+
+**Expansion triggers:**
+- Ex-user / champion, Portfolio VC, Fibbler LinkedIn Ads, New team member, Skills-targeting, Role-targeting, Industry-level research, Resources for Individual Contributors
+
+**Problem-aware triggers:**
+- Leaving employees, Companies without an employee for the task, Bad reviews targeting, AI-generated ideas, Cold outreach tier 2,3,4, Facebook community page, IG followers
+
+### Skills Required
+
+**Business:** Market analysis, Competitive intelligence, Business strategy, Copywriting, Data-driven decision making, Cross-Functional Alignment
+
+**Technical:** RevOps, CRM Systems, Data analysis, AI Sales tech stack, Data enrichment, A/B Testing, Deliverability optimization, Automation, API & Integration Knowledge
+
+### Reading List (COLDIQ)
+- Influence (Cialdini)
+- Cold Email Manifesto
+- Writing Tools
+- Copywriting Secrets
+- ColdIQ's Outbound Secrets (e-book)
+- To Sell Is Human (Daniel H. Pink)
+- Thinking Fast and Slow
+- Hacking Growth
+
+### GTM Engineering Pros to Follow
+Kenny Damian, Eric Nowoslawski, Kellen Casebeer, Enzo Carasso, Alex Fine, Patrick Spychalski, Jordan Crawford, Brandon Charleson, Josh Whitfield
+
+---
+
+## Section 11: Outbound Playbook 2026
+*Source: Reverrr / Guillermo Morcillo*
+
+A structured end-to-end outbound system across 4 phases.
+
+### Phase 1 — Set Up Account
+**Tools:** Claude, Gemini, NotebookLM, ChatGPT
+
+1. Initial Audit
+2. ICP Definition
+3. Value Prop
+4. Messaging
+
+### Phase 2 — Intelligence
+| Stream | Tools |
+|--------|-------|
+| Market Research + Lead Enrichment + List Creation | Clay |
+| Buying Signals | APIFY, Trigify.io, BuiltWith, TheirStack |
+
+### Phase 3 — Implementation
+
+| Channel | Sub-components |
+|---------|---------------|
+| **Cold Email** | Technical Setup, Email Sequence |
+| **LinkedIn Outreach** | New Connections, Warm Messaging |
+| **LinkedIn Content** | LinkedIn Content, Lead Magnets |
+
+### Phase 4 — Sales Process
+**Tools:** emlen, Default, Tally
+
+```
+Outbound → Meeting Booked → Demo → Trial → Revenue
+```
+
+---
+
 *Document in progress — each section added from curated intel images*
