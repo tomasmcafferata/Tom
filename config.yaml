@@ -1,0 +1,71 @@
+# ============================================================
+# EMAIL RESPONSE AGGREGATOR - CONFIGURATION
+# ============================================================
+# Secrets are stored in .env (gitignored). Config references
+# them via ${VAR_NAME} which get resolved at runtime.
+# ============================================================
+
+# --- API Keys ---
+instantly_api_key: ${INSTANTLY_API_KEY}
+anthropic_api_key: ${ANTHROPIC_API_KEY}
+
+# --- Slack ---
+slack:
+  bot_token: ${SLACK_BOT_TOKEN}
+  app_token: ${SLACK_APP_TOKEN}
+  channel_id: ${SLACK_CHANNEL_ID}
+
+# --- Google Sheets CRM ---
+google_sheet_id: ${GOOGLE_SHEET_ID}
+google_credentials_path: "credentials/service_account.json"
+
+# --- Polling ---
+poll_interval_seconds: 300  # 5 minutes
+
+# --- Clients & Inboxes ---
+clients:
+  - name: "Tomas"
+    tone: "professional and friendly"
+    context_file: "client_context/tomas.md"
+    resources:
+      - name: "Services & Pricing"
+        url: "REPLACE_ME"
+    inboxes:
+      - email: "tomascafferata19@gmail.com"
+        provider: "google"
+
+  - name: "Agupá"
+    tone: "professional and friendly"
+    context_file: "client_context/agupa.md"
+    resources:
+      - name: "Services & Pricing"
+        url: "REPLACE_ME"
+    microsoft:
+      client_id: ${MS_AGUPA_CLIENT_ID}
+      tenant_id: ${MS_AGUPA_TENANT_ID}
+      client_secret: ${MS_AGUPA_CLIENT_SECRET}
+    inboxes:
+      - email: "agus@agupawood.com"
+        provider: "microsoft"
+      - email: "agustin@agupawood.com"
+        provider: "microsoft"
+
+  - name: "NDC"
+    tone: "professional and friendly"
+    context_file: "client_context/ndc.md"
+    resources:
+      - name: "Services & Pricing"
+        url: "REPLACE_ME"
+    # microsoft:
+    #   client_id: ${MS_NDC_CLIENT_ID}
+    #   tenant_id: ${MS_NDC_TENANT_ID}
+    #   client_secret: ${MS_NDC_CLIENT_SECRET}
+    inboxes:
+      - email: "marketing@enedece.com"
+        provider: "microsoft"
+      - email: "tomas@enedece.com"
+        provider: "microsoft"
+      - email: "tomas@ndcgrafica.com"
+        provider: "microsoft"
+      - email: "tomasmarketing@ndcgrafica.com"
+        provider: "microsoft"
