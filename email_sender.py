@@ -1,6 +1,7 @@
 """
 Email Sender — sends emails from Gmail or Outlook inboxes.
 Used after a reply is approved in Slack.
+Supports multiple Microsoft tenants (one per client).
 """
 
 import os
@@ -21,10 +22,16 @@ class EmailSender:
         "https://www.googleapis.com/auth/gmail.compose",
     ]
 
-    def __init__(self, gmail_credentials_path: str = None, microsoft_config: dict = None):
+    def __init__(self, gmail_credentials_path: str = None, clients_config: list = None):
         self.gmail_credentials_path = gmail_credentials_path
-        self.microsoft_config = microsoft_config or {}
         self._gmail_services = {}
+        self._ms_configs = {}
+        for client in (clients_config or []):
+            ms = client.get("microsoft")
+            if ms:
+                for inbox in client.get("inboxes", []):
+                    if inbox.get("provider") == "microsoft":
+                        self._ms_configs[inbox["email"].lower()] = ms
 
     # ------------------------------------------------------------------
     # Public API
@@ -70,7 +77,6 @@ class EmailSender:
                 with open(token_file, "w") as f:
                     f.write(creds.to_json())
             else:
-                # Need initial auth — open browser
                 from google_auth_oauthlib.flow import InstalledAppFlow
                 print(f"\n  [AUTH] Opening browser to authorize Gmail for {inbox_email}")
                 print(f"  [AUTH] Log in with {inbox_email}!")
@@ -108,17 +114,21 @@ class EmailSender:
         print(f"  [SENT] Gmail: {inbox_email} → {to_email}")
 
     # ------------------------------------------------------------------
-    # Microsoft Outlook
+    # Microsoft Outlook (per-tenant)
     # ------------------------------------------------------------------
 
-    def _get_ms_token(self) -> str:
-        """Get Microsoft Graph access token."""
+    def _get_ms_token(self, inbox_email: str) -> str:
+        """Get Microsoft Graph access token for the inbox's tenant."""
         import msal
 
+        ms_config = self._ms_configs.get(inbox_email.lower())
+        if not ms_config:
+            raise Exception(f"No Microsoft credentials configured for {inbox_email}")
+
         app = msal.ConfidentialClientApplication(
-            self.microsoft_config["client_id"],
-            authority=f"https://login.microsoftonline.com/{self.microsoft_config['tenant_id']}",
-            client_credential=self.microsoft_config["client_secret"],
+            ms_config["client_id"],
+            authority=f"https://login.microsoftonline.com/{ms_config['tenant_id']}",
+            client_credential=ms_config["client_secret"],
         )
         result = app.acquire_token_for_client(
             scopes=["https://graph.microsoft.com/.default"]
@@ -129,7 +139,7 @@ class EmailSender:
 
     def _send_outlook(self, inbox_email, to_email, subject, body):
         """Send an email via Microsoft Graph API."""
-        token = self._get_ms_token()
+        token = self._get_ms_token(inbox_email)
         headers = {
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",

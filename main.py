@@ -152,8 +152,8 @@ def process_replies(config: dict, instantly: InstantlyClient, crm: SheetsCRM,
                 reply_body=reply["body"],
                 client_name=client["name"],
                 tone=client["tone"],
-                service_description=client["service_description"],
-                scheduling_link=client["scheduling_link"],
+                context_file=client.get("context_file", ""),
+                resources=client.get("resources", []),
                 classification=classification["classification"],
             )
             print(f"  Draft generated ({len(proposed_response)} chars)")
@@ -249,8 +249,8 @@ def process_followups(config: dict, crm: SheetsCRM, ai: ResponseGenerator,
             last_snippet=lead.get("Last Reply Snippet", ""),
             client_name=client["name"],
             tone=client["tone"],
-            service_description=client["service_description"],
-            scheduling_link=client["scheduling_link"],
+            context_file=client.get("context_file", ""),
+            resources=client.get("resources", []),
             reply_count=int(lead.get("Reply Count", 1)),
         )
 
@@ -300,10 +300,9 @@ def main():
     ai = ResponseGenerator(config["anthropic_api_key"])
 
     # Initialize email sender
-    ms_config = config.get("microsoft", {})
     email_sender = EmailSender(
         gmail_credentials_path="credentials/gmail_oauth_credentials.json",
-        microsoft_config=ms_config if ms_config else None,
+        clients_config=config.get("clients", []),
     )
 
     # Initialize Slack
