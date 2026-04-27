@@ -1,0 +1,39 @@
+name: "Economía y Negocios"
+schedule_day: Monday
+modality: in-person
+total_classes: 6
+language: spanish
+
+clickup:
+  folder_id: "901317927696"
+  clases_list_id: "901326652800"
+  conceptos_list_id: "901326652801"
+  evaluaciones_list_id: "901326652802"
+  hub_doc_id: "8cm37vq-10893"
+  hub_pages:
+    overview: "8cm37vq-10413"
+    workflow: "8cm37vq-10433"
+    glosario: "8cm37vq-10453"
+    progreso: "8cm37vq-10533"
+    # Class knowledge pages added automatically after each "clase" trigger:
+    # clase_1: "page_id"
+    # clase_2: "page_id"
+
+# Fill in before or after the first class
+professor: ""
+evaluation_breakdown: {}
+  # e.g.:
+  # parcial_1: 30%
+  # parcial_2: 40%
+  # trabajos: 30%
+
+# NOTE: Bibliography content lives in NotebookLM (not here).
+# notebooklm_notebook: add the URL of your NotebookLM notebook here
+notebooklm_notebook: ""
+
+# Auto-filled by system after each class
+syllabus_actual: {}
+  # clase_1:
+  #   date: "2026-04-07"
+  #   topic: ""
+  #   key_concepts: []

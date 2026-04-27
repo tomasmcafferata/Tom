@@ -1,0 +1,36 @@
+name: "Gestión de Personas"
+schedule_day: Wednesday
+modality: virtual
+total_classes: 6
+language: spanish
+
+clickup:
+  folder_id: "901317927697"
+  clases_list_id: "901326652803"
+  conceptos_list_id: "901326652804"
+  evaluaciones_list_id: "901326652807"
+  hub_doc_id: "8cm37vq-10913"
+  hub_pages:
+    overview: "8cm37vq-10473"
+    workflow: "8cm37vq-10493"
+    glosario: "8cm37vq-10513"
+    progreso: "8cm37vq-10553"
+    # Class knowledge pages:
+    clase_3: "8cm37vq-10713"
+
+professor: "Fernando Troilo"
+evaluation_breakdown: {}
+
+notebooklm_notebook: ""
+
+syllabus_actual:
+  clase_1:
+    topic: "La Gestión de RRHH en el Contexto Actual y Futuro"
+    date: "2026-04-08"
+  clase_2:
+    topic: "Cultura, Cambio y Clima Organizacional"
+    date: "2026-04-08"
+  clase_3:
+    topic: "Planificación Estratégica del Capital Humano & People Analytics"
+    date: "2026-04-15"
+    clickup_task_id: "86agxd9bv"
