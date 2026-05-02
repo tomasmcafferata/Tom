@@ -20,7 +20,7 @@ clickup:
     # clase_2: "page_id"
 
 # Fill in before or after the first class
-professor: ""
+professor: "Lic. Matías Surt (matiassurt@invecq.com)"
 evaluation_breakdown: {}
   # e.g.:
   # parcial_1: 30%
@@ -32,8 +32,18 @@ evaluation_breakdown: {}
 notebooklm_notebook: ""
 
 # Auto-filled by system after each class
-syllabus_actual: {}
-  # clase_1:
-  #   date: "2026-04-07"
-  #   topic: ""
-  #   key_concepts: []
+syllabus_actual:
+  clase_4:
+    date: "2026-04-20"
+    topic: "La Economía Abierta"
+    key_concepts:
+      - Balanza de Pagos (BdP)
+      - Cuenta Corriente y Cuenta Financiera
+      - Tipo de cambio nominal y real
+      - Regímenes cambiarios
+      - Esterilización (BCRA)
+      - Enfoque Absorción
+      - Enfoque Elasticidades
+      - Ciclos Stop and Go
+      - Apertura CF y PMK
+      - UIP (i = i^f + dev^e + RP)

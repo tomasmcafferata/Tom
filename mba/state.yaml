@@ -1,21 +1,82 @@
 system_version: "1.0"
-last_updated: "2026-04-15"
+last_updated: "2026-04-20"
 
 courses:
   economia:
     name: "Economía y Negocios"
     schedule_day: "Monday"
     modality: "in-person"
-    classes_completed: 0
+    classes_completed: 4
     total_classes: 6
-    last_class_date: null
-    last_class_topic: null
-    topics_covered: []
-    # Format: [{topic, class_number, urgency: high/medium/low, last_reviewed: date}]
-    concepts_to_review: []
-    bibliography_priority: []
-    # Format: [{class_number, date, topic, summary, key_concepts: [], practice_questions: []}]
-    class_history: []
+    last_class_date: "2026-04-20"
+    last_class_topic: "La Economía Abierta"
+    topics_covered:
+      # Clase 4
+      - Balanza de Pagos (BdP)
+      - Cuenta Corriente (CC)
+      - Cuenta Financiera (CF)
+      - Reservas Internacionales (RRII)
+      - Componentes CC (BC, IP, IS, YNFE)
+      - Componentes CF (IED, Inv. de cartera, OOII/FAE, RRII)
+      - Tipo de cambio nominal
+      - Tipo de cambio real (TCR)
+      - Bienes transables vs. no transables (PT, PNT)
+      - Regímenes cambiarios (fijos extremos, flotación extrema, intermedios)
+      - Dolarización / Caja de conversión
+      - Crawling peg
+      - Flotación administrada (sucia)
+      - Controles cambiarios y TC múltiples
+      - Balance BCRA y efectos monetarios de RRII
+      - Esterilización (PMC, Leliqs)
+      - Enfoque Absorción (AI, BC = Y - AI)
+      - Balance interno = Balance externo
+      - Enfoque Elasticidades (funciones de X y M)
+      - Ciclos Stop and Go
+      - Apertura Cuenta Financiera y PMK
+      - Flujos de capital y diferencial de tasas F = F(i - i^f)
+      - UIP (Paridad de Tasas No Cubierta)
+      - Expectativa de devaluación (dev^e)
+      - Riesgo País (RP)
+      - UIP completa: i = i^f + dev^e + RP
+      - Argentina: CC + FAE como % PBI (2006-2027)
+      - Argentina: tipos de cambio y bandas (evolución 2024-2026)
+      - Argentina: TCR histórico (jun-97 a mar-26)
+      - Argentina: Reservas internacionales (brutas, netas, netas FMI)
+    concepts_to_review:
+      - {topic: "BdP componentes y fórmulas", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Tipo de cambio real (fórmula y lógica)", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Regímenes cambiarios clasificación completa", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Esterilización — mecánica BCRA", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Enfoque Absorción — condición BC", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Enfoque Elasticidades — equilibrio externo", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Ciclos Stop and Go", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "UIP completa y ejemplo numérico", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "PMK — apertura CF y flujos de capital", class_number: 4, urgency: medium, last_reviewed: null}
+    bibliography_priority:
+      - "Mankiw — Macroeconomía (capítulos de economía abierta)"
+      - "Krugman & Obstfeld — Economía Internacional"
+    class_history:
+      - class_number: 4
+        date: "2026-04-20"
+        topic: "La Economía Abierta"
+        key_concepts:
+          - BdP
+          - Cuenta Corriente
+          - Cuenta Financiera
+          - RRII
+          - TC nominal
+          - TCR
+          - Regímenes cambiarios
+          - Esterilización
+          - Enfoque Absorción
+          - Enfoque Elasticidades
+          - Stop and Go
+          - PMK
+          - UIP
+          - Expectativa de devaluación
+          - Riesgo País
+        clickup_task_id: null
+        hub_page_id: null
 
   gestion:
     name: "Gestión de Personas"
@@ -92,10 +153,10 @@ courses:
         hub_page_id: "8cm37vq-10713"
 
 current_week:
-  number: 3
+  number: 4
   study_sessions_planned:
-    - {date: "2026-04-16", time: "19:00", duration_hr: 1, type: "comprensivo", course: "gestion", class_number: 3}
-    - {date: "2026-04-20", time: "19:00", duration_hr: 1, type: "repaso", course: "gestion", class_number: 3}
+    - {date: "2026-04-22", time: "19:00", duration_hr: 1, type: "comprensivo", course: "economia", class_number: 4}
+    - {date: "2026-04-25", time: "19:00", duration_hr: 1, type: "repaso", course: "economia", class_number: 4}
   study_sessions_completed: []
   notebooklm_doc_generated: true
   notebooklm_doc_uploaded: false
