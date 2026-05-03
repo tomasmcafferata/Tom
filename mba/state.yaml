@@ -75,8 +75,8 @@ courses:
           - UIP
           - Expectativa de devaluación
           - Riesgo País
-        clickup_task_id: null
-        hub_page_id: null
+        clickup_task_id: "86ah8bpda"
+        hub_page_id: "8cm37vq-10813"
 
   gestion:
     name: "Gestión de Personas"
