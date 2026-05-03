@@ -1,15 +1,15 @@
 system_version: "1.0"
-last_updated: "2026-04-20"
+last_updated: "2026-04-27"
 
 courses:
   economia:
     name: "Economía y Negocios"
     schedule_day: "Monday"
     modality: "in-person"
-    classes_completed: 4
+    classes_completed: 5
     total_classes: 6
-    last_class_date: "2026-04-20"
-    last_class_topic: "La Economía Abierta"
+    last_class_date: "2026-04-27"
+    last_class_topic: "La Economía de Corto Plazo"
     topics_covered:
       # Clase 4
       - Balanza de Pagos (BdP)
@@ -42,6 +42,29 @@ courses:
       - Argentina: tipos de cambio y bandas (evolución 2024-2026)
       - Argentina: TCR histórico (jun-97 a mar-26)
       - Argentina: Reservas internacionales (brutas, netas, netas FMI)
+      # Clase 5
+      - Dicotomía Clásica
+      - Neutralidad del dinero
+      - Fluctuaciones económicas y ciclos de negocios
+      - Producto potencial (Y*) y tasa natural de producción
+      - OALP (Oferta Agregada Largo Plazo) — curva vertical en Y*
+      - OACP (Oferta Agregada Corto Plazo) — curva con pendiente positiva
+      - Función consumo: C = Ca + cy·Yd − a·i
+      - Consumo autónomo (Ca) y animal spirits
+      - Propensión marginal a consumir (cy)
+      - Ingreso disponible: Yd = Y − T
+      - Función inversión: I = Ia − b·i
+      - Demanda Agregada CP: DA = C + I + G
+      - Multiplicador fiscal: 1/(1−cy)
+      - Equilibrio CP: DA = Y
+      - Shocks de demanda y oferta
+      - Estanflación — shock de costos desplaza OACP
+      - Ajuste LP desde desequilibrio CP
+      - Precios esperados (P^e) y rigidez nominal
+      - Curva de Phillips CP — trade-off inflación/desempleo
+      - Curva de Phillips LP — vertical en tasa natural
+      - Tasa natural de desempleo
+      - Inflación esperada (π^e) — desplaza Phillips CP
     concepts_to_review:
       - {topic: "BdP componentes y fórmulas", class_number: 4, urgency: high, last_reviewed: null}
       - {topic: "Tipo de cambio real (fórmula y lógica)", class_number: 4, urgency: high, last_reviewed: null}
@@ -52,6 +75,13 @@ courses:
       - {topic: "Ciclos Stop and Go", class_number: 4, urgency: high, last_reviewed: null}
       - {topic: "UIP completa y ejemplo numérico", class_number: 4, urgency: high, last_reviewed: null}
       - {topic: "PMK — apertura CF y flujos de capital", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Dicotomía Clásica y neutralidad del dinero", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "OALP vs OACP — diferencias y ajuste", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Función consumo e inversión — parámetros", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Multiplicador fiscal — cálculo y lógica", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Estanflación — shock de costos y OACP", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Curva de Phillips CP vs LP", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Inflación esperada — efecto sobre Phillips CP", class_number: 5, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Mankiw — Macroeconomía (capítulos de economía abierta)"
       - "Krugman & Obstfeld — Economía Internacional"
@@ -77,6 +107,23 @@ courses:
           - Riesgo País
         clickup_task_id: "86ah8bpda"
         hub_page_id: "8cm37vq-10813"
+      - class_number: 5
+        date: "2026-04-27"
+        topic: "La Economía de Corto Plazo"
+        key_concepts:
+          - Dicotomía Clásica
+          - Neutralidad del dinero
+          - Producto potencial Y*
+          - OALP / OACP
+          - Función consumo
+          - Función inversión
+          - Multiplicador fiscal
+          - Estanflación
+          - Shock de costos
+          - Curva de Phillips CP/LP
+          - Inflación esperada
+        clickup_task_id: "86ah8bqzx"
+        hub_page_id: "8cm37vq-10853"
 
   gestion:
     name: "Gestión de Personas"
@@ -153,10 +200,10 @@ courses:
         hub_page_id: "8cm37vq-10713"
 
 current_week:
-  number: 4
+  number: 5
   study_sessions_planned:
-    - {date: "2026-04-22", time: "19:00", duration_hr: 1, type: "comprensivo", course: "economia", class_number: 4}
-    - {date: "2026-04-25", time: "19:00", duration_hr: 1, type: "repaso", course: "economia", class_number: 4}
+    - {date: "2026-05-06", time: "19:00", duration_hr: 1, type: "comprensivo", course: "economia", class_number: 5}
+    - {date: "2026-05-09", time: "19:00", duration_hr: 1, type: "repaso", course: "economia", class_number: 5}
   study_sessions_completed: []
   notebooklm_doc_generated: true
   notebooklm_doc_uploaded: false

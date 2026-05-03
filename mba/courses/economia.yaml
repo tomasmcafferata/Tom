@@ -18,6 +18,8 @@ clickup:
     # Class knowledge pages added automatically after each "clase" trigger:
     # clase_1: "page_id"
     # clase_2: "page_id"
+    clase_4: "8cm37vq-10813"
+    clase_5: "8cm37vq-10853"
 
 # Fill in before or after the first class
 professor: "Lic. Matías Surt (matiassurt@invecq.com)"
@@ -47,3 +49,16 @@ syllabus_actual:
       - Ciclos Stop and Go
       - Apertura CF y PMK
       - UIP (i = i^f + dev^e + RP)
+  clase_5:
+    date: "2026-04-27"
+    topic: "La Economía de Corto Plazo"
+    key_concepts:
+      - Dicotomía Clásica y neutralidad del dinero
+      - Fluctuaciones económicas y ciclos de negocios
+      - Producto potencial (Y*) y OALP/OACP
+      - Función consumo (C = Ca + cy·Yd − a·i)
+      - Función inversión (I = Ia − b·i)
+      - Multiplicador fiscal 1/(1−cy)
+      - Estanflación y shocks de costos
+      - Curva de Phillips CP y LP
+      - Inflación esperada (π^e)
