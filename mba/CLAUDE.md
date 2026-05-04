@@ -30,19 +30,23 @@ Se ejecuta automáticamente después de cada clase. Claude debe:
 4. Con la presentación + notas:
    - Extraer **todos** los temas y conceptos cubiertos (sin límite artificial)
    - No resumir a N puntos — cubrir todo lo que aparezca en las notas y slides
-5. Generar y ejecutar automáticamente:
+5. Generar y ejecutar automáticamente (SIN esperar respuesta de NotebookLM):
    - **Tarea en ClickUp** (lista Clases): título = `Clase N — [tema principal]`, descripción = resumen completo + preguntas de práctica
    - **Actualizar Glosario** en Hub doc: agregar todos los conceptos nuevos con definición de una línea
    - **Actualizar Progreso** en Hub doc: marcar clase como completada, listar conceptos cubiertos
-   - **Agregar página de clase** al Hub doc con el conocimiento estructurado de esa clase
+   - **Bloques en Google Calendar**: 2 sesiones de 1 hora cada una durante la semana
    - **Deep-dive prompt para NotebookLM**: una sola consulta estructurada por bloques temáticos para pegar en NotebookLM Q&A. Pide explicación técnica con profundidad del libro para cada tema de la clase: definición precisa, lógica subyacente, ejemplo aplicado a negocios. Formato: "A partir de la bibliografía, explicá en detalle los siguientes temas: [bloque 1: subtemas], [bloque 2: subtemas]... Usá el nivel de profundidad del texto."
    - **Queries para NotebookLM** organizadas en dos sesiones:
      - **Sesión 1 — Estudio comprensivo** (1hr): una query por bloque temático que pide a NotebookLM recorrer el concepto con un ejemplo concreto. El objetivo es cubrir la mayor cantidad y variedad de temas de la clase sin detenerse demasiado en ninguno. Formato: "Explicame [concepto] y dame un ejemplo concreto." No hacer preguntas de repaso ni de detalle — eso va en la sesión 2.
      - **Sesión 2 — Repaso + ejemplos** (1hr): preguntas cortas de verificación ("¿Qué es X?", "¿Cómo funciona Y?") más pedidos de ejemplos aplicados. Objetivo: testear retención y ver cómo se aplican los conceptos en casos reales.
-   - **Bloques en Google Calendar**: 2 sesiones de 1 hora cada una durante la semana
-6. Actualizar `mba/state.yaml` con clase completada, temas cubiertos, y plan de estudio sugerido
+   - **Actualizar `mba/state.yaml`** con clase completada, temas cubiertos, y plan de estudio sugerido
 
-**Output final al usuario**: el deep-dive prompt para pegar en NotebookLM + las queries de las dos sesiones de estudio. Todo lo demás ya está en ClickUp.
+**Output final al usuario**: el deep-dive prompt + las queries de las dos sesiones. Luego esperar a que el usuario pegue la respuesta de NotebookLM.
+
+6. **SOLO cuando el usuario pega la respuesta de NotebookLM**: crear la **página de clase** en el Hub doc combinando el conocimiento de la presentación + la profundización del NotebookLM en una sola página unificada. NO crear la página antes. NO crear dos páginas separadas.
+   - Título de la página: `Clase N — [tema principal]`
+   - Estructura: resumen de la presentación (conceptos, fórmulas, gráficos) integrado con las explicaciones de NotebookLM por bloque temático
+   - Guardar el page_id en `mba/courses/[curso].yaml` → hub_pages → clase_N
 
 ---
 
