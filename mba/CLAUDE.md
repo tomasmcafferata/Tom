@@ -9,7 +9,7 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 |---|---|
 | **NotebookLM** | Almacena la bibliografía completa (libros de 600+ páginas como PDFs). Genera el podcast semanal. Responde preguntas específicas sobre el contenido. |
 | **Claude Code** | Orquestador: lee notas y presentación, extrae todos los temas cubiertos, genera el brief para NotebookLM, guía las sesiones de estudio, actualiza ClickUp. |
-| **ClickUp** | Conocimiento acumulado: glosario, progreso, páginas de clase. Hub docs que crecen con cada sesión. |
+| **ClickUp** | Conocimiento acumulado: glosario, progreso, páginas de clase unificadas. Hub docs que crecen con cada sesión. |
 | **Google Calendar** | Bloquea automáticamente las sesiones de estudio de la semana. |
 
 **Principio clave de economía**: Claude nunca procesa la bibliografía completa. Solo lee notas + presentación (curado por el profesor). NotebookLM maneja los libros completos y devuelve excerpts específicos cuando se le pregunta.
@@ -77,6 +77,7 @@ Sesión rápida (15-30 min). Claude debe:
 - **Sin límites artificiales** — cubrir todos los temas de la clase, no un número fijo
 - **Economía real** — Claude lee solo notas + presentación + excerpts de NotebookLM. Nunca libros completos.
 - **Acumulativo** — cada clase y sesión suma al Hub doc. Es una base de conocimiento viva.
+- **Una sola página por clase** — nunca crear páginas separadas de "profundización". Todo va en la página de clase unificada.
 - **El usuario es el puente con NotebookLM** — Claude genera las preguntas, el usuario las hace, pega las respuestas. Este es el único "trabajo manual" de las sesiones.
 - **Pushback proactivo** — Si el usuario propone un enfoque con una alternativa claramente mejor (especialmente en integraciones entre plataformas), señalarlo de inmediato sin esperar a que pregunte. Aplica a todos los proyectos, no solo MBA. Cada herramienta tiene su función: Claude procesa y orquesta, ClickUp almacena texto estructurado, NotebookLM almacena PDFs y genera podcasts, Google Calendar bloquea tiempo.
 
@@ -85,19 +86,13 @@ Sesión rápida (15-30 min). Claude debe:
 ## IDs de ClickUp
 
 ### Economía y Negocios
-- Folder: `901317927696`
 - Hub Doc: `8cm37vq-10893`
-  - Página Visión General: `8cm37vq-10413`
-  - Página Cómo funciona: `8cm37vq-10433`
   - Página Glosario: `8cm37vq-10453`
   - Página Progreso: `8cm37vq-10533`
   - Páginas de clase: se agregan en `mba/courses/economia.yaml` → hub_pages → clase_N
 
 ### Gestión de Personas
-- Folder: `901317927697`
 - Hub Doc: `8cm37vq-10913`
-  - Página Visión General: `8cm37vq-10473`
-  - Página Cómo funciona: `8cm37vq-10493`
   - Página Glosario: `8cm37vq-10513`
   - Página Progreso: `8cm37vq-10553`
   - Páginas de clase: se agregan en `mba/courses/gestion.yaml` → hub_pages → clase_N
