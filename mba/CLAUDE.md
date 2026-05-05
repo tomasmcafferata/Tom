@@ -9,7 +9,7 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 |---|---|
 | **NotebookLM** | Almacena la bibliografía completa (libros de 600+ páginas como PDFs). Genera el podcast semanal. Responde preguntas específicas sobre el contenido. |
 | **Claude Code** | Orquestador: lee notas y presentación, extrae todos los temas cubiertos, genera el brief para NotebookLM, guía las sesiones de estudio, actualiza ClickUp. |
-| **ClickUp** | Organización y conocimiento acumulado: tareas por clase, glosario, progreso, Hub docs que crecen con cada sesión. |
+| **ClickUp** | Conocimiento acumulado: glosario, progreso, páginas de clase. Hub docs que crecen con cada sesión. |
 | **Google Calendar** | Bloquea automáticamente las sesiones de estudio de la semana. |
 
 **Principio clave de economía**: Claude nunca procesa la bibliografía completa. Solo lee notas + presentación (curado por el profesor). NotebookLM maneja los libros completos y devuelve excerpts específicos cuando se le pregunta.
@@ -26,27 +26,25 @@ Se ejecuta automáticamente después de cada clase. Claude debe:
    - La presentación se sube como PDF a la carpeta `mba/presentations/` del repo en GitHub (github.com/tomasmcafferata/Tom → upload file, drag & drop). Claude la lee desde ahí con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `economia_clase1.pdf`, `gestion_clase1.pdf`, etc.
    - Las notas se pegan como texto directamente en el chat: capturan el énfasis del profesor y anotaciones personales.
    - Cada disparador "clase" debe ser una sesión nueva de Claude Code — nunca acumular múltiples clases en la misma conversación. El estado persiste en ClickUp y state.yaml, no en el historial del chat.
-   - ClickUp es solo para el output estructurado, no para almacenar archivos.
 4. Con la presentación + notas:
    - Extraer **todos** los temas y conceptos cubiertos (sin límite artificial)
    - No resumir a N puntos — cubrir todo lo que aparezca en las notas y slides
-5. Generar y ejecutar automáticamente (SIN esperar respuesta de NotebookLM):
-   - **Tarea en ClickUp** (lista Clases): título = `Clase N — [tema principal]`, descripción = resumen completo + preguntas de práctica
-   - **Actualizar Glosario** en Hub doc: agregar todos los conceptos nuevos con definición de una línea
+5. Ejecutar inmediatamente (solo estas dos cosas):
    - **Actualizar Progreso** en Hub doc: marcar clase como completada, listar conceptos cubiertos
-   - **Bloques en Google Calendar**: 2 sesiones de 1 hora cada una durante la semana
-   - **Deep-dive prompt para NotebookLM**: una sola consulta estructurada por bloques temáticos para pegar en NotebookLM Q&A. Pide explicación técnica con profundidad del libro para cada tema de la clase: definición precisa, lógica subyacente, ejemplo aplicado a negocios. Formato: "A partir de la bibliografía, explicá en detalle los siguientes temas: [bloque 1: subtemas], [bloque 2: subtemas]... Usá el nivel de profundidad del texto."
+   - **Actualizar `mba/state.yaml`** con clase completada y temas cubiertos
+6. Generar y mostrar al usuario:
+   - **Deep-dive prompt para NotebookLM**: una sola consulta estructurada por bloques temáticos. Pide explicación técnica con profundidad del libro para cada tema: definición precisa, lógica subyacente, ejemplo aplicado. Formato: "A partir de la bibliografía, explicá en detalle los siguientes temas: [bloque 1: subtemas], [bloque 2: subtemas]... Usá el nivel de profundidad del texto."
    - **Queries para NotebookLM** organizadas en dos sesiones:
-     - **Sesión 1 — Estudio comprensivo** (1hr): una query por bloque temático que pide a NotebookLM recorrer el concepto con un ejemplo concreto. El objetivo es cubrir la mayor cantidad y variedad de temas de la clase sin detenerse demasiado en ninguno. Formato: "Explicame [concepto] y dame un ejemplo concreto." No hacer preguntas de repaso ni de detalle — eso va en la sesión 2.
-     - **Sesión 2 — Repaso + ejemplos** (1hr): preguntas cortas de verificación ("¿Qué es X?", "¿Cómo funciona Y?") más pedidos de ejemplos aplicados. Objetivo: testear retención y ver cómo se aplican los conceptos en casos reales.
-   - **Actualizar `mba/state.yaml`** con clase completada, temas cubiertos, y plan de estudio sugerido
+     - **Sesión 1 — Estudio comprensivo** (1hr): una query por bloque temático que pide recorrer el concepto con un ejemplo concreto. Cubrir la mayor cantidad de temas sin detenerse en ninguno. Formato: "Explicame [concepto] y dame un ejemplo concreto." No incluir preguntas de repaso ni de detalle.
+     - **Sesión 2 — Repaso + ejemplos** (1hr): preguntas cortas de verificación ("¿Qué es X?", "¿Cómo funciona Y?") más pedidos de ejemplos aplicados. Objetivo: testear retención y aplicación.
 
-**Output final al usuario**: el deep-dive prompt + las queries de las dos sesiones. Luego esperar a que el usuario pegue la respuesta de NotebookLM.
+**Luego esperar** a que el usuario pegue la respuesta de NotebookLM. NO ejecutar nada más hasta entonces.
 
-6. **SOLO cuando el usuario pega la respuesta de NotebookLM**: crear la **página de clase** en el Hub doc combinando el conocimiento de la presentación + la profundización del NotebookLM en una sola página unificada. NO crear la página antes. NO crear dos páginas separadas.
-   - Título de la página: `Clase N — [tema principal]`
-   - Estructura: resumen de la presentación (conceptos, fórmulas, gráficos) integrado con las explicaciones de NotebookLM por bloque temático
-   - Guardar el page_id en `mba/courses/[curso].yaml` → hub_pages → clase_N
+7. **SOLO cuando el usuario pega la respuesta de NotebookLM**, ejecutar todo lo siguiente en paralelo:
+   - **Página de clase** en Hub doc: una sola página unificada que combina el conocimiento de la presentación + la profundización de NotebookLM por bloque temático. Título: `Clase N — [tema principal]`. Guardar page_id en `mba/courses/[curso].yaml` → hub_pages → clase_N
+   - **Actualizar Glosario** en Hub doc: agregar todos los conceptos nuevos con definición de una línea, enriquecida con la explicación de NotebookLM
+   - **Bloques en Google Calendar**: 2 sesiones de 1 hora cada una durante la semana
+   - **Commit y push** de los archivos actualizados
 
 ---
 
@@ -88,9 +86,6 @@ Sesión rápida (15-30 min). Claude debe:
 
 ### Economía y Negocios
 - Folder: `901317927696`
-- Lista Clases: `901326652800`
-- Lista Conceptos para Revisar: `901326652801`
-- Lista Evaluaciones: `901326652802`
 - Hub Doc: `8cm37vq-10893`
   - Página Visión General: `8cm37vq-10413`
   - Página Cómo funciona: `8cm37vq-10433`
@@ -100,9 +95,6 @@ Sesión rápida (15-30 min). Claude debe:
 
 ### Gestión de Personas
 - Folder: `901317927697`
-- Lista Clases: `901326652803`
-- Lista Conceptos para Revisar: `901326652804`
-- Lista Evaluaciones: `901326652807`
 - Hub Doc: `8cm37vq-10913`
   - Página Visión General: `8cm37vq-10473`
   - Página Cómo funciona: `8cm37vq-10493`
@@ -115,10 +107,10 @@ Sesión rápida (15-30 min). Claude debe:
 ## Calendario Google
 - Lunes: Economía y Negocios (presencial) — viaje de ida y vuelta = tiempo de podcast
 - Miércoles: Gestión de Personas (virtual)
-- Bloques de estudio: 2 sesiones de 1 hora cada una, bloquear automáticamente al ejecutar "clase"
+- Bloques de estudio: 2 sesiones de 1 hora cada una, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)
 - Un notebook por curso (2 en total)
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
-- El sistema genera un **deep-dive prompt** que el usuario pega en NotebookLM Q&A → devuelve explicación técnica con profundidad del libro para todos los temas de la clase → usuario pega la respuesta acá → Claude la formatea y guarda como página "Profundización — Clase N" en el Hub doc
+- El sistema genera un **deep-dive prompt** que el usuario pega en NotebookLM Q&A → devuelve explicación técnica con profundidad del libro → usuario pega la respuesta acá → Claude crea la página de clase unificada, actualiza el Glosario y crea los bloques de Calendar
 - Durante "estudiar": el usuario hace las queries que Claude genera → pega las respuestas acá
