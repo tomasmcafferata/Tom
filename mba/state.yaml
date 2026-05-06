@@ -129,10 +129,10 @@ courses:
     name: "Gestión de Personas"
     schedule_day: "Wednesday"
     modality: "virtual"
-    classes_completed: 3
+    classes_completed: 4
     total_classes: 6
-    last_class_date: "2026-04-15"
-    last_class_topic: "Planificación Estratégica del Capital Humano & People Analytics"
+    last_class_date: "2026-05-06"
+    last_class_topic: "La Incorporación de Personas en las Organizaciones"
     topics_covered:
       # Clase 1
       - VUCA / RUPT / BANI
@@ -168,6 +168,31 @@ courses:
       - Big Data / Small Data en RRHH
       - Modelo de Barnett & Berck
       - Alineación estratégica Procesos+Tecnología+Personas
+      # Clase 4
+      - Ciclo de vida del empleado
+      - Concepto de puesto (Chiavenato)
+      - Descripción de puestos — Identificación del puesto
+      - Descripción de puestos — Propósito general
+      - Descripción de puestos — Actividades y Responsabilidades
+      - Descripción de puestos — Naturaleza y Alcance
+      - Descripción de puestos — Requisitos del Cargo (educativo, experiencia, técnico, habilidades, actitudes)
+      - Descripción de puestos — Condiciones y Medio Ambiente de Trabajo
+      - El desafío de reclutar hoy
+      - Marca Empleadora (Employer Branding)
+      - PVE en la incorporación de personas
+      - Estrategia de comunicación interna/externa de Marca Empleadora
+      - Storytelling en Marca Empleadora
+      - Proceso de adquisición de talento (7 etapas)
+      - IN or OUT (búsqueda interna vs. externa/tercerizada)
+      - Reclutamiento (medios y piezas)
+      - Entrevistas (quién entrevista, tipos)
+      - Evaluaciones pre-ocupacionales (técnicas, psicotécnicos, grafológico, socio-ambiental, médico)
+      - Offer letter y formalización del vínculo
+      - Período de prueba y confirmación en el puesto
+      - Incorporación / Inducción (primer día presencial vs. virtual)
+      - Desvinculación — motivos (renuncia, jubilación, fallecimiento, sin causa, con causa)
+      - Desvinculación — comunicación (quién, cómo, cuándo, al equipo)
+      - Desvinculación — transición
     concepts_to_review:
       - {topic: "BSC 4 perspectivas", class_number: 3, urgency: high, last_reviewed: null}
       - {topic: "Cuadro de Mando de RRHH", class_number: 3, urgency: high, last_reviewed: null}
@@ -175,10 +200,17 @@ courses:
       - {topic: "Modelo Barnett & Berck secuencia", class_number: 3, urgency: high, last_reviewed: null}
       - {topic: "6 claves rol estratégico RRHH", class_number: 3, urgency: high, last_reviewed: null}
       - {topic: "People Analytics Big/Small Data", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "Descripción de puestos — 6 secciones y su contenido", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Proceso de adquisición de talento — 7 etapas en orden", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Marca Empleadora vs PVE — diferencia y relación", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "IN or OUT — criterios para búsqueda interna vs externa", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Desvinculación — tipos y protocolo de comunicación", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Incorporación/Inducción — presencial vs virtual", class_number: 4, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Kaplan & Norton (HBR 1992) — The Balanced Scorecard"
       - "Dolan — La Gestión de Personas y del Talento"
       - "Troilo — Rediseñando Recursos Humanos"
+      - "Chiavenato — Gestión del Talento Humano"
     class_history:
       - class_number: 1
         date: "2026-04-08"
@@ -198,6 +230,12 @@ courses:
         key_concepts: [BSC, 4 perspectivas BSC, Cuadro de Mando RRHH, 6 claves rol estratégico, Mapa estratégico, Business Model Canvas, Canvas B, People Analytics, Big Data, Small Data, Modelo Barnett & Berck, Alineación estratégica]
         clickup_task_id: "86agxd9bv"
         hub_page_id: "8cm37vq-10713"
+      - class_number: 4
+        date: "2026-05-06"
+        topic: "La Incorporación de Personas en las Organizaciones"
+        key_concepts: [Ciclo de vida del empleado, Concepto de puesto, Descripción de puestos, Marca Empleadora, PVE en incorporación, Proceso adquisición de talento, IN or OUT, Entrevistas, Evaluaciones pre-ocupacionales, Offer letter, Período de prueba, Incorporación/Inducción, Desvinculación]
+        clickup_task_id: null
+        hub_page_id: null
 
 current_week:
   number: 5
