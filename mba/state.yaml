@@ -235,7 +235,7 @@ courses:
         topic: "La Incorporación de Personas en las Organizaciones"
         key_concepts: [Ciclo de vida del empleado, Concepto de puesto, Descripción de puestos, Marca Empleadora, PVE en incorporación, Proceso adquisición de talento, IN or OUT, Entrevistas, Evaluaciones pre-ocupacionales, Offer letter, Período de prueba, Incorporación/Inducción, Desvinculación]
         clickup_task_id: null
-        hub_page_id: null
+        hub_page_id: "8cm37vq-10893"
 
 current_week:
   number: 5
