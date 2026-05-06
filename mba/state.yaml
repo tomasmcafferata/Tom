@@ -256,7 +256,7 @@ courses:
         topic: "El Desarrollo y la Gestión del Talento"
         key_concepts: [Desarrollo Organizacional, Plan de desarrollo, Talento, Potencial, HiPos, Top Talent, 3 dimensiones de potencial, Calibración del talento, Talent Review, Mentoring, Coaching, Rotación, Proyectos, Asignaciones, Iniciativas de desarrollo]
         clickup_task_id: null
-        hub_page_id: null
+        hub_page_id: "8cm37vq-10913"
       - class_number: 4
         date: "2026-05-06"
         topic: "La Incorporación de Personas en las Organizaciones"
