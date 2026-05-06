@@ -129,10 +129,10 @@ courses:
     name: "Gestión de Personas"
     schedule_day: "Wednesday"
     modality: "virtual"
-    classes_completed: 4
+    classes_completed: 5
     total_classes: 6
     last_class_date: "2026-05-06"
-    last_class_topic: "La Incorporación de Personas en las Organizaciones"
+    last_class_topic: "El Desarrollo y la Gestión del Talento"
     topics_covered:
       # Clase 1
       - VUCA / RUPT / BANI
@@ -168,6 +168,20 @@ courses:
       - Big Data / Small Data en RRHH
       - Modelo de Barnett & Berck
       - Alineación estratégica Procesos+Tecnología+Personas
+      # Clase 5
+      - Desarrollo Organizacional (DO)
+      - Plan de desarrollo de personas
+      - Talento — definición y evolución del concepto
+      - Rol de RRHH en gestión del talento
+      - Potencial — definición
+      - Medición del potencial (proceso sistematizado de evaluación)
+      - HiPos / Talento crítico / Top Talent (5-7% de la población)
+      - 3 dimensiones de potencial (BASE: cognitivas/personalidad; CRECIMIENTO: aprendizaje/motivación; CARRERA: liderazgo/conocimientos/desempeño/fit cultural)
+      - Factores de calibración del talento (ratings, fuentes, revisiones, planes de acción, sesión de calibración)
+      - Herramientas de identificación (360°, evaluaciones por competencias, personalidad, cognitivas, estilos de liderazgo)
+      - Talent Review (matriz 3x3 Potencial × Desempeño)
+      - Herramientas de desarrollo (Mentoring, Coaching, Rotación, Proyectos, Asignaciones, Equipos)
+      - Iniciativas de desarrollo individual (trabajo a la sombra, reemplazos, asumir mayores responsabilidades, presentar iniciativas, construir network, workshops, etc.)
       # Clase 4
       - Ciclo de vida del empleado
       - Concepto de puesto (Chiavenato)
@@ -206,6 +220,13 @@ courses:
       - {topic: "IN or OUT — criterios para búsqueda interna vs externa", class_number: 4, urgency: medium, last_reviewed: null}
       - {topic: "Desvinculación — tipos y protocolo de comunicación", class_number: 4, urgency: medium, last_reviewed: null}
       - {topic: "Incorporación/Inducción — presencial vs virtual", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Desarrollo Organizacional — definición y 3 pasos", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "HiPos — definición, % y criterios", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "3 dimensiones de potencial (BASE/CRECIMIENTO/CARRERA)", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Talent Review — cómo leer la matriz 3x3", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Factores de calibración del talento", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Herramientas de desarrollo — diferencia entre mentoring, coaching y rotación", class_number: 5, urgency: medium, last_reviewed: null}
+      - {topic: "Iniciativas de desarrollo individual — listado completo", class_number: 5, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Kaplan & Norton (HBR 1992) — The Balanced Scorecard"
       - "Dolan — La Gestión de Personas y del Talento"
@@ -230,6 +251,12 @@ courses:
         key_concepts: [BSC, 4 perspectivas BSC, Cuadro de Mando RRHH, 6 claves rol estratégico, Mapa estratégico, Business Model Canvas, Canvas B, People Analytics, Big Data, Small Data, Modelo Barnett & Berck, Alineación estratégica]
         clickup_task_id: "86agxd9bv"
         hub_page_id: "8cm37vq-10713"
+      - class_number: 5
+        date: "2026-05-06"
+        topic: "El Desarrollo y la Gestión del Talento"
+        key_concepts: [Desarrollo Organizacional, Plan de desarrollo, Talento, Potencial, HiPos, Top Talent, 3 dimensiones de potencial, Calibración del talento, Talent Review, Mentoring, Coaching, Rotación, Proyectos, Asignaciones, Iniciativas de desarrollo]
+        clickup_task_id: null
+        hub_page_id: null
       - class_number: 4
         date: "2026-05-06"
         topic: "La Incorporación de Personas en las Organizaciones"
