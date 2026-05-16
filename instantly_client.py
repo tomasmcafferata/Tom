@@ -1,5 +1,5 @@
 """
-Instantly API client — fetches campaign replies from your Instantly account.
+Instantly API client (v2) — fetches campaign replies from your Instantly account.
 """
 
 import time
@@ -7,31 +7,36 @@ import requests
 
 
 class InstantlyClient:
-    BASE_URL = "https://api.instantly.ai/api/v1"
+    BASE_URL = "https://api.instantly.ai/api/v2"
 
     def __init__(self, api_key: str):
         self.api_key = api_key
+        self.headers = {"Authorization": f"Bearer {api_key}"}
 
     def _get(self, endpoint: str, params: dict = None) -> dict:
         params = params or {}
-        params["api_key"] = self.api_key
-        resp = requests.get(f"{self.BASE_URL}{endpoint}", params=params, timeout=30)
+        resp = requests.get(
+            f"{self.BASE_URL}{endpoint}",
+            headers=self.headers,
+            params=params,
+            timeout=30,
+        )
         resp.raise_for_status()
         return resp.json()
 
     def get_campaigns(self) -> list:
         """Get all campaigns."""
-        result = self._get("/campaign/list", {"limit": 100, "skip": 0})
-        return result if isinstance(result, list) else result.get("data", [])
+        result = self._get("/campaigns", {"limit": 100})
+        return result.get("items", result.get("data", []))
 
     def get_campaign_replies(self, campaign_id: str) -> list:
         """Get replies for a specific campaign."""
-        result = self._get(f"/unibox/emails", {
+        result = self._get("/emails", {
             "campaign_id": campaign_id,
             "email_type": "received",
             "limit": 50,
         })
-        return result if isinstance(result, list) else result.get("data", [])
+        return result.get("items", result.get("data", []))
 
     def get_all_replies(self, since_timestamp: float = None) -> list:
         """
@@ -51,9 +56,8 @@ class InstantlyClient:
                 continue
 
             for reply in replies:
-                ts = reply.get("timestamp", 0)
-                # Skip old replies if a since_timestamp is provided
-                if since_timestamp and ts <= since_timestamp:
+                ts = reply.get("timestamp", reply.get("created_at", 0))
+                if since_timestamp and ts and ts <= since_timestamp:
                     continue
 
                 all_replies.append({
@@ -69,7 +73,6 @@ class InstantlyClient:
                     "thread_id": reply.get("thread_id", ""),
                 })
 
-            # Be nice to the API
             time.sleep(0.5)
 
         return sorted(all_replies, key=lambda r: r.get("timestamp", 0))
@@ -77,12 +80,12 @@ class InstantlyClient:
     def get_lead_thread(self, campaign_id: str, lead_email: str) -> list:
         """Get the full email thread for a lead in a campaign."""
         try:
-            result = self._get(f"/unibox/emails", {
+            result = self._get("/emails", {
                 "campaign_id": campaign_id,
                 "email": lead_email,
                 "limit": 20,
             })
-            emails = result if isinstance(result, list) else result.get("data", [])
+            emails = result.get("items", result.get("data", []))
             return sorted(emails, key=lambda e: e.get("timestamp", 0))
         except Exception as e:
             print(f"  [WARN] Failed to fetch thread for {lead_email}: {e}")
