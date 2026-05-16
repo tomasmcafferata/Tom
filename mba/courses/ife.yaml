@@ -11,6 +11,7 @@ clickup:
     indice: "8cm37vq-10933"
     glosario: "8cm37vq-10973"
     progreso: "8cm37vq-10993"
+    nivelatorio: "8cm37vq-11093"
     clase_1: "8cm37vq-11053"
 
 professor: "Alejandra Bozic / Lisandro López / Adrián Casadey"
@@ -49,6 +50,20 @@ syllabus_programa:
   - "Análisis aplicado a empresa real (CNV)"
 
 syllabus_actual:
+  nivelatorio:
+    hub_page_id: "8cm37vq-11093"
+    topic: "Contabilidad Básica — Ecuación Patrimonial y Variaciones Patrimoniales"
+    key_concepts:
+      - Concepto y objetivos de la contabilidad
+      - Usuarios internos y externos
+      - Contabilidad financiera vs gerencial
+      - Ecuación patrimonial (Activo = Pasivo + PN)
+      - Recursos y fuentes
+      - Variaciones permutativas
+      - Variaciones modificativas
+      - Devengado vs percibido
+      - Situación económica / financiera / patrimonial
+      - Caso Máster S.A. (9 hechos económicos)
   clase_1:
     date: TBD
     hub_page_id: "8cm37vq-11053"

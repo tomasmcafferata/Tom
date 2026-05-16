@@ -273,6 +273,13 @@ courses:
     last_class_date: TBD
     last_class_topic: "Información Contable — Marco Conceptual y Modelo Contable"
     topics_covered:
+      # Nivelatorio
+      - Ecuación patrimonial (Activo = Pasivo + Patrimonio Neto)
+      - Variaciones permutativas (solo activos/pasivos, PN no cambia)
+      - Variaciones modificativas (afectan Capital y/o Resultados)
+      - Devengado vs percibido
+      - Situación económica / financiera / patrimonial (independientes entre sí)
+      - Caso Máster S.A. (9 hechos económicos — amortización, revaluación, intereses devengados, dividendos)
       # Clase 1
       - Información financiera vs contable
       - Usuarios de la información contable
