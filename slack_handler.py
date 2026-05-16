@@ -34,8 +34,7 @@ class SlackHandler:
 
     def start(self):
         """Start listening for Slack interactions in a background thread."""
-        thread = threading.Thread(target=self.socket_handler.start, daemon=True)
-        thread.start()
+        self.socket_handler.connect()
         print("  [OK] Slack bot connected (Socket Mode)")
 
     def notify_new_reply(self, reply_data: dict):
