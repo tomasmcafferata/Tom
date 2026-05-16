@@ -3,6 +3,8 @@ schedule_day: Wednesday
 modality: virtual
 total_classes: 6
 language: spanish
+status: completada
+unified_page_id: "8cm37vq-10393"
 
 clickup:
   folder_id: "901317927697"

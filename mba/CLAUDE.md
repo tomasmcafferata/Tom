@@ -72,6 +72,32 @@ Sesión rápida (15-30 min). Claude debe:
 
 ---
 
+### "cierre" o "materia terminada"
+Se ejecuta al finalizar una materia completa. Claude debe:
+1. Leer el hub doc de la materia indicada (`mba/courses/[curso].yaml` → `hub_doc_id`)
+2. Listar todas las páginas del doc con `clickup_list_document_pages`
+3. Leer el contenido de todas las páginas relevantes en paralelo (todas las clases + glosario)
+4. Actualizar la **primera página del doc** (el Índice) con todo el contenido mergeado en una sola página:
+   - **Info general** del curso: profesor, modalidad, horario, bibliografía, estado "Completada"
+   - **Índice** con tabla de clases y fechas
+   - **Todas las clases** en orden, completas, una tras otra (con sus preguntas de práctica)
+   - **Glosario** completo al final
+5. Informar al usuario qué páginas debe eliminar manualmente en ClickUp (click derecho → Delete):
+   - Visión General / Información General
+   - Cómo funciona el sistema
+   - Progreso del Curso
+   - Cada página individual de clase
+   - Página individual de Glosario
+   - Cualquier otra página redundante
+6. Actualizar `mba/courses/[curso].yaml`:
+   - Agregar `status: completada`
+   - Agregar `unified_page_id: [id de la primera página del doc]`
+7. Commit y push de los archivos actualizados
+
+**Nota:** La API de ClickUp no permite eliminar páginas — esa acción siempre la hace el usuario manualmente.
+
+---
+
 ## Principios de comportamiento
 - **El sistema decide** — nunca preguntar qué necesita el usuario. Leer el estado y actuar.
 - **Sin límites artificiales** — cubrir todos los temas de la clase, no un número fijo
