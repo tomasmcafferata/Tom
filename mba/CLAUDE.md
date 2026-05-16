@@ -20,7 +20,11 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
-1. Detectar el curso por el día de la semana (lunes = Economía y Negocios, miércoles = Gestión de Personas) o por el contexto
+1. Detectar el curso por el día de la semana o por el contexto:
+   - Lunes = Economía y Negocios (completada)
+   - Miércoles = Gestión de Personas (completada)
+   - IFE = Información Financiera de la Empresa (día TBD — detectar por contexto o nombre)
+   - Liderazgo = Liderazgo y Gestión de Equipos de Alto Rendimiento (día TBD — detectar por contexto o nombre)
 2. Leer `mba/state.yaml` para contexto acumulado
 3. Si el usuario no adjuntó la presentación (PDF) y/o notas, pedirlos — una sola vez
    - La presentación se sube como PDF a la carpeta `mba/presentations/` del repo en GitHub (github.com/tomasmcafferata/Tom → upload file, drag & drop). Claude la lee desde ahí con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `economia_clase1.pdf`, `gestion_clase1.pdf`, etc.
@@ -111,27 +115,43 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 
 ## IDs de ClickUp
 
-### Economía y Negocios
+### Economía y Negocios (completada)
 - Hub Doc: `8cm37vq-10893`
   - Página Glosario: `8cm37vq-10453`
   - Página Progreso: `8cm37vq-10533`
   - Páginas de clase: se agregan en `mba/courses/economia.yaml` → hub_pages → clase_N
 
-### Gestión de Personas
+### Gestión de Personas (completada)
 - Hub Doc: `8cm37vq-10913`
   - Página Glosario: `8cm37vq-10513`
   - Página Progreso: `8cm37vq-10553`
   - Páginas de clase: se agregan en `mba/courses/gestion.yaml` → hub_pages → clase_N
 
+### IFE — Información Financiera de la Empresa (en curso)
+- Hub Doc: `` (completar al crear en ClickUp)
+  - Página Glosario: `` (completar)
+  - Página Progreso: `` (completar)
+  - Páginas de clase: se agregan en `mba/courses/ife.yaml` → hub_pages → clase_N
+
+### Liderazgo y Gestión de Equipos (en curso)
+- Hub Doc: `` (completar al crear en ClickUp)
+  - Página Glosario: `` (completar)
+  - Página Progreso: `` (completar)
+  - Páginas de clase: se agregan en `mba/courses/liderazgo.yaml` → hub_pages → clase_N
+
 ---
 
 ## Calendario Google
-- Lunes: Economía y Negocios (presencial) — viaje de ida y vuelta = tiempo de podcast
-- Miércoles: Gestión de Personas (virtual)
+- Lunes: Economía y Negocios (presencial — completada) — viaje de ida y vuelta = tiempo de podcast
+- Miércoles: Gestión de Personas (virtual — completada)
+- IFE: día TBD — completar en state.yaml cuando se confirme
+- Liderazgo: día TBD — completar en state.yaml cuando se confirme
 - Bloques de estudio: 2 sesiones de 1 hora cada una, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)
-- Un notebook por curso (2 en total)
+- Un notebook por curso (4 en total: Economía, Gestión, IFE, Liderazgo)
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
+- **IFE**: subir Fowler Newton — Análisis de estados contables + Fowler Newton — Contabilidad con inflación
+- **Liderazgo**: subir papers de Clase 5 (Blanchard Cap.6 + Heifetz Cap.5 + Bass + Goldsmith). Los casos Harvard se leen directo, no subirlos.
 - El sistema genera un **deep-dive prompt** que el usuario pega en NotebookLM Q&A → devuelve explicación técnica con profundidad del libro → usuario pega la respuesta acá → Claude crea la página de clase unificada, actualiza el Glosario y crea los bloques de Calendar
 - Durante "estudiar": el usuario hace las queries que Claude genera → pega las respuestas acá

@@ -264,6 +264,75 @@ courses:
         clickup_task_id: null
         hub_page_id: "8cm37vq-10893"
 
+  ife:
+    name: "Información Financiera de la Empresa"
+    schedule_day: TBD
+    modality: TBD
+    classes_completed: 1
+    total_classes: TBD
+    last_class_date: TBD
+    last_class_topic: "Información Contable — Marco Conceptual y Modelo Contable"
+    topics_covered:
+      # Clase 1
+      - Información financiera vs contable
+      - Usuarios de la información contable
+      - Contabilidad financiera vs gestión
+      - Ciclo contable
+      - Normas contables (NIIF, US GAAP, RT FACPCE)
+      - IFRS — RT 26 en Argentina (obligatoria CNV, optativa resto)
+      - Modelo contable (unidad de medida, criterios de medición, capital a mantener)
+      - Valores históricos vs valores corrientes
+      - Valor razonable (fair value)
+      - Valor recuperable (VNR vs VUE)
+      - Capital financiero vs físico
+      - Hechos contingentes (probabilidad alta / no alta / remota)
+      - Hechos posteriores al cierre
+      - Ajustes a resultados de ejercicios anteriores
+      - PCGA (15 principios)
+      - Posición del analista vs del contador
+    concepts_to_review:
+      - {topic: "Modelo contable — 3 dimensiones y opciones", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Valor razonable vs valor recuperable — diferencia", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Hechos contingentes — tabla de probabilidad y tratamiento", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "RT 26 — cuándo es obligatoria vs optativa la NIIF", class_number: 1, urgency: medium, last_reviewed: null}
+      - {topic: "PCGA — 15 principios de memoria", class_number: 1, urgency: medium, last_reviewed: null}
+    bibliography_priority:
+      - "Fowler Newton — Análisis de estados contables (libro core)"
+      - "NIIF — Normas Internacionales de Información Financiera"
+      - "Fowler Newton — Contabilidad con inflación"
+    class_history:
+      - class_number: 1
+        date: TBD
+        topic: "Información Contable — Marco Conceptual y Modelo Contable"
+        key_concepts:
+          - Información contable
+          - Contabilidad financiera vs gestión
+          - Normas contables
+          - Modelo contable
+          - Valor razonable
+          - Valor recuperable
+          - Hechos contingentes
+          - PCGA
+        clickup_task_id: null
+        hub_page_id: null
+
+  liderazgo:
+    name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
+    schedule_day: TBD
+    modality: TBD
+    classes_completed: 0
+    total_classes: 6
+    last_class_date: null
+    last_class_topic: null
+    topics_covered: []
+    concepts_to_review: []
+    bibliography_priority:
+      - "Blanchard — Liderazgo al más alto nivel, Cap. 6 (Clase 5)"
+      - "Heifetz — La práctica del liderazgo adaptativo, Cap. 5 (Clase 5)"
+      - "Bass — Liderazgo Transformacional (Clase 5)"
+      - "Materiales Belbin — Guía definitiva + 8 claves (Clase 3)"
+    class_history: []
+
 current_week:
   number: 5
   study_sessions_planned:

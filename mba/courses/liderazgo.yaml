@@ -1,0 +1,98 @@
+name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
+schedule_day: TBD  # completar cuando se confirme el día
+modality: TBD      # completar (presencial / virtual)
+total_classes: 6
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: ""       # completar al crear el Hub Doc en ClickUp
+  hub_pages:
+    glosario: ""
+    progreso: ""
+    # Class knowledge pages:
+    # clase_1: ""
+
+professor: "MBA Gustavo Wurzel"
+evaluation_breakdown:
+  examen_final: "Clase 6 — nota mínima 6/10"
+  recuperatorio: "Original x 30% + Recuperativo x 70%"
+  asistencia_minima: "4 de 6 clases"
+
+# LGEAR no tiene un libro central — la bibliografía es por clase (casos + papers + tests)
+# No tiene un NotebookLM con un libro base; subir los papers de Clase 5 es lo más útil
+# Bloque más denso: Clase 5 (Blanchard + Heifetz + Bass = teorías principales de liderazgo)
+# Bloque más voluminoso por tema: Clase 3 (5+ materiales Belbin sobre roles de equipo)
+bibliography_priority:
+  - "Blanchard, Fowler y Hawkins — Liderazgo al más alto nivel, Cap. 6 [Clase 5 — Liderazgo Situacional]"
+  - "Heifetz, Grashow y Linsky — La práctica del liderazgo adaptativo, Cap. 5 [Clase 5]"
+  - "Bass — Liderazgo Transformacional [Clase 5]"
+  - "Materiales Belbin (Guía definitiva + 8 claves equipos virtuales + Roles) [Clase 3]"
+  - "HBR Eurich — What Self-Awareness Really Is [Clase 1]"
+  - "Goldsmith — The secret to becoming the person you want to be [Clase 5]"
+
+# NotebookLM: subir papers de Clase 5 (Blanchard + Heifetz + Bass + Goldsmith)
+# Los casos Harvard se leen directamente — no subirlos a NotebookLM
+notebooklm_notebook: ""
+
+syllabus_programa:
+  unidad_1: "Qué hablamos cuando hablamos de LGEAR"
+  unidad_2:
+    tema: "Liderazgo Intrapersonal"
+    subtemas:
+      - Personalidad (MBTI)
+      - Valores
+      - Motivación
+  unidad_3:
+    tema: "Liderazgo Interpersonal"
+    subtemas:
+      - Roles de Equipo (Belbin)
+      - Manejo de Conflicto (Thomas-Kilmann)
+  unidad_4:
+    tema: "Movilización y Transformación Organizacional"
+    subtemas:
+      - Liderazgo Situacional
+      - Caso integrador Rob Parsons (Morgan Stanley)
+
+bibliography_by_class:
+  clase_0_prep:
+    - "Test: MBTI (webcampus)"
+  clase_1:
+    - "Caso: Managing AI Workshop at Escape Velocity (HBP 8898) [biblioteca]"
+    - "Paper: HBR Eurich — What Self-Awareness Really Is [biblioteca]"
+    - "Lectura: State of the Global Workplace; Gallup 2025 [webcampus]"
+    - "Lectura: 6 Techniques for Effective Prompt Engineering; Anthropic [webcampus]"
+  clase_2:
+    - "Caso: Motivated Reasoning, Leadership and Team Performance (W13185) [biblioteca]"
+    - "Ejemplos MBTI Types [webcampus]"
+    - "Cuestionario: Valores de Casullo y Solano [webcampus]"
+    - "Test: Perfil Motivacional [webcampus]"
+    - "Lectura: More than work-life balance, focus on your energy; McKinsey [webcampus]"
+    - "Lectura: Labor market impacts of AI; Anthropic [webcampus]"
+  clase_3:
+    - "Caso: UTE [webcampus]"
+    - "Caso: RRLL BECHIS; Belbin [webcampus]"
+    - "Paper: Las 8 claves de los equipos virtuales altamente efectivos; Belbin [webcampus]"
+    - "Documento: Guía definitiva para conocer Roles de Equipo; Belbin [webcampus]"
+    - "Instructivo: Debilidades permitidas y no permitidas; Belbin [webcampus]"
+    - "Instructivo: Descripción resumida Roles Belbin [webcampus]"
+    - "Instructivo: Qué hacer y Qué no hacer; Belbin [webcampus]"
+    - "Caso Belbin España / 7 Informes Belbin [webcampus]"
+  clase_4:
+    - "Caso: Martin Brass A, B y C [webcampus]"
+    - "Test: Thomas Kilmann [webcampus]"
+    - "Cartilla: Test Thomas Kilmann [webcampus]"
+    - "Lectura: If we're all so busy, why isn't anything getting done?; McKinsey [webcampus]"
+  clase_5:
+    - "Paper: Liderazgo al más alto nivel, Cap. 6; Blanchard, Fowler y Hawkins [biblioteca]"
+    - "Paper: La práctica del liderazgo adaptativo, Cap. 5; Heifetz, Grashow y Linsky [biblioteca]"
+    - "Paper: Liderazgo Transformacional; Bass [biblioteca]"
+    - "Test: CELID [webcampus]"
+    - "Lectura: The secret to becoming the person you want to be; Goldsmith [webcampus]"
+    - "Lectura: The Emerging Agentic Enterprise; MIT + BCG [webcampus]"
+    - "Lectura: Hogan Leadership Divide Global Report 2026 [webcampus]"
+  clase_6:
+    - "Caso: Morgan Stanley convirtiéndose en una sola firma (400043) [biblioteca]"
+    - "Caso: Rob Parsons en Morgan Stanley (A) (498054) [biblioteca]"
+
+syllabus_actual: {}

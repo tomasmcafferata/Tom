@@ -1,0 +1,71 @@
+name: "Información Financiera de la Empresa"
+schedule_day: TBD  # completar cuando se confirme el día
+modality: TBD      # completar (presencial / virtual)
+total_classes: TBD # confirmar
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: ""       # completar al crear el Hub Doc en ClickUp
+  hub_pages:
+    glosario: ""
+    progreso: ""
+    # Class knowledge pages:
+    # clase_1: ""
+
+professor: "Alejandra Bozic / Lisandro López / Adrián Casadey"
+evaluation_breakdown:
+  examen_nivelacion: "25%"
+  test_individual: "15%"
+  trabajo_practico_grupal: "20%"
+  presentacion_final_oral: "40%"
+
+# Fowler Newton — Análisis de estados contables: libro core, cubre ~70% del programa
+# Fowler Newton — Contabilidad con inflación: específico para ajuste por inflación
+# NIIF: normas internacionales, obligatoria para el eje de valuación/exposición
+bibliography_priority:
+  - "Fowler Newton — Análisis de estados contables (5ta ed., 2021) [OBLIGATORIA — libro core]"
+  - "NIIF — Normas Internacionales de Información Financiera [OBLIGATORIA]"
+  - "Fowler Newton — Contabilidad con inflación (5ta ed., 2019) [AMPLIATORIA — tema inflación]"
+  - "Fowler Newton — Contabilidad superior (8va ed., 2020) [AMPLIATORIA — consolidación y técnica]"
+  - "Sasso — El proceso contable (5ta ed., 2001) [AMPLIATORIA]"
+  - "Jelen — El balance social y los intangibles corporativos (2009) [AMPLIATORIA — solo balance social]"
+
+notebooklm_notebook: ""  # subir: Fowler Newton Análisis EC + Fowler Newton Contabilidad con inflación
+
+syllabus_programa:
+  - "Estado de situación patrimonial / financiera"
+  - "Estado de Resultados"
+  - "Estado de cambios en el patrimonio neto"
+  - "Estado de flujo de efectivo"
+  - "Notas y Anexos Complementarios"
+  - "Informe del Auditor y de la Comisión fiscalizadora"
+  - "Consolidación de estados contables / Grupos Económicos"
+  - "Ajuste por inflación / re-expresión a moneda constante"
+  - "Normas contables de valuación y exposición (Argentina e internacionales)"
+  - "Transparencia en información financiera / ética / stakeholders"
+  - "Contingencias por pasivos ambientales y legales"
+  - "Balance Social"
+  - "Análisis aplicado a empresa real (CNV)"
+
+syllabus_actual:
+  clase_1:
+    date: "TBD"
+    topic: "Información Contable — Marco Conceptual y Modelo Contable"
+    key_concepts:
+      - Información financiera vs contable
+      - Usuarios de la información contable
+      - Contabilidad financiera vs gestión
+      - Ciclo contable
+      - Normas contables (NIIF, US GAAP, Resoluciones Técnicas FACPCE)
+      - IFRS — RT 26 (aplicación en Argentina)
+      - Modelo contable (unidad de medida, criterios de medición, capital a mantener)
+      - Valores históricos vs valores corrientes
+      - Valor razonable (fair value)
+      - Valor recuperable (VNR vs VUE)
+      - Capital financiero vs físico
+      - Hechos contingentes (probabilidad alta / no alta / remota)
+      - Hechos posteriores al cierre
+      - Ajustes a resultados de ejercicios anteriores
+      - PCGA (15 principios)
+      - Posición del analista vs del contador
