@@ -266,7 +266,7 @@ courses:
 
   ife:
     name: "Información Financiera de la Empresa"
-    schedule_day: TBD
+    schedule_day: Wednesday
     modality: TBD
     classes_completed: 1
     total_classes: TBD
@@ -314,24 +314,61 @@ courses:
           - Hechos contingentes
           - PCGA
         clickup_task_id: null
-        hub_page_id: null
+        hub_page_id: "8cm37vq-11053"
 
   liderazgo:
     name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
-    schedule_day: TBD
+    schedule_day: Monday
     modality: TBD
-    classes_completed: 0
+    classes_completed: 1
     total_classes: 6
-    last_class_date: null
-    last_class_topic: null
-    topics_covered: []
-    concepts_to_review: []
+    last_class_date: TBD
+    last_class_topic: "Liderazgo, IA y Autoconocimiento — Personalidad (MBTI E/I y S/N)"
+    topics_covered:
+      # Clase 1
+      - Liderazgo emergente vs liderazgo efectivo
+      - Eficacia vs eficiencia
+      - Efecto Halo (Landy & Sigall 1974)
+      - Fenómeno Workslop (IA y trabajo de baja calidad)
+      - Caso Managing AI Workslop at Escape Velocity (HBP 8898)
+      - Competence Illusion (Greg Isenberg)
+      - Autoconocimiento como base del liderazgo
+      - Phil Jackson — gestión individualizada de talentos
+      - Ejercicio El Kit para Liderar (5 arquetipos)
+      - Personalidad como constructo (nivel conductual vs psicológico)
+      - Frameworks de personalidad (MBTI, DISC, Big Five, Keirsey, HPI Hogan)
+      - Hogan — 3 motivos universales (cooperación, competencia, significado)
+      - Temperamento vs carácter
+      - Identidad vs reputación
+      - MBTI — origen (Briggs & Myers, 1943, basado en Jung)
+      - Dimensión Energía — Extroversión (E) vs Introversión (I)
+      - Dimensión Percepción — Sensación (S) vs Intuición (N)
+    concepts_to_review:
+      - {topic: "Liderazgo emergente vs efectivo — diferencia clave", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Efecto Halo — qué es y cómo impacta en feedback", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Competence Illusion — lógica y aplicación a IA", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "MBTI dimensiones E/I y S/N — características en el trabajo", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Temperamento vs carácter — diferencia y cuál se puede desarrollar", class_number: 1, urgency: medium, last_reviewed: null}
+      - {topic: "Identidad vs reputación — por qué la reputación predice comportamiento", class_number: 1, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Blanchard — Liderazgo al más alto nivel, Cap. 6 (Clase 5)"
       - "Heifetz — La práctica del liderazgo adaptativo, Cap. 5 (Clase 5)"
       - "Bass — Liderazgo Transformacional (Clase 5)"
       - "Materiales Belbin — Guía definitiva + 8 claves (Clase 3)"
-    class_history: []
+    class_history:
+      - class_number: 1
+        date: TBD
+        topic: "Liderazgo, IA y Autoconocimiento — Personalidad (MBTI E/I y S/N)"
+        key_concepts:
+          - Liderazgo emergente vs efectivo
+          - Workslop y Competence Illusion
+          - Autoconocimiento
+          - Phil Jackson
+          - Personalidad como constructo
+          - Temperamento vs carácter / Identidad vs reputación
+          - MBTI (E/I, S/N)
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11073"
 
 current_week:
   number: 5

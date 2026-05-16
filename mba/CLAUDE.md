@@ -21,10 +21,10 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
-   - Lunes = Economía y Negocios (completada)
-   - Miércoles = Gestión de Personas (completada)
-   - IFE = Información Financiera de la Empresa (día TBD — detectar por contexto o nombre)
-   - Liderazgo = Liderazgo y Gestión de Equipos de Alto Rendimiento (día TBD — detectar por contexto o nombre)
+   - Lunes = Liderazgo y Gestión de Equipos de Alto Rendimiento (en curso)
+   - Miércoles = IFE — Información Financiera de la Empresa (en curso)
+   - Economía y Negocios (completada — ya no genera clases nuevas)
+   - Gestión de Personas (completada — ya no genera clases nuevas)
 2. Leer `mba/state.yaml` para contexto acumulado
 3. Si el usuario no adjuntó la presentación (PDF) y/o notas, pedirlos — una sola vez
    - La presentación se sube como PDF a la carpeta `mba/presentations/` del repo en GitHub (github.com/tomasmcafferata/Tom → upload file, drag & drop). Claude la lee desde ahí con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `economia_clase1.pdf`, `gestion_clase1.pdf`, etc.
@@ -127,25 +127,27 @@ Se ejecuta al finalizar una materia completa. Claude debe:
   - Página Progreso: `8cm37vq-10553`
   - Páginas de clase: se agregan en `mba/courses/gestion.yaml` → hub_pages → clase_N
 
-### IFE — Información Financiera de la Empresa (en curso)
-- Hub Doc: `` (completar al crear en ClickUp)
-  - Página Glosario: `` (completar)
-  - Página Progreso: `` (completar)
+### IFE — Información Financiera de la Empresa (en curso — Miércoles)
+- Hub Doc: `8cm37vq-10953`
+  - Página Índice: `8cm37vq-10933`
+  - Página Glosario: `8cm37vq-10973`
+  - Página Progreso: `8cm37vq-10993`
   - Páginas de clase: se agregan en `mba/courses/ife.yaml` → hub_pages → clase_N
 
-### Liderazgo y Gestión de Equipos (en curso)
-- Hub Doc: `` (completar al crear en ClickUp)
-  - Página Glosario: `` (completar)
-  - Página Progreso: `` (completar)
+### Liderazgo y Gestión de Equipos (en curso — Lunes)
+- Hub Doc: `8cm37vq-10973`
+  - Página Índice: `8cm37vq-10953`
+  - Página Glosario: `8cm37vq-11013`
+  - Página Progreso: `8cm37vq-11033`
   - Páginas de clase: se agregan en `mba/courses/liderazgo.yaml` → hub_pages → clase_N
 
 ---
 
 ## Calendario Google
-- Lunes: Economía y Negocios (presencial — completada) — viaje de ida y vuelta = tiempo de podcast
-- Miércoles: Gestión de Personas (virtual — completada)
-- IFE: día TBD — completar en state.yaml cuando se confirme
-- Liderazgo: día TBD — completar en state.yaml cuando se confirme
+- Lunes: Liderazgo y Gestión de Equipos (en curso)
+- Miércoles: IFE — Información Financiera de la Empresa (en curso)
+- Economía y Negocios: completada (era presencial — viaje ida y vuelta = tiempo de podcast)
+- Gestión de Personas: completada (era virtual)
 - Bloques de estudio: 2 sesiones de 1 hora cada una, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)

@@ -1,17 +1,17 @@
 name: "Información Financiera de la Empresa"
-schedule_day: TBD  # completar cuando se confirme el día
+schedule_day: Wednesday
 modality: TBD      # completar (presencial / virtual)
 total_classes: TBD # confirmar
 language: spanish
 status: en_curso
 
 clickup:
-  hub_doc_id: ""       # completar al crear el Hub Doc en ClickUp
+  hub_doc_id: "8cm37vq-10953"
   hub_pages:
-    glosario: ""
-    progreso: ""
-    # Class knowledge pages:
-    # clase_1: ""
+    indice: "8cm37vq-10933"
+    glosario: "8cm37vq-10973"
+    progreso: "8cm37vq-10993"
+    clase_1: "8cm37vq-11053"
 
 professor: "Alejandra Bozic / Lisandro López / Adrián Casadey"
 evaluation_breakdown:
@@ -50,7 +50,8 @@ syllabus_programa:
 
 syllabus_actual:
   clase_1:
-    date: "TBD"
+    date: TBD
+    hub_page_id: "8cm37vq-11053"
     topic: "Información Contable — Marco Conceptual y Modelo Contable"
     key_concepts:
       - Información financiera vs contable

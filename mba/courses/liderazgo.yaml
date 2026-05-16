@@ -1,17 +1,17 @@
 name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
-schedule_day: TBD  # completar cuando se confirme el día
+schedule_day: Monday
 modality: TBD      # completar (presencial / virtual)
 total_classes: 6
 language: spanish
 status: en_curso
 
 clickup:
-  hub_doc_id: ""       # completar al crear el Hub Doc en ClickUp
+  hub_doc_id: "8cm37vq-10973"
   hub_pages:
-    glosario: ""
-    progreso: ""
-    # Class knowledge pages:
-    # clase_1: ""
+    indice: "8cm37vq-10953"
+    glosario: "8cm37vq-11013"
+    progreso: "8cm37vq-11033"
+    clase_1: "8cm37vq-11073"
 
 professor: "MBA Gustavo Wurzel"
 evaluation_breakdown:
@@ -95,4 +95,29 @@ bibliography_by_class:
     - "Caso: Morgan Stanley convirtiéndose en una sola firma (400043) [biblioteca]"
     - "Caso: Rob Parsons en Morgan Stanley (A) (498054) [biblioteca]"
 
-syllabus_actual: {}
+syllabus_actual:
+  clase_1:
+    date: TBD
+    hub_page_id: "8cm37vq-11073"
+    topic: "Liderazgo, IA y Autoconocimiento — Personalidad (MBTI E/I y S/N)"
+    key_concepts:
+      - Liderazgo emergente vs liderazgo efectivo
+      - Eficacia vs eficiencia
+      - Efecto Halo (Landy & Sigall 1974)
+      - Fenómeno Workslop (IA y trabajo de baja calidad)
+      - Caso Managing AI Workslop at Escape Velocity (HBP 8898)
+      - Competence Illusion (Greg Isenberg)
+      - Autoconocimiento como base del liderazgo
+      - Phil Jackson — gestión individualizada de talentos
+      - Roadmap del curso (intrapersonal → interpersonal → conflicto → liderazgo → integrador)
+      - Ejercicio El Kit para Liderar (5 arquetipos)
+      - Personalidad como constructo (nivel conductual vs psicológico)
+      - Frameworks de personalidad (MBTI, DISC, Big Five, Keirsey, HPI Hogan)
+      - Hogan — 3 motivos universales (cooperación, competencia, significado)
+      - Temperamento vs carácter
+      - Identidad vs reputación
+      - MBTI — origen (Briggs & Myers, 1943, basado en Jung)
+      - Dimensión Energía — Extroversión (E) vs Introversión (I)
+      - Dimensión Percepción — Sensación (S) vs Intuición (N)
+      - Aplicaciones en contextos laborales
+      - Principio de adaptabilidad y flexibilidad
