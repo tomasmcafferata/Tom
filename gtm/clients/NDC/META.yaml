@@ -1,0 +1,29 @@
+# Bi-weekly research config for NDC
+# Used by: /market biweekly and /market content
+
+contact:
+  name: "Tomás"
+  email: "tomasmarketing@ndcgrafica.com"
+
+research:
+  industry: "Comunicación visual, stands y producción de eventos en Argentina"
+  icp_industries:
+    - "Retail y consumo masivo"
+    - "Industria y manufactura"
+    - "Tecnología y servicios"
+    - "Salud y farmacéutica"
+    - "Real estate y construcción"
+  geography: "Argentina (AMBA)"
+  focus_triggers:
+    - "Ferias y exposiciones (ExpoAgro, ExpoEFI, Expo Construir, etc.)"
+    - "Aperturas de locales comerciales o showrooms"
+    - "Renovación de flota vehicular corporativa"
+    - "Rebranding corporativo o cambio de identidad visual"
+    - "Lanzamientos de productos con eventos de presentación"
+
+content:
+  formats:
+    - "LinkedIn post"
+    - "Refined messaging hook"
+    - "Updated GTM insight"
+  language: "Spanish"

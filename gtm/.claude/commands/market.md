@@ -24,6 +24,8 @@ When the user runs `/market <command>`, load the corresponding skill from `skill
 | `/market revops` | `skills/market-revops/SKILL.md` | `REVOPS.md` | Deliverable |
 | `/market report` | `skills/market-report/SKILL.md` | `MARKETING-REPORT.md` | Deliverable |
 | `/market proposal` | `skills/market-proposal/SKILL.md` | `CLIENT-PROPOSAL.md` | Deliverable |
+| `/market biweekly <ClientName>` | `skills/market-biweekly/SKILL.md` | `research/<date>/BRIEF.md` + Gmail draft | Bi-weekly cycle |
+| `/market content <ClientName>` | `skills/market-content/SKILL.md` | `research/<date>/CONTENT.md` | Post-meeting |
 
 ---
 
@@ -64,6 +66,7 @@ All outputs go to `clients/<ClientName>/`. The folder is created automatically o
 ```
 clients/
 └── <ClientName>/
+    ├── META.yaml              ← bi-weekly config (contact, industry, content prefs)
     ├── STRATEGY.md
     ├── ICP.md
     ├── TAM.md
@@ -73,8 +76,29 @@ clients/
     ├── ABM.md
     ├── EMAIL-SEQUENCES.md     ← primary deliverable
     ├── MARKETING-REPORT.md    ← optional
-    └── CLIENT-PROPOSAL.md     ← optional
+    ├── CLIENT-PROPOSAL.md     ← optional
+    └── research/
+        └── YYYY-MM-DD/
+            ├── BRIEF.md       ← market research + interview questions
+            ├── TRANSCRIPT.md  ← meeting transcript (auto-saved or user-provided)
+            └── CONTENT.md     ← generated content (LinkedIn, hooks, GTM updates)
 ```
+
+## Bi-Weekly Workflow
+
+Runs every 2 weeks per client. Two commands, separated by the client meeting.
+
+**Before the meeting:**
+```
+/market biweekly <ClientName>
+```
+→ Researches the industry (last 2 weeks), generates interview questions grounded in existing GTM files, saves a brief, and creates a Gmail draft to the client.
+
+**After the meeting (paste transcript or provide file path):**
+```
+/market content <ClientName>
+```
+→ Combines research brief + transcript to generate a LinkedIn post, refined messaging hooks, and GTM update flags.
 
 ---
 

@@ -1,0 +1,29 @@
+# Bi-weekly research config for Agupá
+# Used by: /market biweekly and /market content
+
+contact:
+  name: "Agustín"
+  email: "agus@agupawood.com"
+
+research:
+  industry: "Regalos corporativos y employer branding en Argentina"
+  icp_industries:
+    - "Agro / Alimentos y Bebidas"
+    - "Banca y Finanzas"
+    - "Tecnología / SaaS / Fintech"
+    - "Laboratorios / Pharma"
+    - "Automotriz y Construcción"
+  geography: "Argentina (AMBA, Córdoba, Rosario, Mendoza)"
+  focus_triggers:
+    - "Temporada de regalos fin de año (ventana: agosto–octubre)"
+    - "Onboarding y crecimiento de equipos"
+    - "Certificaciones GPTW y employer branding"
+    - "Eventos internos: kick-offs, aniversarios, ferias"
+    - "Campañas de fidelización de clientes B2B"
+
+content:
+  formats:
+    - "LinkedIn post"
+    - "Refined messaging hook"
+    - "Updated GTM insight"
+  language: "Spanish"
