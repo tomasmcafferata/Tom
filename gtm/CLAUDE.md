@@ -47,3 +47,16 @@ config.yaml                 ← API keys and configuration (use .env for secrets
 ## Active clients
 
 - **NDC** (`clients/NDC/`) — enedece.com.ar — outbound GTM, Argentine market
+
+---
+
+## Copy Style Rules
+
+These rules apply to ALL generated copy across every skill: emails, LinkedIn posts, hooks, questions, briefs.
+
+- No em-dashes (—). Use a comma or a period instead.
+- No colons to introduce lists inside sentences. Break into separate sentences or use a period.
+- Short sentences. If a sentence needs a semicolon, split it into two.
+- Vos form in Spanish, never usted.
+- No marketing jargon: no "soluciones integrales", no "llave en mano", no "de clase mundial".
+- Every claim needs a specific anchor: a number, a name, a date, or a concrete example.

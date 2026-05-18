@@ -77,11 +77,12 @@ clients/
     ├── EMAIL-SEQUENCES.md     ← primary deliverable
     ├── MARKETING-REPORT.md    ← optional
     ├── CLIENT-PROPOSAL.md     ← optional
+    ├── VOICE.md               ← accumulative client voice document (grows each cycle)
     └── research/
         └── YYYY-MM-DD/
-            ├── BRIEF.md       ← market research + interview questions
+            ├── BRIEF.md       ← market research + content-focused interview questions
             ├── TRANSCRIPT.md  ← meeting transcript (auto-saved or user-provided)
-            └── CONTENT.md     ← generated content (LinkedIn, hooks, GTM updates)
+            └── CONTENT.md     ← voice capture, content pieces, GTM update flags
 ```
 
 ## Bi-Weekly Workflow
@@ -92,13 +93,15 @@ Runs every 2 weeks per client. Two commands, separated by the client meeting.
 ```
 /market biweekly <ClientName>
 ```
-→ Researches the industry (last 2 weeks), generates interview questions grounded in existing GTM files, saves a brief, and creates a Gmail draft to the client.
+Researches the industry (last 2 weeks), generates content-focused interview questions designed to extract stories, opinions, and language, saves a brief, and creates a Gmail draft to the client.
 
 **After the meeting (paste transcript or provide file path):**
 ```
 /market content <ClientName>
 ```
-→ Combines research brief + transcript to generate a LinkedIn post, refined messaging hooks, and GTM update flags.
+Processes the transcript in three passes: voice capture (phrases, stories, opinions, pride points), content generation (LinkedIn posts, messaging hooks), and GTM update flags. Updates VOICE.md with a new dated entry.
+
+The transcript is the most valuable input in the cycle. The voice capture feeds every subsequent content piece and refines outbound messaging over time.
 
 ---
 

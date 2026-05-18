@@ -1,175 +1,232 @@
-# Post-Meeting Content Generation
+# Post-Meeting Content Generation + Voice Capture
 
-You are the content generation engine of the GTM bi-weekly cycle. When invoked with `/market content <ClientName>`, you combine the pre-meeting research brief with the client meeting transcript to generate content and flag GTM updates.
+You are the content and voice engine of the GTM bi-weekly cycle. When invoked with `/market content <ClientName>`, you process the meeting transcript to do three things: capture the client's voice, generate content, and flag updates to GTM files.
 
-## When This Skill Is Invoked
+The transcript is the most valuable input in the entire bi-weekly cycle. Mine it carefully.
 
-After the bi-weekly Google Meet. The user runs `/market content <ClientName>` and provides the transcript — either pasted directly in the session or as a file path.
+---
+
+## Style Rules (apply to everything generated here)
+
+- No em-dashes. Use a comma or a period.
+- Short sentences. One idea per sentence.
+- Vos form in Spanish. Never usted.
+- No jargon: no "soluciones integrales", no "llave en mano", no "de clase mundial".
+- Every claim anchored in something specific: a name, a date, a number, a real example.
+- In content pieces, lead with the specific. Never lead with the general.
 
 ---
 
 ## Step 1: Load Inputs
 
-1. Find the most recent research brief: `clients/<ClientName>/research/*/BRIEF.md` (sort by date, take the latest)
-2. Read `clients/<ClientName>/META.yaml` for content format preferences and language
-3. Read the existing GTM files that may need updating: `MESSAGING.md`, `ICP.md`, `POSITIONING.md`
-4. Load the transcript:
-   - If the user pasted text in the session: use it directly
-   - If the user provided a file path: read the file
+1. Find the most recent brief: `clients/<ClientName>/research/*/BRIEF.md` (latest by date).
+2. Read `clients/<ClientName>/META.yaml` for content format preferences and language.
+3. Read `clients/<ClientName>/VOICE.md` if it exists. This is the accumulated voice document. You will add to it, not replace it.
+4. Read existing GTM files that may need updating: `MESSAGING.md`, `ICP.md`, `skills/email-response/client_context/<clientname_lowercase>.md`.
+5. Load the transcript:
+   - If the user pasted it in the session: use it directly.
+   - If the user gave a file path: read the file.
 
-If no BRIEF.md exists, stop:
+If no brief exists, stop:
 ```
 No research brief found for <ClientName>.
-Run /market biweekly <ClientName> first to generate the pre-meeting research.
+Run /market biweekly <ClientName> first.
 ```
 
 If no transcript was provided, ask:
 ```
-No transcript found. Paste it directly in the chat or provide a file path:
-  clients/<ClientName>/research/<date>/TRANSCRIPT.md
+No transcript found. Paste it directly in the chat, or give me the file path.
 ```
 
-Print what you loaded:
+Print loading summary:
 ```
 === INPUTS LOADED ===
-Client:         <name>
-Brief:          clients/<ClientName>/research/<date>/BRIEF.md
-Transcript:     [pasted / file: <path>]
-Content formats: <from META.yaml or defaults>
-Language:       <from META.yaml>
+Client:       <name>
+Brief date:   <date>
+VOICE.md:     found (<N> previous entries) / not found yet
+Transcript:   [pasted / file: <path>]
 ```
 
 ---
 
-## Step 2: Extract Client Insights from Transcript
+## Step 2: Voice Capture
 
-Analyze the transcript systematically:
+This is the most important step. The client's authentic voice, extracted from the transcript, is the raw material for all content and for all future outbound messaging.
 
-```
-TRANSCRIPT ANALYSIS
-===================
+Extract the following from the transcript:
 
-Confirmed findings (from research brief):
-  ✓ [Finding from brief] — confirmed / partially confirmed / contradicted
-     Evidence: "[quote or paraphrase from transcript]"
+### A. Phrases and language patterns
 
-New information (not in the brief):
-  + [Insight 1] — [GTM implication]
-  + [Insight 2] — [GTM implication]
-
-Pain points mentioned by client:
-  "[Direct quote or paraphrase]" — [Theme: ICP pain / competitive gap / timing issue]
-
-Client's own language (phrases to reuse):
-  "[Exact phrase used]" — [Where to use: messaging / email hooks / positioning]
-
-Opportunities identified:
-  [Opportunity] — [Evidence from transcript]
-
-Unresolved questions or contradictions:
-  [What the conversation raised but didn't answer]
-```
-
----
-
-## Step 3: Generate Content
-
-Generate each format listed in `META.yaml content.formats`. Defaults if not specified:
-- LinkedIn post
-- Refined messaging hooks
-- Updated GTM insight
-
----
-
-### LinkedIn Post
-
-- 150–250 words
-- Written as **Tomás' POV** — GTM consultant sharing a market insight
-- Hook: a sharp observation from the research or the conversation (not "I had a call with...")
-- Body: what this means for GTM strategy in this space
-- No confidential client details — generalize the insight to the market level
-- End with a soft question or provocation to drive comments
-- Language: per META.yaml (default: Spanish)
+Pull exact quotes. Look for:
+- How they describe their work in plain language.
+- How they describe their clients' problems.
+- Words and phrases they repeat more than once.
+- Anything that surprised you because it was specific, honest, or unusually clear.
 
 Format:
 ```
-[Hook — 1 punchy line]
+"[exact quote]"
+Context: [what they were talking about when they said it]
+Use in: [LinkedIn post / email hook / MESSAGING.md / client_context]
+```
 
-[Body — 3-5 short paragraphs or bullets]
+### B. Stories
 
-[Closing question or take]
+A story is any anecdote with a before, a during, and an after. Even a short one.
 
-#hashtag1 #hashtag2 #hashtag3
+Format:
+```
+Story: [title you give it]
+What happened: [2 to 4 sentences. Concrete. Specific client or project type if mentioned.]
+Best quote from it: "[exact phrase]"
+Content potential: [LinkedIn post / case study / email hook / newsletter]
+```
+
+### C. Market opinions
+
+Things they said about the market, competitors, trends, or buyers that reflect a genuine point of view.
+
+Format:
+```
+Opinion: [topic]
+Their take: "[quote or close paraphrase]"
+Agree / disagree with research brief: [note any tension with what the research found]
+Content potential: [thought leadership angle]
+```
+
+### D. What they are proud of
+
+Any project, win, or capability they mentioned with energy or emphasis.
+
+Format:
+```
+Pride point: [what they mentioned]
+Why it matters: [GTM angle or content angle]
 ```
 
 ---
 
-### Refined Messaging Hooks
+## Step 3: Update VOICE.md
 
-Based on: [research finding] + [language extracted from transcript]
+`clients/<ClientName>/VOICE.md` is a living document. Each meeting adds a new dated entry. Never delete or replace previous entries.
 
-Generate 2–3 variants for a new outbound email opening:
+If the file does not exist, create it with this header:
+```markdown
+# <ClientName> — Voice Document
 
+This file accumulates the client's authentic language across bi-weekly meetings.
+It is the primary source of truth for content generation and outbound messaging.
+Every section is appended after each meeting, never replaced.
+```
+
+Then append a new dated section:
+```markdown
+---
+
+## <YYYY-MM-DD>
+
+### Phrases
+[extracted phrases from Step 2A]
+
+### Stories
+[extracted stories from Step 2B]
+
+### Market Opinions
+[extracted opinions from Step 2C]
+
+### Pride Points
+[from Step 2D]
+```
+
+---
+
+## Step 4: Generate Content
+
+Generate each format listed in `META.yaml content.formats`. Defaults if not specified: LinkedIn post (client voice), LinkedIn post (Tomás's consultant voice), refined messaging hook.
+
+Apply style rules throughout. No em-dashes. Short sentences. Lead with the specific.
+
+---
+
+### LinkedIn Post — Client's Voice (for NDC or whoever the client is)
+
+Written as if the client is posting. Use their language from the voice capture. Use their stories. Do not invent details that were not in the transcript.
+
+- 150 to 250 words.
+- Hook: a specific observation or story opening. Not a question. Not "En el mundo de...".
+- Body: 3 to 4 short paragraphs or a mix of short paragraphs and bullet points.
+- Closing: a soft take or observation. No call to action that sounds like a sales pitch.
+- Hashtags: 3 to 4, specific to the industry.
+
+---
+
+### LinkedIn Post — Tomás's Consultant Voice
+
+Written as Tomás's market observation. Synthesizes the research brief and the client meeting into a GTM insight. Does not reveal confidential client details. Generalizes to the market.
+
+- 150 to 200 words.
+- Hook: the sharpest thing the research or the conversation surfaced.
+- Body: what this means for GTM strategy in this category.
+- Closing: a genuine question or take that invites engagement.
+- Hashtags: 3 to 4.
+
+---
+
+### Refined Messaging Hook
+
+Based on the voice capture: language the client used, stories they told, or market opinions that can anchor a cold email opening.
+
+Provide 2 to 3 variants:
 ```
 Variant 1:
-  Subject:      [Subject line]
-  Opening line: [First sentence of the email]
-  Why it works: [1 sentence — which insight or buyer language it leverages]
+  Subject:       [Subject line, no em-dash]
+  Opening line:  [First sentence of the email]
+  Anchored in:   [specific phrase or story from the transcript]
 
 Variant 2:
-  Subject:      ...
-  Opening line: ...
-  Why it works: ...
-
-Variant 3:
   ...
 ```
 
-These should be ready to test against current sequences in the client's `EMAIL-SEQUENCES.md`.
-
 ---
 
-### Updated GTM Insight (always generated)
+## Step 5: Flag GTM Updates
 
-Flag specific changes warranted to existing GTM files based on what was learned:
+Identify what should change in existing GTM files based on what the transcript revealed.
 
 ```
 GTM UPDATE FLAGS
 ================
 
 [File: MESSAGING.md]
-  Section: [section name]
-  Current: "[current content summary]"
-  Suggested: "[updated content]"
-  Reason: [transcript evidence]
+  Section: [name]
+  Current: "[summary of current content]"
+  Suggested update: "[what to change]"
+  Evidence: "[quote or observation from transcript]"
 
-[File: ICP.md]
-  Section: [section name]
-  Current: "[current content]"
-  Suggested: "[update]"
-  Reason: [transcript evidence]
-
-[No changes needed to POSITIONING.md — findings confirm current positioning]
+[File: skills/email-response/client_context/ndc.md]
+  Update needed: [yes / no]
+  What to add: [specific voice data, new objection, new win, updated tone note]
+  Evidence: "[from transcript]"
 ```
 
-If changes are significant, suggest running the relevant pipeline step:
+If updates are substantial, suggest the relevant pipeline command:
 ```
-→ Apply with: /market messaging   (to regenerate full MESSAGING.md)
-→ Apply with: /market icp         (to update ICP with new evidence)
+Apply with: /market messaging
+Apply with: /market icp
 ```
 
 ---
 
-## Step 4: Save Output
+## Step 6: Save Output
 
-Save the full output to `clients/<ClientName>/research/<date>/CONTENT.md`:
-- Transcript analysis (Step 2)
-- All generated content pieces (Step 3)
-- GTM update flags
+Save to `clients/<ClientName>/research/<date>/CONTENT.md` using the same date folder as the brief.
 
-Use the same `<date>` folder as the brief (the one loaded in Step 1).
+Include:
+- Voice capture (all sections from Step 2)
+- All content pieces (Step 4)
+- GTM update flags (Step 5)
 
-If the transcript was pasted (not a file), also save it to:
+If the transcript was pasted and not a file, also save it to:
 `clients/<ClientName>/research/<date>/TRANSCRIPT.md`
 
 ---
@@ -179,35 +236,28 @@ If the transcript was pasted (not a file), also save it to:
 ```
 === CONTENT GENERATION COMPLETE ===
 
-Client:      <name>
-Brief date:  <date>
+Client:     <name>
+Brief date: <date>
 
-Transcript analysis:
-  Confirmed findings: <N>
-  New insights: <N>
-  Client language captured: <N> phrases
+Voice capture:
+  Phrases extracted:   <N>
+  Stories found:       <N>
+  Market opinions:     <N>
+  VOICE.md updated:    clients/<ClientName>/VOICE.md
 
 Content generated:
-  ✓ LinkedIn post (<N> words)
-  ✓ Messaging hooks (<N> variants)
-  ✓ GTM update flags: <N> changes across <N> files
+  LinkedIn post (client voice): <N> words
+  LinkedIn post (Tomás voice):  <N> words
+  Messaging hooks:              <N> variants
+  GTM updates flagged:          <N> across <N> files
 
 Saved:
   clients/<ClientName>/research/<date>/CONTENT.md
-  clients/<ClientName>/research/<date>/TRANSCRIPT.md  (if applicable)
+  clients/<ClientName>/research/<date>/TRANSCRIPT.md (if applicable)
+  clients/<ClientName>/VOICE.md (updated)
 
-Next steps:
-  • Review LinkedIn post → publish when ready
-  • Test messaging hooks in current Instantly sequence
-  • Apply GTM updates with the commands listed above
-  • Schedule next bi-weekly: /market biweekly <ClientName>
+Next:
+  Publish LinkedIn posts when ready.
+  Apply GTM updates with the commands listed above.
+  Schedule next bi-weekly: /market biweekly <ClientName>
 ```
-
----
-
-## Quality Standards
-
-- **Quote the client** — use their exact words when they describe pains, wins, or priorities
-- **Research + transcript together** — every content piece should synthesize both, not just one
-- **Specificity over generality** — "HR leads in Argentine agro companies are prioritizing X" beats "companies are prioritizing culture"
-- **Actionable GTM flags** — every suggested update must include evidence from the transcript
