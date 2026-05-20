@@ -6,6 +6,10 @@
 lead_db_sheet_id: "1IE_KZpTBSzYE6i9_fCRcDptgpDjLh4ZXqBQOOW1jmQY"
 google_credentials_path: "credentials/service_account.json"
 
+# Web App API (Apps Script endpoint)
+sheet_api_url: "https://script.google.com/macros/s/AKfycbwYyA627VT6kzv3HSyBCcHQo0K0zZUdxC2RUdlZTSKJRT_3PcRw3bkRhMB9RPBcp4e-pw/exec"
+sheet_api_secret: "ndc-leads-2026"
+
 # Campaign capacity (NDC)
 inboxes: 4
 emails_per_inbox_per_day: 30
