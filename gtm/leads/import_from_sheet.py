@@ -17,7 +17,7 @@ from datetime import date
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
 SOURCE_FILE = "/root/.claude/projects/-home-user-Tom/f102f0c2-6aab-4755-b3ef-bdb3a353c6a9/tool-results/mcp-221b98c8-87f0-44a9-8444-416f60b8541a-read_file_content-1779304684770.txt"
-API_URL     = "https://script.google.com/macros/s/AKfycbwYyA627VT6kzv3HSyBCcHQo0K0zZUdxC2RUdlZTSKJRT_3PcRw3bkRhMB9RPBcp4e-pw/exec"
+API_URL     = "https://script.google.com/macros/s/AKfycbyTsOFCHe3JtEyRDHBP3XGH1vPaR6b5SQu5LGlORDkb5dKmwJ-9uhSYia_TFp93bndThA/exec"
 SECRET      = "ndc-leads-2026"
 BATCH_SIZE  = 50
 SOURCE_BATCH = str(date.today())
