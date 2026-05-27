@@ -1,7 +1,9 @@
 name: "Información Financiera de la Empresa"
 schedule_day: Wednesday
-modality: TBD      # completar (presencial / virtual)
-total_classes: TBD # confirmar
+schedule_time: "19:00-22:00"
+modality: virtual
+total_classes: 6
+trimester: "2do Trim 2026"
 language: spanish
 status: en_curso
 
@@ -34,6 +36,50 @@ bibliography_priority:
 
 notebooklm_notebook: ""  # subir: Fowler Newton Análisis EC + Fowler Newton Contabilidad con inflación
 
+schedule:
+  - class_number: 1
+    date: "2026-05-13"
+    topic: "Presentación del curso — Introducción / Marco Conceptual y Modelo Contable"
+    professor: "LL"
+    modality: virtual
+    pre_class_task: "Buscar empresa real para TP"
+    in_class_activity: "Armado de grupos"
+  - class_number: 2
+    date: "2026-05-20"
+    topic: "Modelos contables — Caso Práctico"
+    professor: "AC"
+    modality: virtual
+    pre_class_task: "Lectura revista"
+    in_class_activity: null
+  - class_number: 3
+    date: "2026-05-27"
+    topic: "Medición o Valuación de Rubros"
+    professor: "LL"
+    modality: virtual
+    pre_class_task: "Contestar preguntas 1 a 7 de la Guía de Preguntas grupal"
+    in_class_activity: "Test sobre el artículo de la revista"
+  - class_number: 4
+    date: "2026-06-03"
+    topic: "Informes Contables (BS + P&L)"
+    professor: "AC"
+    modality: virtual
+    pre_class_task: "Contestar preguntas 8 a 12 de la Guía de Preguntas grupal"
+    in_class_activity: null
+  - class_number: 5
+    date: "2026-06-10"
+    topic: "Informes Contables (EEPN + NOTAS) — Informe del Auditor / Ajuste por Inflación"
+    professor: "LL"
+    modality: virtual
+    pre_class_task: "Contestar preguntas 13 a 21 de la Guía de Preguntas grupal"
+    in_class_activity: null
+  - class_number: 6
+    date: "2026-06-17"
+    topic: "Presentación de Alumnos"
+    professor: "AB / LL / AC"
+    modality: virtual
+    pre_class_task: null
+    in_class_activity: "Presentaciones grupales finales"
+
 syllabus_programa:
   - "Estado de situación patrimonial / financiera"
   - "Estado de Resultados"
@@ -65,7 +111,7 @@ syllabus_actual:
       - Situación económica / financiera / patrimonial
       - Caso Máster S.A. (9 hechos económicos)
   clase_1:
-    date: TBD
+    date: "2026-05-13"
     hub_page_id: "8cm37vq-11053"
     topic: "Información Contable — Marco Conceptual y Modelo Contable"
     key_concepts:

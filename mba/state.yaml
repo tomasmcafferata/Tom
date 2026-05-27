@@ -1,5 +1,5 @@
 system_version: "1.0"
-last_updated: "2026-04-27"
+last_updated: "2026-05-27"
 
 courses:
   economia:
@@ -267,10 +267,11 @@ courses:
   ife:
     name: "Información Financiera de la Empresa"
     schedule_day: Wednesday
-    modality: TBD
+    schedule_time: "19:00-22:00"
+    modality: virtual
     classes_completed: 1
-    total_classes: TBD
-    last_class_date: TBD
+    total_classes: 6
+    last_class_date: "2026-05-13"
     last_class_topic: "Información Contable — Marco Conceptual y Modelo Contable"
     topics_covered:
       # Nivelatorio
@@ -309,7 +310,7 @@ courses:
       - "Fowler Newton — Contabilidad con inflación"
     class_history:
       - class_number: 1
-        date: TBD
+        date: "2026-05-13"
         topic: "Información Contable — Marco Conceptual y Modelo Contable"
         key_concepts:
           - Información contable
