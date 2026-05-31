@@ -27,7 +27,7 @@ Se ejecuta automáticamente después de cada clase. Claude debe:
    - Gestión de Personas (completada — ya no genera clases nuevas)
 2. Leer `mba/state.yaml` para contexto acumulado
 3. Si el usuario no adjuntó la presentación (PDF) y/o notas, pedirlos — una sola vez
-   - La presentación se sube como PDF a la carpeta `mba/presentations/` del repo en GitHub (github.com/tomasmcafferata/Tom → upload file, drag & drop). Claude la lee desde ahí con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `economia_clase1.pdf`, `gestion_clase1.pdf`, etc.
+   - El PDF debe estar en la carpeta local `mba/presentations/[curso]/` antes de iniciar la sesión (ej: `mba/presentations/ife/clase3.pdf`, `mba/presentations/liderazgo/clase2.pdf`). Claude lo lee directamente con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `clase1.pdf`, `clase2.pdf`, etc.
    - Las notas se pegan como texto directamente en el chat: capturan el énfasis del profesor y anotaciones personales.
    - Cada disparador "clase" debe ser una sesión nueva de Claude Code — nunca acumular múltiples clases en la misma conversación. El estado persiste en ClickUp y state.yaml, no en el historial del chat.
 4. Con la presentación + notas:
