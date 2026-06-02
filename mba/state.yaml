@@ -327,10 +327,10 @@ courses:
     name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
     schedule_day: Monday
     modality: TBD
-    classes_completed: 2
+    classes_completed: 3
     total_classes: 6
-    last_class_date: "2026-06-01"
-    last_class_topic: "MBTI Completo, Valores y Motivación"
+    last_class_date: "2026-06-02"
+    last_class_topic: "Roles de Equipo — Modelo Belbin"
     topics_covered:
       # Clase 1
       - Liderazgo emergente vs liderazgo efectivo
@@ -379,6 +379,32 @@ courses:
       - Perfil Motivacional — dinámico
       - Incentivos organizacionales
       - Conflictos motivacionales intra e inter
+      # Clase 3
+      - Resultados MBTI de la clase (ESTJ/ENTJ dominantes) — tabla Higgs (1996) MBTI-Belbin
+      - Caso UTE — motivación individual en contexto de equipo
+      - Caso Matías — "you only eat what you kill" (anti-patrón de equipo)
+      - Principio: el equipo no es la suma de los individuos
+      - Modelo Belbin — origen (investigación Henley Management College, 1970s)
+      - Belbin vs MBTI — autoevaluación + evaluación de terceros (IAP = Inventario de Autopercepción)
+      - Belbin integra personalidad + valores + comportamientos observables
+      - 9 Roles Belbin en 3 categorías (Mentales, Sociales, Acción)
+      - Cerebro (CE) — creativo, heterodoxo, resolutivo / sombra: ignora detalles prácticos
+      - Investigador de Recursos (IR) — extrovertido, explora oportunidades / sombra: pierde interés rápido
+      - Coordinador (CO) — maduro, confiante, delega bien / sombra: puede verse como manipulador
+      - Impulsor (IS) — retador, dinámico, supera obstáculos / sombra: propenso a provocar
+      - Monitor Evaluador (ME) — estratégico, perspicaz, evalúa opciones / sombra: le falta capacidad de inspirar
+      - Cohesionador (CH) — cooperador, perceptivo, evita fricciones / sombra: indeciso bajo presión
+      - Implementador (ID) — disciplinado, confiable, convierte ideas en acciones / sombra: inflexible
+      - Finalizador (FI) — meticuloso, detecta errores, cumple plazos / sombra: se preocupa innecesariamente
+      - Especialista (ES) — dedicado, provee conocimiento profundo / sombra: se centra solo en su especialidad
+      - Debilidades Permitidas — inherentes al rol, el equipo las acepta y comprende
+      - Debilidades No Permitidas — comportamientos que dañan al equipo (no se justifican por el rol)
+      - Fichas Qué Hacer / Qué No Hacer por cada rol (gestión y liderazgo)
+      - 7 aplicaciones del modelo Belbin en organizaciones
+      - 5 tipos de informes Belbin (Individual, Equipo, Persona-Puesto, RRLL, Grupo Observador)
+      - Caso RRLL Bechis — Controller A (IS+ID) vs Facturación B (CH+IR) vs Director C (CO+IS): análisis de conflicto por roles
+      - Autoevaluación: identificar rol propio en 3 experiencias de equipo
+      - Clip "The Expert — 7 Red Lines" (CE sin anclaje + Especialista que bloquea)
     concepts_to_review:
       - {topic: "Liderazgo emergente vs efectivo — diferencia clave", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Efecto Halo — qué es y cómo impacta en feedback", class_number: 1, urgency: high, last_reviewed: null}
@@ -397,6 +423,13 @@ courses:
       - {topic: "Herzberg — qué factores son motivadores y cuáles son higiene", class_number: 2, urgency: high, last_reviewed: null}
       - {topic: "Perfil Motivacional — qué es y por qué es dinámico", class_number: 2, urgency: high, last_reviewed: null}
       - {topic: "Conflictos motivacionales intra vs. inter — diferencia y ejemplos", class_number: 2, urgency: medium, last_reviewed: null}
+      - {topic: "9 roles Belbin — categorías (Mentales/Sociales/Acción) y características clave de cada uno", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Belbin vs MBTI — diferencia metodológica (IAP + evaluación de terceros)", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Debilidades Permitidas vs No Permitidas — lógica y ejemplos por rol", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Fichas Qué Hacer / No Hacer — al menos para CE, CO, IS y FI", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "5 tipos de informes Belbin — qué muestra cada uno", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "7 aplicaciones del modelo Belbin en organizaciones", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "Caso RRLL Bechis — cómo los roles generan el conflicto entre A, B y C", class_number: 3, urgency: high, last_reviewed: null}
     bibliography_priority:
       - "Blanchard — Liderazgo al más alto nivel, Cap. 6 (Clase 5)"
       - "Heifetz — La práctica del liderazgo adaptativo, Cap. 5 (Clase 5)"
@@ -434,6 +467,22 @@ courses:
           - Perfil Motivacional
         clickup_task_id: null
         hub_page_id: null
+      - class_number: 3
+        date: "2026-06-02"
+        topic: "Roles de Equipo — Modelo Belbin"
+        key_concepts:
+          - Caso UTE y Caso Matías (equipos vs individuos)
+          - Modelo Belbin — origen e IAP
+          - 9 roles Belbin (CE, IR, CO, IS, ME, CH, ID, FI, ES)
+          - Categorías Mentales / Sociales / Acción
+          - Debilidades Permitidas y No Permitidas
+          - Fichas Qué Hacer / Qué No Hacer
+          - 7 aplicaciones del modelo
+          - 5 tipos de informes Belbin
+          - Caso RRLL Bechis (conflicto de roles)
+          - Tabla Higgs MBTI-Belbin
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11159"
 
 current_week:
   number: 5
