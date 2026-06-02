@@ -1,0 +1,26 @@
+{
+  "_description": "Clay enriched export — post-enrichment. Has email, company_size, industry on top of LinkedIn base fields. UPDATE THIS FILE when you see a real Clay export to confirm column names.",
+  "_signature": ["email", "company_size", "industry"],
+  "_status": "DRAFT — update column_map once you have a real Clay export",
+
+  "column_map": {
+    "first_name":       "first_name",
+    "last_name":        "last_name",
+    "email":            "email",
+    "title":            "title",
+    "company":          "company",
+    "company_size":     "company_size",
+    "industry":         "industry",
+    "location":         "location",
+    "linkedin_url":     "linkedin_url",
+    "email_confidence": "email_confidence"
+  },
+
+  "defaults": {
+    "source_type":    "clay_enriched",
+    "status":         "new",
+    "enriched":       "TRUE",
+    "do_not_contact": "FALSE",
+    "campaign_count": "0"
+  }
+}

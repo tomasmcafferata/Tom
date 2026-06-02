@@ -1,0 +1,33 @@
+# ============================================================
+# LEADS MODULE — CONFIGURATION
+# ============================================================
+
+# Google Sheets
+lead_db_sheet_id: "1IE_KZpTBSzYE6i9_fCRcDptgpDjLh4ZXqBQOOW1jmQY"
+google_credentials_path: "credentials/service_account.json"
+
+# Campaign capacity (NDC)
+inboxes: 4
+emails_per_inbox_per_day: 30
+sequence_days: 21
+sequence_steps: 4
+# Capacity per cycle = inboxes * emails_per_inbox_per_day * sequence_days / sequence_steps
+# = 4 * 30 * 21 / 4 = 630 leads
+
+# Re-engagement cooldown
+cooldown_days: 90
+
+# Alert threshold: warn if available leads fall below this % of cycle capacity
+low_pool_threshold_pct: 0.8
+
+# Clients
+clients:
+  - name: NDC
+    icp_segments:
+      - logistics
+      - food_bev
+      - healthcare
+      - retail
+      - tech
+      - manufacturing
+      - other

@@ -1,0 +1,32 @@
+{
+    "_comment": "Agupá source: HR Consulting sheet — 'Empresa Final' tab (corporate HR managers).",
+    "column_map": {
+        "linkedin_url": "profile_url",
+        "first_name":   "first_name",
+        "last_name":    "last_name",
+        "title":        "current_company_position",
+        "company":      "current_company",
+        "location":     "location_name",
+        "email":        "Email"
+    },
+    "computed_fields": {
+        "icp_tier": {
+            "type":    "map_value",
+            "source":  "Seniority",
+            "map":     {
+                "Alta": "1",
+                "Media": "2",
+                "Baja": "3"
+            },
+            "default": "2"
+        }
+    },
+    "defaults": {
+        "source_type":    "linkedin_sales_nav",
+        "icp_segment":    "otro",
+        "track":          "base",
+        "status":         "new",
+        "enriched":       "FALSE",
+        "do_not_contact": "FALSE"
+    }
+}

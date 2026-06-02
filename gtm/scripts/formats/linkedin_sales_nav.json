@@ -1,0 +1,21 @@
+{
+  "_description": "LinkedIn Sales Navigator export — pre-enrichment. Columns: profile_url, full_name, first_name, last_name, headline, location_name, current_company, current_company_position.",
+  "_signature": ["profile_url", "headline", "location_name", "current_company", "current_company_position"],
+
+  "column_map": {
+    "first_name":   "first_name",
+    "last_name":    "last_name",
+    "title":        "current_company_position",
+    "company":      "current_company",
+    "location":     "location_name",
+    "linkedin_url": "profile_url"
+  },
+
+  "defaults": {
+    "source_type":     "linkedin_sales_nav",
+    "status":          "new",
+    "enriched":        "FALSE",
+    "do_not_contact":  "FALSE",
+    "campaign_count":  "0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "_comment": "Agupá source: HR 2 sheet — 'HR 2' tab (people managers, mixed industries).",
+    "column_map": {
+        "linkedin_url": "profile_url",
+        "first_name":   "first_name",
+        "last_name":    "last_name",
+        "title":        "Rol",
+        "company":      "Empresa",
+        "location":     "Ubicacion",
+        "email":        "Email"
+    },
+    "computed_fields": {},
+    "defaults": {
+        "source_type":    "linkedin_sales_nav",
+        "icp_segment":    "otro",
+        "track":          "base",
+        "status":         "new",
+        "enriched":       "FALSE",
+        "do_not_contact": "FALSE"
+    }
+}
