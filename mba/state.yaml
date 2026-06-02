@@ -327,10 +327,10 @@ courses:
     name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
     schedule_day: Monday
     modality: TBD
-    classes_completed: 1
+    classes_completed: 2
     total_classes: 6
-    last_class_date: TBD
-    last_class_topic: "Liderazgo, IA y Autoconocimiento — Personalidad (MBTI E/I y S/N)"
+    last_class_date: "2026-06-01"
+    last_class_topic: "MBTI Completo, Valores y Motivación"
     topics_covered:
       # Clase 1
       - Liderazgo emergente vs liderazgo efectivo
@@ -350,6 +350,35 @@ courses:
       - MBTI — origen (Briggs & Myers, 1943, basado en Jung)
       - Dimensión Energía — Extroversión (E) vs Introversión (I)
       - Dimensión Percepción — Sensación (S) vs Intuición (N)
+      # Clase 2
+      - Great Not Hiring (Greg Isenberg) — pipeline de talento joven roto
+      - Anthropic Labor market impacts of AI (Massenkoff & McCrory 2026)
+      - Concepto de PREFERENCIA MBTI (tendencias innatas → modelos mentales → comportamientos eficientes)
+      - Dimensión Decisión — Thinking (T) vs Feeling (F)
+      - Efectos laborales T vs F
+      - Dimensión Vida — Judging (J) vs Perceiving (P)
+      - 16 tipologías MBTI completas
+      - Eficiencia metabólica (tendemos a actuar en tipología preferida)
+      - Distribución MBTI en MBA (ISTJ 17%, ESTJ 17%) y directivos españoles
+      - Kit para Liderar por tipo MBTI
+      - Cuadrante funciones cognitivas (ST/NT/SF/NF)
+      - Complementariedad de tipos para mejores decisiones
+      - Caso Ranjan Mehta W13185 — MBTI aplicado a equipos
+      - Impression Management
+      - Disonancia Cognitiva
+      - Valores — definición (Rokeach 1973)
+      - Valores terminales vs instrumentales
+      - 18 valores terminales de Rokeach
+      - Cuestionario Casullo & Solano (2004) — 10 valores, 4 metas
+      - Modelo Schwartz adaptado para Argentina
+      - Hofstede (1984) — 6 dimensiones culturales
+      - McClelland — 3 impulsos motivadores (Logro, Afiliación, Poder)
+      - Maslow (1943) — pirámide de 5 necesidades
+      - Herzberg (1959) — teoría de dos factores
+      - 4 tipos de motivación (extrínseca, intrínseca, contributiva, institucional)
+      - Perfil Motivacional — dinámico
+      - Incentivos organizacionales
+      - Conflictos motivacionales intra e inter
     concepts_to_review:
       - {topic: "Liderazgo emergente vs efectivo — diferencia clave", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Efecto Halo — qué es y cómo impacta en feedback", class_number: 1, urgency: high, last_reviewed: null}
@@ -357,6 +386,17 @@ courses:
       - {topic: "MBTI dimensiones E/I y S/N — características en el trabajo", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Temperamento vs carácter — diferencia y cuál se puede desarrollar", class_number: 1, urgency: medium, last_reviewed: null}
       - {topic: "Identidad vs reputación — por qué la reputación predice comportamiento", class_number: 1, urgency: medium, last_reviewed: null}
+      - {topic: "MBTI dimensiones T/F y J/P — efectos laborales concretos", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "16 tipologías MBTI — al menos los tipos más comunes en liderazgo", class_number: 2, urgency: medium, last_reviewed: null}
+      - {topic: "Cuadrante funciones cognitivas ST/NT/SF/NF — qué pregunta cada cuadrante", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Impression Management — definición y condiciones de mayor probabilidad", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Rokeach — valores terminales, 18 valores, 3 pasos de uso", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Casullo & Solano — 10 valores y 4 metas (Trascendencia/Conservación/Autopromoción/Apertura)", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Hofstede — 6 dimensiones culturales", class_number: 2, urgency: medium, last_reviewed: null}
+      - {topic: "4 tipos de motivación — diferencias entre extrínseca, intrínseca, contributiva e institucional", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Herzberg — qué factores son motivadores y cuáles son higiene", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Perfil Motivacional — qué es y por qué es dinámico", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Conflictos motivacionales intra vs. inter — diferencia y ejemplos", class_number: 2, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Blanchard — Liderazgo al más alto nivel, Cap. 6 (Clase 5)"
       - "Heifetz — La práctica del liderazgo adaptativo, Cap. 5 (Clase 5)"
@@ -376,6 +416,24 @@ courses:
           - MBTI (E/I, S/N)
         clickup_task_id: null
         hub_page_id: "8cm37vq-11073"
+      - class_number: 2
+        date: "2026-06-01"
+        topic: "MBTI Completo, Valores y Motivación"
+        key_concepts:
+          - MBTI T/F y J/P completos
+          - 16 tipologías MBTI
+          - Cuadrante funciones cognitivas
+          - Caso Ranjan Mehta (W13185)
+          - Impression Management
+          - Disonancia Cognitiva
+          - Valores terminales (Rokeach 1973)
+          - Cuestionario Casullo & Solano
+          - Hofstede 6 dimensiones
+          - Motivación McClelland, Maslow, Herzberg
+          - 4 tipos de motivación
+          - Perfil Motivacional
+        clickup_task_id: null
+        hub_page_id: null
 
 current_week:
   number: 5
