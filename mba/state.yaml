@@ -267,11 +267,11 @@ courses:
   ife:
     name: "Información Financiera de la Empresa"
     schedule_day: Wednesday
-    modality: TBD
-    classes_completed: 1
-    total_classes: TBD
-    last_class_date: TBD
-    last_class_topic: "Información Contable — Marco Conceptual y Modelo Contable"
+    modality: virtual
+    classes_completed: 4
+    total_classes: 6
+    last_class_date: "2026-06-03"
+    last_class_topic: "Informes Contables — ESP y Estado de Resultados"
     topics_covered:
       # Nivelatorio
       - Ecuación patrimonial (Activo = Pasivo + Patrimonio Neto)
@@ -297,19 +297,58 @@ courses:
       - Ajustes a resultados de ejercicios anteriores
       - PCGA (15 principios)
       - Posición del analista vs del contador
+      # Clase 2
+      - Combinaciones del modelo contable (histórico nominal / ajustado / valores corrientes / NIIF)
+      - RECPAM — resultado por exposición a inflación en partidas monetarias
+      - REI — resultado por tenencia de bienes no monetarios
+      - Partidas monetarias vs no monetarias
+      - Caso práctico aplicando distintos modelos contables
+      # Clase 3
+      - Caja y equivalentes — valor nominal / tipo de cambio
+      - Créditos por ventas — valor actual; previsión por incobrabilidad
+      - Bienes de cambio — VNR (mercado transparente) o costo de reposición
+      - Inversiones corrientes cotizadas — cotización de mercado
+      - Bienes de uso — costo de adquisición menos amortización acumulada
+      - Métodos de amortización (línea recta, unidades de producción, suma de dígitos)
+      - Valuación técnica como alternativa para bienes de uso
+      - Activos intangibles — reconocimiento y amortización
+      - Llave de negocio (goodwill) — amortización RT vs test de deterioro NIIF
+      - Inversiones con control/influencia significativa — VPP
+      - Deudas — valor actual; previsiones por contingencias
+      - Principio: ningún activo puede superar el valor recuperable
+      # Clase 4
+      - ESP (balance): estructura Activo / Pasivo / PN; clasificación corriente / no corriente
+      - Componentes del PN: capital, ajuste, prima, reservas, RNA, resultado del ejercicio
+      - Estado de Resultados: ventas → resultado bruto → resultado operativo → RFyT → resultado neto
+      - CMV: existencia inicial + compras − existencia final
+      - Resultados Financieros y por Tenencia (RFyT): intereses, diferencias de cambio, RECPAM, REI
+      - Gastos por función vs por naturaleza
+      - Relación ESP ↔ ER: el resultado del ejercicio es el nexo entre ambos estados
+      - Análisis dimensional del ESP: patrimonial, financiero, económico (ROE, ROA)
     concepts_to_review:
       - {topic: "Modelo contable — 3 dimensiones y opciones", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Valor razonable vs valor recuperable — diferencia", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Hechos contingentes — tabla de probabilidad y tratamiento", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "RT 26 — cuándo es obligatoria vs optativa la NIIF", class_number: 1, urgency: medium, last_reviewed: null}
       - {topic: "PCGA — 15 principios de memoria", class_number: 1, urgency: medium, last_reviewed: null}
+      - {topic: "RECPAM — mecánica y efecto según posición monetaria neta", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "REI — diferencia con RECPAM y cuándo se genera", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Partidas monetarias vs no monetarias — listado y lógica", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Valuación bienes de cambio — cuándo VNR vs costo reposición", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Bienes de uso — fórmula de valor de libros y límite recuperable", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Goodwill — diferencia de tratamiento RT vs NIIF", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "VPP — cuándo aplica y cómo se calcula", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "Estructura del ESP — corriente vs no corriente por side", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Estructura del ER — líneas en orden y qué incluye RFyT", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "CMV — fórmula para comercial vs industrial", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "ROE y ROA — fórmulas y qué miden", class_number: 4, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Fowler Newton — Análisis de estados contables (libro core)"
       - "NIIF — Normas Internacionales de Información Financiera"
       - "Fowler Newton — Contabilidad con inflación"
     class_history:
       - class_number: 1
-        date: TBD
+        date: "2026-05-13"
         topic: "Información Contable — Marco Conceptual y Modelo Contable"
         key_concepts:
           - Información contable
@@ -322,6 +361,45 @@ courses:
           - PCGA
         clickup_task_id: null
         hub_page_id: "8cm37vq-11053"
+      - class_number: 2
+        date: "2026-05-20"
+        topic: "Modelos Contables — Caso Práctico"
+        notes_available: false
+        key_concepts:
+          - Combinaciones del modelo contable
+          - RECPAM
+          - REI
+          - Partidas monetarias vs no monetarias
+          - Caso práctico comparativo
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11219"
+      - class_number: 3
+        date: "2026-05-27"
+        topic: "Medición y Valuación de Rubros"
+        notes_available: false
+        key_concepts:
+          - Valuación de activos corrientes y no corrientes
+          - VNR, costo reposición, valor actual
+          - Bienes de uso y amortización
+          - Activos intangibles y goodwill
+          - VPP
+          - Valuación de pasivos y previsiones
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11179"
+      - class_number: 4
+        date: "2026-06-03"
+        topic: "Informes Contables — ESP y Estado de Resultados"
+        notes_available: false
+        key_concepts:
+          - Estructura del ESP (corriente/no corriente)
+          - Componentes del Patrimonio Neto
+          - Estructura del Estado de Resultados
+          - CMV (comercial e industrial)
+          - RFyT (RECPAM, REI, intereses, cambio)
+          - Relación ESP ↔ ER
+          - ROE y ROA
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11199"
 
   liderazgo:
     name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
