@@ -304,27 +304,32 @@ courses:
       - Partidas monetarias vs no monetarias
       - Caso práctico aplicando distintos modelos contables
       # Clase 3
-      - Caja y equivalentes — valor nominal / tipo de cambio
-      - Créditos por ventas — valor actual; previsión por incobrabilidad
-      - Bienes de cambio — VNR (mercado transparente) o costo de reposición
-      - Inversiones corrientes cotizadas — cotización de mercado
-      - Bienes de uso — costo de adquisición menos amortización acumulada
-      - Métodos de amortización (línea recta, unidades de producción, suma de dígitos)
-      - Valuación técnica como alternativa para bienes de uso
-      - Activos intangibles — reconocimiento y amortización
-      - Llave de negocio (goodwill) — amortización RT vs test de deterioro NIIF
-      - Inversiones con control/influencia significativa — VPP
-      - Deudas — valor actual; previsiones por contingencias
-      - Principio: ningún activo puede superar el valor recuperable
+      - Costo histórico vs costo corriente — definiciones precisas
+      - Valor recuperable = max(VNR, VUE)
+      - NIIF / RT 26 — obligatoria CNV, optativa resto; ventajas y desventajas
+      - Valor razonable — definición NIIF; mejor evidencia = precios de mercado activo
+      - Hechos contingentes — tabla completa (probabilidad alta/medible, alta/no medible, sin prob. alta, remota)
+      - Hechos posteriores — dos categorías (evidencia de situación al cierre vs hecho nuevo)
+      - AREA — corrección de error o cambio de norma; cambios de estimación NO generan AREA
+      - Medición de 6 rubros — inicial y al cierre:
+      - Caja y bancos — valor nominal; moneda extranjera al TC de cierre
+      - Créditos y deudas — VAFF a TIR/TEE; cancelación anticipada VNR/VAFF acreedor
+      - Inversiones en acciones — VNR / Costo / VPP según tipo; títulos de deuda — VNR o Costo+RFD según intención
+      - Bienes de cambio — fungibles VNR; proceso prolongado (árbol de decisión); resto (anticipos+contrato VNR, sino costo reposición)
+      - Bienes de uso — uso/alquiler costo−depreciación; venta VNR; erogaciones posteriores gasto vs mejora; revalúo técnico RT31 (resultado diferido PN)
+      - Bienes intangibles — condiciones reconocimiento; exclusiones; casos especiales activación; depreciación 20 años (5 años organización/preoperativos)
       # Clase 4
-      - ESP (balance): estructura Activo / Pasivo / PN; clasificación corriente / no corriente
-      - Componentes del PN: capital, ajuste, prima, reservas, RNA, resultado del ejercicio
-      - Estado de Resultados: ventas → resultado bruto → resultado operativo → RFyT → resultado neto
-      - CMV: existencia inicial + compras − existencia final
-      - Resultados Financieros y por Tenencia (RFyT): intereses, diferencias de cambio, RECPAM, REI
-      - Gastos por función vs por naturaleza
-      - Relación ESP ↔ ER: el resultado del ejercicio es el nexo entre ambos estados
-      - Análisis dimensional del ESP: patrimonial, financiero, económico (ROE, ROA)
+      - Los 4 estados básicos + notas: ESP, ER, EEPN, EFE
+      - Estados individuales vs consolidados
+      - Usuarios de los estados contables (8 tipos)
+      - ESP — estructura Activo/Pasivo/PN; corriente vs no corriente; contenido de activos y pasivos; Activo=Inversión / Pasivo+PN=Financiación
+      - Previsiones — compromisos contingentes dentro del pasivo
+      - Estado de Resultados — estructura completa: Ventas → Resultado Bruto → EBIT → EBITDA
+      - EBITDAC — variante COVID (gastos/pérdidas por COVID se agregan al EBITDA)
+      - Otros Resultados Integrales (ORI) — van directo al PN sin pasar por el ER
+      - EEPN — muestra cambios en el PN: aportes, distribuciones y resultado del ejercicio
+      - Notas y Anexos — características (parte integrante), contenido (datos generales, bases presentación, otra información)
+      - Síntesis: mapa de informes contables para terceros vs internos
     concepts_to_review:
       - {topic: "Modelo contable — 3 dimensiones y opciones", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Valor razonable vs valor recuperable — diferencia", class_number: 1, urgency: high, last_reviewed: null}
@@ -334,14 +339,20 @@ courses:
       - {topic: "RECPAM — mecánica y efecto según posición monetaria neta", class_number: 2, urgency: high, last_reviewed: null}
       - {topic: "REI — diferencia con RECPAM y cuándo se genera", class_number: 2, urgency: high, last_reviewed: null}
       - {topic: "Partidas monetarias vs no monetarias — listado y lógica", class_number: 2, urgency: high, last_reviewed: null}
-      - {topic: "Valuación bienes de cambio — cuándo VNR vs costo reposición", class_number: 3, urgency: high, last_reviewed: null}
-      - {topic: "Bienes de uso — fórmula de valor de libros y límite recuperable", class_number: 3, urgency: high, last_reviewed: null}
-      - {topic: "Goodwill — diferencia de tratamiento RT vs NIIF", class_number: 3, urgency: medium, last_reviewed: null}
-      - {topic: "VPP — cuándo aplica y cómo se calcula", class_number: 3, urgency: medium, last_reviewed: null}
-      - {topic: "Estructura del ESP — corriente vs no corriente por side", class_number: 4, urgency: high, last_reviewed: null}
-      - {topic: "Estructura del ER — líneas en orden y qué incluye RFyT", class_number: 4, urgency: high, last_reviewed: null}
-      - {topic: "CMV — fórmula para comercial vs industrial", class_number: 4, urgency: high, last_reviewed: null}
-      - {topic: "ROE y ROA — fórmulas y qué miden", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Costo histórico vs costo corriente — definición precisa de cada uno", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Valor recuperable — fórmula y cuándo aplica el límite", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Hechos contingentes — tabla completa de probabilidad y tratamiento", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "AREA — qué la genera y qué NO la genera (cambios de estimación)", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Créditos y deudas — criterio VAFF vs VNR/cancelación anticipada", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Inversiones en acciones — tabla de criterios por tipo (VNR/Costo/VPP)", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Bienes de cambio — árbol de decisión (fungibles / proceso prolongado / resto)", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Bienes de uso — uso vs venta; erogaciones posteriores; revalúo RT31", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "Intangibles — condiciones reconocimiento, exclusiones y depreciación (20 vs 5 años)", class_number: 3, urgency: medium, last_reviewed: null}
+      - {topic: "Los 4 estados básicos — qué responde cada uno", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Estructura del ESP — activo/pasivo/PN; corriente/no corriente; previsiones", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "Estructura del ER — de Ventas a EBIT a EBITDA", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "ORI — qué son y cómo difieren del resultado del ER", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Notas — características y contenido de la información complementaria", class_number: 4, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Fowler Newton — Análisis de estados contables (libro core)"
       - "NIIF — Normas Internacionales de Información Financiera"
