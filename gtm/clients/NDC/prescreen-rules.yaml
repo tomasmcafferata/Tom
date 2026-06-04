@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PRE-SCREEN RULES — NDC · Ploteo / Fleet-wrapping segment
+# ─────────────────────────────────────────────────────────────────────────────
+# Executable mirror of the "Ploteo / Fleet-Wrapping" segment in clients/NDC/ICP.md.
+# The generic script gtm/scripts/prescreen.py loads this to classify each lead into a
+# persona_tier on title+location ONLY (free, pre-enrichment). Keep this in sync with
+# the prose in ICP.md — ICP.md is the human source of truth, this file is its runtime
+# encoding (same split as import_leads.py + formats/*.json).
+#
+# To replicate for a new client/segment: copy this file to clients/<name>/prescreen-rules.yaml
+# and edit the keyword stems below. Patterns are Python regex, matched case-insensitive.
+# Single-quoted so backslashes are literal (no YAML escaping needed).
+
+geography:
+  # Empty location passes (unknown — decided post-enrichment). A non-empty location must
+  # contain at least one hint, otherwise the lead is disqualified (no cross-border capability).
+  allow_empty: true
+  hints:
+    - argentin
+    - buenos aires
+    - caba
+    - capital federal
+    - cordoba
+    - córdoba
+    - rosario
+    - mendoza
+    - santa fe
+    - tucuman
+    - tucumán
+    - la plata
+    - mar del plata
+    - neuquen
+    - neuquén
+    - salta
+
+# Evaluated top-to-bottom by the script. ORDER MATTERS: tier1 is checked BEFORE disqualify,
+# so a buyer title like "Director de operaciones y desarrollo comercial" wins over the
+# "desarroll" stem (which is meant for software devs, not biz-dev).
+tiers:
+  # Tier 1 — clear operations / logistics / fleet decision-maker, or GM / owner. Enrich: YES.
+  tier1_title: 'operac|log[ií]stica|flota|fleet|transport|distribuci|abastec|suministro|supply|cadena|\bcoo\b|chief operating|gerente general|general manager|gte\.? general|gerencia general|director general|due[ñn]|propietari|titular|\bsocio\b|fundador|founder|\bceo\b'
+
+  # Hard disqualifiers — wrong department / non-buyer. NOTE: "desarrollador" (software dev)
+  # disqualifies, but "desarrollo comercial" (biz dev) must NOT — so no bare "desarroll" stem.
+  disqualify_title: 'rrhh|recursos humanos|\bit\b|sistemas|tecnolog|software|desarrollador|finanz|contad|\bcfo\b|tesorer|community manager|dise[ñn]|pasant|junior|recepci|cajer|vendedor'
+
+  # Tier 2a — "Encargado de <relevant area>" (qualified). Enrich: PROBABLE.
+  encargado_qualified: 'encargad[oa]\s+de\s+(flota|log[ií]stica|transporte|operac|dep[oó]sito|distribuci|estiba|playa|insumos|base)'
+
+  # Tier 2b — co-buyers / influencers (commercial, admin, marketing). Enrich: PROBABLE.
+  tier2_title: 'comercial|ventas|sales|account|market|marca|brand|administrac'
+
+  # Tier 3 — bare "Encargado/a" with no qualifier. Ambiguous → budget decision.
+  encargado_bare: '^encargad[oa]$'

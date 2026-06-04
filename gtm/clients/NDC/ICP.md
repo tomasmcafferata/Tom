@@ -12,6 +12,19 @@ NDC's ideal customer is a mid-size Argentine company (20–300 employees) that n
 
 ---
 
+## Segments / Motions
+
+NDC's outbound covers **two motions with two different buyers**. Most of this document describes Segment A (the default). Segment B was discovered when an actual lead list ("Ops ICP Ploteo", ~2,804 leads) turned out to be ops/logistics people, not marketing — so it gets its own persona + screen below.
+
+| Segment | Motion | Primary buyer | Where defined |
+|---|---|---|---|
+| **A — Events / Stands** | Trade-show stands, event production, signage | Marketing Manager / Events Coordinator | The body of this document |
+| **B — Ploteo / Fleet-wrapping** | Vehicle wrapping / fleet branding | Ops / Logistics / Fleet decision-maker, or GM / owner (PyME) | Section **"Segment B"** below |
+
+The pre-screen rules that triage a raw list into persona tiers are encoded per-segment in `clients/NDC/prescreen-rules.yaml` (the executable mirror of the prose here) and run via `gtm/scripts/prescreen.py --client NDC`.
+
+---
+
 ## Firmographic Profile
 
 ```
@@ -360,6 +373,147 @@ AUTOMATIC DISQUALIFIERS (score = 0 regardless):
   - Government/public sector entity
   - Pure digital business with no physical presence or events activity
 ```
+
+---
+
+## Segment B — Ploteo / Fleet-Wrapping (ops buyer)
+
+> **Why this segment exists.** A loaded list (~2,804 leads, batch "Ops ICP Ploteo") does **not** match Segment A's marketing persona — only ~2% of titles are marketing/events; the bulk are operations, general management, and "encargados". For fleet wrapping in an Argentine SMB, the decision-maker is **not** marketing — it's whoever **runs the fleet** (operations/logistics) or **whoever is in charge** (GM/owner in small companies). Marketing enters as a co-buyer for brand consistency, not as the entry point. This section defines that buyer and the rubric to screen this list correctly.
+
+### Buyer Personas (ploteo)
+
+**Primary — runs the fleet**
+```
+Titles:     Gerente / Director de Operaciones · COO · Jefe/Gerente de Logística
+            Jefe/Gerente de Flota · Gerente de Transporte · Gerente de Distribución
+            Encargado de Flota / Logística / Transporte (with qualifier)
+Seniority:  Manager / Director (operational decision-maker)
+Cares:      That the fleet looks professional and consistent, the wrap survives use,
+            and the vendor hits deadlines without stalling operations.
+```
+
+**Primary alternate — whoever is in charge (small PyME)**
+```
+Titles:     Gerente General · General Manager · Director General · CEO
+            Dueño / Propietario / Titular / Socio / Fundador
+Seniority:  C-suite / owner
+When:       Companies <50 employees with no dedicated ops manager, where the
+            owner/GM makes this kind of purchase.
+```
+
+**Secondary — Marketing (co-buyer, not entry)**
+```
+Titles:     Gerente de Marketing · Marca · Trade Marketing · Comunicación
+Role:       Guards brand consistency of the wrap. Influences, rarely signs the ploteo.
+            Useful as a second contact, not as first touch for this motion.
+```
+
+**Blocker**
+```
+Titles:     CFO / Contador / Compras
+Objection:  "We already have someone who does our cars." / "Why change?"
+Handling:   Reframe: NDC integrates design + production + installation + logistics —
+            not a loose shop. Low-risk entry offer (1–2 pilot vehicles).
+```
+
+### Firmographic Profile (ploteo)
+```
+Owns or operates a fleet (central signal):
+  Primary:    Logistics / transport / distribution · Food & beverage / CPG (delivery)
+              Field-service crews · Construction · Wholesalers with delivery
+  Secondary:  Retail with distribution fleet · Pharma/health with delivery
+  Exclude:    Companies with no vehicles (office/digital only) · <10 employees
+              Government/public · Corporates with in-house production · outside Argentina
+
+Company Size:   20–300 employees (enough vehicles to matter, not so large they have an
+                in-house shop). Owner/GM decides in the <50 band.
+
+Geography:      Primary: GBA + CABA. Secondary: Rosario, Córdoba, Mendoza, Santa Fe.
+                Exclude: outside Argentina (no cross-border).
+```
+
+### Trigger events (ploteo)
+```
+- Fleet renewal or expansion (vehicle purchase, post, or news)
+- Rebranding / new visual identity (cars must be re-wrapped)
+- New branch / distribution center opening (new vehicles to brand)
+- Hiring a "Fleet/Logistics Manager" (new management = vendor review)
+- Merger/acquisition (fleet identity unification)
+```
+
+### Scoring rubric (ploteo) — what each stage evaluates
+
+> **Design key:** the pre-screen is **free** and can only look at what we already have (title, company, location). Real company fit (does it have a fleet?, industry, size) and triggers **need enrichment** and are scored post-enrichment. We do not spend Clay credits on leads the title already disqualifies.
+
+```
+SCORE /100
+
+PERSONA FIT (35)          ← pre-screen evaluates this (title)
+  35  Fleet/ops decision-maker (Operations, Logistics, Fleet, Transport,
+      Distribution) or GM/Owner in a PyME
+  20  GM/Director at a mid-size company, or Commercial with influence
+  10  Marketing (co-buyer) or "Encargado" with a relevant qualifier
+   0  Wrong dept (HR, IT, Finance-only, junior, cashier, reception)
+
+GEOGRAPHY (10)            ← pre-screen evaluates this (location)
+  10  GBA / CABA
+   7  Rosario / Córdoba / Mendoza / Santa Fe / rest of Argentina
+   0  Outside Argentina  →  DISQUALIFY (no cross-border)
+
+FIRMOGRAPHIC FIT (35)     ← post-enrichment (industry + size)
+  20  Industry with own/delivery fleet (logistics, distribution, food&bev, etc.)
+  15  Size 20–300 employees
+
+SITUATIONAL / TRIGGER (20) ← post-enrichment / research
+  20  Fleet trigger detected (renewal, rebrand, expansion)
+   0  No trigger
+
+TIERS:
+  80–100  Tier 1 — prioritize, personalize (visible fleet, concrete trigger)
+  60–79   Tier 2 — sequence with industry personalization
+  40–59   Tier 3 — batch, test messaging
+  <40     Disqualify
+
+AUTOMATIC DISQUALIFIERS (score = 0):
+  - Outside Argentina
+  - <10 employees / government / no fleet
+  - Wrong-department person
+```
+
+### Pre-screen rules (free, title + location only)
+
+The pre-screen assigns a **persona_tier** to decide **how far to enrich** (Clay cost dial) — it does *not* produce the final score. Plain-language rules below; the **executable encoding** lives in `clients/NDC/prescreen-rules.yaml` (edit there to tune) and runs via `gtm/scripts/prescreen.py --client NDC`.
+
+```
+TIER 1 (clear target — enrich YES):
+  Ops / logistics / fleet / transport / distribution / supply-chain titles,
+  or GM / General Manager / Director General / owner-tier (dueño, socio, fundador, CEO, COO).
+
+TIER 2 (co-buyer / influencer — enrich PROBABLE):
+  Commercial / sales / marketing / admin titles,
+  or "Encargado de {flota|logística|transporte|operaciones|depósito|distribución|...}".
+
+TIER 3 (ambiguous — ENRICH, then judge):
+  Bare "Encargado/a" with no qualifier (~1,639 leads in the current list).
+  Cannot be disambiguated on title alone. DECISION: enrich on the first pass — we prefer
+  to stay flexible on ambiguous personas and let enrichment (company industry/size) decide,
+  rather than drop a potential fleet buyer. Drop later if the company turns out off-ICP.
+
+DISQUALIFY (do not enrich):
+  - location present and NOT Argentina
+  - wrong-department titles: HR, IT, software/dev (developer, not biz-dev), finance,
+    accountant, CFO, treasury, community manager, design, intern, junior, reception,
+    cashier, salesperson
+  - no title
+```
+
+> **Decision (resolved 2026-06-03):** Tier 3 (bare "Encargado", ~1,639 leads) **enters** the first enrichment pass. It is the biggest Clay-cost driver, but the policy is to stay flexible on ambiguous personas and let company enrichment decide. Full enrich pool = Tier 1+2+3 (~2,283 leads).
+
+### Pipeline for this segment
+1. Pre-screen applies these rules → tier table + pool to enrich (free).
+2. Clay enriches Tier 1+2+3 (~2,283 leads) → email + industry + size.
+3. Full rubric above → final icp_score / tier; drop leads with no email.
+4. Campaign ideation by segment over the final Tier 1/2.
 
 ---
 
