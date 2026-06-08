@@ -510,10 +510,16 @@ DISQUALIFY (do not enrich):
 > **Decision (resolved 2026-06-03):** Tier 3 (bare "Encargado", ~1,639 leads) **enters** the first enrichment pass. It is the biggest Clay-cost driver, but the policy is to stay flexible on ambiguous personas and let company enrichment decide. Full enrich pool = Tier 1+2+3 (~2,283 leads).
 
 ### Pipeline for this segment
-1. Pre-screen applies these rules → tier table + pool to enrich (free).
-2. Clay enriches Tier 1+2+3 (~2,283 leads) → email + industry + size.
-3. Full rubric above → final icp_score / tier; drop leads with no email.
-4. Campaign ideation by segment over the final Tier 1/2.
+1. Pre-screen applies these rules → tier table + pool (free). ~2,283 kept.
+2. Clay research, cheap, on all 2,283: generic `dossier` + `icp_lens` (this segment's
+   brief) → industry, fleet signals, triggers, `icp_fit`. See `gtm/leads/ENRICHMENT.md`
+   + `clients/NDC/research-brief-ploteo.yaml`.
+3. Gate on `icp_fit` (strong/medium) → email waterfall (Clay credits) on survivors only.
+4. Campaign ideation by segment over the leads that have an email.
+
+> Cost order: research is cheap (GPT) and runs on everyone; the email is the expensive
+> Clay credit and runs last, only on leads the `icp_fit` gate passes. The formal /100
+> rubric below is the reference logic; the live gate is the `icp_fit` verdict.
 
 ---
 

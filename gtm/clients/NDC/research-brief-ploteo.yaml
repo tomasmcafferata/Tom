@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# RESEARCH BRIEF — NDC · Ploteo / Fleet-wrapping ICP
+# ─────────────────────────────────────────────────────────────────────────────
+# Pasted into the `icp_brief` variable of the Clay "NDC · Ploteo" table.
+# Generic dossier prompt (gtm/leads/research-prompt-base.md, Prompt A) + this brief =
+# the `icp_lens` column (Prompt B). The prompts never change; only this brief does.
+#
+# Source of truth for the persona/fit logic: clients/NDC/ICP.md → "Segment B".
+# To make another ICP: copy this file, edit the fields, paste into a cloned Clay table.
+
+icp_summary: >
+  Empresa argentina (PyME o mediana) con flota propia o de reparto, candidata a
+  ploteo / wrapping vehicular. El comprador opera la flota (operaciones / logística)
+  o manda en la empresa (gerente general / dueño en empresas chicas). Marketing entra
+  como co-comprador por consistencia de marca, no como entrada.
+
+# Señales extra que el agente debe extraer para ESTE ICP (van en icp_signals del output).
+additional_signals:
+  fleet_presence:         "¿opera vehículos propios o de reparto? (sí / no / indicio)"
+  fleet_type:             "camiones / utilitarios / vans / autos / mixto"
+  fleet_count:            "cantidad aproximada de vehículos si aparece"
+  fleet_branded:          "¿los vehículos ya están ploteados / con marca, o sin marca?"
+  distribution_footprint: "¿reparte o distribuye? ¿en qué zonas?"
+
+# Triggers a cazar (van en triggers_found si hay evidencia). El opener más fuerte.
+triggers_to_hunt:
+  - "renovación o expansión de flota (compra de vehículos, noticia o posteo)"
+  - "rebranding / nueva identidad visual (los vehículos hay que reploteár)"
+  - "apertura de sucursal o centro de distribución (vehículos nuevos a brandear)"
+  - "búsqueda de jefe / gerente de flota o logística (nueva gestión = revisión de proveedores)"
+
+# Cómo juzgar el fit.
+fit_positive:
+  - "opera vehículos propios o de reparto"
+  - "industria con logística / distribución / reparto (transporte, food&bev, mayorista con reparto, servicios con cuadrilla en calle, construcción)"
+  - "20–300 empleados"
+  - "GBA / CABA, o ciudades grandes de Argentina (Rosario, Córdoba, Mendoza, Santa Fe)"
+
+fit_negative:
+  - "sin vehículos (oficina / digital puro)"
+  - "menos de 10 empleados"
+  - "gobierno / sector público"
+  - "gran corporativo con producción in-house"
+  - "fuera de Argentina (NDC no cruza frontera)"
