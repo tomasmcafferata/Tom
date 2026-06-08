@@ -20,6 +20,7 @@ When the user runs `/market <command>`, load the corresponding skill from `skill
 | `/market messaging` | `skills/market-messaging/SKILL.md` | `MESSAGING.md` | Step 6 |
 | `/market abm` | `skills/market-abm/SKILL.md` | `ABM.md` | Step 7 |
 | `/market emails` | `skills/market-emails/SKILL.md` | `EMAIL-SEQUENCES.md` | Step 8 |
+| `/market campaigns <ClientName> [segment]` | `skills/campaign-ideation/SKILL.md` | Google Doc (idea menu) | Execution |
 | `/market enablement` | `skills/market-enablement/SKILL.md` | `SALES-ENABLEMENT.md` | Deliverable |
 | `/market revops` | `skills/market-revops/SKILL.md` | `REVOPS.md` | Deliverable |
 | `/market report` | `skills/market-report/SKILL.md` | `MARKETING-REPORT.md` | Deliverable |

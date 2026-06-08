@@ -275,6 +275,30 @@ ENTRY OFFER:   Low-stakes first project (back de prensa, banner set, event props
 
 ---
 
+## Offer Menu
+
+> Compact catalog the campaign-ideation stage draws from. Derived from the positioning
+> above — **validate exact packaging/pricing with NDC.** Lightweight on purpose.
+
+```
+PLOTEO / FLEET MOTION
+  Wrap de flota completa   diseño + impresión + aplicación, brand-consistent, un equipo
+  Piloto (1–2 vehículos)   entry de bajo riesgo, experimentar el proceso antes de la flota
+  Re-wrap por rebrand      actualizar la flota cuando cambia la identidad visual
+  Bundle integrado         flota + local + stand desde el mismo brief (diferencial vs Base3)
+
+EVENTS / STANDS MOTION  (see hooks + entry offer above)
+  Stand completo           render → producción → instalación, un solo equipo
+  Entry offer              back de prensa / banners / props para un evento interno
+  Bundle integrado         stand + flota + local del mismo brief
+
+CROSS-MOTION FRAMING
+  El diferencial siempre es la INTEGRACIÓN: un brief, un equipo, todos los touchpoints
+  físicos consistentes. El entry offer de bajo riesgo baja la barrera de confianza.
+```
+
+---
+
 ## Next Steps
 
 1. **Run `/market messaging`** → `clients/NDC/MESSAGING.md` — develop full cold email sequences, LinkedIn openers, and call scripts from this positioning
