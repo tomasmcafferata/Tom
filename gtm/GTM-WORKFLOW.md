@@ -2,7 +2,7 @@
 
 ## Overview
 
-8-step pipeline that takes a client URL and produces a complete outbound GTM stack: strategy foundation, ICP, market sizing, competitive positioning, messaging architecture, ABM playbook, and cold email sequences ready to load in Instantly or Smartlead.
+Two phases. **(1) Strategy build** — an 8-step pipeline that takes a client URL and produces a complete outbound GTM stack: strategy foundation, ICP, market sizing, competitive positioning, messaging architecture, ABM playbook, and cold email sequences. **(2) Execution** — the operational layer that runs real campaigns off that stack: a lead list → enriched, scored, personalized, sent, and reply-tracked. See **Execution Pipeline** below.
 
 ---
 
@@ -107,6 +107,42 @@ ABM.md              →  CRM account tiers, research cards, engagement playbooks
 EMAIL-SEQUENCES.md  →  Instantly / Smartlead / Lemlist sequences  ← PRIMARY
 MESSAGING.md        →  LinkedIn DMs, call scripts, LinkedIn connection notes
 ```
+
+---
+
+## Execution Pipeline (leads → campaigns → replies)
+
+The strategy stack is the *blueprint*. This is the *operational layer* that runs campaigns
+off it. Pattern throughout: **a generic engine + a per-client/ICP config**, so it replicates
+across clients and across ICPs within a client.
+
+```
+STAGE                  WHERE                          CONFIG / ARTIFACT
+──────────────────────────────────────────────────────────────────────────────────────────
+import leads           scripts/import_leads.py        scripts/formats/*.json  → Lead Sheet
+pre-screen persona     scripts/prescreen.py           clients/<c>/prescreen-rules.yaml  (free: title+geo)
+enrich · research      Clay (native Sheet sync)       leads/research-prompt-base.md
+                                                      + clients/<c>/research-brief-<icp>.yaml
+gate                   Clay icp_fit (strong/medium)   only survivors continue
+enrich · email         Clay waterfall (credits)       survivors only — costliest, last
+campaign ideation      /market campaigns (skill)      ICP + POSITIONING → idea menu (Google Doc)
+personalize copy       Clay                           leads/personalization-prompt-base.md + campaign brief
+build send list        scripts/build_instantly_csv.py column-agnostic → Instantly CSV
+send                   Instantly (manual upload)      approval gate = you
+reply loop             skills/email-response          Reply CRM + Slack one-click approval
+reconcile replies      scripts/sync_replies.py        → outbound Leads status / do_not_contact
+verify enrichment      scripts/enrich_status.py       read-only coverage report
+recipe + contract      leads/ENRICHMENT.md            Clay setup + write-back columns
+```
+
+**Division of labor**
+- **Clay** = facts *and* words at volume (research, triggers, email-finding, per-lead copy). Prompts/briefs are versioned in the repo and pasted into Clay.
+- **Repo scripts** = deterministic logic (pre-screen, CSV build, reply sync) + dumb mappers. No copy generation in the repo.
+- **Skills** = the creative/human steps (campaign ideation; reply handling).
+
+**Two CRMs, bridged.** Outbound **Lead CRM** (one Google Sheet, the lead lifecycle) + inbound **Reply CRM** (the email-response sheet). `sync_replies.py` copies reply outcomes onto the outbound leads so future sends skip repliers.
+
+**Scoring sandwich (cost order).** Free pre-screen → cheap research on all → gate on `icp_fit` → expensive email on survivors only.
 
 ---
 

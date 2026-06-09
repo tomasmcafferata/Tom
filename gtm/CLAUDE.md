@@ -44,6 +44,39 @@ GTM-WORKFLOW.md             ← full system reference map
 config.yaml                 ← API keys and configuration (use .env for secrets)
 ```
 
+## Execution layer (leads → campaigns → replies)
+
+Beyond the strategy stack above, the repo runs campaigns off a lead list. Generic engine +
+per-client config throughout. Full map + cost order: `GTM-WORKFLOW.md`.
+
+```
+leads/
+  config.yaml                     Lead Sheet id + capacity / cooldown model
+  research-prompt-base.md         generic Clay research prompt (paste into Clay)
+  personalization-prompt-base.md  generic Clay copy prompt (paste into Clay)
+  ENRICHMENT.md                   Clay recipe + write-back contract
+scripts/
+  import_leads.py                 load a list (formats/*.json) → Lead Sheet
+  prescreen.py                    free persona triage (title+geo) → tiers  (clients/<c>/prescreen-rules.yaml)
+  enrich_status.py                read-only enrichment coverage report
+  build_instantly_csv.py          qualified cohort → Instantly import CSV (column-agnostic)
+  sync_replies.py                 reply outcomes → outbound CRM (skip repliers)
+skills/
+  campaign-ideation/SKILL.md      /market campaigns → breadth idea menu (Google Doc)
+  email-response/                 inbound replies → Slack one-click approval
+```
+
+Per-client config lives in `clients/<c>/`: `prescreen-rules.yaml`, `research-brief-<icp>.yaml`,
+and the ICP/POSITIONING docs (offers folded into POSITIONING.md).
+
+**Division of labor:** Clay generates facts + per-lead copy (prompts versioned here, pasted in);
+scripts do deterministic logic (no copy gen); skills do the creative/human steps. Two CRMs
+(outbound Lead + inbound Reply) bridged by `sync_replies.py`.
+
+---
+
 ## Active clients
 
-- **NDC** (`clients/NDC/`) — enedece.com.ar — outbound GTM, Argentine market
+- **NDC** (`clients/NDC/`) — enedece.com.ar — outbound GTM, Argentine market. Active ICP
+  segments: **events/stands** (marketing buyer) and **ploteo/fleet** (ops/GM buyer — see
+  ICP.md "Segment B").
