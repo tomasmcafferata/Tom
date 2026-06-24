@@ -1,9 +1,9 @@
 name: "Información Financiera de la Empresa"
 schedule_day: Wednesday
-modality: TBD      # completar (presencial / virtual)
-total_classes: TBD # confirmar
+modality: virtual
+total_classes: 6
 language: spanish
-status: en_curso
+status: completada
 
 clickup:
   hub_doc_id: "8cm37vq-10953"
@@ -16,6 +16,8 @@ clickup:
     clase_2: "8cm37vq-11219"
     clase_3: "8cm37vq-11179"
     clase_4: "8cm37vq-11199"
+    clase_5: "8cm37vq-11299"
+  unified_page_id: "8cm37vq-10933"
 
 professor: "Alejandra Bozic / Lisandro López / Adrián Casadey"
 evaluation_breakdown:

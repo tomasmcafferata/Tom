@@ -1,9 +1,9 @@
 name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
 schedule_day: Monday
-modality: TBD      # completar (presencial / virtual)
+modality: virtual
 total_classes: 6
 language: spanish
-status: en_curso
+status: completada
 
 clickup:
   hub_doc_id: "8cm37vq-10973"
@@ -14,6 +14,9 @@ clickup:
     clase_1: "8cm37vq-11073"
     clase_2: "8cm37vq-11139"
     clase_3: "8cm37vq-11159"
+    clase_4: "8cm37vq-11259"
+    clase_5: "8cm37vq-11279"
+  unified_page_id: "8cm37vq-10953"
 
 professor: "MBA Gustavo Wurzel"
 evaluation_breakdown:

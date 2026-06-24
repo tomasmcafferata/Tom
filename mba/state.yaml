@@ -1,5 +1,5 @@
 system_version: "1.0"
-last_updated: "2026-04-27"
+last_updated: "2026-06-24"
 
 courses:
   economia:
@@ -268,10 +268,11 @@ courses:
     name: "Información Financiera de la Empresa"
     schedule_day: Wednesday
     modality: virtual
-    classes_completed: 4
+    status: completada
+    classes_completed: 6
     total_classes: 6
-    last_class_date: "2026-06-03"
-    last_class_topic: "Informes Contables — ESP y Estado de Resultados"
+    last_class_date: "2026-06-17"
+    last_class_topic: "Presentación Final de Alumnos (TP grupal)"
     topics_covered:
       # Nivelatorio
       - Ecuación patrimonial (Activo = Pasivo + Patrimonio Neto)
@@ -330,6 +331,32 @@ courses:
       - EEPN — muestra cambios en el PN: aportes, distribuciones y resultado del ejercicio
       - Notas y Anexos — características (parte integrante), contenido (datos generales, bases presentación, otra información)
       - Síntesis: mapa de informes contables para terceros vs internos
+      # Clase 5
+      - Criterios de medición de inversiones en acciones (VNR / Costo / VPP según tipo)
+      - VPP — definiciones de influencia dominante, control conjunto e influencia significativa (RT 21)
+      - VPP — aplicación del método, discontinuación, normas a usar
+      - VPP — requisitos (balance especial, desfasaje max 3 meses, ajustes)
+      - VPP momento de adquisición — llave positiva (deudora) y llave negativa (acreedora)
+      - Imputación a resultados de llave positiva (vida útil estimada, presunción ≤20 años)
+      - Imputación a resultados de llave negativa (3 porciones con tratamiento diferente)
+      - VPP durante la tenencia — aumentos, disminuciones, sin efecto (dividendos en acciones)
+      - Consolidación de EECC (RT 21, Ley de Sociedades Art. 62)
+      - Definiciones de consolidación (control, controlante, controlada, GE, EECC individuales vs consolidados, PM)
+      - Métodos de consolidación (total, proporcional, una sola línea — VPP)
+      - Requisitos de consolidación (fecha, moneda, normas contables)
+      - Actividades heterogéneas: deben consolidarse; control temporal: no se consolida
+      - Esquema de consolidación (7 pasos: saldos, homogeneización, eliminaciones, PM)
+      - Ejemplo numérico (60% de tenencia, proporcional vs total)
+      - Expresión en moneda homogénea — Ajuste por Inflación (AxI)
+      - Modelo contable y unidad de medida (homogénea vs nominal)
+      - Economía altamente inflacionaria (criterios FACPCE — tasa acumulada ≥100% en 3 años)
+      - Rubros monetarios vs no monetarios y RECPAM
+      - Coeficiente de ajuste (índice cierre / índice origen)
+      - Metodología AxI — regla general y regla particular para resultados
+      - Informe del Auditor (RT 37)
+      - Proceso de auditoría — elementos de juicio válidos y suficientes
+      - Razonabilidad ≠ exactitud; significatividad
+      - 4 tipos de dictamen (limpia, con salvedades, abstención, adversa)
     concepts_to_review:
       - {topic: "Modelo contable — 3 dimensiones y opciones", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Valor razonable vs valor recuperable — diferencia", class_number: 1, urgency: high, last_reviewed: null}
@@ -353,6 +380,14 @@ courses:
       - {topic: "Estructura del ER — de Ventas a EBIT a EBITDA", class_number: 4, urgency: high, last_reviewed: null}
       - {topic: "ORI — qué son y cómo difieren del resultado del ER", class_number: 4, urgency: medium, last_reviewed: null}
       - {topic: "Notas — características y contenido de la información complementaria", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "VPP — definiciones de control, control conjunto e influencia significativa (RT 21)", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "VPP momento de adquisición — llave positiva y llave negativa", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "VPP durante la tenencia — causas de aumentos y disminuciones", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Consolidación — 3 métodos y cuándo aplica cada uno", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Consolidación — esquema de 7 pasos (ajustes y eliminaciones)", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "AxI — rubros monetarios vs no monetarios y RECPAM", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "AxI — metodología de aplicación (regla general vs regla particular en resultados)", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Informe del Auditor — 4 tipos de dictamen y cuándo aplica cada uno", class_number: 5, urgency: high, last_reviewed: null}
     bibliography_priority:
       - "Fowler Newton — Análisis de estados contables (libro core)"
       - "NIIF — Normas Internacionales de Información Financiera"
@@ -411,15 +446,40 @@ courses:
           - ROE y ROA
         clickup_task_id: null
         hub_page_id: "8cm37vq-11199"
+      - class_number: 5
+        date: "2026-06-10"
+        topic: "VPP, Consolidación, Ajuste por Inflación e Informe del Auditor"
+        notes_available: false
+        key_concepts:
+          - Criterios de medición de inversiones en acciones
+          - VPP — definiciones y aplicación (RT 21)
+          - Llave positiva y llave negativa
+          - VPP durante la tenencia
+          - Consolidación de EECC (métodos, requisitos, esquema)
+          - Participación Minoritaria
+          - Ajuste por Inflación (AxI) — rubros monetarios, RECPAM, coeficiente, metodología
+          - Informe del Auditor RT 37 — proceso, tipos de dictamen
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11299"
+      - class_number: 6
+        date: "2026-06-17"
+        topic: "Presentación Final de Alumnos (TP grupal)"
+        notes_available: false
+        key_concepts:
+          - Presentaciones finales de cada grupo sobre empresa real (CNV)
+          - Análisis aplicado de EECC reales
+        clickup_task_id: null
+        hub_page_id: null
 
   liderazgo:
     name: "Liderazgo y Gestión de Equipos de Alto Rendimiento"
     schedule_day: Monday
-    modality: TBD
-    classes_completed: 3
+    modality: virtual
+    status: completada
+    classes_completed: 6
     total_classes: 6
-    last_class_date: "2026-06-02"
-    last_class_topic: "Roles de Equipo — Modelo Belbin"
+    last_class_date: "2026-06-23"
+    last_class_topic: "Examen Final — Caso Integrador Morgan Stanley"
     topics_covered:
       # Clase 1
       - Liderazgo emergente vs liderazgo efectivo
@@ -494,6 +554,43 @@ courses:
       - Caso RRLL Bechis — Controller A (IS+ID) vs Facturación B (CH+IR) vs Director C (CO+IS): análisis de conflicto por roles
       - Autoevaluación: identificar rol propio en 3 experiencias de equipo
       - Clip "The Expert — 7 Red Lines" (CE sin anclaje + Especialista que bloquea)
+      # Clase 4
+      - Perspectivas sobre el conflicto (Tradicional vs Interaccionista)
+      - Tipos de conflicto (Tareas/Procesos = funcional; Relaciones = disfuncional)
+      - Conflicto: Intensidad vs Desempeño
+      - Dinámica del conflicto — 5 Etapas
+      - Etapa 1: Contraposición (causas: comunicación, estructura, variables personales)
+      - Etapa 2: Conocimiento y personalización (percibido vs sentido)
+      - Etapa 3: Intenciones (Escalera de las inferencias)
+      - Etapa 4: Comportamiento (continuo de intensidad)
+      - Etapa 5: Resultados (desempeño del grupo)
+      - Instrumento Thomas-Kilmann (TKI) — 5 modos de manejo de conflicto
+      - TKI Competir (alta asertividad, baja cooperación)
+      - TKI Colaborar (alta asertividad, alta cooperación)
+      - TKI Transar (intermedio)
+      - TKI Evadir (baja asertividad, baja cooperación)
+      - TKI Acomodarse (baja asertividad, alta cooperación)
+      - Thomas-Kilmann + MBTI (E/I → colaborar/evadir; T/F → competir/acomodarse)
+      - Descarrilamientos — Modelo HDS Hogan
+      - Caso Martin Brass A, B y C
+      # Clase 5
+      - Heifetz — Liderazgo Adaptativo (trabajo técnico vs adaptativo)
+      - 4 Arquetipos de desafíos adaptativos (discrepancias, compromisos contradictorios, evitar tareas, el elefante)
+      - Modelo FRL de Bass (Full Range Leadership)
+      - Liderazgo Laissez Faire — estilo más inactivo
+      - Liderazgo Transaccional (2 componentes: Recompensa contingente + Dirección por excepción)
+      - Liderazgo Transformacional (4 I: Carisma, Estimulación Intelectual, Inspiración, Consideración Individualizada)
+      - Riesgo del Transformacional — autoengrandecimiento narcisista
+      - Liderazgo Situacional Hersey & Blanchard (Dirección, Coaching, Apoyo, Delegación)
+      - Superposición Bass + Blanchard + tipos de motivación
+      - Goldsmith — Gerente vs Líder (3 puntos: crear/contar valor; poder/influencia; gestionar/liderar)
+      - Agentic AI y Liderazgo — trade-offs y nuevas capacidades del líder
+      - Caso "El Piloto de IA que nadie quería liderar" (Camila Rossi, Nexo)
+      - TEST CELID (mide perfil FRL)
+      # Clase 6
+      - Caso Morgan Stanley convirtiéndose en una sola firma (400043)
+      - Caso Rob Parsons en Morgan Stanley A (498054)
+      - Examen final integrador
     concepts_to_review:
       - {topic: "Liderazgo emergente vs efectivo — diferencia clave", class_number: 1, urgency: high, last_reviewed: null}
       - {topic: "Efecto Halo — qué es y cómo impacta en feedback", class_number: 1, urgency: high, last_reviewed: null}
@@ -519,6 +616,16 @@ courses:
       - {topic: "5 tipos de informes Belbin — qué muestra cada uno", class_number: 3, urgency: high, last_reviewed: null}
       - {topic: "7 aplicaciones del modelo Belbin en organizaciones", class_number: 3, urgency: medium, last_reviewed: null}
       - {topic: "Caso RRLL Bechis — cómo los roles generan el conflicto entre A, B y C", class_number: 3, urgency: high, last_reviewed: null}
+      - {topic: "5 etapas del conflicto — descripción y condiciones de cada etapa", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "TKI — 5 modos, cuándo usar cada uno, usos excesivos y escasos", class_number: 4, urgency: high, last_reviewed: null}
+      - {topic: "TKI + MBTI — correlaciones entre dimensiones y modos de conflicto", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Modelo HDS Hogan — concepto de descarrilamiento bajo presión", class_number: 4, urgency: medium, last_reviewed: null}
+      - {topic: "Heifetz — trabajo técnico vs adaptativo, diferencia y ejemplos", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "4 arquetipos de desafíos adaptativos (Heifetz)", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Bass FRL — 3 estilos y sus componentes", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Transformacional — 4 I con ejemplos concretos", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Blanchard — 4 estilos situacionales según competencia y compromiso", class_number: 5, urgency: high, last_reviewed: null}
+      - {topic: "Goldsmith — 3 diferencias Gerente vs Líder", class_number: 5, urgency: medium, last_reviewed: null}
     bibliography_priority:
       - "Blanchard — Liderazgo al más alto nivel, Cap. 6 (Clase 5)"
       - "Heifetz — La práctica del liderazgo adaptativo, Cap. 5 (Clase 5)"
@@ -572,6 +679,44 @@ courses:
           - Tabla Higgs MBTI-Belbin
         clickup_task_id: null
         hub_page_id: "8cm37vq-11159"
+      - class_number: 4
+        date: "2026-06-09"
+        topic: "Manejo del Conflicto — Instrumento Thomas-Kilmann"
+        key_concepts:
+          - Perspectivas sobre el conflicto (Tradicional vs Interaccionista)
+          - Tipos de conflicto (Tareas, Procesos, Relaciones)
+          - 5 etapas del conflicto
+          - Instrumento TKI — 5 modos (Competir, Colaborar, Transar, Evadir, Acomodarse)
+          - TKI + MBTI (correlaciones E/I y T/F)
+          - Modelo HDS Hogan (descarrilamientos)
+          - Caso Martin Brass A, B y C
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11259"
+      - class_number: 5
+        date: "2026-06-16"
+        topic: "Liderazgo Situacional, Adaptativo y Transformacional"
+        key_concepts:
+          - Heifetz — Liderazgo Adaptativo (trabajo técnico vs adaptativo)
+          - 4 arquetipos de desafíos adaptativos
+          - Modelo FRL de Bass (Laissez Faire, Transaccional, Transformacional)
+          - Transformacional — 4 I (Carisma, Estimulación Intelectual, Inspiración, Consideración Individualizada)
+          - Liderazgo Situacional Hersey & Blanchard (Dirección, Coaching, Apoyo, Delegación)
+          - Superposición Bass + Blanchard + motivaciones
+          - Goldsmith — Gerente vs Líder (3 diferencias)
+          - Agentic AI y liderazgo de equipos híbridos
+          - TEST CELID
+          - Caso "El Piloto de IA que nadie quería liderar"
+        clickup_task_id: null
+        hub_page_id: "8cm37vq-11279"
+      - class_number: 6
+        date: "2026-06-23"
+        topic: "Examen Final — Caso Integrador Morgan Stanley"
+        key_concepts:
+          - Caso Morgan Stanley convirtiéndose en una sola firma (400043)
+          - Caso Rob Parsons en Morgan Stanley A (498054)
+          - Aplicación integradora de todos los frameworks del curso
+        clickup_task_id: null
+        hub_page_id: null
 
 current_week:
   number: 5
