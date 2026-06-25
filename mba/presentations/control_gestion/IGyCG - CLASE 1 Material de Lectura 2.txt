@@ -1,0 +1,817 @@
+  
+ 
+Nota técnica preparada por el Profesor Josep M. Rosanas. Enero de 1985. 
+ 
+Esta nota, juntamente con algunas otras, forma parte de un libro en preparación por el autor. Por 
+ello, en ocasiones figuran en ella referencias a otros lugares del libro no incluidos en la misma. 
+ 
+Copyright © 1987, IESE. Para pedir otras copias de este documento, o un documento original para 
+reproducirlo, llame a IESE PUBLISHING al 34 932 534 200, envíe un fax al 34 932 534 343, escriba 
+a Juan de Alós, 43 - 08034 Barcelona, España, o a iesep@iesep.com 
+No está permitida la reproducción total o parcial de este documento, ni su tratamiento 
+informático, ni la transmisión de ninguna forma o por cualquier medio, ya sea electrónico, 
+mecánico, por fotocopia, por registro o por otros medios. 
+Ultima edición: 11/97 
+ 
+ 
+1 
+CN-144 
+0-185-014 
+ 
+Costes y decisiones (III). Decisiones de producto 
+a alta capacidad 
+ 
+Alta capacidad y rentabilidad de los productos 
+Es normalmente interesante en cualquier situación el evaluar la rentabilidad 
+relativa de los productos de la empresa, para tener una ordenación de cuáles 
+son los productos que se prefieren en algún sentido y cuidar de ellos de una 
+manera especial. Sin embargo, esto es particularmente importante en 
+situaciones de alta capacidad, puesto que en ellas nos podemos encontrar 
+en momentos donde haya que escoger entre distintos productos, porque la 
+limitación de la capacidad puede obligarnos a ello. En contraste, cuando se 
+trabaja a baja capacidad, aunque se puedan tener preferencias sobre 
+productos, al no haber ninguna incompatibilidad entre ellos, no hay 
+necesidad de escoger. El Producto A puede ser mucho más rentable que el 
+Producto B y la dirección puede preferirlo; pero en situaciones de baja 
+capacidad no se trata de escoger entre ellos, sino de fabricarlos los dos 
+siempre que tengan un margen de contribución positivo. 
+Por tanto, rentabilidad y capacidad son dos factores íntimamente 
+relacionados. Es difícil referirse a uno de los dos conceptos sin referirse a la 
+vez, directa o indirectamente, al otro. Incluso cuando en situaciones de baja 
+capacidad  nos preguntamos a qué productos habría que dedicar atención 
+ 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+2 
+IESE Business School-Universidad de Navarra
+ 
+preferente (para tratar de aumentar sus ventas, por ejemplo) estamos estableciendo un 
+orden de preferencia entre ellos basado en un factor que se está utilizando a plena 
+capacidad, que se quiere rentabilizar: el tiempo de la red de ventas o quizás el de los 
+directivos de la empresa. Veamos entonces qué criterio se debe seguir para evaluar 
+rentabilidades en situaciones de alta capacidad. 
+Decisiones de producción a alta capacidad: selección de productos 
+En primer lugar será importante definir la capacidad y medirla en las unidades que se 
+estimen oportunas. Normalmente, la capacidad de producción vendrá determinada por 
+las máquinas existentes y medida por el número de horas de máquina totales de que se 
+dispone. Pero quizás en otras pueda venir medida por las horas de mano de obra, si 
+se dispone de ellas en un número limitado, por alguna razón de tipo social, legal o 
+tecnológico. Y en otras más, vendrá definida por factores menos cuantificables, tal 
+como se ha citado antes, como el tiempo de la red de ventas, el tiempo directivo o 
+incluso la capacidad financiera de la empresa. En cada caso habrá que estudiar a fondo 
+qué es lo que restringe la capacidad disponible, siendo posible que dicha capacidad esté 
+limitada por más de un factor a la vez, de los que alguno puede perfectamente ser 
+cuantificable, aunque otros quizá no. 
+Por el momento, en lo que sigue, y en bien de la simplicidad, nos ceñiremos a casos en 
+los que la capacidad esté perfectamente definida como capacidad de producción y 
+cuantificada, por ejemplo, en horas-máquina. Más adelante podremos extrapolar 
+nuestras conclusiones a aquellos casos en los que la medida de la capacidad sea algo 
+menos precisa. 
+Pasemos, pues, a ocuparnos del problema de decisión fundamental cuando una 
+empresa trabaja a alta capacidad: entre dos productos distintos (Producto A y Producto 
+B), con diferentes precios de venta, diferentes costes y diferentes grados de ocupación 
+de máquinas, ¿cuál es preferible para la empresa, el Producto A o el Producto B? 
+Obvio es decir, después de los conceptos expuestos anteriormente, que la utilización de 
+la capacidad tendrá un papel importante en la decisión; y que el análisis de ésta debe 
+empezar por tener en cuenta que la capacidad puede utilizarse alternativamente en un 
+producto u otro, o en una mezcla de los dos, pero que, en cualquier caso, se dispone de 
+cierto número de horas-máquina (si es así como medimos la capacidad) que no 
+podemos exceder. En otras palabras, la decisión que se debe tomar es en realidad una 
+decisión sobre cómo utilizar de la mejor manera posible un número fijo de horas-
+máquina, que representan nuestra capacidad de fabricación. 
+Entonces, si examinamos la decisión como hemos venido haciendo anteriormente, 
+según el esquema de ingresos y costes diferenciales, tendremos que: 
+• 
+Los costes diferenciales de producir uno u otro producto serán únicamente sus 
+costes variables totales, es decir, sus costes variables unitarios multiplicados por 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+3 
+IESE Business School-Universidad de Navarra 
+el número de unidades que sea posible producir con la capacidad (prescindiendo 
+de la posibilidad de que pueda haber costes fijos directos importantes del 
+producto). 
+• 
+Los ingresos diferenciales serán obviamente todos, es decir, el precio de venta de 
+cada producto multiplicado por el número de unidades que sea posible producir 
+con la limitación de capacidad existente.  
+Por tanto, si llamamos CVA a los costes unitarios del Producto A; CVB a los costes 
+unitarios del Producto B, y PA y PB a los precios de venta de A y B respectivamente, 
+tendríamos que: 
+• 
+Si producimos únicamente el Producto A, del que se pueden producir UA 
+unidades por hora, y el número total de horas-máquina disponibles en HM, el 
+número de unidades de A que se puede fabricar es: 
+ 
+ 
+ 
+HM x UA 
+y, por tanto, el margen de contribución total que se puede obtener con ellas sería:  
+ 
+ 
+ 
+HM x UA x (PVA-CVA) 
+• 
+Análogamente, si utilizáramos la capacidad HM en producir únicamente el 
+producto B, podríamos obtener un margen de contribución total de: 
+ 
+ 
+ 
+HM x UB x (PVB-CVB) 
+¿Cuál de estas dos cantidades será mayor, aportando por tanto un mayor beneficio 
+para la empresa? Dado que la capacidad total (HM) interviene en ambos casos, está 
+claro que el producto en el que el margen de contribución multiplicado por el número 
+de unidades que se pueda producir por cada hora sea más alto será el que dé un mayor 
+margen de contribución y, por tanto, mayor beneficio. 
+Clarifiquemos estos conceptos a través de un ejemplo. 
+EJEMPLO: La empresa JIK tenía en su gama de productos los productos A y B, cuyas 
+características se resumen en la Tabla 1. Si la empresa dispone en total de 40 horas-
+máquina semanales, ¿debería producirse con preferencia el Producto A o el Producto B? 
+¿Cuál sería el margen de contribución que se obtendría en caso de producirse únicamente 
+el producto más rentable? 
+Tabla 1
+ 
+Características de los productos A y B (en pesetas) 
+ 
+Producto A 
+Producto B 
+ 
+ 
+ 
+Precio de venta 
+308 
+415 
+Costes variables 
+128 
+155 
+Margen de contribución 
+180 
+260 
+Unidades por hora 
+230 
+150 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+4 
+IESE Business School-Universidad de Navarra
+Apliquemos los conceptos que hemos discutido antes. Si se produjera, por ejemplo, 
+únicamente el Producto A, el margen de contribución total que se obtendría sería de 
+180 ptas./unidad x 230 unidades/hora x 40 horas = 1.656.000 ptas. 
+Del mismo modo, si se produjera únicamente B, el margen de contribución total 
+sería de 
+260 ptas./unidad x 150 unidades/hora x 40 horas = 1.560.000 ptas. 
+Obviamente, el margen de contribución es mayor en el caso de que fabriquemos el 
+Producto A y la razón para ello no es difícil de ver. En efecto, si bien el Producto B 
+tiene un margen de contribución unitario mayor que el Producto A, por cada hora de 
+máquina pueden producirse muchas más unidades de A que de B; y el producto 
+de ambas cantidades (margen de contribución por unidades producidas por hora) 
+resulta ser mayor en el caso del Producto A. 
+Margen de contribución por unidad de capacidad 
+Si observamos que el número de unidades que es posible producir por hora es 
+simplemente el inverso del tiempo que se tarda en producir una unidad (medido en 
+horas), podremos deducir una formulación distinta (más conocida, quizá) de selección 
+de productos cuando la empresa está trabajando a plena capacidad: la de que se deben 
+escoger aquellos productos cuyo margen de contribución por unidad de capacidad sea 
+mayor. 
+En efecto, el margen de contribución total que se podía obtener con cualquier producto 
+era de 
+ 
+ 
+HM x U x (PV-CV) = HM x U x MC, 
+donde MC es el margen de contribución unitario del producto. Si ahora escribimos 
+ 
+  
+U = 1 / t, 
+donde t representa el tiempo que se tarda en fabricar una unidad, el margen de 
+contribución total será 
+ 
+ 
+HM x MC / t, 
+y como HM será exactamente igual para cualquier producto, puesto que es 
+simplemente la capacidad total de la empresa, un producto será tanto más rentable 
+(es decir, proporcionará tanto más margen de contribución y, por tanto, beneficio) 
+cuanto mayor sea la relación entre su margen de contribución unitario y el tiempo que 
+tarda una unidad en ser procesada (es decir, su uso de la capacidad limitada). O, más 
+en general, 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+5 
+IESE Business School-Universidad de Navarra 
+trabajando a plena capacidad, se deberá escoger aquellos productos cuyo 
+margen de contribución por cada unidad de capacidad que utilicen sea 
+máximo. 
+Esta conclusión es casi trivial si se piensa que, en situación de plena capacidad, lo que 
+proporciona un mayor beneficio es subastar nuestra capacidad al producto mejor 
+postor, que será, obviamente, aquel que tenga un mayor margen de contribución por 
+unidad de capacidad que utilice. Sin embargo, en la práctica puede no ser fácil llevar 
+estas recomendaciones a término. Y ello por tres razones, que pasamos a enumerar a 
+continuación.  
+En primer lugar, porque la capacidad, tal como se ha indicado anteriormente, puede no 
+venir medida en una única dimensión. Por ejemplo, y aun en el caso en que la 
+capacidad viniera definida únicamente como la capacidad de producción de las 
+máquinas y por tanto medida en horas-máquina, puede haber máquinas de distintos 
+tipos que presenten cuellos de botella en distintos lugares; y entonces el margen de 
+contribución por unidad de capacidad utilizada estará mal definido, puesto que el 
+producto utiliza en realidad diferentes tipos de «capacidad», con medidas y 
+disponibilidades distintas. Además, en estas situaciones se hace muy difícil, por no 
+decir imposible, el saber a priori cuál de las posibles limitaciones de la capacidad 
+(distintos tipos de máquinas, por ejemplo) va a estar saturada y cuál no. Un cuello de 
+botella en un determinado lugar puede hacer que otro tipo de máquinas (anteriores o 
+posteriores en el proceso de fabricación al cuello de botella) no se utilicen a plena 
+capacidad, a pesar de existir en una cantidad limitada, por ser imposible producir una 
+cantidad adicional de ningún producto precisamente porque en otro lugar hay un 
+cuello de botella. 
+Mas, en general, la capacidad puede venir limitada no solamente por las máquinas 
+existentes, sino también por la mano de obra especializada, de la que se dispone en 
+cantidad limitada, o incluso por la disponibilidad de materias primas, como ha ocurrido 
+en algunos momentos de la crisis de la energía con productos derivados del petróleo. 
+En tales casos, ninguna norma simple como la deducida anteriormente será suficiente; 
+habrá que utilizar algún modelo de programación matemática para encontrar el 
+programa de producción óptimo en las circunstancias de las que se trate. La 
+aproximación contable del margen de contribución por unidad de capacidad puede 
+usarse sólo con mucho tiento, pues a priori no se sabe exactamente cuáles de las 
+distintas limitaciones de la capacidad pueden entrar en efecto en un momento 
+determinado. 
+En segundo lugar, puede haber, como ya se mencionó anteriormente, algún coste fijo 
+directo de algún producto que sea suprimible en el caso de no fabricarse éste. Esta 
+dificultad es, sin embargo, relativamente fácil de resolver, si existe únicamente una 
+limitación de capacidad: al igual que se hacía en el Capítulo 3 cuando se daba esta 
+circunstancia, será imprescindible hacer una estimación del volumen de ventas que es 
+posible realizar para cada producto y restarle estos costes fijos directos al margen de 
+contribución total del mismo, obteniéndose así cifras que permiten comparar los 
+distintos productos. También, si se quiere, se pueden hacer los cálculos por unidad en 
+lugar de los totales: bastaría con restar al margen de contribución unitario de cada 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+6 
+IESE Business School-Universidad de Navarra
+producto el cociente de dividir los costes fijos directos por el volumen estimado de 
+ventas, y las cifras resultantes serían de nuevo comparables para decidir qué productos 
+resulta preferible fabricar y vender. 
+Finalmente, con mucha frecuencia ocurre que la limitación de la capacidad está mucho 
+menos en las máquinas o en la mano de obra de operaciones que en las limitaciones de 
+tipo financiero o de tiempo de la dirección de la empresa. Así, por ejemplo, una 
+empresa puede en un momento determinado estar trabajando a baja capacidad en 
+términos de máquinas y al mismo tiempo estar trabajando a plena capacidad en lo que 
+se refiere al tiempo de los vendedores, que es también un recurso escaso. En esta 
+circunstancia, la empresa debería escoger aquellos productos cuyo margen de 
+contribución por tiempo de vendedor fuera máximo; pero, como puede adivinar el 
+lector, una medición precisa del tiempo de vendedor necesario para vender cada unidad 
+de producto es totalmente imposible, ya que, por una parte, depende del vendedor y, 
+por otra, depende del momento en que un vendedor determinado efectúe la venta. 
+Tenemos, pues, tres dificultades para la puesta en práctica de la recomendación clásica 
+de seleccionar aquellos productos cuyo margen de contribución por unidad de 
+capacidad sea mayor: la existencia de diferentes limitaciones de capacidad, que pueden 
+actuar simultáneamente; la posible existencia de costes fijos directos de cada producto, 
+y el hecho que algunas de las limitaciones de capacidad, o quizás incluso todas, sean 
+de medida difícil o imposible. Las dos primeras se pueden resolver mediante la 
+utilización de un modelo matemático más o menos sofisticado; la tercera, en cambio, 
+únicamente se podrá resolver de manera imperfecta mediante la intuición. El tener 
+presente, sin embargo, el principio general que hemos enunciado y demostrado en este 
+apartado puede ser de gran utilidad al directivo que debe tomar decisiones de producto 
+en situación de alta capacidad de alguno de los recursos que debe utilizar. Bastará con 
+definir qué recurso está siendo utilizado a plena capacidad y hacer una estimación, por 
+subjetiva que sea, de la utilización de este recurso por cada producto. Con ello se puede 
+obtener una indicación de en qué dirección se debe conducir la empresa, aunque esta 
+indicación sea en algunos casos bastante imprecisa. 
+Es interesante notar, en este contexto, que se afirma a veces que en situaciones de baja 
+capacidad se deben preferir aquellos productos cuyo margen porcentual sobre ventas 
+sea mayor, puesto que así, para una cifra de ventas determinada, el margen de 
+contribución que se obtiene es el mayor posible. Este razonamiento es en general 
+incorrecto, como vamos a ver a continuación. Si se está trabajando a baja capacidad de 
+todos los recursos, el problema de qué producto se prefiere, o de qué producto hay que 
+tratar de empujar si se puede, no es el problema real de la empresa: todos los productos 
+son igualmente deseables, si proporcionan un margen posible. Unicamente cuando 
+algún recurso llegue a saturación se podrá plantear en qué se debe utilizar aquel 
+recurso. Pero si existe algún recurso limitado, como por ejemplo el tiempo y el esfuerzo 
+de la red comercial, o de la dirección de la empresa, no sería la norma anterior, de 
+darle preferencia a los productos con mayor margen porcentual sobre ventas, una 
+buena norma excepto en el caso en que el factor limitativo fuera la cifra de ventas total 
+expresada en unidades monetarias. Es decir, más explícitamente, en el caso de que se 
+pudiera obtener una cifra determinada de pesetas y se pudiera escoger en qué 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+7 
+IESE Business School-Universidad de Navarra 
+productos debería producirse esta cifra de ventas; y ni que decir tiene que esto es muy 
+raro que ocurra, puesto que más bien, en la realidad, suele ser cierto lo contrario: es la 
+cifra de ventas la que depende de los productos que se escojan, y no al revés. Si acaso, 
+entonces, en situaciones de baja capacidad, se deberían escoger aquellos productos 
+cuyo margen de contribución por hora de vendedor, o por hora de directivo, fuera lo 
+más alto posible, pero, como se ha dicho, estas medidas sólo pueden tomarse de 
+manera intuitiva. 
+Suprimir y añadir productos a plena capacidad 
+Podríamos en este capítulo proceder igual que en el anterior, e ir comentando cada uno 
+de los tipos de decisión que se estudiaron en aquél, viendo cómo cambia el análisis por 
+el hecho de que la empresa esté trabajando a plena capacidad. Pero, por lo menos para 
+las tres primeras clases de decisiones que hemos discutido en el Capítulo 3 (el pedido 
+especial, añadir productos y suprimir productos), esto sería una tarea monótona y 
+repetitiva, puesto que las tres se reducen, en situaciones de plena capacidad, a una 
+aplicación trivial de la regla general que se ha enunciado antes. Los otros tipos de 
+decisión estudiados anteriormente, en cambio, si bien no son una excepción a esta 
+regla, presentan algunas peculiaridades interesantes; razón por la cual estudiaremos a 
+continuación los tres primeros en un solo apartado y dedicaremos, en cambio, un 
+apartado para cada uno de los restantes inmediatemente después.  
+La regla general enunciada anteriormente afirmaba que un producto es tanto más 
+rentable cuanto mayor sea el margen de contribución de este producto dividido por las 
+unidades de capacidad que se hayan utilizado en su fabricación, con las hipótesis 
+implícitas de que existe únicamente una limitación de capacidad y de que no existen 
+costes fijos directos de los productos. Por tanto, en estas condiciones es fácil tomar 
+cualquier decisión que se refiera a fabricar o dejar de fabricar productos: se trata de 
+calcular el margen de contribución por unidad de capacidad de cada uno de ellos y 
+ordenarlos del más rentable al menos. Después se utilizará esta clasificación para 
+asignar la capacidad a los distintos productos; para lo cual se debe entonces empezar 
+por el producto más rentable, al que se debe asignar toda la capacidad necesaria para 
+fabricar el número de unidades que se estime posible vender. Una vez hecho esto, se 
+debe proceder con el segundo producto más rentable, haciendo exactamente lo mismo; 
+y así sucesivamente hasta que la capacidad disponible esté totalmente utilizada. 
+Obviamente, entonces se producirían los productos cuyo margen de contribución por 
+unidad de capacidad sea alto y se dejarían de producir aquellos en los que esta 
+magnitud sea baja, que, como se ha visto, son los menos rentables. Todo el proceso de 
+aceptación y rechazo de pedidos, pues, tendría lugar de manera automática y 
+simultánea. Todos los productos de la empresa, antiguos o nuevos, rentables o no 
+rentables, como cualquier pedido especial que pueda surgir, deben tomar parte de la 
+lista inicial, con lo que aquellos que figuren en los lugares más altos de la clasificación 
+se deberán fabricar y los que figuren en los lugares más bajos, más allá del límite de la 
+capacidad, se deberán abandonar. El que sean productos nuevos, antiguos o de 
+cualquier tipo es perfectamente irrelevante para esta decisión. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+8 
+IESE Business School-Universidad de Navarra
+La regla general, sin embargo, tiene las excepciones de rigor. Concretamente, y tal 
+como se ha venido insistiendo en diferentes ocasiones en este texto, en toda decisión 
+empresarial hay factores difícilmente reducibles a puras cifras de margen de 
+contribución; y estos factores de tipo cualitativo pueden recomendar atemperar los 
+resultados del análisis anterior. Así, por ejemplo, en ocasiones habrá que producir 
+algún producto poco rentable, pero necesario para completar una línea de productos; o 
+habrá que hacer lo mismo para no estar constantemente quitando y añadiendo 
+productos al menor cambio de precios, costes o de las circunstancias de capacidad, etc. 
+En cada caso habrá que estudiar dichos factores y tenerlos en cuenta en las 
+circunstancias específicas del mismo. Hay que advertir, sin embargo, que en muchos 
+casos no se trata en realidad de hacer una excepción a la regla general, sino de 
+aplicarla a un problema redefinido. Así, por ejemplo, en el caso citado anteriormente 
+de tener que vender un producto no muy rentable en sí, porque forma parte de una 
+línea de productos, se podría considerar que de lo que en realidad se trata es de vender 
+un número determinado de unidades de un producto que no es ninguno de los de la 
+gama en sí, sino un «paquete» formado por el conjunto de la misma. Muy 
+probablemente, así considerado, nos diéramos cuenta de que dicho «producto» es 
+altamente rentable. 
+Para terminar, vale la pena mencionar que, en situaciones de plena capacidad, cuando 
+la demanda de los productos de la empresa es grande, es muy difícil en la práctica 
+separar, como se ha venido haciendo aquí, las decisiones entre decisiones de producto 
+y decisiones de precio, puesto que la propia demanda plantea a la empresa de manera 
+implícita la posibilidad de aumentar los precios. Pero tal como se ha dicho, del 
+problema de los precios nos ocuparemos más adelante. 
+Comprar o fabricar a alta capacidad 
+En la misma línea de razonamiento expuesta en el apartado anterior se puede resolver, 
+como veremos, cualquier problema de «comprar o fabricar» que se nos pueda ocurrir; 
+razón por la cual nos hubiéramos podido ahorrar probablemente un apartado especial 
+para este tipo de decisiones. Pero como la rentabilidad de un componente que podamos 
+comprar es únicamente implícita, mientras que la de los productos que se venden al 
+exterior de la empresa es perfectamente explícita, es fácil confundirse en este tipo de 
+decisiones; razón por la cual pasamos a continuación a examinarlas en detalle. 
+Cuando una empresa está trabajando a alta capacidad, la decisión de si fabricar una 
+pieza o comprarla fuera se plantea en realidad como una decisión de qué producto 
+fabricar: si el componente de un producto final, que puede comprar fuera, o bien 
+cualquier otro producto de la gama normal de productos de la empresa. Con una 
+demanda suficiente para llenar la capacidad de la empresa, lo que es seguro es que ésta 
+no va a quedar inactiva (a menos, por supuesto, que los precios de los productos no 
+llegaran a cubrir ni tan sólo los costes variables de los mismos). 
+Por ello, el planteamiento correcto del problema pasa por examinar en detalle los 
+ingresos que se obtienen en cada alternativa y compararlos con sus costes 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+9 
+IESE Business School-Universidad de Navarra 
+correspondientes. Veámoslo a continuación en abstracto, para analizar después un 
+ejemplo concreto. 
+Supongamos que el Componente T, que forma parte de un producto final, puede 
+comprarse al exterior por un precio PT o puede fabricarse en la empresa a un coste 
+variable CVT. Supongamos, además, que las unidades necesarias de dicho componente 
+son en total UTT, que se pueden conseguir utilizando HM horas de máquina. En cada 
+hora de máquina, por lo tanto, se pueden producir UT unidades, donde: 
+ 
+ 
+UT = UTT / HM 
+Alternativamente, las mismas HM horas de máquina se podrían utilizar en fabricar el 
+Producto J, cuyo precio de venta al exterior es PJ y cuyo coste variable es CVJ. Por 
+cada hora de máquina se pueden producir UJ unidades del Producto J, lo que significa 
+que en total se producirán: 
+ 
+ 
+UTJ = UJ x HM 
+Veamos los costes e ingresos diferenciales de cada alternativa. 
+a) Por comprar el Componente T fuera, tendremos un coste de compra de: 
+ 
+ 
+PT x HM x UT, 
+al que habrá que restar, como es lógico, los ingresos obtenidos por fabricar y vender el 
+Producto J, que serán: 
+ 
+ 
+PJ x HM x UJ, 
+y sumarle los costes de fabricación de este producto, que serán: 
+ 
+ 
+CVJ x HM x UJ, 
+puesto que los costes fijos que pudiera haber serán necesariamente los mismos en 
+cualquiera de las alternativas. 
+En total, el coste de esta alternativa sería: 
+ 
+ 
+PT x HM x UT + CVJ x HM x UJ – PJ x HM x UJ = 
+ 
+ 
+= PT x HM x UT – (PJ – CVJ) x HM x UJ, 
+es decir, el coste de compra del Componente T menos el margen de contribución del 
+Producto J. 
+b) Si fabricamos el componente T, incurrimos en un coste de: 
+ 
+ 
+CVT x HM x UT; 
+es decir, su coste variable. 
+Por tanto, deberemos comprar siempre que el coste de comprar sea inferior al de 
+fabricar, es decir, siempre que: 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+10
+IESE Business School-Universidad de Navarra
+ 
+ 
+PT x HM x UT – (PJ – CVJ) x HM x UJ < CVT x HM x UT 
+Es decir, reordenando y dividiendo por HM, deberemos comprar siempre que: 
+ 
+ 
+(PT – CVT) x UT < (PJ – CVJ) x UJ, 
+lo que se corresponde totalmente a lo que hemos visto anteriormente en el caso 
+general, pero con la particularidad de que en este caso el precio PT no es de venta, sino 
+de compra; con lo que la diferencia (PT-CVT) no es en realidad un margen de 
+contribución, sino la diferencia entre el coste por unidad de Componente T si se 
+compra y el coste por unidad del mismo componente si se fabrica. 
+Igualmente que antes, las fórmulas anteriores se podrían escribir de una manera 
+alternativa como: 
+ 
+ 
+(PT – CVT) / TT < (PJ – CVJ) / TJ 
+donde TT es el inverso de UT (es decir, el tiempo de fabricación de una unidad de T) y 
+TJ es el inverso de UJ (es decir, el tiempo de fabricación de una unidad de J) y se 
+podrían interpretar exactamente igual que antes, simplemente teniendo en cuenta que 
+lo que para otros productos es el margen de contribución, para el Componente T es la 
+diferencia entre su precio de compra y su coste variable. 
+EJEMPLO: La empresa ABC fabricaba y vendía una amplia gama de productos, entre los 
+cuales estaba el Producto 101. Uno de los componentes del mismo, la Pieza 1004, era 
+fabricada por la propia empresa a un coste total de 610 ptas./unidad, mientras que, según 
+el Departamento de Compras, se podría comprar a un proveedor exterior por 
+300 ptas./unidad. Como la empresa estaba trabajando a plena capacidad, además, si esto 
+se llevara a cabo, daría ocasión a que se pudieran fabricar unidades adicionales del 
+Producto 102, para el que existía una gran demanda y que se vendía 660 ptas./unidad. 
+Por cada tres unidades de la Pieza 1004 que se dejaran de fabricar se podría fabricar una 
+unidad del Producto 102. Los costes de fabricación de los dos productos se muestran en 
+la Tabla 2, en la que la mano de obra puede considerarse como variable, así como un 
+10% de los gastos generales. 
+¿Qué decisión debería tomar la empresa? 
+Tabla 2
+ 
+Costes de fabricación (en pesetas) 
+ 
+Pieza 1004 
+Producto 102 
+ 
+ 
+ 
+Materia prima 
+115 
+250 
+Mano de obra 
+50 
+80 
+Gastos generales 
+300 
+320 
+ 
+–––– 
+–––– 
+ Total 
+465 
+650 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+11
+IESE Business School-Universidad de Navarra 
+Examinemos el problema desde el punto de vista de costes e ingresos diferenciales. 
+Por un lado, por cada unidad del Producto 102 que se fabrique y venda obtenemos un 
+ingreso de 650 ptas. con unos costes de fabricación que serán únicamente sus costes 
+variables, es decir, 
+250 ptas. (materia prima) + 80 ptas. (mano de obra) + 32 ptas. (gastos 
+generales) = 362 ptas./unidad 
+Por otro, por cada unidad del mismo producto que se pueda fabricar habrá que dejar de 
+fabricar 3 unidades de la Pieza 1004, es decir, se incurrirá en un coste de: 
+ 
+300 ptas./unidad x 3 unidades = 900 ptas. 
+y, a la vez, se ahorrarán los costes variables de producir estas tres unidades, es decir, 
+115 ptas. (materia prima) + 50 ptas. (mano de obra) + 30 ptas. (gastos 
+generales) = 195 ptas./unidad, 
+que por tres unidades ascendería a un total de 585 ptas. 
+En resumen, si pasáramos a fabricar una unidad del Producto 102 tendríamos (en 
+pesetas): 
+Unos ingresos adicionales de 
+660 
+Unos costes adicionales de 
+362 
+Unos costes de compra de 
+900 
+Un ahorro en costes de 
+585 
+ 
+Por tanto, si la empresa decidiera comprar la Pieza 1004 y fabricar el Producto 102 
+perdería exactamente 
+ 
+362 + 900 – 660 – 585 = 17 ptas. 
+En consecuencia, será preferible seguir fabricando la Pieza 1044 que producir las 
+unidades del Producto 102 correspondientes. 
+A esta conclusión también se podría llegar examinando el margen de contribución del 
+Producto 102 y relacionándolo con la capacidad que usa. Así, por ejemplo, si una 
+unidad del citado producto usara 6 horas-máquina y fueran las horas-máquina lo que 
+limita la capacidad, el margen de contribución por unidad de capacidad sería: 
+ 
+(660 – 362) / 6 = 49,66 ptas./hora máquina 
+y, por otro lado, la diferencia entre el precio de compra y el coste variable de la Pieza 
+1004 es de 
+ 
+(300 – 195) = 105 ptas./unidad, 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+12
+IESE Business School-Universidad de Navarra
+con lo que el producir tres unidades de esta pieza por cada unidad de Producto 102 
+significará que cada unidad de la Pieza 1004 requiere dos horas-máquina o que por 
+cada hora-máquina se ahorra al fabricar la pieza 
+ 
+105 / 2 = 52 ptas./hora máquina. 
+Por consiguiente, es mejor seguir fabricando la Pieza 1004 que fabricar el 
+Producto 102. 
+Seguir procesando a plena capacidad 
+Al igual que en los apartados anteriores, vamos aquí a tratar de visualizar una decisión 
+que en sí no es más que una aplicación de la regla general enunciada anteriormente. 
+En este caso, la decisión a estudiar será la de seguir procesando un determinado 
+producto o venderlo tal como está en alguna fase del proceso en la que tenga forma 
+vendible. 
+Para concretar, supongamos que uno de los componentes del Producto A, el 
+Componente K, tiene un mercado exterior en el que se puede vender a un precio de 
+mercado conocido, PK; o, por el contrario, puede seguirse procesando para venderlo 
+finalmente como un elemento constituyente del Producto A. Podemos entonces 
+distinguir dos casos distintos: 
+• 
+El procesamiento del Componente K para transformarlo en el producto A tiene 
+lugar en unas instalaciones distintas de las de fabricación de los demás 
+productos; o, dicho de otra manera, el procesamiento adicional del Componente 
+K no consume capacidad de fabricación limitada. Esto puede ocurrir por 
+ejemplo, cuando este procesamiento tiene lugar en unas máquinas distintas de 
+las de producción de los demás productos y son estas últimas las que limitan la 
+capacidad; o bien cuando, estando limitada la capacidad por las horas-máquina, 
+el procesamiento adicional consista únicamente en intervención de la mano de 
+obra sin utilización de ninguna máquina. 
+• 
+El procesamiento adicional necesario debe hacerse con utilización del recurso 
+que limitaba la capacidad. Es decir, si, por ejemplo, la capacidad viene limitada 
+por un determinado tipo de máquina, y para la fase de producción del 
+Componente K se utilizaba dicha máquina, para la confección del producto final 
+a partir del mismo se debe utilizar de nuevo el mismo tipo de máquina. 
+Examinemos cada caso separadamente. 
+En el primer caso, la solución es bastante sencilla: se trata únicamente de usar 
+eficientemente el recurso utilizado en la producción del componente, y hemos visto ya 
+cómo hacer esto: viendo el margen de contribución por unidad de capacidad de cada 
+producto. Pero el Producto A y el Componente K consumen exactamente la misma 
+capacidad, por no utilizarse ésta al transformar el uno en el otro; de modo que, si hay 
+que escoger entre los dos, el problema se reducirá a saber cuál de ellos tiene un mayor 
+margen de contribución. Y, éste, a su vez, se reduce a comprobar si los costes variables 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+13
+IESE Business School-Universidad de Navarra 
+de transformar el Componente K en el Producto A son mayores, menores o iguales a la 
+diferencia entre el precio del Producto A y el precio del Componente K. Si son menores, 
+esto significará que el seguir procesando tiene un margen de contribución positivo, que 
+al añadirse al margen de contribución del Componente K hace que el del Producto A 
+sea mayor y, por tanto, es preferible seguir produciendo en lugar de vender el 
+componente. Si son mayores será cierto lo contrario; mientras que si por casualidad 
+coincidieran exactamente, la empresa estaría indiferente entre producir el Producto A o 
+el Componente K. 
+La decisión real, sin embargo debe tener en cuenta las otras oportunidades que pueda 
+tener la empresa además de los dos productos (el Componente K y el Producto A) 
+estudiados explícitamente. Tal como se hacía en el caso general, se deberá ver cuál es 
+el margen de contribución por unidad de capacidad de cada uno de ellos y llenar esta 
+última con los productos que lo tengan más alto. Este procedimiento, obviamente, no 
+es ninguna novedad; pero el análisis anterior nos permite saber en qué orden relativo 
+se encontrarán el Producto A y el Componente K, de modo que si fueran los únicos 
+productos de la empresa sabríamos perfectamente qué curso de acción seguir: en el 
+caso de que el margen de contribución de la transformación del componente en el 
+producto final sea positivo, producir tantas unidades de este último como sea posible 
+vender; y llenar la capacidad restante –si queda alguna– con la producción del 
+componente, si éste tiene también un margen de contribución positivo. Si, en cambio, 
+el margen de contribución de la transformación fuera negativo, deberíamos empezar a 
+llenar la capacidad con la demanda que tuviéramos del componente –siempre que éste 
+tenga un margen de contribución positivo, como es obvio– y únicamente cuando ya 
+estemos produciendo todas las unidades que podamos vender empezar a producir 
+también el producto final, siempre que su margen de contribución total sea también 
+positivo. 
+Este último punto nos conecta con el análisis que hacíamos de este mismo problema 
+cuando la empresa estaba trabajando a baja capacidad. En él afirmábamos que la 
+empresa debe producir tanto el componente como el producto final, siempre que ambos 
+tengan un margen de contribución positivo; lo que añadimos aquí es que, cuando la 
+demanda de dichos productos sea suficiente como para llenar la capacidad, se deberá 
+preferir el producto final si el margen de contribución de la transformación es positivo; 
+y lo contrario si es negativo. Es interesante notar aquí que, en general, puede haber 
+otros productos que hagan recomendable producir únicamente uno de ellos (el que 
+tenga mayor margen de contribución), por poderse llenar la capacidad con otros 
+productos distintos, más rentables que el segundo, pero menos que el primero. 
+El segundo caso no es tampoco difícil de resolver. El fabricar hasta el final el producto 
+significa necesariamente utilizar alguna unidad adicional de capacidad en esta 
+fabricación; pero en realidad facilita bastante las cosas el darse cuenta de que, en 
+este caso, es suficiente con considerar los dos productos como completamente 
+independientes y asignar la capacidad conforme a lo indicado anteriormente en este 
+capítulo. 
+En efecto, el hecho de que un producto sea en realidad una elaboración del otro, no 
+implica que no deban considerarse como dos productos distintos en general, sobre todo 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+  CN-144  
+Costes y decisiones (III). Decisiones de producto a alta capacidad 
+ 
+ 
+14
+IESE Business School-Universidad de Navarra
+si tanto para la elaboración del producto final como para la del componente se utiliza 
+el mismo recurso limitador de capacidad; y, de hecho, el no hacerlo así y considerarlos 
+como productos separados, estudiando la rentabilidad del proceso de acabado del 
+producto independientemente, puede conducir a decisiones erróneas. Veámoslo a través 
+de un ejemplo. 
+EJEMPLO: La empresa ABC fabricaba el Producto A y uno de sus componentes, la Pieza 
+J. La Pieza J tenía en mercado en el que se podía vender cada unidad con un margen 
+de contribución de 1.000 ptas. y para su fabricación se utilizaba una hora-máquina. Si 
+la Pieza J se transformaba en el Producto A, se podía conseguir un margen adicional 
+de 350 ptas. por unidad (es decir, un margen de contribución total por cada unidad del 
+producto de 1.350 ptas.) con utilización de 1/2 hora-máquina adicional. Las horas-
+máquina eran lo que limitaba la capacidad de la empresa: y, en lo inmediato, toda 
+la capacidad de la misma estaba ya asignada a productos más rentables, excepto 
+100 horas, que podían utilizarse en la fabricación de la Pieza J, del Producto A, o del 
+Producto C. El Producto C no tenía nada que ver con los dos anteriores; su margen 
+de contribución unitario era de 800 ptas., mientras que su fabricación precisaba de 
+1 hora-máquina por unidad. 
+¿Cómo debían asignarse estas 100 horas-máquina, si la demanda máxima estimada 
+para el Producto A es de 40 unidades, para el Producto C es de 50 unidades y para 
+Pieza J es de 70 unidades? 
+Si resolvemos el problema como si se tratara de tres productos diferentes, tendremos 
+que el margen de contribución por unidad de capacidad será: 
+Producto A: 
+(1.000 + 350) / (1 + 0,5) 
+= 
+900 ptas./hora 
+Producto C: 
+800 / 1 
+= 
+800 ptas./hora 
+Pieza J: 
+1.000 / 1 
+= 
+1.000 ptas./hora 
+ 
+Por tanto, según hemos visto a lo largo de este capítulo, se debería producir: 
+– 70 unidades de J, utilizando 70 horas-máquina. 
+– 20 unidades de A, utilizando las 30 horas-máquina restantes. 
+ 
+ 
+Con ello, el margen de contribución total que se podría obtener (en pesetas) sería: 
+70 unidades de J x 1.000 ptas./unidad  =  
+70.000 
+20 unidades de A x 1.350 ptas./unidad  =  
+27.000 
+ 
+ 
+––––––– 
+Total  
+ 
+97.000 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (III). Decisiones de producto a alta capacidad 
+CN-144 
+ 
+ 
+15
+IESE Business School-Universidad de Navarra 
+Si, en cambio, nos fijamos en el margen de contribución del procesamiento adicional, 
+tendríamos que, equivocadamente, podríamos decidir llenar la capacidad de la 
+siguiente manera, puesto que el procesamiento adicional proporciona un margen de 
+700 ptas./hora-máquina: 
+– 70 unidades de J, utilizando 70 horas-máquina. 
+– 30 unidades de C, utilizando las 30 restantes. 
+ 
+Sin embargo, con ello únicamente conseguiríamos (en pesetas) un margen de 
+contribución de:  
+70 unidades 
+x 1.000 ptas./unidad  =  
+70.000 
+30 unidades 
+x    800 ptas./unidad  =  
+24.000 
+ 
+ 
+––––––– 
+Total  
+ 
+94.000 
+ 
+ 
+En consecuencia, y como podíamos esperar, la decisión correcta es la de producir 
+20 unidades adicionales del Producto A. La razón por la que la transformación de la 
+Pieza J en el Producto A pueda ser rentable está en que, al hacer un tope para 
+la demanda de la primera, la demanda del segundo permite vender cantidades 
+adicionales de ella (que es mucho más rentable que el Producto C), aun cuando sea en 
+una combinación con el procesamiento adicional de la misma bajo la forma del 
+Producto C que lo es menos. 
+Resumen 
+Hemos estudiado en esta nota las decisiones de producto a plena capacidad. Hemos 
+visto en ella que estas decisiones se reducen en realidad a una aplicación adecuada de 
+una regla general, según la cual: 
+En situaciones de plena capacidad, se deben escoger aquellos productos cuyo 
+margen de contribución por unidad de capacidad sea el mayor posible. 
+En consecuencia, la nota ha consistido esencialmente en la aplicación de esta regla a 
+una serie de casos particulares. Por otra parte, hemos discutido en la misma las 
+posibles excepciones a la regla, así como sus dificultades de aplicación en la práctica. 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06

@@ -1,5 +1,5 @@
 system_version: "1.0"
-last_updated: "2026-06-24"
+last_updated: "2026-06-25"
 
 courses:
   economia:
@@ -717,6 +717,48 @@ courses:
           - Aplicación integradora de todos los frameworks del curso
         clickup_task_id: null
         hub_page_id: null
+
+  control_gestion:
+    name: "Información Gerencial y Control de Gestión"
+    schedule_day: Wednesday
+    schedule_time: "19-22hs"
+    modality: virtual
+    status: en_curso
+    classes_completed: 1
+    total_classes: 6
+    last_class_date: "2026-06-24"
+    last_class_topic: "Costos para la toma de decisiones 1"
+    topics_covered:
+      - Clasificación de costos (función, identificación, variabilidad, período)
+      - Costos fijos vs variables — comportamiento total y unitario
+      - Estructura del precio de venta (costo primo, conversión, producción, total)
+      - Punto de equilibrio — 3 métodos (ecuación, margen de contribución, gráfico)
+      - Decisiones de explotación vs. inversión (horizonte temporal)
+      - Decisiones de producto con capacidad baja — MCU positivo (Lectura 1 CN-143)
+      - Decisiones de producto con capacidad alta — MCU por recurso escaso (Lectura 2 CN-144)
+      - Modelo diferencial comprar o producir
+      - Pricing — techo (valor) y piso (costo)
+      - Estrategias descreme vs. penetración
+      - Métodos de pricing — costo (mark-up), competencia, valor percibido
+      - Mark-up total y método valor agregado
+    concepts_to_review:
+      - {topic: "Punto de equilibrio — fórmula y cálculo numérico", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Decisiones baja vs alta capacidad — criterio correcto para cada una", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Modelo diferencial comprar/producir — cuándo aplica cada opción", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Pricing — 3 métodos y cuándo usar cada uno", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Mark-up total vs. valor agregado — diferencia de base de cálculo", class_number: 1, urgency: medium, last_reviewed: null}
+    class_history:
+      - class_number: 1
+        date: "2026-06-24"
+        topic: "Costos para la toma de decisiones 1"
+        key_concepts:
+          - Clasificación de costos
+          - Costos fijos y variables
+          - Punto de equilibrio
+          - Decisiones de explotación e inversión
+          - Decisiones de producto (baja/alta capacidad)
+          - Modelo comprar o producir
+        hub_page_id: "8cm37vq-11339"
 
 current_week:
   number: 5

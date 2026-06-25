@@ -1,0 +1,776 @@
+  
+ 
+Nota técnica preparada por el Profesor Josep Maria Rosanas. Enero de 1985. 
+ 
+Copyright © 1987, IESE. Para pedir otras copias de este documento, o un documento original para 
+reproducirlo, llame a IESE PUBLISHING al 34 932 534 200, envíe un fax al 34 932 534 343, escriba 
+a Juan de Alós, 43 - 08034 Barcelona, España, o a iesep@iesep.com 
+No está permitida la reproducción total o parcial de este documento, ni su tratamiento 
+informático, ni la transmisión de ninguna forma o por cualquier medio, ya sea electrónico, 
+mecánico, por fotocopia, por registro o por otros medios. 
+ 
+Ultima edición: 5/93 
+1 
+ CN-143 
+ 0-185-013 
+ 
+ 
+Costes y decisiones (II): decisiones de producto a 
+baja capacidad 
+ 
+ 
+Decisiones de explotación y decisiones de inversión 
+El número de decisiones distintas que pueden plantearse en la gestión 
+empresarial es prácticamente infinito. Cada decisión concreta es irrepetible, 
+por concurrir en ella circunstancias especiales diferentes cada vez. Sin 
+embargo, resulta útil a efectos de análisis el clasificar las distintas 
+decisiones que se pueden tomar en tipos de decisión que posean 
+características generales similares. 
+En primer lugar, existen decisiones cualitativamente diferentes dependiendo 
+de cuál sea su horizonte temporal, si un período de duración relativamente 
+breve, o bien un período algo más largo, en el que ya pueda tener alguna 
+importancia el valor del dinero en el tiempo. Es decir, que el período de 
+tiempo que abarca la decisión sea suficientemente corto como para que los 
+flujos de dinero que intervengan en él puedan considerarse como 
+equivalentes, o, por el contrario, es algo más largo, de modo que las pesetas 
+de un momento no sean equivalentes a las pesetas de otro. 
+En rigor, deberíamos considerar que nunca las pesetas de un período son 
+equivalentes a las de otro, puesto que siempre es posible obtener algún 
+rendimiento a las del primer momento en el intervalo. Así, por ejemplo, si 
+una  persona  hace  algún  tipo  de  trato  con  alguien  consistente  en  que  
+ 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+2 
+IESE Business School-Universidad de Navarra
+este alguien le ceda 1.000 pesetas hoy a cambio de cederle el primero 1.000 pesetas 
+en un período posterior, siempre podría éste, en el intervalo, poner las 1.000 pesetas en 
+una cuenta bancaria que devengara interés, y quedarse con el interés devengado en el 
+momento de su devolución, haciendo por tanto un beneficio igual a este interés. Las 
+pesetas del primer momento tendrían por ello un valor mayor que las del momento de 
+la devolución, a pesar de consistir exactamente en la misma cantidad de dinero. Sin 
+embargo, es obvio que si el período de tiempo entre las dos transacciones es 
+relativamente corto (por ejemplo, de una semana), la diferencia entre el valor de unas 
+pesetas y otras (que, como hemos visto, consiste básicamente en el interés que se puede 
+recibir por ellas) sería muy pequeña; razón por la cual se suele considerar que a efectos 
+prácticos, todos los flujos de dinero son equivalentes en aquellas decisiones en las que 
+el tiempo que transcurre es pequeño (inferior, por ejemplo, a un año). Por ello, es 
+conveniente clasificar las decisiones que se pueden tomar en una empresa en dos 
+grandes grupos: 
+– 
+Decisiones de explotación, en las que todos los flujos de dinero que intervienen 
+se consideran equivalentes, por tener lugar dentro de un período de tiempo 
+relativamente breve. 
+– 
+Decisiones de inversión, en las que ocurre lo contrario, es decir, abarcan 
+períodos de tiempo que suele ser de varios años. 
+Conceptualmente, el análisis de unas y otras es idéntico, con la excepción de que habrá 
+que considerar los intereses que el dinero puede generar mientras transcurre el tiempo 
+que la decisión abarque; pero es conveniente hacer esta distinción porque los métodos 
+con los que se hace esto último están perfectamente establecidos y se pueden estudiar 
+separadamente. 
+Por otra parte, las decisiones de inversión suelen tener que ver con la capacidad 
+productiva o de ventas de la empresa (es decir, compras de inmovilizados de distintos 
+tipos, lanzamiento publicitario de nuevos productos, etc.); mientras que las decisiones 
+de explotación suelen tener que ver con la utilización de la misma; razón por la cual 
+son susceptibles de rectificación, incluso muy a corto plazo. Lo cual obviamente, no 
+ocurre con aquellas decisiones cuyas consecuencias abarquen varios años, como son 
+las decisiones de inversión. 
+Decisiones de producto y decisiones de precio 
+Pero tampoco las decisiones de explotación son todas exactamente iguales, sino que 
+también dentro de ellas podremos establecer una nueva distinción, como veremos a 
+continuación. 
+Para ello, consideramos algunos ejemplos de decisiones de explotación a corto plazo: 
+1) Decisiones de aceptación y rechazo de pedidos en unas condiciones dadas. 
+2) Decisiones de añadir productos a la gama de productos existentes. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+3 
+IESE Business School-Universidad de Navarra 
+3) Decisiones de dejar de ofrecer uno o varios de los productos de esta gama. 
+4) Decisiones de comprar o fabricar alguno de los componentes del producto final. 
+5) Decisiones de precio de venta. 
+6) Decisiones de oferta de productos obsoletos o deteriorados. 
+Esta lista, como es natural, no pretende ser exhaustiva ni mucho menos; pero si 
+observamos estos ejemplos nos daremos cuenta de que podemos clasificar estas 
+decisiones en dos grandes grupos: 
+– 
+Decisiones de producto, como las decisiones de la 1) a la 4), que tienen que ver 
+con la selección de productos que la empresa desea fabricar y vender, y que 
+tienen que ver por tanto con la utilización de la capacidad productiva. 
+– 
+Decisiones de precio, que tienen que ver, evidentemente, con la fijación de los 
+precios de venta. 
+En la práctica, estos dos tipos de decisiones vienen muchas veces entremezcladas de 
+manera que se hace imposible distinguir de que clase de decisiones se está hablando; 
+pero a fines analíticos esta distinción es muy importante, porque permite deducir reglas 
+operativas que son después una parte fundamental de la toma de decisiones. 
+Costes contables y decisiones 
+El objetivo fundamental del estudio de las decisiones que vamos a emprender, aparte el 
+interés que tanto las decisiones de producto como las decisiones de precio tienen en sí 
+mismas, es el de ilustrar la utilización de los datos proporcionados por la contabilidad. 
+La razón para ello está en que, con mucha frecuencia, los datos contables no son 
+exactamente los datos relevantes para la toma de decisión, sino que éstos deben ser 
+elaborados e interpretados cuidadosamente para ser utilizados de manera correcta. 
+El punto más significativo a tener en cuenta a este respecto es que tanto las existencias 
+como el coste de las mercancías vendidas se valoran en contabilidad financiera a su 
+coste completo de fabricación; mientras que, como veremos en detalle más adelante, 
+pueden perfectamente ser relevantes para la toma de decisiones otros costes (como los 
+comerciales, administrativos y financieros), principalmente en aquellos casos en los que 
+algunos de tales costes sean variables o directos de los productos. 
+Ello es particularmente importante, obvio es decirlo, en las empresas de servicios, 
+puesto que, en muchas de ellas, por no existir ningún proceso de fabricación, todos los 
+costes son de alguna de las tres clases indicadas anteriormente; y el hecho de que tales 
+costes no deban incorporarse contablemente al producto no significa, como es lógico, 
+que no existan o que no deban tenerse en cuenta a la hora de tomar decisiones. Por 
+otra parte, como es obvio, la contabilidad de gestión en estas empresas se reduce a un 
+análisis y utilización de costes administrativos, financieros y comerciales. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+4 
+IESE Business School-Universidad de Navarra
+Además, tanto en empresas de servicios como en empresas industriales es siempre 
+posible, y normalmente es deseable, asignar a cada producto sus costes directos y 
+atribuirle una parte de los indirectos, aunque esto deba realizarse fuera del contexto de 
+la contabilidad financiera. Sin embargo, y como veremos también más adelante, tanto 
+el proceso de reparto de costes indirectos como la interpretación y utilización de los 
+datos resultantes debe hacerse con mucho tiento, por las inevitables arbitrariedades que 
+estas asignaciones conllevan. 
+Decisiones de producto y capacidad de fabricación 
+Acabamos de definir en el apartado anterior decisiones de producto como aquellas en 
+las que el precio de venta puede condiderarse prefijado, bien por condiciones de 
+mercado, bien por voluntad de la empresa. En estas condiciones, está claro que la 
+variable fundamental con la que se podrá jugar es la utilización de la capacidad de 
+producción; es decir seleccionar qué productos deben fabricarse y cuáles no, y bajo qué 
+circunstancias. 
+La capacidad de fabricación, definida por las instalaciones de las que la empresa 
+dispone, la tomaremos también como dadas, procedentes de decisiones de inversion, 
+que estudiaremos en capítulos subsiguientes. 
+En los años que han seguido a la crisis de la energía, ha sido relativamente normal el 
+que muchas empresas se encontraran fabricando por debajo de su capacidad de 
+fabricación teórica, debido a una disminución de la demanda provocada por la crisis. 
+Este hecho, en cierto modo contrario a la lógica económica, se explica por la razón de 
+que las decisiones que afectan a la capacidad de producción se forman únicamente 
+de vez en cuando, mientras que las circunstancias del entorno van variando 
+constantemente. Por ello, no es extraño que, incluso en tiempos económicamente 
+buenos, existan empresas que trabajen por debajo de su capacidad. El aumento de la 
+competencia, la obsolescencia de algún producto, las fluctuaciones de la actividad 
+económica a corto plazo y las variaciones estacionales pueden ser factores que 
+provoquen situaciones de baja capacidad por parte de las empresas. 
+En esta nota estudiaremos una serie de decisiones a baja capacidad, para estudiar las 
+decisiones de producto a alta capacidad en una nota posterior. 
+Decisiones de producto a baja capacidad: el pedido especial 
+El primer tipo de decisiones que vamos a examinar es el que se suele denominar el 
+«pedido especial». Supongamos que a una empresa que está trabajando por debajo de 
+su capacidad de fabricación, se le ofrece un pedido (que denominaremos pedido 
+especial) de una determinada cantidad de alguno de sus productos, a un determinado 
+precio, que puede ser su precio normal o bien otro más bajo. En este último caso, el 
+aceptar este pedido no significaría cambiar el precio de las otras unidades que se 
+venden normalmente, puesto que consideramos que los precios de venta están 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+5 
+IESE Business School-Universidad de Navarra 
+determinados con anterioridad a la decisión. ¿Cuándo le convendrá a la empresa 
+aceptar un pedido de este tipo? 
+Por supuesto, la respuesta a esta pregunta dependerá de los costes del producto, pero, 
+como sabemos, hay distintas clases de costes. Por lo tanto, será importante puntualizar 
+a qué clase de costes nos estamos refiriendo. Para concretarlo, vamos a referirlo a un 
+ejemplo concreto.  
+Ejemplo. La empresa XZY, situada en España, y teniendo capacidad de producción 
+excedente, recibe un pedido de un posible cliente de un país africano, en el que la 
+compañía no vende habitualmente, que estaría dispuesto a comprar 100.000 unidades 
+del producto A al precio de 100 ptas./unidad. El precio normal del producto es de 120 
+ptas., y sus costes son los que se indican en la Tabla 1. 
+Tabla 1
+ 
+Costes del producto A 
+Materia prima 
+40 ptas. 
+Mano de obra directa 
+20 ptas. 
+Gastos generales 
+      50 ptas. 
+Total 
+110 ptas. 
+ 
+La mano de obra directa se puede considerar variable, así como el 10% de los gastos 
+generales (siendo el resto fijo). ¿Debe la empresa aceptar este pedido? 
+En principio podría parecer que no, puesto que el precio de venta no supera los costes 
+de producción; sin embargo, examinemos el problema desde el punto de vista de costes 
+e ingresos diferenciales. 
+En lo que hace a los ingresos, es obvio que todos los ingresos netos son diferenciales: 
+las dos alternativas que hay que considerar consisten en o bien aceptar el pedido, en 
+cuyo caso se obtendrán los ingresos del mismo, o bien no aceptarlos, en cuyo caso no 
+se obtendrán. 
+En cuanto a costes, y siendo ésta una decisión de fabricar una cantidad adicional de un 
+producto, los costes diferenciales serán aquellos que cambian con el volumen 
+de fabricación; es decir, los costes variables. Por tanto, si el precio de venta neto supera 
+los costes variables (o, lo que es lo mismo, si los ingresos totales del pedido superan los 
+costes variables totales del pedido) el pedido se deberá aceptar; y no se debería aceptar 
+si ocurriera lo contrario. En el caso de que el precio de venta coincidiera exactamente 
+con los costes variables, la empresa estaría teóricamente indiferente entre aceptar el 
+pedido o no; o lo que es lo mismo, se debería tomar la decisión de acuerdo con otros 
+criterios, puesto que el criterio de beneficio sería irrelevante. 
+Si recordamos ahora que a la diferencia entre el precio de venta y los costes variables 
+se le ha llamado anteriormente margen de contribución, podríamos expresar la 
+conclusión anterior en una forma más breve: se deberá aceptar el pedido siempre que 
+su margen de contribución sea positivo; y se deberá rechazar cuando sea negativo. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+6 
+IESE Business School-Universidad de Navarra
+En los datos concretos del ejemplo anterior, los costes variables del producto A serían 
+los siguientes: 
+Materia prima 
+40 ptas. 
+Mano de obra directa 
+20 ptas. 
+Gastos generales 
+      5 ptas  
+Total 
+65 ptas. 
+Precio de venta neto  
+100 ptas. 
+Margen de contribución 
+35 ptas. 
+ 
+Es decir, los costes variables del producto A son menores que su precio de venta, con lo 
+que el margen de contribución es positivo; por tanto, por cada unidad vendida 
+obtendremos un beneficio adicional que será precisamente este margen de 
+contribución. El desembolso necesario para obtener dicha unidad será su coste variable, 
+de 65 pesetas, mientras que a cambio de ella se obtendrán 100 pesetas. El beneficio 
+adicional que se obtendrá, por tanto, en la operación será la diferencia de 35 pesetas 
+por unidad, o en total, 3.500.000, (35 ptas./unidad x 100.000 unidades). 
+Claramente, pues, se debe aceptar el pedido. 
+Observemos que la cifra de coste completo de 110 ptas./unidad es totalmente 
+irrelevante para tomar esta decisión: el razonamiento sería exactamente el mismo si el 
+coste completo fuera de 70 pesetas, en cuyo caso la venta daría un beneficio contable 
+(en contraste con la pérdida contable que da si el coste completo es de 110 
+ptas./unidad). No es, pues, un dato que se deba tener en cuenta para una decisión como 
+la que se planteaba en el ejemplo. Sin embargo, para otras decisiones que pueda 
+plantearse la misma empresa en otras circunstancias, este coste que ahora 
+consideramos irrelevante puede perfectamente ser un dato a tomar en cuenta. 
+Recordemos a este respecto que el pedido viene de un país con el que no tenemos por 
+ahora operaciones de ningún tipo, y, por tanto, esta decisión no puede tener ninguna 
+influencia negativa sobre el precio de venta de las restantes unidades que la empresa 
+fabrica. Si fuera de otro modo, la decisión no sería de producto, sino de precio, y 
+posiblemente el coste completo pudiera tener influencia sobre la decisión. 
+En resumen, como acabamos de ver, un pedido especial debe aceptarse siempre que 
+proporcione un margen de contribución positivo. Este margen de contribución se 
+traduciría en un beneficio mayor si se acepta el pedido del que se tendría si no se 
+aceptara. 
+Decisiones de producto a baja capacidad: suprimir un producto 
+Tampoco es infrecuente, en la práctica empresarial, el que uno (o quizás varios) de los 
+productos de la empresa tenga un precio de venta, fijado por el mercado, que no llega 
+a cubrir los costes completos de dicho producto. ¿Se debe entonces prescindir de él, 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+7 
+IESE Business School-Universidad de Navarra 
+dejando por lo tanto, un mayor número de recursos inactivos, o bien se debe continuar 
+fabricando? 
+El lector adivinará probablemente que este problema tiene bastante que ver con el del 
+apartado anterior. A baja capacidad, y sin tener la posibilidad de productos adicionales 
+a corto plazo, los costes variables jugarán un papel importante. Sin embargo, en una 
+decisión sobre la posible supresión de un producto puede haber otros costes que 
+también sean relevantes: los costes fijos directos del producto. Veámoslo en detalle a 
+través de un ejemplo. 
+Ejemplo: Supongamos que la Empresa ABC fabrica y vende una amplia gama de 
+productos, uno de los cuales es el producto X. Los datos de dicho producto se resumen 
+en la Tabla 2. 
+Tabla 2
+ 
+Costes unitarios del producto X 
+Materia prima 
+35 ptas. 
+Mano de obra directa 
+20 ptas. 
+Gastos generales variables 
+5 ptas. 
+Gastos generales fijos1  
+    25 ptas. 
+Coste total 
+85 ptas. 
+Precio de venta 
+75 ptas. 
+ 
+De nuevo, como en el caso anterior, el producto X ocasiona una pérdida contable, esta 
+vez de 10 pesetas por unidad, por lo que , a primera vista, podría pensarse en 
+eliminarlo. Sin embargo, examinaremos el problema desde el punto de vista de 
+ingresos diferenciales y costes diferenciales. 
+Por lo que hace a los ingresos, al igual que en el ejemplo del apartado anterior, es 
+obvio que todos son diferenciales; y también lo serán todos los costes variables del 
+producto. Pero, además, habrá en este caso otros costes diferenciales: puesto que lo que 
+se plantea es suprimir totalmente el producto X, en el caso de que esto se lleve a cabo 
+no habrá ninguna necesidad de incurrir en los costes de ingeniería directos de este 
+producto; con lo que tales costes son en realidad diferenciales de la decisión. 
+Si estos costes fijos directos eliminables no existieran, nos encontraríamos en una 
+situación idéntica a la del «pedido especial» estudiada anteriormente. El posible 
+beneficio diferencial de fabricar el producto sería su margen de contribución unitario 
+multiplicado por el número de unidades vendidas, y, en consecuencia, el solo hecho de 
+que el margen de contribución unitario fuera positivo sería suficiente para afirmar que 
+se debe seguir fabricando el producto. Pero la existencia de costes fijos directamente 
+                                              
+1 Incluyen 5 ptas. de costes de ingeniería, directos del producto X, que no dependen del volumen de fabricación, y que se han asignado a 
+las unidades de producto sobre una producción estimada de 150.000 unidades. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+8 
+IESE Business School-Universidad de Navarra
+relacionados con el producto hace que la decisión dependa en realidad del número de 
+unidades que se estime que se pueden vender de dicho producto. 
+En efecto, por cada unidad que se fabrique y venda, se obtendrá el margen de 
+contribución siguiente: 
+Precio de venta neto 
+75 ptas. 
+Menos: Costes variables 
+ 
+Materia prima 
+35 ptas. 
+Mano de obra directa 
+20 ptas. 
+Gastos generales variables 
+     5 ptas. 
+Margen de contribución neto 
+15 ptas. 
+ 
+El margen de contribución total del producto será, pues, de 15 pesetas por unidad 
+multiplicado por el número de unidades; pero, para obtener el beneficio diferencial de 
+vender este producto o no, habrá que restar a esta cantidad los gastos fijos directos del 
+mismo. Como nos dicen que dichos gastos fijos se han calculado en 5 pesetas por 
+unidad para un volumen de 150.000 unidades, su total es, presumiblemente, de 
+150.000 u. x 5 ptas./unidad = 750.000 ptas. 
+Por tanto, si se pueden vender 50.000 u., el beneficio diferencial sería nulo, puesto que 
+el margen de contribución de estas unidades (50.000 x 15) sería exactamente igual a 
+los costes fijos directos del producto. Entonces, como los costes fijos, por definición, no 
+varían con el volumen, si se vendieran más de 50.000 unidades el margen de 
+contribución total sería mayor que los gastos fijos; y el beneficio diferencial sería 
+positivo. Lo contrario, obvio es decirlo, ocurriría si se vendiera un número menor de 
+50.000 unidades. 
+Así, si por ejemplo se estimará que el volumen de ventas del producto X va a ser de 
+150.000 unidades (base sobre la que estos costes estaban distribuidos) el beneficio 
+diferencial sería: 
+150.000 u. x 15 ptas./unidad = 2.250.000 ptas. 
+Notemos que a la hora de tomar una decisión como ésta, habría que tener en cuenta un 
+factor de riesgo en la estimación del posible volumen de ventas; pero un tratamiento a 
+fondo de este tema excedería los límites de esta nota. 
+En general, pues, estando a baja capacidad no se debe dejar de fabricar un determinado 
+producto por el hecho de que ocasione pérdidas contables, siempre que dicho producto 
+tenga un margen de contribución positivo que supere (al volumen de ventas real) los 
+posibles costes fijos directos del producto. Si no fuera así, es decir, si el margen de 
+contribución total de las unidades que se estima posible vender menos los costes fijos 
+directos del producto fuera una cantidad negativa, se debería dejar de fabricar el 
+producto inmediatamente. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+9 
+IESE Business School-Universidad de Navarra 
+Esta regla general, sin embargo, podría admitir una excepción cuando hubiera razones 
+de tipo estratégico para continuar con él, como podría ocurrir si un producto estuviera 
+en fase de introducción en el mercado y se esperara de él rentabilidad en el futuro, 
+pero no de manera inmediata; o bien si formara parte de una línea de productos 
+rentable en su conjunto, pero no en todos y cada uno de sus productos, siendo 
+necesario ofrecer toda la gama para poder ofrecer los productos más rentables. 
+Notemos, para terminar, que los costes relevantes para la toma de esta decisión, es 
+decir, los costes variables y los costes fijos directos del producto, deben ser en general 
+los costes de oportunidad y no los costes meramente contables. Dicho de otra manera, 
+si en alguna de las partidas de costes se hubiera incurrido ya, se debería considerar 
+como coste relevante la cantidad que se pudiera recuperar de dicho coste, puesto que 
+en el caso de suprimir el producto sería lo que se ingresaría por dicho concepto. Así, 
+por ejemplo, ocurriría si hubiera una materia prima que únicamente se pudiera utilizar 
+para este producto, de la que se poseyera un stock considerable; o si este producto 
+utilizara cualquier recurso del que se pudiera prescindir con un coste diferente de su 
+valor contable. Concretamente, esta circunstancia se suele dar en el caso de 
+inmovilizados especiales que únicamente sean útiles para producir este producto; 
+aunque, si esto ocurre, la decisión excede de los límites que hemos establecido para 
+esta nota, por tratarse en realidad de una decisión de inversión. 
+Decisiones de producto a baja capacidad: añadir un producto 
+La decisión de añadir un producto a la gama ya existente, cuando se está trabajando a 
+baja capacidad, no es una decisión sustancialmente distinta a la de suprimir un 
+producto. En efecto, si analizamos de nuevo la decisión en términos de sus costes e 
+ingresos diferenciales tendremos que: 
+– 
+Al igual que ocurría en el caso anterior, todos los ingresos son diferenciales. 
+– 
+También serán diferenciales los costes variables de fabricar el producto. 
+– 
+También lo serán, a su vez, los costes fijos directos del producto si existen. 
+Por ello, el análisis es idéntico al anterior, y renunciamos a repetirlo. Notemos sin 
+embargo, una pequeña diferencia de matiz, pero que puede ser importante en muchas 
+ocasiones: el hecho de que, cuando de lo que se trata es de suprimir un producto, se 
+tiene una idea bastante clara del número de unidades del mismo que es posible vender, 
+puesto que es lo que se estaba haciendo hasta el momento de tomar la decisión; 
+mientras que cuando de lo que se trata es de un producto nuevo, en el mejor de los 
+casos se podrá disponer únicamente de una conjetura de dicho número de unidades. 
+Este matiz, irrelevante para el análisis numérico expuesto anteriormente, puede 
+cambiar algunas veces la decisión final por existir un riesgo adicional de que la 
+previsión de ventas no se realice. Por ello, además de otras razones que discutiremos en 
+la sección siguiente, es frecuente que a la hora de incorporar un nuevo producto se le 
+exija a éste algo más que un mero margen de contribución. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+10
+IESE Business School-Universidad de Navarra
+Margen de contribución y margen bruto 
+La existencia de decisiones como las que nos han ocupado hasta ahora y la 
+importancia del margen de contribución, que ha quedado demostrada en el análisis 
+anterior, plantean el contraste entre el margen de contribución y el concepto más 
+clásico de margen bruto, y sus implicaciones para el formato de la cuenta de 
+resultados. 
+En efecto, si observamos una cuenta de resultados «clásica», veremos que en ella el 
+concepto de margen de contribución se halla totalmente ausente: a los ingresos por 
+ventas se les resta el coste de las mercancías vendidas, y, a la diferencia, los gastos 
+comerciales, administrativos y financieros. Un ejemplo de este formato clásico se da en 
+la Tabla 3, en la que, para una empresa con tres productos distintos (los productos A,B 
+y C), se muestran las cuentas de resultados para cada producto y total de la empresa. 
+Tabla 3
+ 
+Cuenta de resultados (basada en el margen bruto de fabricación) 
+ 
+Prod. A 
+Prod. B 
+Prod. C 
+Total 
+Ventas 
+1.035 
+983 
+415 
+2.433 
+Coste merc. vend. 
+     827 
+     615 
+     375 
+    1.817 
+Margen bruto 
+   208 
+   368 
+    40 
+    616 
+Gastos admon. 
+75 
+67 
+34 
+176 
+Gastos comerc. 
+34 
+27 
+25 
+86 
+Gastos finan. 
+      31 
+      29 
+      12 
+       72 
+Beneficio 
+68 
+245 
+–31 
+282 
+ 
+En presentación de la cuenta de resultados, sin que se pueda afirmar que sea incorrecta 
+en absoluto, tiene la desventaja de que, al no mostrar el margen de contribución, puede 
+inducir al error de creer que el producto C debe suprimirse, por las pérdidas que dicho 
+producto tiene; mientras que una presentación en la que el margen de contribución se 
+viera explícitamente, tendría por lo menos la virtud de poner de manifiesto que la 
+posible supresión de dicho producto nos proporcionaría un beneficio inferior al actual 
+precisamente en dicho margen de contribución. Una presentación alternativa, en la que 
+lo que acabamos de decir se tiene en cuenta, se puede encontrar en la Tabla 4. 
+Observemos en dicha Tabla que los costes fijos están repartidos entre los productos del 
+mismo modo que lo estaban en la Tabla 3; pero se han agrupado en ellos los costes 
+variables por un lado (sean de producción, comerciales o administrativos) y los fijos 
+por otro, mostrando tanto el margen de contribución como el beneficio para cada 
+producto. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+11
+IESE Business School-Universidad de Navarra 
+Tabla 4
+ 
+Cuenta de resultados (basada en el margen de contribución) 
+ 
+Prod. A 
+Prod. B 
+Prod. C 
+Total 
+Ventas 
+1.035 
+983 
+415 
+2.433 
+Costes variables 
+   430 
+   350 
+   200 
+      980 
+Margen de contribución 
+605 
+633 
+215 
+1.435 
+Gastos fijos 
+   537 
+   388 
+   246 
+   1.171 
+Beneficio 
+68 
+245 
+–31 
+282 
+ 
+Esta presentación plantea la diferencia, tanto en concepto como en interpretación, 
+entre el margen de contribución de un producto y su beneficio. Desde luego, tal como 
+ya se ha estudiado anteriormente, a corto plazo y trabajando por debajo de capacidad, 
+no es prudente suprimir un producto que nos dé una pérdida contable siempre que su 
+margen de contribución sea positivo; pero también es cierto que si todos los productos 
+nos dieran pérdidas sobre el coste completo, la empresa no podría subsistir a largo 
+plazo. Por ello, la cifra de coste completo debe tomarse como un indicador de 
+problemas, de modo que cuando un producto (como el producto C en el ejemplo) nos 
+dé pérdidas sobre sus costes totales, se investigue más a fondo cuáles son las causas de 
+que esto sea así y se trate de ponerles remedio. En esta tarea, la contabilidad de costes 
+no es de una gran ayuda, puesto que las causas por las que un producto da pérdidas 
+pueden ser muy variadas y tener relación con variables no reflejadas en la contabilidad 
+(como por ejemplo, el ciclo de vida del producto, o la situación económica general, o la 
+falta de especialización de la mano de obra utilizada). Por ello, el diagnóstico se deberá 
+hacer mediante el estudio de este tipo de información adicional, aunque la contabilidad 
+ha proporcionado por lo menos la señal de alarma que puede provocar este estudio. 
+El margen de contribución y el beneficio sobre el coste completo, pues, son dos 
+conceptos útiles en diferentes aspectos. El que el primero sea positivo o negativo nos 
+dice claramente si se debe de fabricar o no el producto a corto plazo: pero no nos dice 
+nada de su viabilidad a largo. En cambio, el beneficio sobre el coste completo nos da 
+una indicación de si el producto ofrece problemas o no, pero no es una cifra adecuada 
+para tomar la decisión de interrumpir o continuar su fabricación en el corto plazo; o, 
+en otras palabras, no da ninguna norma operativa sobre lo que se debe hacer cuando 
+algún producto está en pérdidas. 
+Por ello, debe procurarse que la cuenta de resultados refleje tanto el margen de 
+contribución como el beneficio sobre el coste completo, tal como se puede ver en la 
+Tabla 4. Ninguno de los datos es «mejor» que el otro, y no hay ninguna 
+incompatibilidad en su obtención, de modo que es perfectamente posible casi siempre 
+obtener una cuenta de resultados como la que se muestra allí. 
+Recalquemos, para terminar, que hemos ignorado en esta sección la posible existencia 
+de costes fijos directos de los productos; pero que, en los casos en que existen, no es 
+difícil acomodarlos al formato de cuenta de resultados propuesto. En efecto, se puede 
+restar al margen de contribución los costes fijos directos antes que los indirectos. Con 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+12
+IESE Business School-Universidad de Navarra
+ello, además del margen de contribución y del beneficio contable, obtendríamos una 
+cifra intermedia –la diferencia entre el margen de contribución y los costes fijos 
+directos– que nos daría un elemento de juicio más para el diagnóstico de qué se debe 
+hacer con el producto: si cubre sus costes fijos directos, esto significaría que, a largo 
+plazo, el producto puede seguir dando una contribución positiva; mientras que si no 
+los cubre, habría que dejar de fabricar el producto en cuanto pudiéramos suprimir estos 
+costes fijos. 
+Decisiones de producto a baja capacidad: comprar o fabricar 
+Una decisión frecuente en procesos de fabricación integrados es la de si se debe 
+producir un determinado componente o si, por el contrario, se debe comprar dicho 
+componente a un proveedor exterior. De nuevo esta decisión se puede resolver 
+considerando qué elementos de costes e ingresos son diferenciales con respecto a las 
+dos alternativas. 
+Obviamente, ningún ingreso será diferencial con respecto a la decisión, puesto que los 
+únicos ingresos relacionados con ella son los de la venta del producto final, que serán 
+los mismos tanto si la pieza se fabrica como si se compra. 
+En cambio, sí habrá costes diferenciales, puesto que: 
+– 
+Si se compra la pieza a un proveedor exterior, el coste será precisamente el 
+precio de compra. 
+– 
+Si la pieza se fabrica, el coste diferencial de fabricarla con respecto a no hacerlo 
+será el coste variable de dicha pieza puesto que es el único en el que se incurre 
+por tomar la decisión: los costes fijos se tienen en cualquier caso. 
+Por tanto, la decisión se reducirá a una comparación entre el coste variable de 
+fabricación y el precio de compra: si es mayor el primero, se deberá comprar la pieza; 
+mientras que si es mayor el segundo, se deberá fabricar. 
+Ejemplo. La empresa H, con un proceso de fabricación integrado, se plantea si sería 
+mejor comprar a un proveedor exterior la pieza 233, componente de uno de sus 
+productos, que hasta el momento se venía fabricando en la misma, puesto que dicho 
+proveedor se la ofrece a 150 ptas./unidad, mientras que su coste de fabricación se 
+muestra en la Tabla 5. 
+Tabla 5
+ 
+Costes de fabricación de la pieza 233 
+Materia prima 
+35 ptas. 
+Mano de obra 
+50 ptas. 
+Gastos generales 
+   100 ptas. 
+Total 
+185 ptas. 
+ 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ 
+   Costes y decisiones (II): decisiones de producto a baja capacidad 
+CN-143 
+ 
+ 
+13
+IESE Business School-Universidad de Navarra 
+Los gastos generales son variables aproximadamente en un 30%. 
+¿Cuál debería ser la decisión de la empresa? 
+Comparemos el precio de compra de la pieza (150 ptas.) con los costes variables de 
+fabricarla. Estos son los siguientes: 
+Materia prima 
+35 ptas. 
+Mano de obra 
+50 ptas. 
+Gastos generales variables 
+   30 ptas. 
+Total 
+115 ptas. 
+ 
+La decisión estaría, pues, a favor de fabricar. Si la empresa fabrica o, dicho de otra 
+manera, compra al interior de la empresa, deberá incurrir en un coste de 115 pesetas, 
+mientras que si compra al exterior deberá pagar 150 pesetas. Por tanto, si prescindimos 
+de otros posibles criterios no cuantitativos, como podrían ser la calidad, el servicio, 
+etc., costaría menos producir la pieza que comprarla, por lo que ésta es la decisión que 
+hay que tomar. 
+Por supuesto, en la práctica no se debería prescindir de los factores cualitativos antes 
+mencionados, que podrían ser extraordinariamente importantes, o incluso más 
+importantes para la decisión que el análisis cuantitativo; pero esto dependería de las 
+circunstancias concretas de la empresa y es imposible de analizar en general. En 
+cualquier caso, está claro, sin embargo, que si los criterios cualitativos apuntan en la 
+misma dirección que el análisis numérico, se debería tomar esta decisión; mientras que 
+en caso contrario se debería sopesar cual de los dos (o más) factores es más importante. 
+Decisiones de producto a baja capacidad: seguir procesando 
+Finalmente, para terminar el análisis de situaciones de baja capacidad, examinaremos 
+un problema de decisión que se da también con una cierta frecuencia principalmente 
+en empresas con procesos de fabricación integrados, en los que el producto obtenido en 
+una etapa del proceso, y que normalmente se debería utilizar en la etapa siguiente, 
+tiene forma vendible. Como es lógico, en aquellas empresas en las que esto ocurre, uno 
+puede plantearse dónde es conveniente detener el proceso de producción, es decir, 
+cuando debe seguirse procesando el producto para obtener otro producto más 
+elaborado, o cuando debe deternerse el proceso y venderse el producto tal como está. 
+Así, por ejemplo, un fabricante de tejidos puede también vender hilo, que es uno de los 
+componentes de su producto final, si existe mercado para él; o un fabricante de 
+automóviles puede también vender motores, que son también una parte de su producto 
+terminado, si otro fabricante de automóviles está dispuesto a comprárselos. 
+Aunque los hayamos puesto bajo un apartado distinto, estos problemas de decisión no 
+son nunca sustancialmente diferentes de los que ya se han discutido en apartados 
+anteriores, sobre todo en situaciones de baja capacidad. Es más, el problema de seguir 
+procesando o vender es exactamente el inverso del de comprar o fabricar, con lo que 
+podríamos casi limitarnos a volver a exponer lo anterior. De hecho, en situaciones de 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06
+ 
+ 
+ CN-143 
+ 
+Costes y decisiones (II): decisiones de producto a baja capacidad 
+ 
+ 
+14
+IESE Business School-Universidad de Navarra
+baja capacidad casi todos los problemas se reducen a seleccionar productos cuyo 
+margen de contribución sea mayor que sus costes fijos directos, y el tipo concreto de 
+decisiones que vamos a estudiar aquí no será una excepción a esta regla general. Pero 
+hay alguna peculiaridad que hace interesante ver con un poco más de detalle este tipo 
+de decisiones. 
+Si la empresa está trabajando a baja capacidad, no hay ninguna razón por la que la 
+empresa tenga que escoger entre diferentes productos: puede, y debe, producir todos 
+aquellos productos, como se decía en el párrafo anterior, cuyo margen de contribución 
+sea mayor que sus costes fijos, si los hubiere. En el caso concreto de dos productos, 
+uno de los cuales es un componente del otro, podremos aplicar este principio general, 
+sin que exista ninguna razón para modificarlo. Hay que darse cuenta, sin embargo, de 
+lo que implica el aceptarlo en este caso: concretamente, de que puede ocurrir que el 
+proceso adicional al que puede someterse el producto tenga un margen de contribución 
+negativo y a pesar de ello sea conveniente incurrir en este procesamiento adicional. 
+Veámoslo a través de un ejemplo. 
+Ejemplo. La empresa ABC fabricaba y vendía el producto 101, cuyo precio de venta era 
+de 100 ptas./unidad, mientras que sus costes variables eran de 85 ptas./unidad. Su 
+margen de contribución, por tanto, era de 15 ptas/unidad. Uno de los componentes de 
+dicho producto, el componente 301, podía también venderse al exterior en el caso de 
+que se considerara conveniente, a un precio de 60 pesetas por unidad. Los costes 
+variables de dicho componente eran de 40 ptas./unidad, dando por lo tanto un margen 
+de contribución de 20 ptas./unidad. Cada unidad de productos 101 incluía una unidad 
+del componente 301, y no había costes fijos directos asociados a ninguno de los 
+productos. ¿Debe la empresa vender el componente 301, el producto 101, o las dos 
+cosas a la vez? 
+Obviamente, si los dos productos dan un margen de contribución positivo y la empresa 
+está trabajando a baja capacidad, la empresa debería producir los dos productos a 
+la vez, por lo menos hasta que la capacidad de producción de la empresa esté saturada. 
+Por cada unidad del producto 101 que se pueda vender se obtendrá su margen de 
+contribución de 15 pesetas, mientras que por cada unidad de componente 301 se 
+obtendría su margen de contribución de 20 pesetas por unidad. Ahora bien, si es cierto, 
+esto significa que, de hecho, el margen de contribución del resto del producto (es decir, 
+el de los restantes componentes y del montaje) es negativo, exactamente en 5 pesetas 
+por unidad, puesto que los costes variables del resto del producto serían la diferencia 
+entre los costes variables del producto y los del componente, es decir, 45 pesetas, 
+mientras que la diferencia entre los respectivos precios de venta es únicamente de 40 
+pesetas. Por tanto, el añadirle al componente 301 el resto de componentes cuesta 45 
+pesetas, para cada unidad, y rinde únicamente 40 pesetas. A pesar de ello, se debe 
+producir el producto 101, puesto que en el conjunto del mismo se obtiene un margen 
+de contribución positivo, y la posible «pérdida» por acabar de procesar es únicamente 
+teórica, ya que, a baja capacidad, la empresa puede producir siempre cantidades 
+adicionales del componente 301 si parece conveniente. 
+This document is an authorized copy for the personal use of Mr./Mrs. Mercedes Socorro, 2019-08-06

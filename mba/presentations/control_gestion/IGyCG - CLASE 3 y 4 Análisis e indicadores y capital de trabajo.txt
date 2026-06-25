@@ -1,0 +1,843 @@
+Análisis de la Información
+IFE
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+LA POSICIÓN DEL ANALISTA
+Percepción 
+de la realidad 
+detrás de las 
+transacciones 
+operativas
+Proceso contable
+PCGA: 
+Marco conceptual 
+contable para 
+la preparación 
+de la información 
+financiera
+Estados 
+contables
+Flujo del trabajo del contador
+Flujo del trabajo del analista
+USUARIOS DE LA INFORMACIÓN FINANCIERA
+Entidades de crédito de corto
+y largo plazo
+Proveedores
+Clientes 
+Auditores
+Administración Pública
+Competidores
+Accionistas
+Empleados
+Asesores
+Inversores y potenciales 
+compradores de la empresa
+INTERÉS DE ACREEDORES DE CORTO Y LARGO PLAZO
+Acreedores
+de corto plazo
+Acreedores
+de largo plazo
+Liquidez
+Rentabilidad
+OBJETIVOS DEL ANÁLISIS E INTERPRETACIÓN 
+DE LOS ESTADOS CONTABLES
+Se busca conocer la situación de la compañía
+Patrimonial
+Económica
+Financiera
+ASPECTO ECONÓMICO Y ASPECTO FINANCIERO
+Aspecto
+Económico
+Aspecto
+Financiero
+Obtención de beneficios
+Disponibilidad de fondos
+TERMINOLOGÍA
+Capital de Trabajo
+Capital Circulante
+Working Capital
+Fondo de Maniobra o Rotación
+Activo Inmovilizado
+Activo Fijo
+Activo Circulante
+Pasivo Circulante
+Finanzas
+Contabilidad
+Capital Corriente
+Activo No Corriente
+Activo Corriente
+Pasivo Corriente
+=
+=
+=
+=
+FUENTES DEL ANÁLISIS EXTERNO
+Balance o Estado de Situación Patrimonial 
+o Estado de situación financiera
+Estado de Resultados
+Estado de Evolución (o de cambios) del 
+Patrimonio Neto
+Estado de Flujo de Efectivo
+Notas y Anexos
+Memoria del Directorio
+Reseña informativa
+Estados Contables Consolidados
+Información a pedido
+• Estados proyectados
+• Volúmenes físicos o niveles de actividad
+Estados financieros básicos
+Otra información
+OPINIÓN DEL AUDITOR
+El analista debe:
+1. Conocer al auditor (confianza)
+2. Entender cabalmente lo que significa la opinión del auditor 
+3. Apreciar las limitaciones a que está sujeta la opinión y sus implicancias
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+ANÁLISIS GLOBAL
+Comportamiento a través del tiempo
+Importancia de la aplicación uniforme de los principios y normas contables 
+•
+Exposición
+•
+Valuación
+Análisis Vertical y Análisis Horizontal
+ANÁLISIS VERTICAL
+Composición proporcional
+Perfil de actividad
+BALANCE: Total del activo 100
+ESTADO DE RESULTADOS : Ventas 100
+0
+20
+40
+60
+80
+100
+Activo
+%
+ANÁLISIS VERTICAL- EJEMPLO P&L
+Componente
+Ventas
+Costo de ventas
+Margen bruto
+Gastos adm. y comerciales
+Resultado operativo (EBIT)
+Intereses
+Utilidad neta
+$
+43.000 
+29.200 
+13.800 
+6.800 
+7.000 
+5.200 
+1.800 
+%
+100 
+68 
+32 
+16 
+16 
+12 
+4 
+$
+47.300 
+33.600 
+13.700 
+7.300 
+6.400 
+5.300 
+1.100 
+%
+100
+71 
+29 
+15 
+14 
+11 
+2 
+2020
+2021
+ANÁLISIS VERTICAL- EJEMPLO BALANCE
+Componente
+Caja y bancos
+Créditos
+Bienes de cambio
+Total activo corriente
+Inversiones
+Bienes de uso
+Intangibles
+Total activo no corriente
+Total activo
+Total pasivo y PN
+$
+1.800
+11.400
+14.500
+27.700
+12.600
+36.500
+4.200
+53.300
+81.000
+81.000
+%
+2
+14
+18
+34
+16
+45
+5 
+66
+100
+100
+$
+2.200
+11.800
+14.700
+28.700
+12.800
+36.000
+4.000
+52.800
+81.500
+81.500
+%
+3
+14
+18
+35
+16
+44
+5
+65
+100
+100
+2020
+2021
+ANÁLISIS HORIZONTAL
+Tendencia con respecto a períodos 
+anteriores
+Útil para hacer proyecciones
+AÑO BASE = 100
+0
+20
+40
+60
+80
+100
+120
+140
+160
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+ANÁLISIS HORIZONTAL- EJEMPLO P&L
+Componente
+Ventas
+Costo de ventas
+Margen bruto
+Gastos adm. y comerciales
+Resultado operativo (EBIT)
+Intereses
+Utilidad neta
+$
+43.000 
+29.200 
+13.800 
+6.800 
+7.000 
+5.200 
+1.800 
+2004 = 100
+100 
+100 
+100 
+100
+100
+100
+100
+$
+47.300 
+33.600 
+13.700 
+7.300 
+6.400 
+5.300 
+1.100 
+Índice
+110 
+115 
+99 
+107 
+91 
+102 
+61 
+2020
+2021
+ANÁLISIS HORIZONTAL- EJEMPLO BALANCE
+Componente
+Caja y bancos
+Créditos
+Bienes de cambio
+Total activo corriente
+Inversiones
+Bienes de uso
+Intangibles
+Total activo no corriente
+Total activo
+Total pasivo y PN
+$
+1.800
+11.400
+14.500
+27.700
+12.600
+36.500
+4.200
+53.300
+81.000
+81.000
+2004 = 100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100 
+$
+2.200
+11.800
+14.700
+28.700
+12.800
+36.000
+4.000
+52.800
+81.500
+81.500
+Índice
+122 
+104
+101
+104
+102
+99
+95
+99
+101
+101 
+2020
+2021
+BALANCE IDEAL DE UNA EMPRESA INDUSTRIAL
+Disponible
+Realizable
+Exigible
+a corto plazo
+Existencias
+Exigible
+a largo plazo
+Activo Fijo
+Activo
+Circulante
+Patrimonio
+Neto
+BALANCE IDEAL DE UNA EMPRESA COMERCIAL
+Disponible
+Realizable
+Exigible
+a corto
+plazo
+Existencias
+Activo
+Fijo
+Patrimonio
+Neto
+Activo
+Circulante
+BALANCE IDEAL DE UNA EMPRESA DE SERVICIOS
+DE CAPITAL HUMANO
+Disponible
+Inversiones
+Exigible
+a corto plazo
+Realizable
+(cuentas
+a cobrar)
+Patrimonio
+Neto
+VISIÓN DE LAS ACTIVIDADES EMPRESARIALES
+Metas
+y Estrategias
+Operaciones
+Inversión
+Financiación
+ESTRUCTURA PATRIMONIAL
+Inversión
+Financiación
+Activo
+Pasivo + P. Neto
+=
+ORIGEN Y APLICACIÓN DE FONDOS
+Inversión
+(Bienes 
+y derechos)
+Financiación
+(Obligaciones 
+y participación 
+socios)
+Aplicaciones
+Orígenes
+=
+RETRIBUCIÓN DE LA FINANCIACIÓN
+Financiación
+Retribución
+Propia
+Terceros
+Intereses
+Resultado neto
+ESTRUCTURA DE RESULTADOS
+Ventas
+Costo
+Resultado Bruto
+Gastos de Estructura
+Resultado Operativo (EBIT)
+Costo Financiero
+Resultado Neto
+Terceros
+Propietarios
+-
+-
+-
+ESTRUCTURA DE RESULTADOS
+EBITDA
+-
+-
++
+Resultado Operativo (EBIT)
+Amortizaciones y depreciaciones
+EBITDA
+Ventas
+Costo
+Resultado Bruto
+Gastos de Estructura (incluye amortizaciones y depreciaciones)
+Resultado Operativo (EBIT)
+FREE CASH FLOW
++
++ -
+Resultado Operativo - EBIT
+Amortizaciones y Depreciaciones
+EBITDA
+Variación Capital de Trabajo
+Venta de Activos Fijos
+Inversión en Activos Fijos - CAPEX
+FREE CASH FLOW
++
+-
+Intereses
+Dividendos
+Reinversión
+CAPITAL DE TRABAJO O FONDO DE MANIOBRA
+Activo
+circulante
+Activo fijo
+Pasivo
+circulante
+Recursos
+permanentes
+Fondo 
+de maniobra
+Activo
+Pasivo + PN
+DETERMINACIÓN DE CAPITAL DE TRABAJO
+C.T. = ACTIVO CIRCULANTE – PASIVO CIRCULANTE
+C.T. = RECURSOS PERMANENTES(1) – ACTIVOS FIJO 
+(1)
+Recursos permanentes = Capitales propios + exigible largo plazo
+DISTINTAS POSICIONES DEL FONDO DE MANIOBRA (I)
+Posición conservadora
+Posición clásica
+Equilibrio inestable
+Máxima prudencia
+Disponible
+Clientes
+Existencias
+Inmovilizado
+Deudas 
+corto
+plazo
+Deudas LP
+Capitales
+propios
+Disponible
+Clientes
+Existencias
+Inmovilizado
+Deudas 
+corto
+plazo
+Deudas LP
+Capitales
+propios
+Disponible
+Clientes
+Existencias
+Inmovilizado
+Deudas 
+corto
+plazo
+Estabilidad
+Dependencia de beneficios y 
+sincronización de pagos y cobros
+Deudas LP
+Capitales
+propios
+DISTINTAS POSICIONES DEL FONDO DE MANIOBRA (II)
+Posición insuficiente
+Posición de quiebra
+Desequilibrio
+(suspensión de pagos)
+Disponible
+Clientes
+Existencias
+Inmovilizado
+Deudas 
+corto
+plazo
+Deudas LP
+Capitales
+propios
+Disponible
+Clientes
+Existencias
+Inmovilizado
+Deudas 
+corto
+plazo
+Deudas LP
+Quiebra
+(disolución)
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+USO DE RATIOS
+Uso Interno
+Uso Externo
+Control de gestión
+Evaluación de riesgo
+DEFINICIÓN DE RATIOS (I)
+Cociente entre dos magnitudes 
+que tienen una cierta relación 
+y que por ese motivo se comparan
+COMPARACIÓN DE RATIOS
+Contra qué se compara
+Objetivo de la comparación
+Misma Empresa
+Benchmark (Ideal)
+Sector
+Principales Competidores
+Estudiar la evolución de la empresa
+Comprobar cómo se encuentra la empresa 
+en relación a lo que se considera ideal
+Comprobar cómo se encuentra la empresa 
+en relación al sector en el que opera
+Comprobar cómo se encuentra la empresa 
+en relación a sus principales competidores
+TIPOS DE RATIOS
+Rotación
+Antigüedad
+Auxiliares
+o de Actividad
+Económicos
+Financieros
+Liquidez
+Endeudamiento
+Inmovilización
+Rentabilidad
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+CRÉDITOS
+Ratio
+Determinación
+Rotación
+Antigüedad
+Ventas
+Créditos Promedio
+365
+Rotación de Créditos
+BIENES DE CAMBIO
+Ratio
+Determinación
+Rotación
+Antigüedad
+Costo de ventas
+Bienes de Cambio Promedio
+365
+Rotación Bienes de Cambio
+ROTACIÓN DE BIENES DE CAMBIO
+Ratio
+Determinación
+Materias Primas
+Productos en Elaboración
+Saldo promedio de Materias Primas X 365
+Consumo Anual de Materias Primas
+Productos Terminados
+Saldo promedio de Productos en Elaboración X 365
+Costo de Producción Anual
+Saldo promedio de Productos Terminados X 365
+Costo de Ventas
+CUENTAS A PAGAR
+Ratio
+Determinación
+Rotación
+Antigüedad
+Compras y Gastos
+Cuentas a Pagar Promedio
+365
+Rotación de Cuentas a Pagar
+ACTIVO CORRIENTE Y PASIVO CORRIENTE
+Ratio
+Determinación
+Plazo de Realización
+del Activo Corriente
+Plazo de Exigibilidad
+del Pasivo Corriente
+Créditos x Ant. + Bienes de Cambio x Ant.(BC + Cr)
+Activo Corriente
+365 x Pasivo Corriente
+Compra de Bienes y Servicios – Incremento PNC y PN
+ACTIVO TOTAL
+Ratio
+Determinación
+Rotación
+Ventas
+Activo Promedio
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+LIQUIDEZ (I)
+Ratio
+Determinación
+Liquidez Corriente
+Prueba Ácida
+Activo Corriente
+Pasivo Corriente
+Liquidez Absoluta
+Activo Corriente – Bienes de Cambio
+Pasivo Corriente
+Disponibilidades + Inversiones Líquidas
+Pasivo Corriente
+LIQUIDEZ (II)
+Ratio
+Determinación
+Liquidez 
+Corriente Necesaria
+Cobertura 
+de Liquidez Necesaria
+Plazo de realización del Activo Corriente
+Plazo de exigibilidad del Pasivo Corriente
+Liquidez Corriente
+Liquidez Corriente necesaria
+ENDEUDAMIENTO (I)
+Ratio
+Determinación
+Endeudamiento
+Calidad del endeudamiento
+Pasivo Total
+Patrimonio Neto
+Pasivo Corriente
+Pasivo Total
+Solvencia Global
+o Garantía
+Activos – Cargos Diferidos
+Pasivo Total
+ENDEUDAMIENTO (II)
+Ratio
+Determinación
+Autonomía financiera
+Dependencia financiera
+Patrimonio Neto
+Activo
+Pasivo
+Activo
+INMOVILIZACIÓN
+Ratio
+Determinación
+Inmovilización
+Activo No Corriente
+Activo Total
+Financiación 
+de la inmovilización
+Patrimonio Neto
+Activo No Corriente
+TEMARIO
+Usuarios y fuentes de la información financiera
+Análisis de las estructuras y ciclos
+Ratios
+Ratios Auxiliares/Actividad
+Ratios Financieros
+Ratios Económicos
+RENTABILIDAD
+Establece el nivel de retribución 
+del capital aportado
+Mide el grado de eficiencia de la empresa
+Definición
+Cálculo
+ROI(*)
+= 
+Rendimiento
+Valor promedio invertido
+(*)
+Rendimiento sobre la inversión
+RENTABILIDAD DEL ACTIVO
+Resultado Neto + Resultados Financieros
+Activo Promedio
+ROI = ROA
+(ROCE = RONA)
+RENTABILIDAD DEL PATRIMONIO NETO
+Resultado Neto
+Patrimonio Neto Promedio
+ROE
+INDICADORES DE RENTABILIDAD
+Ratio
+Determinación
+Margen bruto
+Margen neto
+Ventas – Costo de ventas
+Ventas
+Contribución marginal
+sobre ventas
+Resultado Neto
+Ventas
+Ventas – Costos variables
+Ventas
+INDICADORES BURSÁTILES
+Ratio
+Determinación
+EPS
+(ganancia por acción)
+PER
+(price to earnings ratio)
+Resultado neto
+Acciones en circulación
+Precio de la acción
+EPS
+Valor libros de la acción
+Patrimonio neto
+Acciones en circulación
+ÍNDICE DE DU PONT
+Intenta medir la rentabilidad de todos los activos
+puestos en funcionamiento para obtener un resultado
+Objetivo
+Cálculo
+Utilidad
+Inversión
+APERTURA DEL ÍNDICE DE DU PONT
+Utilidad Operativa
+Activo Promedio
+Utilidad Operativa
+Ventas
+Ventas
+Activo Promedio
+x
+Margen de ventas
+Rotación del activo
+ATRIBUTOS DEL ÍNDICE DE DU PONT
+Operativo
+Dinámico
+Introduce ventas
+1.
+Relación de precios y costos
+2.
+Número de veces que rota la inversión
+Dos relaciones
+Introduce rotación
+Permite localizar rápidamente en qué aspecto enfocarse 
+para maximizar la utilidad sobre la inversión
+IMPLICANCIAS
+Baja rotación
+y elevado margen
+Alta rotación
+y bajo margen
+Productos especializados
+Productos commodities
+APALANCAMIENTO
+Propia
+Terceros
+¿Hasta donde conviene financiarse a través de terceros 
+de manera de maximizar la rentabilidad?
+EFECTO PALANCA O LEVERAGE FINANCIERO
+Relación entre la rentabilidad 
+que corresponde a los propietarios
+y la rentabilidad que es capaz de generar la empresa 
+con los fondos que posee en movimiento 
+para  desarrollar su actividad
+APERTURA DEL EFECTO PALANCA
+Efecto
+palanca
+Rentabilidad
+del PN
+(ROE)
+Rentabilidad
+del activo
+(ROA)
+Resultado neto
+PN Promedio
+Resultado neto
++
+Resultado
+financiero
+Activo
+promedio
+/
+/
+/
+RESULTADOS DEL EFECTO PALANCA 
+> 1
+< 1
+= 1
+ROE
+ROA
+La deuda aumenta rentabilidad
+La deuda no es conveniente
+Indistinto
+CONCLUSIÓN DEL EFECTO PALANCA
+Apalancamiento financiero positivo
+ROA > costo de la deuda
+Análisis de la Información
+IFE
+Alejandra Bozic

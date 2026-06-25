@@ -1,0 +1,70 @@
+name: "Información Gerencial y Control de Gestión"
+schedule_day: Wednesday
+schedule_time: "19-22hs"
+modality: virtual
+total_classes: 6
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: "8cm37vq-10999"
+  hub_pages:
+    indice: "8cm37vq-11319"
+    clase_12_costos: "8cm37vq-11339"
+    clase_34_indicadores: "8cm37vq-11359"
+    clase_5_presupuesto: "8cm37vq-11379"
+
+professor: "Lisandro López (LL) / Adrián Casadey (AC)"
+
+evaluation_breakdown:
+  participacion: "15%"
+  tests_individuales: "30%"  # TEST 1 en Clase 2, TEST 2 en Clase 5
+  trabajo_grupal: "20%"      # análisis de estados contables de empresa real
+  exposicion_final: "35%"    # individual en Clase 6
+
+bibliography_priority:
+  - "García Colín J. (2009) — Contabilidad de Costos, 4ta ed. [OBLIGATORIA]"
+  - "Mocciaro O. (1997) — Presupuesto Integrado [OBLIGATORIA]"
+  - "Fowler Newton — Análisis de estados contables (ampliatoria — ya cubierto en IFE)"
+
+cronograma:
+  clase_1:
+    date: "2026-06-24"
+    topic: "Costos para la toma de decisiones 1"
+    professor: LL
+    test: false
+  clase_2:
+    date: "2026-07-01"
+    topic: "Costos 2 — Pricing + Ejercicios"
+    professor: LL
+    test: true   # TEST DE LECTURA 1
+  clase_3:
+    date: "2026-07-08"
+    topic: "Indicadores 1"
+    professor: AC
+    test: false
+  clase_4:
+    date: "2026-07-15"
+    topic: "Indicadores 2"
+    professor: AC
+    test: false
+  clase_5:
+    date: "2026-07-22"
+    topic: "Planeamiento y Presupuesto"
+    professor: LL
+    test: true   # TEST DE LECTURA 2
+  clase_6:
+    date: "2026-07-29"
+    topic: "Presentaciones Grupales + Exposiciones Individuales"
+    professor: "AC / LL"
+    test: false
+
+materials_available:
+  - "IGyCG - CLASE 1 y 2 Costos para la toma de decisiones.pdf"
+  - "IGyCG - CLASE 1 Material de Lectura 1.pdf"   # CN-143: decisiones baja capacidad
+  - "IGyCG - CLASE 1 Material de Lectura 2.pdf"   # CN-144: decisiones alta capacidad
+  - "IGyCG - CLASE 3 y 4 Análisis e indicadores y capital de trabajo.pdf"
+  - "IGyCG - CLASE 5 Presupuesto.pdf"
+  - "IGyCG - CLASE 5 Material de Lectura 3 El planeamiento y el presupuesto en épocas de alta incertidumbre.pdf"
+
+notebooklm_notebook: ""

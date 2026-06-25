@@ -1,0 +1,550 @@
+ALEJANDRA BOZIC
+M.B.A. UCEMA
+PRESUPUESTO
+CONTROL A 
+POSTERIORI
+PRESUPUESTO 
+ANUAL Y 
+MENSUAL
+PLANEAMIENTO
+Planeamiento: Es proyectar un futuro deseado y
+los medios efectivos para conseguirlos
+1 AÑO
+PLANIFICACIÓN Y CONTROL A PRIORI
+TIEMPO FUTURO
+MOMENTO PRESENTE
+PLAN ESTRATÉGICO
+PRESUPUESTO – DEFINICIÓN Y CLASES
+Documento que refleja la estimación, 
+expresada en cantidades y valorada en 
+unidades monetarias, de la actividad 
+económica – financiera pretendida por la 
+empresa y aprobada por la Dirección
+A LARGO PLAZO: Expresión 
+cuantificada del planeamiento 
+estratégico, con un mayor nivel de 
+detalle de los planes de acción, 
+comprendiendo la asignación de 
+fondos que permitirán alcanzar las 
+estrategias previamente aprobadas
+A CORTO PLAZO: Plan de acción de una 
+empresa, el que ha sido previamente aprobado 
+por la Dirección y con un grado de detalle que 
+abarca hasta el nivel de departamento o centro 
+de costos, para lo cual se han asignado las 
+respectivas responsabilidades en el 
+cumplimiento de las metas a corto plazo
+PRESUPUESTO -TIPOS
+Atendiendo a los elementos que 
+lo integran
+•
+Operativos
+•
+De capital
+Atendiendo a la dimensión de la 
+organización
+Presupuesto de:
+•
+producción,
+•
+administración,
+•
+RR.HH., etc.
+Atendiendo a la técnica empleada 
+para fijar estimaciones
+•
+Incrementales
+•
+Presupuesto Base 0
+SECUENCIA TEMPORAL
+ANTES
+DURANTE
+DESPUES
+PRESUPUESTO
+Ejecución
+(Registro 
+Contable)
+Control
+Presupuestario
+Datos 
+Previstos
+Datos
+Reales
+Análisis horizontal
+PRESUPUESTO INTEGRADO
+PRESUPUESTO – INTEGRADO O INTEGRAL
+Es el plan de acción de la empresa, con una extensión normal de un año
+(presupuesto operativo). 
+Esto implica la desagregación en subperíodos mensuales, absolutamente 
+necesarios para la posterior etapa del control presupuestario. 
+Considera la empresa como un sistema único y global.
+PRESUPUESTO – INTEGRADO O INTEGRAL
+PRESUPUESTOS OPERATIVOS
+Presupuesto Comercial
+Presupuesto de Producción
+Presupuesto de I y D
+Presupuesto de RRHH
+Presupuesto de Administración
+Presupuesto de Tesorería
+Presupuesto de 
+Inversiones
+Presupuesto de 
+financiación:
+•Obtención de recursos
+•Aplicación de recursos
+Estados de Síntesis
+PRESUPUESTOS DE CAPITAL
+PRESUPUESTO INTEGRADO - SECUENCIA
+PLAN (OBJETIVOS)
+PRESUPUESTO
+Presupuestos
+mensuales
+Control presupuestario
+Análisis de desvíos
+Adopción de medidas correctivas
+INFORMACIÓN CONTABLE
+PRESUPUESTO INTEGRADO – REQUISITOS Y VENTAJAS
+
+Estructura administrativa con asignación de funciones y 
+responsabilidades.
+
+Interés por parte de la Dirección de la empresa.
+
+Adecuado esquema contable.
+
+Aceptación por el nivel medio.
+Requisitos
+
+Elimina la incertidumbre.
+
+Promueve la dirección por objetivos.
+
+Optimiza la eficiencia.
+
+Promueve el constante autoanálisis.
+
+Mide el grado de cumplimiento.
+
+Elimina tiempos rutinarios entre ejecutivos.
+Ventajas
+IMPORTANCIA DE LOS SISTS. DE COSTOS Y FIJACIÓN DE ESTÁNDARES
+Un buen sistema de costos es absolutamente necesario para:
+El costeo de productos de manera confiable.
+La determinación de planes y presupuestos.
+Informar a la gerencia respecto de las operaciones en tiempo oportuno.
+Establecer todos aquellos aspectos que puedan contribuir a la reducción de costos.
+ELABORACIÓN DEL PRESUPUESTO - PAUTAS
+MACROECONÓMICAS
+MICROECONÓMICAS
+Tasas de inflación (índice de 
+precios minoristas nivel general)
+Tipos de cambio
+Tasas de interés
+Tarifas
+Políticas de control oficial de 
+precios
+Evolución de los niveles de 
+remuneraciones
+
+Niveles de existencias de materias primas, 
+productos en elaboración y producción 
+terminada.
+
+Evolución de los precios y condiciones de 
+compra de las principales M.P.
+
+Política específica de remuneraciones e 
+incentivos al personal
+
+Traslación a los precios de ventas de las 
+variaciones producidas en los costos
+
+Plan de inversiones en bienes de uso y su 
+financiación
+PRESUPUESTO - SÍNTESIS
+Presupuesto  a Largo Plazo
+(De Capital)
+Presupuesto  a Corto Plazo
+(Operativos)
+Presupuesto de Inversiones
+Presupuesto de Financiación
+Presupuesto Económico
+Presupuesto Financiero
+PRESUPUESTO ECONÓMICO
+PRESUPUESTO ECONÓMICO
+El Presupuesto Económico puede incluir Presupuesto:
+De Ventas;
+De Producción;
+De Compras;
+De Mano de Obra Directa;
+De Costo de Ventas;
+De Costos Fijos de Producción;
+De Gastos de Comercialización;
+De Gastos de Administración;
+De Gastos Financieros.
+PRESUPUESTO DE VENTAS
+Variable ingresos
+Centro de ingresos
+Producto entre cantidades físicas
+de ventas previstas y los precios
+unitarios previstos:
+•Para cada uno de los productos (i)
+•Para cada canal de ventas (J)
+(qv * pv) ij
+PRESUPUESTO DE VENTAS
+Variable contribución marginal
+Centro de resultados
+Producto entre las cantidades 
+físicas de ventas previstas y las 
+contribuciones marginales 
+unitarias previstas:
+•Para cada uno de los productos (i) y,
+•Para cada canal de ventas (J)
+FIJACIÓN DE VOLÚMENES FÍSICOS DE VENTAS
+Variable contribución marginal
+Centro de resultados
+Producto entre las cantidades 
+físicas de ventas previstas y las 
+contribuciones marginales 
+unitarias previstas:
+•Para cada uno de los productos (i) y,
+•Para cada canal de ventas (J)
+FIJACIÓN DE VOLÚMENES FÍSICOS DE VENTAS
+“Conjunto de compradores actuales y potenciales de un producto 
+determinado”
+MERCADO
+
+Interés o deseo por el producto.
+
+Capacidad de gasto.
+
+Posiblidad real de acceso al producto.
+CARACTERÍSTICAS 
+DE LOS 
+COMPRADORES
+MEDICIONES DE DEMANDA
+Volumen total de un producto susceptible de ser comprado por un determinado grupo de consumidores:
+•
+en un área geográfica concreta,
+•
+en un determinado período,
+•
+en un entorno económico definido, y
+•
+bajo un programa específico de marketing.
+DEMANDA DEL 
+MERCADO
+Volumen total de un producto susceptible de ser vendido por la firma:
+•
+en un área geográfica concreta,
+•
+en un determinado período,
+•
+en un entorno económico definido, y
+•
+bajo un programa específico de marketing.
+Es la porción de demanda del mercado captada por la empresa:
+Demanda de la Empresa = Demanda del Mercado x Cuota de Mercado
+DEMANDA DE 
+LA EMPRESA
+DEMANDA DE LA EMPRESA
+Volumen que podría colocarse sin necesidad de estímulos (gastos de 
+promoción)
+DEMANDA MÍNIMA
+Dado un entorno económico determinado (auge, recesión, etc.), volumen límite al 
+que se aproximaría la colocación de productos si los gastos de promoción
+tendiesen al infinito.
+DEMANDA 
+POTENCIAL
+Volumen esperado de colocación de productos en función de un 
+determinado nivel de gastos de promoción.
+DEMANDA 
+PREVISTA
+PRESUPUESTO DE VENTAS – PUNTOS A TENER EN CUENTA
+Canales de Distribución;
+Descuentos a otorgar por volumen;
+Zonas Geográficas;
+Líneas de producto;
+Artículos destinados a la exportación + Posibilidades internas de producción;
+Capacidad de planta y equipo para la operación previstas;
+Adaptabilidad de materia prima y otros elementos;
+Contar con el personal necesario;
+Disponibilidad de capital suficiente.
+PRESUPUESTO DE VENTAS – ESQUEMA
+Canal de ventas:
+Producto: A
+Unidades:
+Precio unitario:
+Contribución Marginal unitaria:
+Producto: B
+Unidades:
+Precio unitario:
+Contribución Marginal unitaria:
+Producto: X
+Unidades:
+Precio unitario:
+Contribución Marginal unitaria:
+Canal de ventas: X
+PRESUPUESTO DE VENTAS TOTAL
+PRESUPUESTO DE CONTRIBUCIÓN MARGINAL TOTAL
+PRESUPUESTO DE PRODUCCIÓN
+•
+UNIDADES FISICAS A ELABORAR
+•
+UNIDADES FISICAS A ADQUIRIR
+•
+POLITICA DE STOCK DE PRODUCTOS TERMINADOS
+•
+ESTACIONALIDAD
+Volumen de ventas
++ Inventario final previsto (en unidades)
+- Inventario inicial previsto (en unidades)
+= Producción requerida
+Programa de Producción = Previsión de Ventas +/- Variación del nivel de 
+existencia de los productos finales
+PRESUPUESTO DE PRODUCCIÓN - ESQUEMA
+Producto:
+Unidad:
+MATERIALES DIRECTOS
+MATERIAL
+MATERIAL
+MANO DE OBRA DIRECTA
+CATEGORIA
+CATEGORIA
+CARGA FABRIL
+FACTORES VARIABLES
+FACTORES FIJOS
+Comp. físico
+Comp. Monet.
+TOTAL
+.....................
+......................
+.....................
+......................
+.....................
+.....................
+.....................
+......................
+.....................
+......................
+.....................
+.....................
+.....................
+......................
+.....................
+......................
+.....................
+.....................
+PRESUPUESTO DE PRODUCCIÓN – PUNTOS A TENER 
+EN CUENTA / SUBPRODUCTOS
+Políticas de niveles de producción
+Nivel de la utilización de la capacidad productiva en cada uno de los sectores en 
+elaboración
+Niveles de inventario para productos terminados y en elaboración
+A su vez el presupuesto de producción será la base para:
+
+Presupuesto de materia primas y materiales
+
+Presupuesto de mano de obra directa
+
+Presupuesto de carga fabril
+PRESUPUESTO DE MATERIALES
+Programa de Producción
+Número de unidades de producto
+Programa de consumo (unidades físicas) de materiales =
+Número de unidades de producto  x Consumo unitario de materiales
+Programa de compras (unidades físicas) de materiales=
+Programas de consumo de materiales +/- variación en el nivel de materiales
+PRESUPUESTO DE MANO DE OBRA
+Programa de Producción
+Número de unidades de producto
+Programa de consumo (horas hombre) de mano de obra=
+Número de unidades de producto  x Consumo unitario de mano de obra
+PUNTOS A TENER EN CUENTA:
+Proyección de horas por mes, sección productiva y turnos de trabajo.
+Evaluación de horas de trabajo en horas extraordinarias con jornales diferenciales.
+Establecimiento de jornales sobre la base de distintas categorías.
+Determinación de porcentajes de cargas sociales a aplicarse sobre los jornales.
+Proyección de las necesidades de incorporar o reducir personal.
+En caso de prescindir de personal, el cálculo de las respectivas indemnizaciones.
+PRESUPUESTO FINANCIERO
+PRESUPUESTO FINANCIERO O DE TESORERÍA
+Proyecta ingresos y egresos de dinero
+INGRESOS
+EGRESOS
+=SUPERÁVIT / (DÉFICIT) CORRIENTE
+EGRESOS LP
+INGRESOS LP
+=SUPERÁVIT / (DÉFICIT) OPERATIVO
+OPERACIONES DE FINANCIAMIENTO E INVERSIÓN
+OPERACIONES DEL GRUPO
+=SUPERÁVIT / (DÉFICIT) TOTAL
+PRESUPUESTO FINANCIERO – MOVIMIENTOS Y VENTAJAS
+El presupuesto financiero obtiene del
+•Presupuesto de ventas
+•de Producción
+•de Compras
+•de Mano de obra directa
+•de costo de ventas
+•de Costos fijos de producción
+•de Gastos de comercialización
+•de Gastos de administración
+•de Gastos financieros
+Cobranzas
+Pagos a Proveedores
+Exterior y Nacional
+Retribuciones al personal
+Aportes y retenciones
+Impuestos
+Pago de gastos 
+Pago de intereses
+VENTAJAS:
+Indica con anticipación excedentes o faltantes de fondos.
+Permite una utilización más eficiente de disponibilidades y su posible inversión para las inactivas.
+Detecta cuándo es conveniente recurrir a préstamos y es sólido fundamento para su obtención.
+Constituye un control permanente.
+PRESUPUESTO DE INVERSIÓN
+PRESUPUESTO DE INVERSIÓN
+Cronograma de inversiones necesarias para cumplir con el planeamiento estratégico
+Ingreso de inversiones al activo
+Cobro de inversiones
+Pago de inversiones
+Financiación de inversiones
+INFORMACIÓN DEL 
+PRESUPUESTO DE INVERSIONES
+ESTADOS CONTABLES 
+PROYECTADOS
+Balance
+proyectado
+Presupuesto 
+financiero
+Amortización de
+inversiones presupuestadas
+Amortización de
+inversiones anteriores
+Amortizaciones
+(resultados)
+Amortizaciones acumuladas
+(regulariza activos)
+Presupuesto 
+económico
+ESTADOS CONTABLES PROYECTADOS
+ESTADOS CONTABLES PROYECTADOS
+Presupuesto 
+económico
+Presupuesto
+financiero
+Balance
+proyectado
+Estado de 
+resultados
+proyectado
+Flujo de 
+fondos
+proyectado
+Estado 
+patrimonial
+proyectado
+Ventas
+Costo
+Gastos
+Resultado financiero
+Impuesto
+Cobranzas
+Pago a proveedores
+Pago de remuneraciones
+Pago de impuestos
+Financiamiento Inversiones
+Por mes
+y
+acumulado
+Inversión
+Activo corriente
+Activo no corriente
+Financiamiento
+Pasivo corriente
+Pasivo no corriente
+Patrimonio neto
+ESTADOS CONTABLES PROYECTADOS
+Presupuesto 
+económico
+Presupuesto
+financiero
+Balance
+proyectado
+Estado de 
+resultados
+proyectado
+Cash flow
+proyectado
+Síntesis 
+presupuestaria
+Movimientos
+devengados
+Movimientos 
+percibidos
+Movimientos percibidos 
+y devengados más saldo 
+inicial
+CONTROL PRESUPUESTARIO
+PRESUPUESTO INTEGRADO - SÍNTESIS
+PRESUPUESTO 
+FINANCIERO
+PRESUPUESTO
+ECONÓMICO
+BALANCE
+INICIAL
+BALANCE
+PROYECTADO
+SITUACION ESTATICA
+G
+E
+S
+T
+I
+Ó
+N
+D
+I
+N
+Á
+M
+I
+C
+A
+CONTROL PRESUPUESTARIO
+Comprende:
+La medición del resultado y el cálculo de las desviaciones respecto a las 
+previsiones.
+La evaluación de la actuación de cada centro de responsabilidad en el logro 
+de los objetivos.
+CONTROL PRESUPUESTARIO - ESQUEMA
+RESPONSABILIDAD DE
+CADA PERSONA
+OBJETIVO DE 
+EMPRESA
+Estructura organizativa
+Estrategia
+Formulación de sub-objetivos
+por centro de responsabilidad
+y elaboración del presupuesto
+Evaluación del
+Centro de Responsab.
+Medición del resultado 
+y cálculo del desvío
+Sistema 
+De control
+CONTROL PRESUPUESTARIO - SÍNTESIS
+Planeamiento
+Estratégico
+Táctico
+Presupuesto L.P.
+Presupuesto C.P.
+Análisis de desvíos
+Medidas correctivas
+Retroalimentación
+Sistema de presupuesto integrado
+•Económico
+•Financiero
+•Síntesis Presupuestaria
+Control Presupuestario

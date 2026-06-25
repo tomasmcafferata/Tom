@@ -1,0 +1,495 @@
+ALEJANDRA BOZIC
+M.B.A. UCEMA
+COSTOS PARA LA TOMA DE DECISIONES
+COSTOS
+Son los recursos sacrificados o perdidos para 
+alcanzar un objetivo específico
+CLASIFICACIÓN DE COSTOS
+1.
+La función en que se incurre:
+costos de producción
+costos de distribución (gastos)
+costos de administración (gastos)
+costos financieros (gastos)
+CLASIFICACIÓN DE COSTOS
+2. El período en que se llevan al estado de resultados
+costos del producto o inventariables (costos)
+costos del período  o no inventariables (gastos)
+CLASIFICACIÓN DE COSTOS
+3.  Su identificación
+– Costos directos
+– Costos indirectos (overhead)
+CLASIFICACIÓN DE COSTOS
+4.  Su grado de variabilidad
+Costos fijos
+Costos variables
+Costos semifijos, semivariables o mixtos
+RELACIÓN ENTRE LOS COSTOS Y EL VOLUMEN DE UNIDADES PRODUCIDAS
+Costo fijo
+$
+Unidades
+Costo variable
+Costo total
+CLASIFICACIÓN DE COSTOS
+5. En el momento en que se determinan los costos:
+costos históricos
+costos predeterminados
+COSTOS DE PRODUCCIÓN
+MATERIA PRIMA
+• Directa
+• Indirecta
+MANO DE OBRA
+• Directa 
+• Indirecta
+CARGOS INDIRECTOS
+MATERIA 
+PRIMA
+MANO DE 
+OBRA 
+DIRECTA
+CARGOS 
+INDIRECTOS
+GASTOS 
+ADM. Y 
+COMERCIA-
+LIZACION
+GASTOS 
+FINANCIEROS
+GANANCIA
+PRECIO DE VENTA NETO
+COSTO TOTAL
+COSTO PRIMO
+COSTO DE CONVERSION
+COSTO DE PRODUCCION
+RUBROS INTEGRANTES DEL PRECIO DE VENTA
+COSTO – UTILIDAD –VOLUMEN
+EL PUNTO DE EQUILIBRIO
+específico
+RELACIÓN ENTRE COSTOS FIJOS
+DE PRODUCCIÓN  Y  VOLUMEN DE UNIDADES
+Costo Fijo
+Volumen
+Costo fijo
+Total
+(unidades)
+Por unidad
+20,000.00 
+1000
+20.00 
+20,000.00 
+2000
+10.00 
+20,000.00 
+3000
+6.67 
+20,000.00 
+4000
+5.00 
+20,000.00 
+5000
+4.00 
+ -
+ 5,000.00
+ 10,000.00
+ 15,000.00
+ 20,000.00
+ 25,000.00
+1
+2
+3
+4
+5
+COSTO FIJO
+VOLUMEN (UNIDADES)
+COSTO FIJO
+Costo Variable
+Volumen
+Costo Vble
+Total
+(unidades)
+Por unidad
+20.000,00
+       
+1000
+20,00
+         
+40.000,00
+       
+2000
+20,00
+         
+60.000,00
+       
+3000
+20,00
+         
+80.000,00
+       
+4000
+20,00
+         
+100.000,00
+     
+5000
+20,00
+         
+ -
+ 20,000.00
+ 40,000.00
+ 60,000.00
+ 80,000.00
+ 100,000.00
+ 120,000.00
+1
+2
+3
+4
+5
+VOLUMEN (UNIDADES)
+COSTO VARIABLE
+RELACIÓN ENTRE COSTOS VARIABLES
+DE PRODUCCIÓN  Y  VOLUMEN DE UNIDADES
+OBTENCIÓN DEL COSTO TOTAL
+Volumen
+Costo Fijo
+Costo Variable
+Costo total
+1000
+20,000.00
+       
+20,000.00
+                
+40,000.00
+   
+2000
+20,000.00
+       
+40,000.00
+                
+60,000.00
+   
+3000
+20,000.00
+       
+60,000.00
+                
+80,000.00
+   
+4000
+20,000.00
+       
+80,000.00
+                
+100,000.00
+ 
+120,000.00
+ 
+100,000.00
+ 
+           Costo total
+80,000.00
+   
+           Costo variable
+60,000.00
+   
+           Costo fijo
+40,000.00
+   
+20,000.00
+   
+1
+2
+3
+4
+5
+volumen (unidades)
+Costos totales
+Costos 
+variables
+Costos 
+fijos
+Costos de productos
+Costos del período
+COMPORTAMIENTO DE LOS COSTOS 
+EN FUNCIÓN DE SU VARIABILIDAD CON EL NIVEL DE ACTIVIDAD
+C 
+C   
+Costo total
+           Costo unitario
+Costo total
+Costo unitario
+A    
+A    
+COSTOS FIJOS
+COSTOS VARIABLES
+C: Costos
+A: Actividad
+PUNTO DE EQUILIBRIO
+
+Es el punto donde los ingresos totales son iguales a los costos totales; es decir, el volumen de 
+ventas con cuyos ingresos se igualan los costos totales y la empresa no reporta utilidad pero tampoco 
+pérdida.
+Los métodos para calcular el punto de equilibrio:
+• Método de la ecuación
+• Método del margen de contribución
+• Método gráfico
+ALEJANDRA BOZIC
+ACTIVIDAD I
+• Resolver el caso Alesca
+• ¿Cuál es su punto de equilibrio?
+La compañía Alesca produce un solo artículo:
+• Precio de venta por unidad          $30
+• Costos variables por unidad        $20
+• Costos fijos totales                 $20.000
+UBICACIÓN GRÁFICA DEL PUNTO DE EQUILIBRIO
+150
+120
+100
+80
+60
+40
+20
+10
+Línea de costos fijos
+1000        2000      3000     4000      5000     6000
+Punto de 
+equilibrio
+Línea de Ingresos
+Área de pérdidas
+Línea de costos totales
+Área de ganancias
+COSTOS  Y  LA TOMA DE DECISIONES
+DECISIONES
+Según el 
+horizonte 
+temporal
+Decisiones de 
+corto plazo
+Explotación
+Decisiones de 
+largo plazo
+Inversión
+DECISIONES DE INVERSIÓN
+Decisiones de instalación
+de una determinada
+capacidad productiva
+HERRAMIENTAS FINANCIERAS:
+TIR
+VAN
+DECISIONES DE 
+EXPLOTACIÓN
+DECISIONES DE PRECIOS:
+precios de venta
+DECISIONES DE PRODUCTO:
+decisiones relacionadas con la selección
+de los productos que la empresa desea 
+fabricar (relacionadas con la utilización 
+de la capacidad  productiva)
+DECISIONES DE EXPLOTACIÓN
+DECISIONES DE PRODUCTO - ANÁLISIS
+Posibilidad de 
+comprar (out-
+sourcing)
+CON CAPACIDAD DE 
+PRODUCCIÓN
+Disponible/Baja
+Alta/Limitada/plena
+MODELO DE ANÁLISIS DIFERENCIAL –
+¿COMPRAR O PRODUCIR?
+ANÁLISIS
+Alternativas de decisión
+Comprar o producir
+Ingresos diferenciales
+No hay, pues los obtenidos por la venta del producto se obtendrán 
+igualmente si se le compra el producto como si se fabrica por la 
+propia empresa
+Costos diferenciales
+•
+Variables porque varían según el volumen
+•
+Fijos directos que puedan desaparecer al no fabricarse la pieza
+•
+Si se compra la pieza afuera el costo será  el precio de compra de 
+la pieza
+MODELO DE ANÁLISIS DIFERENCIAL –
+¿COMPRAR O PRODUCIR?
+DECISIÓN
+Si Q*PC > Q*CV + GFD          FABRICAR
+Si Q*PC < Q*CV + GFD         COMPRAR
+PC:        Precios de compra
+GFD:    Gastos fijos directos del producto
+CV:      Costos variables del producto
+Q:        Nº de unidades a comprar=Nº de unidades a fabricar
+DECISIONES DE PRODUCTO CON CAPACIDAD DISPONIBLE/BAJA  
+¿QUÉ PRODUCIMOS?
+En situaciones de capacidad disponible, casi todos los problemas se 
+reducen a seleccionar productos cuyo margen de contribución total sea 
+mayor que sus costos fijos directos:
+(MCU.) Q - CFD > 0
+MCU.:  Margen de contribución unitario
+Q: Número de unidades vendidas = Número de unidades producidas
+GFD.: Gastos fijos directos
+DECISIONES DE PRODUCTO CON CAPACIDAD LIMITADA/PLENA/ALTA 
+- ¿QUÉ PRODUCIMOS?
+“Cuando una planta está trabajando con limitación de su capacidad, 
+el producto que debe fabricarse es aquel que haga máximo el 
+margen de contribución unitario por unidad de recurso escaso”
+ALEJANDRA BOZIC
+ACTIVIDAD II
+• Resolver el caso del web campus
+DECISIONES DE PRECIO
+PRICING
+DECISIONES DE PRECIO - PRICING
+A la hora de colocar un producto nuevo en el mercado, debemos estudiar:
+A) La demanda potencial, o que tipo de necesidad satisface el producto, la
+estimación del número de individuos que están dispuestos a pagar para
+satisfacer dicha necesidad y la cuota de mercado que deseamos y creemos
+poder cubrir
+B) El costo de producir el bien
+C) El costo de penetración en el mercado (publicidad, promociones, etc.)
+D) El costo de distribución y venta
+PRICING - TEMAS ESTRATÉGICOS 
+• ¿Cuáles son los objetivos de precio?
+• ¿Qué influencia tienen los costos en la estrategia de precio?
+• ¿Cuál es el valor del producto para el usuario?
+• ¿Cómo elegir entre una estrategia de descreme o penetración?
+• ¿Cuál es el proceso de fijación de precios?
+PRICING
+Precio
+Objetivo
+Valor
+Subjetivo
+PRICING - LO ESENCIAL
+Competencia
+Demanda
+Leyes
+Costos
+Objetivos
+Valor (techo)
+Costo (piso)
+PRICING - LO ESENCIAL
+PRICING
+“METRO PATRÓN” PARA FIJACIÓN DE PRECIOS
+Prioridad = Rentabilidad
+Decisión estratégica
+Riesgo a asumir por la empresa
+Precio: Más alto que el valor percibido por 
+el cliente
+Pérdida de mercado
+Precio: Máximo posible 
+Competencia
+Precio: En línea con la competencia
+No diferenciación de la competencia
+Precio: Debajo de la competencia 
+Pérdida de rentabilidad
+Precio: Igual al costo variable
+No cobertura de costos fijos
+Precio: Debajo del costo variable
+Pérdida programada
+PrIoridad = Volumen
+PRICING - ESTRATEGIAS TÍPICAS
+Alto
+Precio
+Bajo
+Descreme
+Promedio de la
+industria
+•Cuando el producto es importante en los costos del cliente
+•Cuando existe una alta percepción de valor
+PRICING - ESTRATEGIAS TÍPICAS
+Alto
+Precio
+Bajo
+Penetración
+•Cuando el mercado es muy sensible al precio
+- inhabilidad de distinguir entre productos
+- compras frecuentes
+- gran números de sustitutos
+• Para anticiparse a competidores
+•Cuando no existen riesgos de defectos y hay capacidad instalada
+•Cuando existen grandes economías de escala o curvas de aprendizaje muy marcadas
+PRICING - MÉTODOS
+Basado en los costos
+
+Garantiza un % de contribución
+
+Fácil de determinar
+
+Puede ser no óptimo
+Basado en la competencia
+
+Garantiza estar en foco con competidores
+
+Puede iniciar una guerra de precios
+
+Puede ser no óptimo
+Basado en el valor percibido
+
+Óptimo
+
+Lo que la gente esta dispuesta a pagar
+
+Difícil de determinar
+MÉTODO BASADO EN EL COSTO – TOTAL (MARK UP)
+El precio de venta se calcula como la suma de los costos unitarios
+de producción y venta más un margen destinado al beneficio.
+P = (CF + CV) (1 + m)
+P = precio unitario
+CF = costos fijos unitarios
+CV = costos variables unitarios
+m = margen de beneficios por unidad
+PRODUCTO A
+PRODUCTO B
+Costos unitarios de:
+Material directo
+7
+3
+Mano de obra directa
+2
+3
+Cargos indirectos de fabricación
+6
+9
+ = Costo de fabricación
+15
+15
+ + Gastos de venta y administración
+5
+5
+ = Costo total
+20
+20
+ + Margen de beneficio sobre el
+costo total (50%)
+10
+10
+ = PRECIO PROPUESTO
+30
+30
+MARK UP - EJEMPLO
+MÉTODO BASADO EN EL COSTO –VALOR AGREGADO
+•El margen sólo se aplicaría sobre los costos de transformación
+•Tiene en cuenta el esfuerzo de la compañía en la transformación
+ALEJANDRA BOZIC
+ACTIVIDAD III
+• Resolver el ejemplo siguiente
+VALOR AGREGADO - EJEMPLO
+PRODUCTO A
+PRODUCTO B
+Mano de obra directa
+2
+3
+Cargos indirectos de fabricación
+6
+9
+ Margen de beneficio sobre el
+costo de transformación (100%)
+  Material directo
+7
+3
+ Gastos de venta y administración
+5
+5
+ = PRECIO PROPUESTO
+ALEJANDRA BOZIC
+M.B.A. UCEMA
