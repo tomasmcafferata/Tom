@@ -1,0 +1,135 @@
+name: "Finanzas Corporativas"
+schedule_day: Monday
+modality: presencial
+total_classes: 6
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: "8cm37vq-11039"
+  hub_pages:
+    indice: "8cm37vq-11479"
+    progreso: "8cm37vq-11499"
+    formulario: "8cm37vq-11519"   # reemplaza al "Glosario" de las materias conceptuales
+    clase_1: "8cm37vq-11539"
+    clase_2: "8cm37vq-11559"
+    clase_3: "8cm37vq-11579"
+    clase_4: "8cm37vq-11599"
+    clase_5: "8cm37vq-11619"
+    clase_6: "8cm37vq-11639"
+
+professor: "Lic. Joel Vaisman (MBA, MFin, FMVA)"
+
+evaluation_breakdown:
+  examen_nivelador: "15%"   # sobre contenidos de Cálculo Financiero
+  examen_final: "85%"
+
+# Materia CUANTITATIVA — el pipeline estándar MBA se adapta:
+content_management:
+  type: cuantitativa
+  notebooklm: false            # Claude lee los PDFs de teoría directo, clase a clase
+  ejercicios_mode: on_command  # las resoluciones .xlsx son la clave de corrección
+  unified_page: "formulas + 1 ejemplo resuelto por concepto; la página Glosario pasa a ser Formulario"
+
+bibliography_priority:
+  - "Ross, Westerfield, Jaffe, Jordan — Finanzas Corporativas (11ª ed., 2018) [OBLIGATORIA]"
+  - "López Dumrauf — Finanzas Corporativas (3ª ed., 2019) [OBLIGATORIA]"
+  - "Brealey-Myers — Finanzas Corporativas [fuente de los ejercicios marcados (BM)]"
+
+notebooklm_notebook: ""  # no se usa en esta materia
+
+syllabus_programa:
+  unidad_1: "Las FC y su función. Creación y medición de valor. Gobernanza corporativa y problemas de agencia."
+  unidad_2: "Decisiones de financiamiento y estructura de capital. Teorías (Modigliani-Miller, Trade-Off). Costo de capital. WACC."
+  unidad_3: "Decisiones de inversión. Free Cash Flow. Payback, payback ajustado, VAN, TIR, TIR modificada. Proyectos mutuamente excluyentes."
+  unidad_4: "Beneficio económico: EVA (Economic Value Added)."
+
+materials_available:
+  - "programa.pdf"
+  - "presentacion_general.pdf"                  # deck 44 slides — overview de TODA la materia
+  - "lectura_costo_capital.pdf"                 # 79 pg — WACC (Unidad 2)
+  - "lectura_estructura_capital.pdf"            # 59 pg — estructura de capital (Unidad 2)
+  - "lectura_estructura_capital_teorias.pdf"    # 70 pg — MM, Trade-Off (Unidad 2)
+  - "lectura_inversion_fcf.pdf"                 # 60 pg — FCF, VAN, TIR (Unidad 3)
+  - "ejercicios_costo_capital.pdf"              # + ejercicios_costo_capital_resolucion.xlsx
+  - "ejercicios_fcf.pdf"                        # + ejercicios_fcf_resolucion.xlsx
+  - "excel_clase.xlsx"
+  - "nivelacion_resumen.md"                     # nivelatorio de Cálculo Financiero (15%)
+
+syllabus_actual:
+  clase_1:
+    date: "2026-06-29"
+    hub_page_id: "8cm37vq-11539"
+    topic: "Introducción: la materia, gobernanza y las 4 decisiones"
+    status: completada
+    notas: false   # armada desde la presentación general, sin notas de clase
+    key_concepts:
+      - Administración financiera (generar valor) vs gobernanza (evitar destrucción de valor)
+      - "Repaso EECC: ESP, Managerial Balance Sheet, EERR (esquema finanzas), EFE"
+      - Capital = CTN + Bienes de Capital; Estructura de Capital = Deuda Neta + Equity
+      - Relación de agencia (Agente / Principal) y problema de agencia
+      - Principios OECD de gobierno corporativo
+      - "Modelos de gobierno: continental (dual board) vs anglosajón (board único)"
+      - "4 decisiones: financiamiento, inversión, dividendos, capital de trabajo"
+      - Estructura de capital y capital stack (senior debt -> common stock)
+      - Intro a Free Cash Flow y VAN
+  # Clases 2-6 PRECARGADAS desde los PDFs de teoría (sin notas de clase aún).
+  # Se refinan/confirman fechas y splits con las notas cuando se cursen.
+  clase_2:
+    date: TBD
+    hub_page_id: "8cm37vq-11559"
+    topic: "Estructura de Capital"
+    status: precargada
+    source: "lectura_estructura_capital.pdf"
+    key_concepts:
+      - Capital (CTN + PP&E) vs Estructura de Capital (Deuda + Equity)
+      - Capital stack y orden de prelación
+      - "Tipos de acciones: ordinarias vs preferidas, voting rights, cumulative/participating"
+      - "Inversores de equity por etapa: Ángel, VC, PE, IPO/SEO; LBO"
+      - "Cláusulas: tag/drag along, first offer/refusal, lock-up, standstill, deadlock, registration rights, ratchet"
+      - "Emisión en mercados: IPO/SEO, ON; leyes 23.576 / 26.831 / 19.550"
+  clase_3:
+    date: TBD
+    hub_page_id: "8cm37vq-11579"
+    topic: "Costo del Capital: Kd, Ke (CAPM) y WACC"
+    status: precargada
+    source: "lectura_costo_capital.pdf"
+    key_concepts:
+      - "Kd = TIR/YTM de la deuda a mercado; curva de rendimientos; rating sintético (EBIT/Intereses)"
+      - "Ke por CAPM: Rf + beta*(Rm-Rf); SML; beta top-down/bottom-up; adjusted beta; country risk premium"
+      - "WACC = wD*Kd*(1-t) + wE*Ke; ponderadores a valor de mercado; D/E no es Pasivo/PN"
+      - Escudo fiscal de la deuda
+  clase_4:
+    date: TBD
+    hub_page_id: "8cm37vq-11599"
+    topic: "Teorías de Estructura de Capital: MM y Trade-Off"
+    status: precargada
+    source: "lectura_estructura_capital_teorias.pdf (imagen — sin texto extraíble; página desde teoría estándar)"
+    key_concepts:
+      - "MM Proposición I (sin impuestos): V_L = V_U"
+      - "MM Proposición II: Ke = Ka + (Ka-Kd)*(D/E); WACC constante"
+      - "MM con impuestos: V_L = V_U + t*D (escudo fiscal)"
+      - "Trade-Off: óptimo entre escudo fiscal y costos de quiebra/distress"
+      - "Pecking Order (referencia)"
+  clase_5:
+    date: TBD
+    hub_page_id: "8cm37vq-11619"
+    topic: "Decisiones de Inversión: FCF, VAN y TIR"
+    status: precargada
+    source: "lectura_inversion_fcf.pdf"
+    key_concepts:
+      - "FCF = FEO - dCTN - CAPEX; solo flujos incrementales; excluir costos hundidos"
+      - "FEO = NOPAT + Deprec; NOPAT = EBIT*(1-t)"
+      - "dCTN (CxC + Inv - CxP) por días; CAPEX y efecto fiscal de bajas de activos"
+      - "Caso Electrodradix (FLACASTRO) -> FCF -> VAN"
+      - "Criterios: VAN, TIR, payback, TIR modificada, proyectos excluyentes (VAN manda)"
+  clase_6:
+    date: TBD
+    hub_page_id: "8cm37vq-11639"
+    topic: "Beneficio Económico: EVA"
+    status: precargada
+    source: "sin deck propio — teoría estándar (EVA Stern Stewart)"
+    key_concepts:
+      - "EVA = NOPAT - WACC * Capital Invertido"
+      - "EVA = (ROIC - WACC) * Capital Invertido"
+      - "Integra operación (NOPAT) + inversión (capital) + financiamiento (WACC)"

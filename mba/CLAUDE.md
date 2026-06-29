@@ -21,8 +21,10 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
-   - Lunes = Liderazgo y Gestión de Equipos de Alto Rendimiento (en curso)
-   - Miércoles = IFE — Información Financiera de la Empresa (en curso)
+   - Lunes = Finanzas Corporativas (en curso)
+   - Miércoles = Información Gerencial y Control de Gestión — IGyCG (en curso)
+   - Liderazgo y Gestión de Equipos (completada — ya no genera clases nuevas)
+   - IFE — Información Financiera de la Empresa (completada — ya no genera clases nuevas)
    - Economía y Negocios (completada — ya no genera clases nuevas)
    - Gestión de Personas (completada — ya no genera clases nuevas)
 2. Leer `mba/state.yaml` para contexto acumulado
@@ -73,6 +75,16 @@ Sesión rápida (15-30 min). Claude debe:
 1. Tomar los conceptos más urgentes de `mba/state.yaml`
 2. Modo flashcard: hacer preguntas, el usuario responde, Claude da feedback
 3. Actualizar estado según desempeño
+
+---
+
+### "ejercicios" o "ejercicios [curso]"
+Modo práctica para **materias cuantitativas** (ej. Finanzas Corporativas). **On-command, nunca automático.** Claude debe:
+1. Tomar la guía de ejercicios del curso (`mba/presentations/[curso]/ejercicios_*.pdf`)
+2. Presentar **un ejercicio por vez**, sin mostrar la respuesta
+3. El usuario resuelve; Claude verifica planteo y resultado contra el `.xlsx` de resolución (`ejercicios_*_resolucion.xlsx`), que es la clave de corrección
+4. Si hay error, explicar el paso que falló y la fórmula correcta (página **Formulario** del Hub)
+5. Trackear en `mba/state.yaml` qué tipos de ejercicio ya domina el usuario
 
 ---
 
@@ -127,31 +139,43 @@ Se ejecuta al finalizar una materia completa. Claude debe:
   - Página Progreso: `8cm37vq-10553`
   - Páginas de clase: se agregan en `mba/courses/gestion.yaml` → hub_pages → clase_N
 
-### IFE — Información Financiera de la Empresa (en curso — Miércoles)
+### IFE — Información Financiera de la Empresa (completada)
 - Hub Doc: `8cm37vq-10953`
   - Página Índice: `8cm37vq-10933`
   - Página Glosario: `8cm37vq-10973`
   - Página Progreso: `8cm37vq-10993`
   - Páginas de clase: se agregan en `mba/courses/ife.yaml` → hub_pages → clase_N
 
-### Liderazgo y Gestión de Equipos (en curso — Lunes)
+### Liderazgo y Gestión de Equipos (completada)
 - Hub Doc: `8cm37vq-10973`
   - Página Índice: `8cm37vq-10953`
   - Página Glosario: `8cm37vq-11013`
   - Página Progreso: `8cm37vq-11033`
   - Páginas de clase: se agregan en `mba/courses/liderazgo.yaml` → hub_pages → clase_N
 
+### Información Gerencial y Control de Gestión — IGyCG (en curso — Miércoles)
+- Hub Doc: `8cm37vq-11019`
+  - Páginas: ver `mba/courses/control_gestion.yaml` → hub_pages
+
+### Finanzas Corporativas (en curso — Lunes)
+- Hub Doc: `8cm37vq-11039`
+  - Página Índice: `8cm37vq-11479`
+  - Página Formulario: `8cm37vq-11519`  (reemplaza al Glosario)
+  - Página Progreso: `8cm37vq-11499`
+  - Páginas de clase: se agregan en `mba/courses/finanzas.yaml` → hub_pages → clase_N
+- **Materia cuantitativa**: sin NotebookLM (Claude lee los PDFs directo), Glosario = Formulario, modo ejercicios on-command.
+
 ---
 
 ## Calendario Google
-- Lunes: Liderazgo y Gestión de Equipos (en curso)
-- Miércoles: IFE — Información Financiera de la Empresa (en curso)
-- Economía y Negocios: completada (era presencial — viaje ida y vuelta = tiempo de podcast)
-- Gestión de Personas: completada (era virtual)
-- Bloques de estudio: 2 sesiones de 1 hora cada una, creadas después de recibir la respuesta de NotebookLM
+- Lunes: Finanzas Corporativas (en curso) — **sin bloques automáticos de Calendar** (decisión del usuario)
+- Miércoles: IGyCG — Información Gerencial y Control de Gestión (en curso)
+- Liderazgo / IFE / Economía / Gestión de Personas: completadas
+- Bloques de estudio (materias con NotebookLM): 2 sesiones de 1 hora, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)
-- Un notebook por curso (4 en total: Economía, Gestión, IFE, Liderazgo)
+- Un notebook por curso (Economía, Gestión, IFE, Liderazgo)
+- **Finanzas Corporativas NO usa NotebookLM** — es cuantitativa; Claude lee los PDFs de teoría (cortos y curados) directamente, clase a clase. El estudio se basa en resolver ejercicios, no en excerpts (ver trigger "ejercicios").
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
 - **IFE**: subir Fowler Newton — Análisis de estados contables + Fowler Newton — Contabilidad con inflación
 - **Liderazgo**: subir papers de Clase 5 (Blanchard Cap.6 + Heifetz Cap.5 + Bass + Goldsmith). Los casos Harvard se leen directo, no subirlos.
