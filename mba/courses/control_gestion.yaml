@@ -7,12 +7,12 @@ language: spanish
 status: en_curso
 
 clickup:
-  hub_doc_id: "8cm37vq-10999"
+  hub_doc_id: "8cm37vq-11019"
   hub_pages:
-    indice: "8cm37vq-11319"
-    clase_12_costos: "8cm37vq-11339"
-    clase_34_indicadores: "8cm37vq-11359"
-    clase_5_presupuesto: "8cm37vq-11379"
+    indice: "8cm37vq-11399"
+    clase_12_costos: "8cm37vq-11419"
+    clase_34_indicadores: "8cm37vq-11439"
+    clase_5_presupuesto: "8cm37vq-11459"
 
 professor: "Lisandro López (LL) / Adrián Casadey (AC)"
 
