@@ -88,6 +88,31 @@ Modo práctica para **materias cuantitativas** (ej. Finanzas Corporativas). **On
 
 ---
 
+### "caso" o "caso [curso]"
+Modo **case cracker** para casos de negocio (Harvard u otros). **On-command.** Los casos se leen directo con el Read tool (nunca van a NotebookLM). Claude debe:
+
+1. Identificar curso y caso:
+   - El PDF del caso debe estar en `mba/casos/[curso]/` (ej: `mba/casos/control_gestion/caso_nexo.pdf`)
+   - Leer `mba/state.yaml` → `topics_covered` del curso: esos son los frameworks con los que se analiza el caso
+2. Preguntar el **modo** — una sola vez:
+   - **rápido** (~20 min): preparación para discusión en clase. Claude presenta cada paso ya resuelto y hace 1-2 preguntas de verificación por paso.
+   - **completo** (1-2 hs): entregable o examen. Walkthrough socrático completo — el usuario responde primero en cada paso, Claude corrige y complementa. Nunca dar la respuesta antes de que el usuario lo intente.
+3. Recorrer los **6 pasos del cracker**, en orden:
+   1. **Snapshot** — protagonista, decisión a tomar, deadline, stakeholders clave. Una línea por ítem.
+   2. **Problema central** — distinguir síntomas de problema raíz. Formularlo como una sola pregunta de decisión.
+   3. **Análisis con frameworks del curso** — aplicar SOLO frameworks ya vistos en clase (de `topics_covered`). Nombrar explícitamente cada framework usado. Si un framework obvio todavía no se vio en clase, mencionarlo como "próximamente" pero no usarlo.
+   4. **Evidencia cuantitativa** — exhibits, tablas y números del caso. En materias cuantitativas (Finanzas, IGyCG) este paso es el central: plantear los cálculos y que el usuario los resuelva (mismo espíritu que el trigger "ejercicios").
+   5. **Alternativas** — 2-3 opciones reales (no strawmen), con criterios de decisión explícitos antes de evaluarlas.
+   6. **Recomendación** — decisión única, plan de acción concreto y 2-3 riesgos con mitigación. Sin "depende".
+4. Al terminar:
+   - Guardar el write-up en `mba/casos/[curso]/[caso].md` siguiendo `mba/casos/TEMPLATE.md`
+   - Actualizar `mba/state.yaml` → agregar el caso bajo `cases_analyzed` del curso (nombre, fecha, frameworks aplicados, modo)
+   - Commit y push
+
+**Principio del modo completo**: Claude es tribunal, no autor. El write-up final debe reflejar el razonamiento del usuario, corregido — no el de Claude.
+
+---
+
 ### "cierre" o "materia terminada"
 Se ejecuta al finalizar una materia completa. Claude debe:
 1. Leer el hub doc de la materia indicada (`mba/courses/[curso].yaml` → `hub_doc_id`)
