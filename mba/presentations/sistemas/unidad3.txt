@@ -1,0 +1,473 @@
+Sistemas de Información
+Juan Ignacio Parola
+
+Desarrollo de SI: lo que todo directivo necesita saber sin ser técnico
+Las decisiones que parecen técnicas y no lo son
+
+DATOS, son LA MATERIA PRIMA
+
+¿Por qué fracasan los proyectos de tecnología?
+
+70%
+de los proyectos de transformación digital no logran sus objetivos
+
+Requerimientos mal definidos 01 El negocio nunca explicó bien qué necesitaba. IT construyó lo que interpretó.
+Scope creep 02 El proyecto crece sin control porque nadie tomó decisiones claras de alcance.
+Nadie lo adopta 03 El sistema se entrega pero los usuarios vuelven al Excel. Fracaso de Change Management.
+
+Se automatizó el proceso equivocado 04 El proceso que se digitalizó no debería haber existido (conecta con Hammer, Clase 2).
+El 80% de las causas de fracaso son decisiones de negocio, no errores técnicos
+
+El ciclo de vida de un sistema: los 4 momentos del directivo
+No importa la metodología técnica. Importa cuándo el directivo tiene que estar.
+
+1
+
+2
+
+3
+
+4
+
+Definición del problema
+¿Qué pregunta hace el directivo?
+¿Qué proceso necesita cambiar y por qué?
+
+Diseño del sistema
+¿Qué pregunta hace el directivo?
+¿Qué experiencia queremos para el usuario?
+
+Implementación y go-live
+¿Qué pregunta hace el directivo?
+¿Cómo gestionamos la transición?
+
+Evaluación de valor
+¿Qué pregunta hace el directivo?
+¿Cómo medimos si el sistema generó valor?
+
+Riesgo si el directive se ausenta:
+Sin esto, el proyecto nace mal.
+
+Riesgo si el directive se ausenta:
+UI/UX/CX: decisión estratégica, no estética.
+
+Riesgo si el directive se ausenta:
+El go-live no es el final — es el comienzo del Change Management.
+
+Riesgo si el directive se ausenta:
+Las métricas las define el negocio, no IT.
+
+Build vs. Buy vs. Partner: la decisión más estratégica de IT
+
+BUILD
+Construís algo que nadie más tiene
+A FAVOR + Diferenciación real + Data moat si los datos son únicos + Control total RIESGOS – Caro y lento – Riesgoso: nadie lo validó – Requiere talento escaso CUÁNDO: Cuando ES tu ventaja competitiva Ej: Walmart Labs — algoritmos propios de demanda
+
+BUY
+Comprás lo mismo que el competidor
+A FAVOR + Rápido y probado + Menor riesgo técnico + Proveedor mantiene el sistema RIESGOS – Sin diferenciación – Dependencia del vendor – Customización cara CUÁNDO: Cuando NO es tu ventaja competitiva Ej: Salesforce estándar sin customización
+
+PARTNER
+Accedés a capacidad externa
+A FAVOR + Velocidad + expertise + Riesgo compartido + Escalable rápido RIESGOS – Lock-in y dependencia – Alineación cultural difícil – IP compartida CUÁNDO: Cuando necesitás velocidad y no tenés capacidad Ej: Walmart + Jet.com: adquisición de capacidad digital
+
+Build vs. Buy vs. Partner: la decisión más estratégica de IT
+La decisión se suele tomar basado en 2 criterios: o Importancia estratégica del producto/servicio para la empresa o Capacidades internas y ventaja relativa
+
+IMPORTANCIA ESTRATEGICA
+
+ALTA BAJA
+
+ASOCIACIÓN O DESARROLLAR CAPACIDADES
+
+MAKE
+
+BUY BAJA
+
+MAKE OR BUY ANALIZAR TRADE OFF
+
+CAPACIDAD INTERNA
+
+ALTA
+
+UI, UX y CX: decisiones de negocio, no decisiones técnicas
+
+88%
+
+UI
+User Interface
+
+Cómo se VE: los botones, los colores, la pantalla.
+Si los usuarios no entienden qué hacer, no lo hacen.
+
+de los usuarios no vuelve a una app después de una mala experiencia
+Google / Ipsos 2023
+
+UX
+
+Cómo se SIENTE: si es intuitivo, si fluye, si genera frustración.
+
+User Experience Una mala UX destruye la adopción aunque el sistema sea perfecto técnicamente.
+
+CX
+Customer Experience
+
+La experiencia completa del cliente con la empresa — no solo el sistema sino todo el journey.
+El directivo define la experiencia que quiere generar. IT la implementa.
+
+Si el directivo no define la experiencia que quiere generar, IT toma esa decisión por default — y lo hace sin el contexto de negocio.
+
+El impacto de la IA en el desarrollo de sistemas
+
+Perspectiva directiva — no técnica
+
+1
+
+Low-code y no-code
+
+Implicancia directiva:
+
+Herramientas que permiten construir sistemas sin programar. El directivo puede
+
+El negocio tiene menos excusas para delegar el diseño a IT.
+
+prototipar. Tiempo de desarrollo: de meses a semanas.
+
+2
+
+IA generativa en el desarrollo
+
+Implicancia directiva:
+
+GitHub Copilot genera código, detecta bugs, sugiere correcciones. El desarrollador define, revisa y aprueba. El agente ejecuta.
+
++55% de velocidad de desarrollo documentado (GitHub Research 2023).
+
+3
+
+Testing automatizado con IA
+
+Implicancia directiva:
+
+La IA simula millones de escenarios de uso antes del lanzamiento. Reduce el riesgo de go-live.
+
+No reemplaza el juicio sobre qué escenarios son correctos — eso lo define el negocio.
+
+La IA no elimina la necesidad del directivo en el desarrollo — elimina las excusas para no involucrarse.
+
+El factor humano: por qué los sistemas fallan por las personas, no por la tecnología
+
+70%
+de los fracasos en implementación de SI se debe a resistencia
+humana y cultural, no a fallas técnicas
+Fernández, UCEMA Laudon Cap. 13
+El factor más subestimado en IT
+
+MIEDO AL CAMBIO Los usuarios perciben el nuevo sistema como una amenaza a su rol o expertise. Sin gestión explícita, sabotean la adopción pasivamente. → ¿Cuántos en su empresa usan el sistema nuevo pero siguen mandando el Excel viejo por las dudas?
+FALTA DE PARTICIPACIÓN EN EL DISEÑO Si el usuario final no participó del diseño, no se siente dueño del sistema. IT construyó lo que pensó que necesitaban, no lo que realmente usan. → ¿Cuántos usuarios reales testearon el último sistema antes del go-live?
+TRAINING INSUFICIENTE El go-live se trata como el final del proyecto. La capacitación es un anexo, no una etapa. Resultado: el sistema funciona, las personas no. → ¿Cuánto del presupuesto del proyecto fue a capacitación vs. a desarrollo?
+INCENTIVOS NO ALINEADOS El sistema pide un comportamiento nuevo pero los incentivos siguen midiendo el comportamiento viejo. Sin alineación de incentivos, no hay adopción. → ¿Su sistema de métricas y bonos refleja la forma de trabajar del nuevo sistema?
+
+¿Cómo se mide si un sistema realmente generó valor?
+La mayoría de las empresas mide si el proyecto se entregó — no si el sistema generó valor.
+
+MÉTRICAS DE ADOPCIÓN ¿La gente lo usa realmente?
+
+MÉTRICAS DE PROCESO ¿Mejoró lo que prometía mejorar?
+
+MÉTRICAS DE VALOR DE NEGOCIO ¿Impactó en resultados?
+
+Adoption Rate
+% de usuarios que usan el sistema al menos 3 veces por semana vs. usuarios habilitados.
+
+Process Cycle Time
+Tiempo de inicio a fin del proceso que el sistema soporta. ¿Bajó o subió?
+
+ROI del Sistema
+Valor generado (ahorro + ingreso nuevo) sobre inversión total incluyendo change management.
+
+Feature Utilization
+% de funcionalidades usadas sobre el total disponible. Si es bajo, el sistema está sobrediseñado.
+
+Error Rate
+Errores por transacción antes vs. después. Un sistema bien implementado baja el error rate.
+
+Time-to-Value
+Meses desde go-live hasta que el negocio ve impacto medible. Benchmark industria: 6-18 meses.
+
+Time-to-Proficiency
+Días desde el go-live hasta que el usuario alcanza su velocidad pre-cambio.
+
+Process Mining Score
+Desviación del proceso real vs. proceso diseñado (Davenport, HBR 2019).
+
+NPS Interno
+¿Los usuarios del sistema lo recomendarían? Predictor de adopción sostenida.
+
+→ ¿Qué métricas usa hoy su empresa para saber si un sistema funcionó? ¿O solo miden si se entregó a tiempo?
+
+CASO REAL
+ACCORHOTELS
+El gigante hotelero que decidió reinventarse 2016: Airbnb supera en valoración a la mayor cadena hotelera del mundo. AccorHotels tiene 500k habitaciones. Airbnb tiene cero.
+2017: AccorHotels lanza AccorLocal — plataforma de servicios para residentes locales usando sus hoteles como nodos de distribución.
+2018: Adquiere Onefinestay (alquileres premium), John Paul (concierge digital) y lanza AccorPlus — ecosistema de lifestyle, no solo hotelería.
+2019-23: Rediseño completo del SI: data unificada de cliente, app centralizada, revenue management con ML y precios dinámicos por microsegmento.
+Resultado: recuperación post-COVID 40% más rápida que competidores. RevPAR (ingreso por habitación) superior al promedio de la industria.
+
+AIRBNB
+El disruptor que no tiene una sola habitación propia
+Plataforma, no hotel
+Activo principal: datos de comportamiento de 150M+ huéspedes. AccorHotels tenía datos de estadías. Airbnb tiene datos de preferencias de vida.
+Cero fricción en UX
+Reserva en 3 toques. Pago integrado. Reviews en tiempo real. El SI de AccorHotels requería 14 pasos para completar una reserva en 2016.
+El SI como producto PPaarraaAdirebbnabteirl:sistema de información ES el producto. Para AccorHotels el producto era
+l1a. c¿aEml SaI.dEesasudiefemrpernecsiaa dees umnesnotpaolidrtaedocpaesrialotisvodeostersupyea.rte de la propuesta de valor al cliente? 2. ¿Qué disruptor Airbnb-like podría estar mirando su industria hoy?
+3. ¿Qué decisión de Build/Buy/Partner debería tomar su empresa para defenderse?
+
+Change Management en la era de la IA
+La tecnología llega en semanas. La organización tarda años. La diferencia es cómo se diseña el cambio.
+
+El problema central: ¿por qué el 88% adopta IA y solo el 6% captura valor?
+McKinsey State of AI 2025
+
+88%
+adoptó al menos una herramienta de IA
+
+6%
+captura valor significativo
+
+Los empleados ya usan IA 3x más de lo que sus líderes creen. El problema no es resistencia — es falta de dirección.
+
+Gestionan resistencia en lugar de diseñar adopción
+01 Push vs. Pull: empujan el cambio en lugar de atraer al
+empleado como co-autor.
+Agregan IA encima del proceso viejo
+02 La tecnología se suma al workflow existente sin rediseñarlo.
+Complejidad duplicada.
+Construyen confianza después del lanzamiento
+03 Sin confianza previa al go-live no hay adopción genuina —
+solo cumplimiento obligatorio.
+
+Del Push al Pull: el cambio más importante en Change Management
+
+MODELO PUSH · 2020
+
+1. La dirección decide
+
+2. Comunica el cambio
+
+3. Capacita a los usuarios
+
+→
+
+4. Gestiona la resistencia
+
+5. Implementa el sistema
+
+6. Mide adopción
+Empresas con confianza en IA: casi 2x mas probabilidad de crecer +10% en ingresos · McKinsey 2025
+
+MODELO PULL · 2025
+1. La dirección define el OBJETIVO
+no el sistema
+2. Involucra a los empleados en el DISEÑO
+desde el día 1
+3. Co-crea el workflow nuevo
+con quienes lo van a usar
+4. Lanza con INFLUENCERS internos
+pares, no jefes
+5. Itera con FEEDBACK real
+antes de escalar Los empleados no son receptores del cambio — son co-autores.
+
+Kotter: por qué el cambio fracasa — las 3 etapas que siempre se saltean
+No es un proceso secuencial — es un diagnóstico. Si la transformacion esta estancada, busca aqui.
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+Crear URGENCIA
+
+Formar coalicion
+
+Crear vision
+
+Comunicar la VISION
+
+Empoderar a
+
+Victorias
+
+otros
+
+CORTO PLAZO
+
+Consolidar logros
+
+Anclar en la cultura
+
+ETAPA 1 ETAPA 4 ETAPA 6
+
+Crear urgencia compartida
+El CEO ve el problema — los demás ven el costo del cambio. Sin urgencia genuinamente compartida, la inercia gana.
+→ ¿Tu equipo siente la misma urgencia que vos, o solo está de acuerdo en reuniones?
+Comunicar el por que personal
+Las empresas comunican el QUE (el sistema nuevo) pero no el POR QUE personal: que significa esto para el trabajo de cada persona.
+→ ¿Tu comunicacion respondio que le pasa a cada persona con este cambio?
+Victorias en los primeros 90 dias
+Las transformaciones son largas. Sin victorias visibles temprana la resistencia recupera terreno y los escépticos ganan credibilidad.
+→ ¿Cuál es la victoria que vas a mostrar en los primeros 3 meses?
+
+Ninguna reinvención o transformación es exitosa sin gestión del cambio
+
+PREPARARSE para el Cambio
+
+HABILITAR el Cambio
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Identificación de Stakeholder
+
+Formación de la Change Network
+
+Canal de comunicación
+
+Selección de los Medios de Training
+
+Crear & Ejecutar los planes de Comunicación
+
+Crear & Ejecutar los planes de Training
+
+Monitorear la adopción al
+cambio
+
+Impulsar una transición organizacional exitosa mediante la identificación de stakeholders clave, la creación de una red de cambio representativa, la definición de canales de comunicación efectivos y el despliegue de capacitaciones adaptadas a las necesidades de cada audiencia.
+
+Impulsar la adopción del cambio a través de comunicaciones y capacitaciones personalizadas, seguimiento continuo de indicadores de adopción y ajustes oportunos que aseguren una transformación sostenible y de largo plazo.
+
+¿Tengo el TALENTO suficiente para reinventarme?
+Cuando hablamos de reinventar la empresa con inteligencia artificial, no podemos reducir la conversación a procesos o tecnología. EL VERDADERO FACTOR CRÍTICO ES EL TALENTO Y LA CULTURA.
+Hoy, el talento enfrenta tres grandes tensiones:
+• Brecha de capacidades: Los roles actuales requerirán habilidades diferentes en los próximos cinco años. No solo programar modelos, sino de saber traducir problemas de negocio en casos de uso de IA, interpretar datos y liderar equipos interdisciplinarios.
+• Cultura adecuada: El desafío es alinear capacidades humanas y digitales sin una cultura adecuada que soporte la innovación. Por eso, los líderes deben superar la brecha al fomentar una cultura que atraiga y empodere al talento,
+• Seguridad laboral: En empresas con rediseños integrales de IA, el 46% de empleados teme por su seguridad laboral. Líderes y gerentes son más propensos a preocuparse por perder su trabajo en 10 años que los empleados de primera línea. El entrenamiento y recapacitación ayudan a mitigar estos miedos.
+
+¿Tengo la cultura adecuada para el cambio?
+La cultura comienza por lo que las personas hacen y cómo lo hacen. El efecto acumulativo de lo que se hace y cómo se hace determina el rendimiento
+de la organización
+
+¿cómo me reinvento con mi cultura actual?
+
+¿Tengo la cultura adecuada para el cambio?
+
+¿Cómo es una curva típica de adopción?
+
+¿cómo me reinvento con mi cultura actual?
+
+Ejemplo: medir qué tan lista está la organización para reinventarse en busca de ser mas eficientes ¿CÓMO LO HAGO EN LA PRÁCTICA?
+
+1
+
+DIAGNÓSTICO Revisar internamente los siguientes componentes:
+
+• Liderazgo: ¿los líderes están alineados con la necesidad de reducir costos y cambiar hábitos?
+
+• Mentalidad cultural: ¿existe apertura al cambio, accountability y foco en productividad?
+
+• Capacidades: ¿la gente tiene las herramientas y conocimientos para trabajar de manera más
+
+eficiente?
+
+• Procesos y estructura: ¿hay burocracia o duplicidad que frena la ejecución?
+
+Mapear los resultados en un heatmap de readiness
+
+2 DEFINIR AMBICIÓN Y CASO DE EFICIENCIA. • Cuantificar meta de ahorro ( “20% menos en OPEX en 18 meses). • Identificar los drivers de costo principales (headcount, procesos, tecnología). • Conectar la narrativa de eficiencia con propósito (ej liberar capacidad para crecer”). • Asegurar que líderes comuniquen un mismo mensaje
+
+TENGO LA CULTURA ADECUADA PARA EL CAMBIO?
+
+3
+
+IDENTIFICAR BARRERAS CULTURALES Y ORGANIZACIONALES Entender qué hábitos o estructuras actuales obstaculizan el cambio.
+
+• Analizar los resultados del diagnóstico (ej: Alta aversión al riesgo” o “baja accountability”)
+
+• Clasificar las barreras en tres grupos:
+
+- Culturales: miedo al error, resistencia a AI, baja colaboración.
+
+- Organizacionales: silos, exceso de jerarquía, procesos no estandarizados.
+
+- Individuales: falta de incentivos o de skills digitales.
+
+• Priorizar 3–4 barreras críticas y diseñar acciones de desbloqueo específicas.
+
+4 DISEÑO DEL PLAN DE CAMBIO • Crear programas de ownership, capacitaciones en lean, incentivos • Definir change champions en cada área para acelerar adopción • Establecer métricas claras como: - Nivel de adopción de nuevas prácticas - Engagement y clima del equipo
+
+Ejercicio Práctico Walmart
+
+Walmart, 2014
+El gigante con pies de barro
+
+1.5M
+empleados en Estados Unidos
+
+4.600
+tiendas en todo el pais
+
+#1
+empresa privada mas grande del mundo
+
+90%
+de los americanos viven a menos de 16 km
+
+PERO HAY UN PROBLEMA SERIO
+Las tiendas estan sucias, mal abastecidas y mal atendidas. Los clientes se quejan — y se van a Amazon. Wolfe Research (2014): 'El incansable foco en costos de Walmart ha deteriorado las condiciones en tienda.' Menos empleados = mas problemas operativos. Amazon crece al 12% anual en e-commerce. Walmart tiene entre 1% y 2% de sus ingresos online. La brecha es gigante y se agranda. McMillon asume como CEO. El diagnóstico es claro: Walmart sacrificó experiencia de cliente por eficiencia de costos. Y el modelo ya no alcanza.
+
+La apuesta de McMillon: tres inversiones simultaneas
+Febrero 2015: USD 1.000M en el primer ano — la mayor inversion en personas en la historia de Walmart
+
+1. PERSONAS
+Aumento salarial masivo Salario inicial de USD 9/hora en 2015, USD 10 en 2016, USD 11 en 2018. Inversion total: USD 2.700M en 3 anos.
+
+2. E-COMMERCE
+Compra de Jet.com USD 3.300M en 2016. Marc Lore — fundador de Jet.com y ex-Amazon — asume como CEO de E-Commerce.
+
+Programa Pathways Formacion obligatoria para 500.000 asociados de primera linea. Modulos de video + aplicacion en tienda + competencias interpersonales.
+Academias Walmart 200 centros de formacion para supervisores y jefes de departamento. Entre 2 y 6 semanas segun el rol. Meta: 225.000 graduados en 2017.
+
+Personal shoppers 14.000 asociados formados especificamente para preparar pedidos online. Formacion de 3 semanas. Net Promoter Score de alimentacion online: +90%.
+Recogida en tienda 2.100 establecimientos con servicio de recogida a fines de 2018. Meta: 3.100 en 2019. 40.000 nuevos empleados contratados para este fin.
+
+3. AUTOMATIZACION
+Robots en tienda EMMA (limpieza autonoma), Bossa Nova (escaner de estanterias), Alphabot (preparacion de pedidos), Descargador FAST (descarga de camiones con 4 personas en lugar de 9-12).
+Realidad virtual 17.000 cascos de RV distribuidos en todas las tiendas. Los empleados practican escenarios de alta presion (Black Friday) antes de vivirlos.
+Gamificacion App Spark City: juego tipo SIM para aprender procesos de tienda. Disponible para todos — clientes incluidos.
+
+La pregunta que todos se hacian: ¿puede Walmart transformarse en tecnologia y en personas al mismo tiempo — sin que una apuesta destruya a la otra?
+
+

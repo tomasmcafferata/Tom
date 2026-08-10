@@ -21,8 +21,9 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
-   - Lunes = Finanzas Corporativas (en curso)
-   - Miércoles = Información Gerencial y Control de Gestión — IGyCG (en curso)
+   - Lunes = Sistemas de Información (en curso — Clase 3 es la excepción: jueves 20/08)
+   - Finanzas Corporativas (completada — ya no genera clases nuevas)
+   - Información Gerencial y Control de Gestión — IGyCG (completada — ya no genera clases nuevas)
    - Liderazgo y Gestión de Equipos (completada — ya no genera clases nuevas)
    - IFE — Información Financiera de la Empresa (completada — ya no genera clases nuevas)
    - Economía y Negocios (completada — ya no genera clases nuevas)
@@ -178,29 +179,43 @@ Se ejecuta al finalizar una materia completa. Claude debe:
   - Página Progreso: `8cm37vq-11033`
   - Páginas de clase: se agregan en `mba/courses/liderazgo.yaml` → hub_pages → clase_N
 
-### Información Gerencial y Control de Gestión — IGyCG (en curso — Miércoles)
+### Información Gerencial y Control de Gestión — IGyCG (completada)
 - Hub Doc: `8cm37vq-11019`
   - Páginas: ver `mba/courses/control_gestion.yaml` → hub_pages
+- Pendiente: correr el trigger **"cierre"** para unificar el doc.
 
-### Finanzas Corporativas (en curso — Lunes)
+### Finanzas Corporativas (completada)
 - Hub Doc: `8cm37vq-11039`
   - Página Índice: `8cm37vq-11479`
   - Página Formulario: `8cm37vq-11519`  (reemplaza al Glosario)
   - Página Progreso: `8cm37vq-11499`
   - Páginas de clase: se agregan en `mba/courses/finanzas.yaml` → hub_pages → clase_N
 - **Materia cuantitativa**: sin NotebookLM (Claude lee los PDFs directo), Glosario = Formulario, modo ejercicios on-command.
+- Pendiente: correr el trigger **"cierre"** para unificar el doc.
+
+### Sistemas de Información (en curso — Lunes)
+- Hub Doc: `8cm37vq-11059`
+  - Página Índice: `8cm37vq-11659`
+  - Página Progreso: `8cm37vq-11679`
+  - Página Glosario: `8cm37vq-11699`
+  - Página TP Final: `8cm37vq-11799`
+  - Páginas de clase: ver `mba/courses/sistemas.yaml` → hub_pages
+- **Materia conceptual dirigida por decks**: sin NotebookLM. Los decks de Parola son autocontenidos y opinados (frameworks propios + casos) — Claude los lee directo desde `mba/presentations/sistemas/`. Laudon queda como referencia de consulta puntual.
+- Clases 1-4 **precargadas** desde los decks; se refinan cuando el usuario pegue las notas.
+- **Ojo con el calendario**: Clase 3 es **jueves 20/08** (no lunes). Quiz individual el **24/08**. Documento del TP vence el **27/08**.
+- `programa.pdf` de la carpeta del curso es la versión **2025** (otros profesores, otras ponderaciones) — desactualizado. El cronograma y el deck mandan.
 
 ---
 
 ## Calendario Google
-- Lunes: Finanzas Corporativas (en curso) — **sin bloques automáticos de Calendar** (decisión del usuario)
-- Miércoles: IGyCG — Información Gerencial y Control de Gestión (en curso)
-- Liderazgo / IFE / Economía / Gestión de Personas: completadas
+- Lunes: Sistemas de Información (en curso) — **sin bloques automáticos de Calendar** (no usa NotebookLM)
+- Finanzas / IGyCG / Liderazgo / IFE / Economía / Gestión de Personas: completadas
 - Bloques de estudio (materias con NotebookLM): 2 sesiones de 1 hora, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)
 - Un notebook por curso (Economía, Gestión, IFE, Liderazgo)
 - **Finanzas Corporativas NO usa NotebookLM** — es cuantitativa; Claude lee los PDFs de teoría (cortos y curados) directamente, clase a clase. El estudio se basa en resolver ejercicios, no en excerpts (ver trigger "ejercicios").
+- **Sistemas de Información NO usa NotebookLM** — los decks del profesor son autocontenidos y opinados (frameworks propios y casos), y son lo que evalúa el quiz. Laudon (17ª ed., 81MB, en inglés) se cita solo puntualmente: no justifica el setup.
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
 - **IFE**: subir Fowler Newton — Análisis de estados contables + Fowler Newton — Contabilidad con inflación
 - **Liderazgo**: subir papers de Clase 5 (Blanchard Cap.6 + Heifetz Cap.5 + Bass + Goldsmith). Los casos Harvard se leen directo, no subirlos.

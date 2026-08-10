@@ -1,0 +1,109 @@
+name: "Sistemas de Información"
+schedule_day: Monday          # excepción: Clase 3 es jueves 20/08
+modality: blend
+total_classes: 6
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: "8cm37vq-11059"
+  hub_pages:
+    indice: "8cm37vq-11659"
+    progreso: "8cm37vq-11679"
+    glosario: "8cm37vq-11699"
+    clase_1: "8cm37vq-11719"
+    clase_2: "8cm37vq-11739"
+    clase_3: "8cm37vq-11759"
+    clase_4: "8cm37vq-11779"
+    tp_final: "8cm37vq-11799"
+
+professor: "Juan Ignacio Parola (Director Ejecutivo, Accenture Argentina)"
+professor_email: "jiparola@ucema.edu.ar"
+
+evaluation_breakdown:
+  individual: "60%"   # presentación oral del TP evaluada individualmente + quiz + participación
+  grupal: "40%"       # TP: documento narrativo + presentación, según rúbrica
+  nota_minima: 4
+  asistencia_minima: "4 clases"
+
+# El programa.pdf de la carpeta es la versión 2025 (profesores Recalde/Celedoni,
+# ponderaciones 40/60/10). Está DESACTUALIZADO. El cronograma y el deck de Parola mandan.
+programa_pdf_desactualizado: true
+
+# Materia CONCEPTUAL dirigida por decks — el pipeline estándar MBA se adapta:
+content_management:
+  type: conceptual_deck_driven
+  notebooklm: false   # los decks del profesor son autocontenidos y opinados; Claude los lee directo
+  notebooklm_rationale: >
+    Laudon 17ª ed. son 81MB / ~600pg en inglés, citado solo puntualmente por el profesor
+    (Cap. 12 y 13). Los decks tienen frameworks propios (BCG DAI, los 4 patrones del 6%,
+    Human in the Lead) y casos que son lo que el quiz va a evaluar. Con 4 clases de
+    contenido y el curso cerrando el 07/09, el costo de setup de NotebookLM no se paga.
+  unified_page: "una página por clase, precargada desde el deck y refinada con las notas"
+
+bibliography_priority:
+  - "Laudon, K. (2022) — Sistemas de Información Gerencial, 17ª ed., Pearson [OBLIGATORIA — referencia de consulta]"
+  - "Ross, J. & Weill, P. — Six IT Decisions Your IT People Shouldn't Make (HBR)"
+  - "Hammer, M. (1990) — Reengineering Work: Don't Automate, Obliterate (HBR)"
+  - "McAfee, A. & Brynjolfsson, E. (2012) — Big Data: The Management Revolution (HBR)"
+  - "Davenport, T. (2019) — What Process Mining Is, and Why Companies Should Do It (HBR)"
+
+cronograma:
+  clase_1:
+    date: "2026-08-03"
+    topic: "El Valor de los SI en la Era del Conocimiento e IA"
+    unidad: "I"
+    quiz: false
+  clase_2:
+    date: "2026-08-10"
+    topic: "Drivers de Cambio y SI como Ventaja Estratégica"
+    unidad: "I (cont.) + apertura II"
+    quiz: false
+  clase_3:
+    date: "2026-08-20"   # JUEVES, no lunes
+    topic: "Desarrollo de SI, Change Management y Aplicaciones Empresariales"
+    unidad: "II + III"
+    quiz: false
+  clase_4:
+    date: "2026-08-24"
+    topic: "Decisiones, BI, Knowledge Management y Ética de la IA"
+    unidad: "IV"
+    quiz: true           # QUIZ INDIVIDUAL — cubre Unidades I a III
+  clase_5:
+    date: "2026-08-31"
+    topic: "Exposición Oral TP Final + feedback"
+    quiz: false
+  clase_6:
+    date: "2026-09-07"
+    topic: "Exposición Oral TP Final + feedback"
+    quiz: false
+
+deadlines:
+  tp_documento: "2026-08-27"   # mail + webcampus, máx 10 páginas sin anexos
+  quiz: "2026-08-24"
+  tp_oral: "2026-08-31 o 2026-09-07"
+
+tp_final:
+  name: "Diagnóstico y Reinvención Organizacional"
+  hub_page_id: "8cm37vq-11799"
+  grupos: "6 grupos de 6 personas predefinidos (ver tp_grupos.xlsx)"
+  entregables:
+    - "Documento narrativo en prosa, máx 10 páginas sin anexos"
+    - "Presentación oral 20 min + 10/15 min Q&A"
+  empresa_seleccionada: null
+  grupo_asignado: null
+  fecha_exposicion: null
+
+materials_available:
+  - "programa.pdf"        # versión 2025 — desactualizada, ver arriba
+  - "cronograma.docx"     # fuente válida de fechas y contenidos
+  - "unidad1.pdf"         # deck Clase 1
+  - "unidad2.pdf"         # deck Clase 2
+  - "unidad3.pdf"         # deck Clase 3 (parte A — Unidad II)
+  - "unidad45.pdf"        # deck Clase 3 (parte B — Unidad III) + Clase 4 (Unidad IV)
+  - "tp_consigna.pdf"
+  - "tp_rubrica.xlsx"
+  - "tp_grupos.xlsx"
+  # Laudon 17ª ed (81MB) NO se copió al repo — queda en la carpeta original de Descargas.
+
+notebooklm_notebook: ""  # no se usa en esta materia

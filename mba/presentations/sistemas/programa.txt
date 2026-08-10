@@ -1,0 +1,102 @@
+Programa de Estudio 2025
+
+Carrera: Asignatura: Carga Horaria: Curso: Profesor:
+
+Maestría en Administración de Empresas Sistemas de Información 18 horas Teoría Maestría en Administración de Negocios (MBA) Mg. César Julio Recalde Mg. Hernan Celedoni
+
+1.​ Fundamentación de la materia
+
+Hoy vivimos en la denominada Era del Conocimiento que implica una migración masiva de las fuentes de valor desde los activos tangibles (bienes, trabajo y capital) a los intangibles. El Capital Intelectual representa esos activos en la forma de Capital Humano, Capital Estructural, Capital Relacional (cliente, social).
+Para cualquier organización privada o pública, la gestión de datos, información y conocimiento es esencial para la seguridad, la eficacia y la eficiencia de los procesos de negocios y de las actividades de apoyo (RRHH, finanzas, etc.). La información y la tecnología tienen un rol cada vez más estratégico y determinante en la empresa actual para obtener ventajas competitivas en mercados que cambian rápidamente.
+La tecnología de la información dejó de ser un activo más para transformarse en un ecosistema en el cual el ser humano, las organizaciones y los mercados están inmersos.
+Los Sistemas de Información y Acción son la herramienta clave para que la empresa enfrente los desafíos de la globalización, el crecimiento y el cambio. La supervivencia y la sustentabilidad de la empresa dependen del grado en que los procesos se implementen en tales sistemas. Dirigirlos correctamente es, entonces, un factor determinante del éxito.
+La Inteligencia Artificial (IA), mediante una constelación de modelos y aplicaciones, vino a revolucionar todos los procesos de la empresa, la sociedad, las naciones y la humanidad. Su impacto es más que relevante a pesar del poco tiempo que que lleva desde su irrupción masiva. Hoy no es posible abordar la temática de los Sistemas de Información
+
+2.​ Objetivo y propósitos
+El objetivo general de la asignatura es obtener conocimientos y criterio para
+(1)​ Comprender acabadamente la integración y la agregación de valor de los SI y de IA a los procesos de la empresa (operativos, administrativos).
+(2)​ Manejar herramientas informáticas esenciales para comprender la dinámica del diseño, desarrollo y mantenimiento de los SI y los modelos y las aplicaciones de IA que los apoyran.
+(3)​ Identificar paradigmas de contexto de los SI y la IA, demandas de SI e IA en la empresa, ofertas disponibles, nuevos recursos de TIC e IA aplicables a los SI, capacidades de los SI actuales, evoluciones, tendencias, nuevas soluciones, nuevas tecnologías.
+(4)​ Identificar el impacto de la Inteligencia Artificial en todos los procesos y la estructura de la empresa.
+El propósito de estos criterios y conocimientos es la adquisición de capacidades profesionales y el desarrollo de ventajas competitivas para:
+(1)​ Producir asesoramientos correctos, juiciosos e innovadores y/o liderar procesos para el empleo, mejora e incorporación de Sistemas de Información, particularmente basados en IA en apoyo de la dirección y el cambio organizacional.
+(2)​ Diseñar, desarrollar e implementar nuevos negocios o procesos y/o innovar existentes a partir de soluciones de IT e IA.
+1
+
+(3)​ Participar en el desarrollo de nuevas soluciones de SÍ a partir de la experiencia y nuevas tecnologías.
+(4)​ Inspirar en equipos de trabajo el aprendizaje continuo y la evolución en materia de SI.
+3.​ Contenidos mínimos
+(1)​ Concepto y Valor de los Sistemas de Información en la Era del Conocimiento y la IA (2)​ Cambio Organizacional y Desarrollo de Sistemas de Información con capacidades de IA (3)​ Aplicaciones Empresariales con capacidades de IA (4)​ Sistemas de apoyo a Procesos Decisorios con capacidades de IA (5)​ Impacto de la Inteligencia Artificial en los procesos de negocios y de colaboración.
+4.​ Unidades de desarrollo de los contenidos
+Unidad I: Valor de los Sistemas de Información en la Era del Conocimiento
+El contexto empresarial moderno: Complejidad y Cambio. Drivers de la realidad: globalización y revolución tecnológica. Liderazgo de activos intangibles. La era del conocimiento. Dinámicas del conocimiento. Datos, Información y Conocimiento. Gestión del conocimiento. Los activos intangibles. La tríada del aprendizaje empresarial. ​ ​ Introducción a la Inteligencia Artificial. Paradigmas. Taxonomía de la IA. Tipos. Evolución. Modelos. Inteligencia Artificial Generativa. Aplicaciones. Arquitectura. Oportunidades. Riesgos.
+Conceptos básicos de Sistemas. Distinciones esenciales. Sistemas de Información y Acción. Tecnología Informática, Organizaciones y Management. Inteligencia Artificial. Arquitectura de sistemas. Cambios de paradigma. Convergencia Digital. Sistemas operativos.
+Infraestructura de Sistemas de Información en la Empresa. Componentes. Ecosistema Digital. Computación en la Nube. Casos.
+Los Sistemas de Información en los negocios globales contemporáneos. Inversiones en tecnología informática. Cómo los Sistemas de Información transforman los negocios. Novedades y tendencias en los Sistemas de Información. Desafíos de la Globalización: grandes tendencias.
+Sistemas de Información, Organizaciones y Estrategias. Procesos de Negocio, Firmas y Tecnología. Teoría de la Firma. Costos de Transacción y Costos de Agencia en IT.
+Unidad II: Cambio Organizacional y Desarrollo de Sistemas de Información
+Distintos Niveles de Cambio Organizacional. Desarrollo de SI asociados al Cambio Organizacional. Rediseño de Procesos de Negocios. Caso de Reingeniería de Procesos.
+Impacto de la Inteligencia Artificial en procesos, estructura y valor generado por la organización. Oportunidades y Riesgos.
+Proyectos de Desarrollo de Sistemas. Modelado y diseño de SI. Proceso de Desarrollo. Metodologías orientadas a estructuras y a objetos. Impacto de la IA en el diseño y desarrollo de sistemas. Factor humano en el diseño de sistemas. Conceptos de UI, UX, CX.
+2
+
+Unidad III: Aplicaciones Empresariales
+Negocios Globales en la Red y Colaboración. E-business. E-Government. Sistemas para Colaboración. Trabajo en equipo. Cultura colaborativa. Recursos de TI.
+Impacto de la Inteligencia Artificial en las Aplicaciones Empresariales.
+Tipos de Sistemas de Información. Niveles de Sistemas de Aplicación. Sistemas Transaccionales. Mapa de Sistemas Transaccionales de una Organización Tipo. Sistemas de Soporte a la Toma de Decisiones.Sistemas ERP. El Sistema ERP y los procesos de negocio. El Sistema ERP como solución a los problemas de integración. Ejemplos y casos de Sistemas ERP. Metodología de implementación de Sistemas ERP. Sistemas de Supply Chain Management (SCM). Sistemas de Customer Relationship Management (CRM). Sistemas de Administración del Conocimiento (KMS). Blockchain. Concepto. Aplicaciones en sistemas empresariales y procesos de negocios.
+Impactos de la Inteligencia Artificial en las aplicaciones empresariales.
+Unidad IV: Sistemas de apoyo al Proceso Decisorio
+Proceso de Toma de Decisiones en una organización. Tipos de decisiones. Requerimientos de Información para la Toma de Decisiones. Inteligencia Artificial en procesos decisorios.
+Sistemas de Soporte a la Toma de Decisiones (DSS). Componentes. Sistemas de Análisis de sensibilidad. Geographic Information Systems (GIS). Business Intelligence. Analítica de negocios. Big Data. Constelación de Amazon Web Services. Gestión del Conocimiento. El conocimiento en la cadena de valor. Dinámicas del Conocimiento.Sistemas de Gestión del Conocimiento (KMS). Trabajadores del conocimiento. Redes de conocimiento. Técnicas inteligentes: sistemas expertos, redes neuronales, algoritmos genéticos, inteligencia artificial, sistemas híbridos. Construcción de conocimiento. Asuntos Éticos y Sociales de los SI. Ética de la Inteligencia Artificial.
+5.​ Bibliografía
+5.1. Bibliografía obligatoria
+(1)​ Libros
+Kenneth C. Laudon(2022) “Sistemas de Información Gerencial”, 17a. Edición, Editorial Pearson (título en inglés: “Management Information Systems”). Prentice Hall. (2)​ Artículos para estudio de casos
+Sandino Tatiana and Hull Olivia, (2018) Knowledge Sharing at REMA 1000, Harvard Business School.
+Davenport Thomas and Spany Andrew (2019) What Process Mining Is, and Why Companies Should Do It, Harvard Business School 
+Okundaye, Paul and Haggerty Nicole (2019) , Samsung: The Internet of Things, Ivey Publishing.
+3
+
+Brynjolfsson Erik and McAfee Andrew (2017), TheBusiness of ArtificialIntelligence, Harvard Business Review.
+Johnson, Fraser and Mark Ken (2019), Walmart: Supply Chain Management, Ivey Publishing
+Haenlein Michael and Kaplan Andreas, (2019) A Brief History of Artificial Intelligence: On the Past, Present, and Future of Artificial Intelligence,   California Management Review.
+Tawfik Jelassi and Keller Birrer Valerie, (2017) AccorHotels' Digital Transformation: A Response to Hospitality Disruptor Airbnb. IMD.
+Montuschi, Luisa, (2018) .Cuestiones Eticas Problemáticas en la Era de la Información, Internet y la World Wide Web, Working Paper, Universidad del CEMA
+Kemerer, Christian & Sooy Mathew (2022), Google vs. Oracle: Softwate Theft or Fair Use, Ivey Publishing.
+Mohammad S. Jalali, Jessica Paige, Kaiser Michael Siegel, Stuart Madnick (2017) The Internet of Things (IoT) Promises New Benefits – and Risks: A Systematic Analysis of Adoption Dynamics of IoT Products, MIT Management, Sloan School of Business.
+Hoffman, Andrew, Walmart´s Blockchain Quest: Integrating New Technology into a Complex Suply Chain, Ross School of Business, MDI Publishing, 2021.
+Davis, Jason(2020), Cloud Wars Go Global: How Amazon, Microsoft, Google and Alibaba Compete in Web Services, INSEAD, 2020.
+McGee H, Hsieh N, Godwin C, (2021) .Apple: Privacy vs. Safety , Harvard Business School. Morse, Gardiner (2021), Harnessing Artificial Intelligence, Harvard Business Review.
+5.2. Bibliografía complementaria (1) Libros Stamper David (2016)“Essentials of Data Communications”, The Benjamin/ Cummings Publishing Company, Boston. (disponible en la biblioteca de UCEMA) Davenport, Thomas H.(2015) “Process Innovation: Reengineering Work through Information Technology'', Harvard Business School Press, Brighton
+Hammer, Michael, Champy James (1994) “Reingeniería”, Norma, Barcelona, 1994. Humphries, Mark, Hawkins Michael W. y Dy Michelle C.; “Data Warehousing: Architecture and Implementation”, Prentice Hall, (disponible en la biblioteca de UCEMA)
+Brown, Sara, (2020), 8 non-technical ways to improve your company’s cybersecurity, Sloan School MIT Management.
+Burt, Andrew, (2019), Privacy and Cybersecurity Are Converging. Here’s Why That Matters for
+4
+
+People and for Companies, Harvard Business Review. Parenty, Thomas and Domet Jack, (2019) Sizing Up Your Cyberrisks. Harvard Business Review.
+(2) Artículos para estudio de casos (asignados para trabajos individuales y grupales)
+Don Cohen, H(2006), “What is your return in knowledge?”, Harvard Business Review. John Seely BrownPaul Duguid. (2009), Balancing Act: How to Capture Knowledge Without Killing It , Harvard Business Review.
+Hammer, M.(2011), “Reengineering Work: Don’t Automate, Obliterate”, Har-vard Business, Harvard Business Review 90406
+Recalde, C.(2001), “Hacia la Armada del Conocimiento: Incorporación de Tecnología de la Información en la Cultura Organizacional”, INUN. Recalde, C (2010),”Corporate Governance of Intellectual Capital”, Working Paper, UCEMA.
+Joseph B. LassiterEvan Richardson (2011), “Airbnb, case study”, Harvard Business Review. Fernández, P., (2011) “El Problema de la Adopción de Nueva Tecnología Informática en las Organizaciones”, Universidad del CEMA Ross, J. and Weill, P.(201, “Six IT Decisions Your IT PeopleShouldn’t Make”, Harvard Business Review R0211F -PDF-ENG
+McAfee, A. and Brynjolfsson, (2012) E., Big Data The Management Revolution, Harvard Business Review. Fernández, P., (2014) “Cuánto Debería Invertir una Empresa de Tecnología”, Revista UCEMA, Universidad del CEMA McAfee, A.(2020), “Lo que Todo CEO Debe Saber Acerca de la Nube”, Harvard Business Review
+Gunther, Rita & Mc Manus Ryan, (2020) Discovery-Driven Digital Transformation. Harvard Business Review Bahcall, Safi, (2029) The Innovation Equation, Bahcall Safi, Harvard Business Review
+Deloitte (2020), If You Want Your Digital Transformation to Succeed, Align Your Operating Model to Your Strategy. Harvard Business Review. Red Hat (2020), Rethinking Digital Transformation: New Data Examines the Culture and Process Change Imperative in 2020, Harvard Business Review. Gartner (2022), The IT Roadmap for Digital Business Transformation. Andrei Hagiu and Julian Wright, (2020), When Data Creates Competitive Advantage. Harvard Business Review.
+6.​ Modalidad de Enseñanza
+5
+
+El proceso enseñanza-aprendizaje será de alta interactividad basado en las siguientes tipos de actividades a realizar:
+(1)​ Alumnos -​ Presentación Creativa Grupal (se designan en la primera clase). -​ Trabajo de investigación individual sobre una aplicación. -​ Participación personal en clase compartiendo experiencias laborales. -​ Empleo de herramientas de software para resolver problemas prácticos de bases de datos,
+inteligencia de negocios y proyectos.
+(2)​ Interactivo Alumnos - Profesor -​ Reflexiones sobre temas vistos en otras materias en relación a T.I. -​ Desarrollo de las unidades temáticas de la asignatura.
+(3)​ Disertantes externos. Charlas
+Representantes de proveedores de soluciones S.I.
+7.​ Material Didáctico
+Proyector y pizarrón. Laboratorio de sistemas Software a emplear en clases prácticas: ​ MS Excel, MS Project, MS Power BI, SQL.
+8.​ Modalidad de Evaluación y requisitos de promoción:
+La promoción requiere una asistencia al 80 % de las clases teóricas y 80 % de las prácticas.La calificación final del curso se formará de notas de la teórica y la práctica con igual factor de peso y se compondrá de los siguientes elementos: (1)​ Presentación : 40’ %. La preparación y presentación grupal de casos es una parte vital del
+enfoque metodológico de este curso, por lo que la preparación previa para la discusión en clase es esencial. La nota final incluye la presentación en clase y un “paper” o ensayo académico. (2)​ Exámenes parciales: 60 %. Esta evaluación incluirá el promedio de los exámenes que se tomen. (3)​ Participación en Clase: 10 %. La participación en clase es también una parte importante de este curso, y se refiere a todas las actividades que se realizan tanto en las clases teóricas como en las prácticas. Por defecto, todos tienen como nota de participación en clase el promedio de la nota de presentaciones y exámenes. Esta nota puede afectarse por: - Preguntas del caso de lectura obligatoria de cada clase. - Participación con preguntas propias, intervenciones, etc.
+La nota para aprobar incluyendo exámenes, trabajos prácticos y promedio de la materia es 4 (cuatro) puntos.
+6
+
+

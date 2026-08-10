@@ -17,3 +17,6 @@ gtm/leads/output/
 .DS_Store
 Thumbs.db
 mba/presentations/gestion/lectura_rrhh.pdf
+
+# Roster de compañeros de curso — datos personales de terceros, no va al remoto
+mba/presentations/sistemas/tp_grupos.xlsx

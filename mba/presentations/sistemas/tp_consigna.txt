@@ -1,0 +1,44 @@
+UNIVERSIDAD DEL CEMA
+DIRECCIÓN DE SISTEMAS DE INFORMACIÓN
+TRABAJO PRÁCTICO GRUPAL DIAGNÓSTICO Y REINVENCIÓN ORGANIZACIONAL
+Objetivo y propósito: El trabajo busca que los alumnos desarrollen la capacidad de detectar oportunidades o amenazas estratégicas vinculadas a SI e IA y de diseñar un plan integral de reinvención organizacional. Se espera que combinen visión estratégica con capacidad de ejecución táctica articulando con claridad cómo SI e IA habilitan la transformación propuesta. Consigna del trabajo práctico: En 6 grupos de 6 personas predefinidos, deberán seguir las siguientes consignas 1. Selección de la empresa
+o Seleccionar una empresa sobre la cual puedan obtener información suficiente y confiable (propia, de un integrante del grupo o de acceso público) sin violar la confidencialidad.
+2. Identificación de la oportunidad o amenaza o Identificar qué oportunidad existe o amenaza enfrenta la empresa o la industria en términos de SI/IA (ej.: eficiencia operativa, experiencia de usuario, nuevos modelos de negocio, disrupción competitiva). o Determinar el tamaño de la oportunidad o amenaza (impacto en ingresos, costos, competitividad, clientes, etc.) a alto nivel. o Definir una visión clara de reinvención: una declaración aspiracional pero concreta que proyecte el futuro de la organización. o Establecer un plazo objetivo para alcanzarla en años
+
+3. Requerimientos para materializar oportunidad / amenaza
+Para cada una de las siguientes dimensiones, deberán describir qué se necesita para concretar la reinvención. Algunas preguntas disparadoras que pueden ayudar al análisis.
+o Organización / Personas: ¿Qué roles o perfiles profesionales son clave para materializar la visión? ¿Qué estructura organizativa necesito? ¿Cómo se gestionará la capacitación y el re-skilling de los empleados?
+o Procesos: ¿Qué procesos críticos deben rediseñarse, digitalizarse o automatizarse para capturar la oportunidad? ¿Qué procesos deben integrarse con proveedores, clientes o socios estratégicos?
+o Tecnología: ¿Qué tecnologías habilitadoras son indispensables? ¿Qué alianzas tecnológicas estratégicas se deberían explorar?
+o Cultura: ¿Qué resistencias culturales pueden frenar el cambio? ¿Qué valores culturales actuales potencian la transformación (ej. innovación, orientación al cliente)?
+o Financiera: ¿Qué nivel de inversión se necesita para capturar la oportunidad? ¿Cuáles son las fuentes de financiamiento posibles (capital propio, créditos, alianzas)?
+4. Detectar las brechas: Contrastar lo que se necesita con lo que existe hoy en la empresa, en cada dimensión:
+o Organización/Personas: ¿La estructura organizativa actual facilita o dificulta la reinvensión? ¿Se necesita crear nuevas áreas (ej. analítica, data science, innovación)? ¿Qué liderazgo hay hoy en la compañía? ¿Qué tan preparados están los equipos para trabajar en entornos híbridos hombre–máquina?
+o Procesos: ¿Los procesos actuales permiten escalabilidad y rapidez de respuesta al mercado? ¿Existen procesos redundantes, manuales o con alto nivel de error? ¿La gobernanza de datos y la trazabilidad son suficientes para soportar iniciativas de IA?
+o Tecnología: ¿La infraestructura tecnológica actual permite escalar la solución? ¿Se necesita desarrollar capacidades in-house o tercerizar? ¿La empresa tiene acceso a datos de calidad y en volumen suficiente? ¿Qué sistemas legados hoy representan un obstáculo para la integración?
+o Cultura: ¿Cómo se percibe la IA dentro de la organización: como amenaza o como oportunidad? ¿Existen mecanismos de reconocimiento o incentivos para quienes adopten nuevas formas de trabajo? ¿La organización fomenta el aprendizaje continuo y la experimentación?
+o Finanicera: ¿La empresa cuenta hoy con recursos financieros para sostener la iniciativa? ¿Qué riesgos financieros existen si la inversión no genera el impacto esperado?
+
+5. Diseñar el roadmap de reinvención
+o Diseñar una propuesta para concretar la visión de reinvención en tres horizontes: corto plazo (0–12 meses), mediano plazo (1–3 años) y largo plazo (3+ años).
+o Incluir acciones concretas en cada uno de los horizontes definidos en el punto anterior
+o Establecer las métricas de éxito que permitirán evaluar el progreso y el impacto.
+6. Análisis de riesgos y mitigación
+o Identificar los principales riesgos (ej.: resistencia cultural, limitaciones presupuestarias, dependencia tecnológica, cambios regulatorios).
+o Proponer medidas concretas de mitigación para cada riesgo identificado.
+Entregables
+1. Documento narrativo que debe ser escrito en prosa, sin bullet points extensos, priorizando claridad y storytelling. Deberá incluir anexos con datos, gráficos simples, etc. (máx. 10 páginas, sin contar anexos) con la siguiente estructura sugerida:
+o Resumen Ejecutivo: Síntesis de la oportunidad o amenaza detectada, declaración de la visión de reinvención, argumento de urgencia (¿por qué ahora?) e impacto esperado en la empresa y la industria.
+o Contexto y Oportunidad / Amenaza Descripción de la empresa e industria seleccionada. Principales tendencias y desafíos del sector. Explicación detallada de la oportunidad o amenaza identificada, su magnitud (impacto en ingresos, costos, participación de mercado, clientes) y el horizonte temporal relevante.
+o Requerimientos para la reinvención Análisis por cada una de las cinco dimensiones: Organización/Personas, Procesos, Tecnología, Cultura y Financiera. Para cada una, se deben describir los requerimientos necesarios, las brechas detectadas respecto de la situación actual, y la priorización de las brechas más críticas. Se espera que el análisis distinga explícitamente qué rol juegan los Sistemas de Información tradicionales y qué rol juega específicamente la IA en la solución propuesta.
+o Roadmap de reinvención Acciones concretas en los tres horizontes temporales (corto, mediano y largo plazo), con métricas de éxito definidas (al menos un indicador adelantado y uno de resultado por dimensión)
+
+o Análisis de riesgos y mitigación Riesgos clave y acciones de mitigación propuestas.
+o Anexos Datos cuantitativos, gráficos, benchmarks, mapas de procesos, etc. que soporten el documento 2. Presentación oral (20 min + 10/15 min de preguntas y respuestas), en donde deberán convencer al directorio para que apruebe la reinvención. Deberá ser:
+o Ser clara, ejecutiva y convincente, el objetivo es que el directorio apruebe la reinvención.
+o Construir sobre storytelling y datos clave, no sobre listas de slides. o Transmitir con claridad cómo SI e IA (distinguiendo el rol de cada uno) habilitan la
+reinvención propuesta. o Argumentar las decisiones tomadas y defender las recomendaciones ante las
+preguntas del "directorio" (profesor y resto de la clase).
+Entrega documento narrativo: 27/08 vía mail y webcampus Fecha presentación oral: 31/08 & 07/09
+
+

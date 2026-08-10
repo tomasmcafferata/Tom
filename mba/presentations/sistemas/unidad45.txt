@@ -1,0 +1,805 @@
+Sistemas de Información
+Juan Ignacio Parola
+
+Aplicaciones Empresariales con IA
+No son tecnologías a conocer — son decisiones a tomar
+
+El mapa de sistemas de una organización: cuatro niveles
+
+Antes de hablar de ERP o CRM — primero entender qué tipo de sistema es cada uno y para quién trabaja
+
+ESS — Executive Support Systems
+Alta dirección
+PARA QUIÉN: CEO, directorio
+
+Información estratégica de fuentes internas y externas. Responde: ¿hacia dónde vamos y cómo está el entorno? IA: Síntesis automática de
+información externa, alertas estratégicas con IA generativa
+
+DSS — Decision Support Systems
+Análisis y decisiones semiestructuradas PARA QUIÉN: Analistas, directores
+
+Modelos de simulación y análisis what-if. No decide — informa decisiones complejas con múltiples variables.
+IA: ML para predicción de demanda, análisis prescriptivo, GIS para decisiones geográficas
+
+MIS — Management Information Systems
+Gerencia táctica PARA QUIÉN: Gerentes de área
+
+Consolida datos del TPS en reportes y dashboards. Responde: ¿cómo vamos? Los ERP, SCM y CRM viven principalmente en este nivel.
+IA: Generación automática de reportes narrativos (SAP Joule), alertas predictivas
+
+TPS — Transaction Processing Systems
+Primera línea operativa PARA QUIÉN: Cajeros, operadores, sistema automático
+
+Registra cada transacción en tiempo real: ventas, pagos, entregas, stock. Sin TPS no hay datos.
+IA: Detección de fraude en tiempo real, validación automática de transacciones
+
+ERP, SCM, CRM son sistemas MIS que también alimentan DSS. La IA los está convirtiendo en sistemas que toman decisiones — antes solo reportaban.
+
+ERP
+
+Enterprise Resource Planning
+
+Integra en una única plataforma todos los procesos de negocio: finanzas, compras, inventario, producción, RRHH y ventas. El objetivo es que todos hablen el mismo idioma y vean la misma versión de los datos en tiempo real.
+
+HERRAMIENTAS DE MERCADO
+SAP S/4HANA
+Enterprise global · Líder absoluto en grandes corporaciones. Más de 400M usuarios. Complejo y costoso — la implementación promedio tarda 18 meses.
+Oracle ERP Cloud
+Enterprise / Mid-market · Fuerte en finanzas y supply chain. Compite con SAP en sectores regulados (utilities, gobierno, banca).
+
+VENTAJAS
+✓ Una sola fuente de verdad para toda la empresa ✓ Automatiza procesos manuales y elimina doble entrada ✓ Trazabilidad completa de transacciones
+LIMITACIONES
+✗ Implementaciones largas (12-36 meses) y costosas ✗ Alta dependencia del proveedor postimplementación ✗ Resistencia cultural — cambia la forma de trabajar de todos
+
+bEVOLUCIÓN CON IA
+
+SIN IA
+
+Sistema de registro: captura lo que pasó. El humano consulta 40 pantallas para entender una variación de margen.
+
+AI
+
+SAP Joule (2024): el gerente pregunta en lenguaje natural '¿por qué bajó el margen en la región
+
+norte?' y recibe análisis estructurado en segundos.
+
+→ Si SAP y tu competidor usan el mismo ERP estándar, ¿dónde está tu ventaja? ¿El sistema es ventaja competitiva o commodity?
+
+SCM
+
+Supply Chain Management
+
+Gestiona el flujo de materiales, información y dinero desde el proveedor hasta el cliente final. El objetivo: tener el producto correcto, en el lugar correcto, en el momento correcto, al menor costo posible — y saber dónde está todo en tiempo real.
+
+HERRAMIENTAS DE MERCADO
+SAP Integrated Business Planning
+Enterprise · Líder en planificación de demanda y supply chain para grandes corporaciones. Integrado con S/4HANA.<
+Oracle SCM Cloud
+Enterprise · Fuerte en manufacturing y distribución global. Incluye gestión de proveedores, logística y trazabilidad.
+Blue Yonder
+Enterprise retail/FMCG · Especialista en retail y consumo masivo. Líder en planificación de demanda con ML desde antes que fuera mainstream.
+Kinaxis
+Mid-Enterprise · Especializados en respuesta ágil y simulación de escenarios. Creciendo fuertemente en disrupciones de supply chain.
+
+VENTAJAS
+✓ Visibilidad end-to-end de inventario y pedidos
+✓ Reducción de sobrestock y roturas simultáneas
+✓ Colaboración con proveedores en tiempo real
+LIMITACIONES
+✗ Requiere integración con proveedores — difícil de lograr ✗ Los datos de terceros suelen ser inconsistentes o tardíos ✗ El bullwhip effect no desaparece — se gestiona mejor
+
+EVOLUCIÓN CON IA
+
+SIN IA
+
+Optimización reactiva: alerta cuando el stock baja del umbral. Las decisiones son siempre sobre el pasado.
+
+GEN AI
+
+Predicción de demanda por punto de venta, producto y fecha con ML. Las decisiones son sobre el futuro — con margen para actuar.
+
+AGENTIC
+
+Agente monitorea toda la cadena, detecta riesgos de disrupciones, redirige inventario y alerta solo en excepciones que requieren decisión humana.
+
+→ Caso Zara: diseño a tienda en 15 días vs. 6 meses del promedio. ¿Cuántos eslabones de tu cadena no tenés visibilidad hoy — y qué te cuesta no tenerla?
+
+CRM
+
+Customer Relationship Management
+
+Centraliza toda la información de clientes, historial de interacciones, oportunidades y contratos. El objetivo: convertir el conocimiento del cliente de un activo personal del vendedor en un activo institucional de la empresa — que permanece cuando el vendedor se va.
+
+HERRAMIENTAS DE MERCADO
+Salesforce Sales Cloud
+Enterprise / Mid · Líder global con 23% de market share. El estándar de referencia para B2B enterprise. Agentforce como capa de IA agéntica.
+Microsoft Dynamics 365 Sales
+Enterprise / Mid · Integración nativa con Outlook, Teams y LinkedIn Sales Navigator. Ganando terreno en empresas con ecosistema Microsoft.
+HubSpot CRM
+SMB / Mid-market · Líder en inbound y empresas en crecimiento. Freemium con escalado modular. Más fácil de adoptar que Salesforce.
+
+VENTAJAS
+✓ El conocimiento del cliente queda en la empresa, no en el vendedor ✓ Visibilidad total del pipeline y forecast en tiempo real ✓ Permite segmentación y personalización a escala
+LIMITACIONES
+✗ La adopción real depende de la disciplina del vendedor para cargarlo ✗ Sin incentivos alineados, se convierte en sistema de vigilancia ✗ Los datos son tan buenos como el proceso de carga — 'garbage in, garbage out'
+
+EVOLUCIÓN CON IA
+
+SIN IA
+
+Registro de interacciones pasadas: tan bueno como la disciplina del vendedor para cargarlo. En la mayoría de las empresas: inconsistente.
+
+GEN AI
+
+Copilot sugiere el siguiente paso, redacta el email de seguimiento, predice probabilidad de cierre y resume la conversación post-llamada.
+
+AGENTIC
+
+Salesforce Agentforce: detecta oportunidades estancadas, contacta al cliente con propuesta personalizada, agenda la reunión y actualiza el pipeline. +30% de oportunidades contactadas con el mismo equipo.
+
+→ ¿Tus vendedores usan el CRM porque les ayuda a vender más — o porque el manager les exige que lo carguen? La respuesta revela si el CRM es herramienta o sistema de vigilancia.
+
+KMS
+
+Knowledge Management Systems
+
+Captura, organiza y distribuye el conocimiento crítico de la organización. El objetivo: que el conocimiento que está en la cabeza de las personas — cómo se resuelven los problemas, qué funciona, qué no — quede en la empresa y sea accesible para todos.
+
+HERRAMIENTAS DE MERCADO
+Confluence (Atlassian)
+Tech / Mid-enterprise · Wiki colaborativa más usada en empresas de tecnología. Integración nativa con Jira. Buena para documentar procesos y decisiones técnicas.
+Microsoft SharePoint
+Enterprise · KMS integrado al ecosistema Microsoft 365. Viva Topics usa IA para organizar automáticamente el conocimiento de la organización.
+
+VENTAJAS
+✓ El conocimiento crítico queda en la empresa, no en las personas ✓ Reduce la curva de aprendizaje de nuevos empleados ✓ Evita reinventar la rueda — capitaliza experiencias pasadas
+LIMITACIONES
+✗ Nadie actualiza la wiki: se vuelve obsoleta rápido
+✗ El conocimiento tácito (el más valioso) es muy difícil de capturar ✗ Alta dependencia de la cultura organizacional para funcionar
+
+EVOLUCIÓN CON IA
+
+SIN IA
+
+Wikis e intranets que nadie actualiza y nadie consulta. El conocimiento sigue viviendo en la cabeza de 2 o 3 personas clave.
+
+GEN AI
+
+El sistema aprende de las interacciones de los expertos y responde preguntas en lenguaje natural. Glean indexa 80+ fuentes de datos y actúa como 'Google interno' de la empresa.
+
+AGENTIC
+
+Agente captura conocimiento tácito de conversaciones, reuniones y decisiones en tiempo real. Lo organiza y lo hace accesible sin que nadie lo cargue manualmente.
+
+→ Si mañana renuncian las 3 personas más críticas de tu área — ¿qué conocimiento irreemplazable se va con ellas? ¿Está capturado en algún sistema?
+
+Blockchain Blockchain
+
+Registro distribuido e inmutable de transacciones que no requiere un intermediario central de confianza. Cada bloque contiene datos, un hash único y el hash del bloque anterior — haciendo imposible modificar un registro sin alterar toda la cadena.
+
+HERRAMIENTAS DE MERCADO
+Ethereum
+Blockchain pública / DeFi · Blockchains públicas con contratos inteligentes. Base de la mayoría de aplicaciones descentralizadas (DeFi, NFTs, stablecoins).
+
+VENTAJAS
+✓ Inmutabilidad: el registro no puede alterarse retroactivamente ✓ Trazabilidad total sin depender de un intermediario ✓ Contratos inteligentes que se ejecutan solos cuando se cumplen condiciones
+LIMITACIONES
+✗ Escalabilidad limitada vs. bases de datos centralizadas ✗ Si hay un intermediario de confianza disponible, blockchain agrega complejidad innecesaria ✗ Energía y latencia: más lento y costoso que sistemas tradicionales
+
+EVOLUCIÓN CON IA
+
+SIN IA
+
+Registro distribuido e inmutable — el valor está en la confianza sin intermediarios, no en la inteligencia sobre los datos.
+
+GEN AI
+
+IA analiza transacciones en la cadena para detectar patrones de fraude, predecir riesgos de contraparte y generar reportes de compliance automáticamente.
+
+AGENTIC
+
+Contratos inteligentes + agentes de IA: el agente monitorea condiciones del mundo real (precio de commodity, temperatura de carga, llegada de buque) y ejecuta el contrato automáticamente.
+
+→ 3 preguntas filtro: ¿hay múltiples actores que no confían entre sí? ¿El dato no debe modificarse nunca? ¿No existe intermediario de confianza? Si alguna es NO — una base de datos tradicional es más simple y barata.
+
+Framework de selección de sistemas: las preguntas que importan
+Antes de evaluar un proveedor — estas cuatro decisiones definen qué buscar
+
+01 Definir el problema — no el sistema
+¿Qué proceso de negocio necesita cambiar y por qué? El 60% de los proyectos fallidos comenzaron sin una definición clara del problema. El sistema es la solución — primero hay que saber cuál es la pregunta.
+
+02 Mapa de madurez digital y/o proceso
+¿La organización está lista para el sistema que querés implementar?
+
+→ ¿Qué proceso duele más hoy? → ¿Qué decisiones no podemos tomar por falta de información? → ¿El problema es de proceso o de sistema?
+
+→ ¿Los datos maestros están limpios y consistentes? → ¿Los procesos están estandarizados? → ¿El change management está presupuestado?
+
+03 Build vs. Buy vs. Partner
+¿El sistema es tu ventaja competitiva — o es infraestructura? Si el proceso que soporta es diferenciador, construí. Si es estándar, comprá. Si necesitás velocidad y capacidad que no tenés, asociate.
+
+04 TCO y criterio de selección
+El costo total de propiedad incluye: licencias, implementación, capacitación, customización, soporte y el costo de cambiar en 5 años. El precio de la licencia suele ser el 20% del costo real.
+
+→ ¿El proceso que soporta es único o estándar? → ¿Cuánto podés customizar sin perder el soporte del proveedor? → ¿Quién es el dueño interno cuando el proveedor se vaya?
+
+→ ¿Cuál es el TCO a 5 años — no solo el precio de licencia? → ¿Cuántos references en mi industria tiene el proveedor? → ¿Qué pasa si en 3 años necesito migrar?
+
+Recurso: Gartner Magic Quadrant evalúa cada categoría de sistemas. Líderes en 2024: ERP → SAP / Oracle / Microsoft · SCM → Blue Yonder / SAP IBP · CRM → Salesforce / Microsoft · KMS → Microsoft Viva / Glean
+
+Di1agnós2tico y requerimientos: lo que define si el proceso va a funcionar
+
+CÓMO ESCRIBIR EL PROBLEM STATEMENT
+Tiene que responder las 5 preguntas sin mencionar ningún sistema:
+1 ¿Cuál es el proceso que está fallando?
+Ej: Nuestro proceso de cierre contable tarda 15 días cuando el benchmark de la industria es 5.
+2 ¿A quiénes impacta y cómo?
+Ej: El CFO no puede reportar resultados a tiempo al board. Los gerentes de área toman decisiones con datos del mes anterior.
+3 ¿Cuál es el costo del problema hoy?
+Ej: Estimamos USD 300K/año en horas de analistas haciendo conciliaciones manuales + 2 errores materiales en los últimos 12 meses.
+4 ¿Qué intentamos antes y por qué no funcionó?
+Ej: Implementamos tablas de Excel compartidas — no escalan y el control de versiones es imposible con 12 personas.
+5 ¿Cómo se ve el éxito a 12 meses?
+Ej: Cierre contable en 5 días, cero conciliaciones manuales, dashboard en tiempo real para los gerentes de área.
+
+RFP: LA SEPARACIÓN QUE CAMBIA TODO
+
+MUST HAVE
+
+NICE TO HAVE
+
+✓ Integración nativa con SAP existente ✓ Soporte en español 24/7 ✓ Migración de datos históricos incluida ✓ Contrato en pesos ajustable por CER
+
+○ Dashboard mobile nativo ○ IA generativa incluida en licencia base ○ Interfaz 100% configurable por el usuario ○ API abierta para integraciones futuras
+
+Un proveedor que no cumple un MUST queda fuera automáticamente. Los NICE ponderan en el scoring.
+
+¿A QUIÉNES INVOLUCRAR EN ESTE PASO?
+El que vive el problema: Los usuarios finales que usan (o sufren) el proceso hoy. Sin ellos el problem statement está incompleto.
+El que paga: CFO o sponsor presupuestario. Tiene que validar el costo del problema antes de definir el presupuesto de la solución.
+El que implementa: IT define los requerimientos técnicos: integraciones, seguridad, datos maestros. Sin ellos los MUST están incompletos.
+
+Long list y evaluación: de 8 candidatos a 3 finalistas
+
+CÓMO ARMAR LA LONG LIST → SHORT LIST
+LONG LIST — 6 a 8 proveedores → Gartner Magic Quadrant de tu categoría → Referencias de pares en tu industria → Lo que ya usa tu ecosistema (ej: si tenés SAP, considera SAP primero) → Nuevos entrantes con IA-first (pueden sorprender vs. incumbentes)
+FILTER 1 — Eliminar por MUST HAVE → Enviar RFP y pedir respuesta escrita → ¿Cumple los MUST? No → fuera automáticamente → ¿Tiene referencias en tu industria y tamaño? No → penalizar
+SHORT LIST — 3 finalistas para demos
+→ Demo con caso de uso REAL de tu empresa (no demo genérica) → Demo con los usuarios finales presentes — no solo IT → Pedir acceso a sandbox para que el equipo pruebe
+
+SCORING MATRIX — así se compara
+
+CRITERIO
+
+PESO
+
+FUNCIONALIDAD
+
+30%
+
+PROVEEDOR PROVEEDOR
+
+A
+
+B
+
+PROVEEDOR C
+
+4/5
+
+5/5
+
+3/5
+
+FACILIDAD DE USO
+
+20%
+
+5/5
+
+3/5
+
+4/5
+
+INTEGRACIONES
+
+20%
+
+3/5
+
+5/5
+
+4/5
+
+TCO 3 AÑOS
+
+15%
+
+4/5
+
+2/5
+
+5/5
+
+SOPORTE LOCAL
+
+10%
+
+5/5
+
+3/5
+
+3/5
+
+ROADMAP DE IA
+
+5%
+
+3/5
+
+5/5
+
+4/5
+
+SCORE TOTAL PONDERADO
+
+4.1
+
+3.9
+
+3.8
+
+Escala: 1-5 · La matriz es pública para todos los evaluadores antes de la demo · No se comparte con los proveedores.
+
+MBA · Sistemas de Información · UCEMA · Gartner Magic Quadrant 2024 · Accenture Sourcing Playbook · Laudon
+
+Negocios en la red: E-business, E-Government y colaboración digital
+Internet como plataforma de negocio — no solo canal de comunicación
+
+E-BUSINESS
+Uso de tecnologías digitales e internet para ejecutar los procesos de negocio principales de la empresa — no solo vender online.
+
+E-GOVERNMENT
+Uso de sistemas de información para mejorar la relación entre el gobierno y los ciudadanos, empresas y otros organismos del Estado.
+
+COLABORACIÓN DIGITAL
+Sistemas que permiten a equipos distribuidos trabajar juntos en tiempo real, compartir conocimiento y tomar decisiones colectivas.
+
+Business to Consumer. Amazon, MercadoLibre, eB2C commerce tradicional.
+Business to Business. EDI, portales de B2B proveedores, marketplaces industriales.
+Business to Government. Licitaciones, facturación B2G electrónica, AFIP.
+Consumer to Consumer. eBay, OLX, Airbnb, Uber C2C — plataformas peer-to-peer.
+IA: IA generativa personaliza la experiencia de compra. Agentes de IA gestionan atención al cliente y logística end-toend. Caso: MercadoLibre: el 40% de su revenue viene de servicios financieros y logísticos — no de la venta en sí.
+
+Government to Citizen. ANSES digital, turnos G2C online, MI Argentina.
+Government to Business. AFIP, ventanilla única G2B empresarial, licitaciones.
+Government to Government. Interoperabilidad G2G entre organismos del Estado.
+Government to Employee. Gestión de RRHH del G2E sector público, capacitación digital.
+IA: Chatbots de ANSES y AFIP para consultas masivas. IA para detección de evasión y optimización de subsidios. Caso: Estonia: 99% de los servicios del Estado son digitales. Los ciudadanos votan online desde 2005.
+
+Teams, Zoom, Slack. Comunicación en tiempo real. Sincrónica Reemplazó al email para trabajo en equipo.
+Confluence, Notion, SharePoint. Documentación y Asincrónica wikis que no requieren presencia simultánea.
+Gestión de Jira, Asana, Monday. Visibilidad del trabajo proyectos distribuido entre áreas y locaciones.
+Miro, Figma, GitHub. Herramientas donde Co-creación múltiples personas editan el mismo artefacto.
+IA: Copilot en Teams resume reuniones, extrae decisiones y asigna tareas. Reduce meeting load hasta 40% — Microsoft 2024. Caso: GitLab: empresa de 2.000 personas 100% remota desde su fundación. El manual de cultura es público y tiene 2.000 páginas.
+
+La nube y AWS: infraestructura como decisión estratégica
+La pregunta no es si usar la nube — es cómo y cuándo migrar, y cuánto depender de un solo proveedor
+
+LOS 3 MODELOS DE NUBE
+
+IaaS
+
+Alquilás servidores, almacenamiento y redes. Vos gestionás el sistema operativo y las aplicaciones.
+
+Ej: AWS EC2, Azure VMs, Google Compute Engine
+Infrastructure as a Service
+
+PaaS
+
+La plataforma de desarrollo está provista. Vos solo escribís y desplegás el código.
+
+Platform as a Service
+
+Ej: AWS Elastic Beanstalk, Heroku, Google App Engine
+
+SaaS
+
+El software completo entregado via web. Sin instalación, sin servidores, sin mantenimiento.
+
+Software as a Service
+
+Ej: Salesforce, SAP S/4HANA Cloud, Google Workspace
+
+AWS — LA CONSTELACIÓN DE SERVICIOS QUE IMPORTAN AL DIRECTIVO CÓMPUTO Y ALMACENAMIENTO Servidores virtuales escalables. La base de casi toda aplicación en AWS. Almacenamiento de objetos. Donde viven los datos de aplicaciones, backups y data lakes. Cómputo serverless. Ejecuta código sin gestionar servidores — pagas por ejecución. DATOS E IA Plataforma para entrenar y desplegar modelos de IA. Acceso a Claude, Llama, Titan desde AWS. NEGOCIO Y APLICACIONES Call center en la nube con IA. Transcripción, análisis de sentimientos, enrutamiento inteligente.
+
+Agentic AI: Human in the Lead
+Cuando los sistemas actúan solos — ¿qué hace el directivo?
+
+De sistemas que registran a sistemas que actúan
+
+REGISTRO G1
+1990-2010
+El humano opera el sistema. El valor está en la integración y la memoria institucional.
+
+DECISIÓN G2
+2010-2023
+La IA sugiere, el humano decide. El valor está en la inteligencia sobre los datos.
+
+ACCIÓN G3
+2023 → hoy
+El agente actúa de forma autónoma hacia un objetivo definido por el humano. El humano define y evalúa.
+
+En los sistemas del Bloque 1: ERP Consulta datos de ventas del mes pasado SCM Alerta cuando el stock baja del umbral CRM Registra la llamada que hizo el vendedor
+
+En los sistemas del Bloque 1:
+
+ERP
+
+SAP Joule responde preguntas en lenguaje natural sobre márgenes
+
+SCM
+
+Predice demanda por punto de venta y fecha con ML
+
+CRM
+
+Sugiere el siguiente paso y predice probabilidad de cierre
+
+En los sistemas del Bloque 1:
+
+ERP
+
+Agente detecta anomalía de margen y propone ajuste — SAP Joule
+
+SCM
+
+Redirige inventario autónomamente y alerta solo en excepciones
+
+CRM
+
+Gestiona oportunidades, agenda reuniones, actualiza pipeline — Agentforce
+
+La pregunta no es si va a ocurrir — ya está ocurriendo. La pregunta es qué hace el directivo cuando el sistema actúa solo.
+MBA · Sistemas de Información · UCEMA · Accenture Technology Vision 2025 · McKinsey State of AI 2025
+
+Human in the Lead: las 3 preguntas que definen el liderazgo
+
+Human in the Lead no es una limitación técnica de la IA — es una decisión directiva con consecuencias éticas, legales y reputacionales.
+
+1
+
+¿Qué delego al agente y qué retengo?
+
+El directivo define los límites de autonomía. ¿Cuánto puede gastar el agente sin aprobación? ¿A cuántos clientes puede contactar? ¿Qué decisiones requieren un humano siempre?
+
+Esta arquitectura de governance no la puede diseñar IT sola — requiere criterio de negocio.
+
+2
+
+¿Cómo evalúo lo que el agente hace?
+
+El liderazgo se desplaza de la ejecución a la evaluación. El directivo ya no hace la tarea — juzga si el resultado es correcto. Requiere métricas nuevas.
+
+No cuántas tareas ejecutó el agente — sino qué calidad de decisiones tomó.
+
+3
+
+¿De quién es la responsabilidad cuando el agente se equivoca?
+
+La IA no tiene responsabilidad legal ni moral. El directivo que definió los parámetros del agente sí. Human in the Lead no es solo un principio de diseño.
+
+Es un principio de accountability.
+
+El nuevo perfil directivo en la era agéntica
+4 capacidades con un ejemplo concreto cada una
+
+Diseñar objetivos claros para sistemas autónomos
+
+1
+
+Traducir estrategia en parámetros ejecutables por el agente.
+
+Ejemplo: Buscar que maximice las ventas, baje el tiempo de resolución de los tickets
+
+Evaluar resultados sin haber visto el proceso
+
+2
+
+Cuando el agente actúa autónomamente, el directivo no observa cada paso — solo el resultado.
+
+Ejemplo: Revisar la calidad de las propuestas que generó el agente, no el número de propuestas generadas.
+
+Gestionar la transición humana del equipo
+
+3
+
+Los equipos que trabajan con agentes necesitan rediseñar su rol — no reducirlo.
+
+Ejemplo: El vendedor que antes contactaba 50 clientes/semana ahora supervisa al agente que contacta 500. Su valor está en las conversaciones de mayor complejidad.
+
+Tomar decisiones de governance
+
+4
+
+Definir límites de autonomía, umbrales de escalación y mecanismos de auditoría.
+
+Ejemplo: El agente puede responder consultas de clientes — pero no puede comprometerse con fechas de entrega sin verificar stock real.
+
+La IA Agéntica no reemplaza al directivo — reemplaza la ejecución. Y libera al directivo para lo único que la IA no puede hacer: liderar con criterio, contexto y responsabilidad.
+
+BI, Big Data y Decisiones con Datos
+Datos sin preguntas son ruido. Preguntas sin datos son intuición. La combinación es ventaja.
+
+Tres tipos de decisiones — y cómo la IA se relaciona con cada una
+
+ESTRUCTURADAS
+La IA las automatiza completamente
+Reglas claras, datos claros, mismo resultado cada vez. El humano ya no necesita intervenir.
+
+SEMI-ESTRUCTURADAS
+La IA asiste — el humano decide
+Reglas parciales, datos incompletos, el juicio humano agrega valor clave.
+
+NO ESTRUCTURADAS
+La IA informa — el juicio es insustituible
+Sin reglas previas, contexto único, consecuencias de largo plazo. El directivo es insustituible.
+
+Ejemplos: → Aprobación de crédito con score definido → Reposición de inventario con umbral fijo → Detección de fraude en tiempo real
+
+Ejemplos: → Selección de proveedor con criterios múltiples → Fijación de precio en mercado volátil → Evaluación de riesgo crediticio no estándar
+
+Ejemplos: → Decisión de expansión geográfica → Respuesta a una crisis reputacional → Fusiones y adquisiciones
+
+Riesgo: tratar decisiones semi o no estructuradas como si fueran estructuradas — automatizar lo que requiere juicio.
+
+El error más frecuente: depender demasiado del sistema y perder el juicio crítico.
+
+El error más frecuente: no usar los datos disponibles porque 'esto es estratégico'.
+
+¿Cuáles de las decisiones importantes de tu área son realmente estructuradas — y cuáles estás creyendo que lo son?
+
+Business Intelligence: de reportes a insights
+
+Las empresas tienen datos pero no tienen información. Los reportes describen lo que pasó — el BI explica por qué y sugiere qué hacer.
+
+NIVEL 1 · Descriptivo ¿Qué pasó?
+Reportes históricos, dashboards estáticos. Describe el pasado.
+
+NIVEL 2 · Diagnóstico ¿Por qué pasó?
+Análisis de causa raíz, correlaciones, drill-down. Requiere datos integrados y buena calidad.
+
+NIVEL 3 · Predictivo y prescriptivo ¿Qué va a pasar y qué debería hacer?
+Modelos de ML, simulaciones, recomendaciones automáticas.
+
+La mayoría de las empresas está acá
+
+Muchas aspiran — pocas ejecutan bien
+
+Solo el 18% de las empresas llega acá — Gartner 2024
+18%
+
+CASO · NETFLIX — BI PREDICTIVO PARA DECIDIR QUÉ PRODUCIR
+House of Cards no se tomó en base a focus groups. Se tomó en base al comportamiento de 260 millones de usuarios: los que veían películas de David Fincher, con Kevin Spacey, basadas en series británicas eran los que más tiempo pasaban en la plataforma.
+Elos datos de la plataforma sobre comportamiento de usuarios la convirtieron en una decisión de inversión de 100 millones de dólares — con más certeza que cualquier estudio de mercado tradicional.
+
+¿En qué nivel de madurez está el BI de tu empresa — y qué decisiones importantes tomás todavía con intuición?
+
+Big Data: las 3 Vs que cambian cómo gestiona el directivo
+
+VOLUMEN
+Datos a escala que antes era imposible procesar.
+Una cadena de retail genera más datos en un día que los que sus analistas podían procesar en un año hace 10 años.
+
+VELOCIDAD
+Datos en tiempo real que permiten actuar en el momento.
+La diferencia entre saber que un cliente abandonó el carrito hace 3 días y saberlo en el momento — y poder actuar en el momento.
+
+VARIEDAD
+Datos no estructurados: texto, imágenes, audio, video, sensores.
+El 80% de los datos del mundo son no estructurados. La mayoría de las empresas no los usa — y es donde está la ventaja.
+
+De gestionar muestras a gestionar toda la población.
+
+De decisiones sobre el pasado a decisiones sobre el presente.
+
+De datos transaccionales a datos de comportamiento y contexto.
+
+CASO · UPS ORION — Big Data aplicado a logística
+UPS instaló sensores en sus camiones para optimizar rutas en tiempo real. Resultado: eliminó 100 millones de millas de recorrido por año, ahorrando 10 millones de galones de combustible. No fue una decisión logística — fue una decisión de datos. El sistema procesa datos de tráfico, clima, historial de entregas y preferencias de clientes para calcular la ruta óptima en tiempo real para cada camión.
+McAfee & Brynjolfsson (HBR 2012): pasamos de gestionar con muestras a gestionar con toda la población. Ya no necesitamos encuestas — tenemos el comportamiento real de todos los clientes.
+
+DSS y el sesgo de automatización: el riesgo más subestimado
+Los DSS no deciden — mejoran la calidad del juicio humano. Pero solo si el directivo entiende qué hay dentro del modelo.
+
+1 Base de datos
+¿Qué información alimenta el sistema y con qué frecuencia se actualiza? Un modelo brillante con datos desactualizados genera recomendaciones erróneas.
+
+2 Modelos y supuestos
+Todo modelo es una simplificación de la realidad. El directivo debe saber cuáles son los supuestos del modelo que está usando — porque los supuestos definen los límites de la recomendación.
+
+3 Interfaz de presentación
+Cómo se presentan los resultados determina cómo se decide. Un modelo brillante con una interfaz confusa genera malas decisiones.
+
+EL RIESGO MÁS SUBESTIMADO: SESGO DE AUTOMATIZACIÓN
+
+Sesgo de automatización:
+La tendencia humana a confiar más en la recomendación del sistema que en el propio juicio, incluso cuando el sistema está equivocado.
+El problema no es que el sistema falle — los sistemas fallan. El problema es que el humano deja de aplicar el juicio crítico porque asume que el sistema es más confiable.
+
+CASO · Amazon · el libro de 23 millones de dólares
+En 2010, el algoritmo de pricing de Amazon comenzó a listar un libro de biología a USD 23 millones. Dos algoritmos competitivos se retroalimentaron hasta precios absurdos sin intervención humana.
+El sistema funcionó perfectamente dentro de sus parámetros — el resultado fue un desastre. Ningún humano lo detuvo a tiempo porque nadie revisó el output del algoritmo.
+
+¿Sabés qué supuestos tiene el modelo que usás para tomar decisiones — o solo ves el número que produce?
+
+GIS: cuando la ubicación es el dato más valioso
+Geographic Information Systems — decisiones que solo son posibles cuando los datos tienen coordenadas
+
+¿QUÉ ES Y QUÉ LO HACE DIFERENTE?
+Un GIS captura, almacena, analiza y visualiza datos que tienen una dimensión geográfica. La diferencia respecto a un BI tradicional: el dónde es tan importante como el qué y el cuándo. Las correlaciones espaciales que son invisibles en una tabla aparecen inmediatamente en un mapa.
+
+HERRAMIENTAS DE MERCADO
+→ Google Maps Platform: APIs para integrar mapas en cualquier sistema. Costo por uso. → Power BI Maps / Tableau Maps: GIS integrado en herramientas de BI estándar. El punto de entrada más fácil.
+
+1 Expansión y localización
+¿Dónde abrir la próxima sucursal? GIS cruza densidad poblacional, ingresos por zona, competidores existentes, flujo peatonal y accesibilidad en un solo análisis.
+Ej: McDonald's usa GIS para el 100% de sus decisiones de apertura. Starbucks evalúa 300+ variables geoespaciales por ubicación.
+
+2 Logística y ruteo
+Optimización de rutas considerando tráfico, ventanas horarias, capacidad de vehículos y restricciones de circulación. UPS eliminó 100M de millas/año combinando GIS con ML. Ej: Rappi y PedidosYa optimizan asignación de repartidores con GIS en tiempo real.
+
+3 Segmentación y marketing geoespacial
+Personalización de ofertas por zona, análisis de catchment area de cada sucursal, identificación de zonas con alta demanda no atendida.
+Ej: Los bancos cruzan GIS con datos de transacciones para identificar zonas con alta demanda de crédito sin cobertura.
+
+4 Gestión de activos e infraestructura
+Monitoreo georeferenciado de activos: cañerías, tendido eléctrico, antenas, flota vehicular. Reduce tiempos de respuesta ante incidentes.
+Ej: Edesur gestiona 60.000 km de red eléctrica con GIS. Cada falla se localiza y asigna en minutos.
+
+5 Risk mapping y compliance
+Visualización de riesgo geográfico: zonas inundables, exposición a desastres naturales, restricciones regulatorias por zona, análisis de competencia.
+Ej: Las aseguradoras usan GIS para pricing de pólizas por zona de riesgo climático.
+
+MBA · Sistemas de Información · UCEMA · Laudon Cap. 12 · Esri · Google Maps Platform · UPS ORION
+
+Del dato a la decisión responsable
+DATOS
+Lo que capturan los sistemas
+INFORMACIÓN
+Los datos procesados con contexto
+CONOCIMIENTO
+La información que guía el juicio
+DECISIÓN
+El juicio del directivo
+Los datos no toman decisiones — los directivos sí.
+Los datos mejoran la calidad de las decisiones solo si el directivo sabe qué preguntas hacerle, qué supuestos tiene el modelo y cuándo su juicio debe prevalecer sobre el algoritmo.
+
+Técnicas inteligentes y trabajadores del conocimiento
+Las herramientas de la IA clásica — y el capital humano que las hace funcionar
+
+TÉCNICAS INTELIGENTES — de la IA clásica a la IA generativa
+
+Sistemas Expertos
+1970s → hoy
+
+Codifican el conocimiento de un experto humano en reglas IF-THEN. Primeros sistemas de IA en negocios.
+
+Uso: Diagnóstico médico asistido, scoring crediticio, troubleshooting de equipos industriales.
+Muy rígidos — no aprenden. Se rompen ante situaciones no previstas en las reglas.
+
+Algoritmos Genéticos
+1975 → optimización compleja
+
+Inspirados en la selección natural. Generan múltiples soluciones, seleccionan las mejores, las combinan.
+
+Uso: Optimización de rutas logísticas, diseño de portafolios, scheduling de producción.
+Computacionalmente costosos para problemas de muy alta dimensión.
+
+Machine Learning
+1990s → dominante hoy
+IA Generativa (LLMs)
+2017 → transformers → 2022 ChatGPT
+
+Aprende de datos históricos para hacer predicciones o clasificaciones. Supervisado, no supervisado y por refuerzo.
+
+Uso: Recomendaciones (Netflix, Spotify), detección de anomalías, predicción de churn, pricing.
+Necesita grandes volúmenes de datos etiquetados. Sesgo de los datos de entrenamiento.
+
+Modelos de lenguaje que generan texto, código, imágenes y audio. Aprenden de enormes corpus de datos.
+
+Uso: Copilots empresariales, generación de contenido, análisis de documentos, código.
+Alucinaciones, costo de inferencia, dependencia de proveedores, riesgo de privacidad.
+
+TRABAJADORES DEL CONOCIMIENTO
+Peter Drucker (1959) acuñó el término. Definición: Personas cuyo principal activo es el conocimiento especializado — no la fuerza física ni la ejecución de procesos rutinarios. Médicos, abogados, ingenieros, analistas, consultores.
+1 Capturar su conocimiento sin matarlo
+El conocimiento tácito (juicio, contexto, intuición) pierde valor al formalizarse. El KMS tiene que preservar el contexto, no solo el procedimiento.
+2 Medir su productividad
+¿Cómo medís la productividad de un abogado o un investigador? Las métricas de producción industrial no aplican. La calidad del output es más importante que el volumen.
+3 El impacto de la IA en su rol
+La IA generativa automatiza las partes más estructuradas del trabajo del conocimiento. Los trabajadores de mayor valor son los que pueden hacer las preguntas correctas — no los que ejecutan las respuestas.
+
+Ética de la IA y Governance Digital
+El directivo como arquitecto de decisiones responsables
+
+No podemos dejar la gestión de riesgos “para después”
+
+Ética y sesgos
+
+Seguridad y confidencialidad
+
+Resultados no confiables
+
+Desplazamiento de la fuerza de trabajo
+
+Cumplimiento y riesgos legales
+
+Riesgos
+
+Reputacional
+
+Financiero
+
+De Gobierno
+
+Riesgos de ética
+Modelos que replican prejuicios e inequidades inconscientes en la empresa o la sociedad
+
+Riesgos de vulnerabilidad
+Modelos que permiten a agentes maliciosos acceder a información confidencial de la organización o de sus clientes
+
+Riesgos de confiabilidad en los resultados
+Modelos que producen resultados que son inexplicables o que son erróneos ya que no se han asegurado que su fiabilidad sea la que tuvieron en sus comienzos
+Por ejemplo, GPT-4 en marzo de 2023 identificó números primos con una tasa de precisión de casi el 98 por ciento. Sin embargo, en junio, la precisión de GPT-4 se redujo a menos del 3 por ciento para la misma tarea.
+
+Riesgos de desplazamiento de la fuerza de trabajo
+Modelos que por la obtención de eficiencias implican la desalineación de las capacidades de la fuerza de trabajo con las necesidades de la organización.
+Más del 80% de los empleos van a ser impactados
+
+Riesgos legales y de compliance
+Tres grandes fuentes de riesgos: 1. Modelos que fueron entrenados con información que no tenían permiso para utilizar 2. Imágenes producidas por un modelo, sobre las que no poseemos derechos de autor 3. Marco legal creciente sobre la Inteligencia Artificial, su creación, utilización e impacto
+
+La respuesta es embeber la organización de IA responsable
+
+Ética y sesgos
+Crear puntos de referencia y establecer políticas para toda
+la empresa Iniciativas de DEI y monitoreo
+Puntuación de confianza y Validación de conocimientos
+
+Seguridad y confidencialidad
+
+Resultados no confiables
+
+Desplazamiento de la fuerza de trabajo
+
+Cumplimiento y riesgos legales
+
+Crear un marco de política al respecto de IA responsable incluyendo guías de ética
+
+Definir un modelo de gobierno claro para toda la organización
+
+Marco de evaluación de riesgos y evaluación holística de casos de uso
+
+Protocolos de acceso y autenticación
+
+Auditorías periódicas y Procesos de Monitoreo
+
+Orientación y capacitación a toda la empresa sobre las capacidades y el uso de GenAI
+
+Evaluación de proveedores y divulgación de datos
+protegidos por derechos de autor
+
+Red Teaming & Human-in-the-loop
+
+Construir confianza en los empleados
+
+Alinear la supervisión y definir los informes y la escalación
+
+Datos diversos, representativos y
+equilibrados
+
+Reskilling de la fuerza de trabajo
+
+

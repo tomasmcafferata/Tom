@@ -1,0 +1,79 @@
+
+Programa de Estudio
+
+Carrera: Maestría en Dirección de Empresas
+Asignatura: Sistemas de Información
+Profesor titular: Juan Ignacio Parola
+
+Cronograma de clases
+Clase
+ | Fecha
+ | Unidad / Contenido
+ | Clase 1
+ | Lunes 03 de Agosto de 2026
+ | Unidad I: El Valor de los Sistemas de Información en la Era del Conocimiento e IA
+El contexto empresarial moderno: complejidad, globalización y revolución tecnológica. Drivers de la realidad.
+Datos, Información y Conocimiento: la tríada y su gestión estratégica. Capital Intelectual: Capital Humano, Estructural y Relacional.
+Qué es un Sistema de Información: componentes, arquitectura y ecosistema digital. Por qué fracasan los SI: datos sucios, silos, baja adopción y gobierno deficiente.
+Cloud Computing: de CAPEX a OPEX. El cambio de paradigma que democratizó la tecnología.
+Introducción a la Inteligencia Artificial. Taxonomía: de Machine Learning a Agentic AI. IA Generativa vs. IA Agéntica: capacidades, limitaciones y aplicaciones directivas.
+El gap de valor: el 72% adopta IA, solo el 6% captura valor real. Qué hacen diferente los AI High Performers.
+Aplicaciones prácticas (Caso)
+ | Clase 2
+ | Lunes 10 de Agosto de 2026
+ | Unidad I (cont.): Drivers de Cambio y SI como Ventaja Estratégica — Apertura Unidad II
+Drivers del entorno: globalización, consumerización, plataformización y democratización tecnológica. La tecnología como principal factor externo para los CEOs globales.
+Teoría de la Firma y costos de transacción en IT. Los SI como reductores estructurales de costos de coordinación e información asimétrica.
+Los SI como fuente de ventaja competitiva: Porter actualizado para la era de la IA. Cuándo los datos crean ventaja competitiva — y cuándo no 
+Las 6 decisiones de IT que no pueden delegarse a IT. El directivo como responsable de la estrategia tecnológica
+Distintos niveles de cambio organizacional: automatización, racionalización, reingeniería y cambio de paradigma. Reingeniería de procesos como mentalidad directiva (Hammer, HBR).
+Aplicaciones prácticas (Caso)
+
+ | Clase 3
+ | Jueves 20 de Agosto de 2026
+ | Unidad II: Cambio Organizacional y Desarrollo de Sistemas de Información
+Impacto de la Inteligencia Artificial en procesos, estructura organizacional y valor generado. Oportunidades y riesgos.
+Proyectos de Desarrollo de Sistemas. Modelado y diseño de SI. Metodologías orientadas a estructuras y a objetos. Impacto de la IA en el diseño y desarrollo de sistemas.
+Factor humano en el diseño de sistemas. Conceptos de UI, UX, CX. Adopción de tecnología: por qué fracasa y cómo liderarla
+Change Management estructurado: presupuesto, embajadores internos y demostración de valor temprano. Cultura organizacional como habilitador o bloqueador.
+Mitigación de fallas frecuentes: Data Ownership, integración de sistemas como decisión directiva, workflow embedding y gobierno de datos e IA.
+Unidad III: Aplicaciones Empresariales con IA
+Tipos y niveles de sistemas de aplicación empresarial. Mapa de sistemas transaccionales de una organización tipo.
+Sistemas ERP: concepto, impacto en procesos de negocio, solución a problemas de integración, metodología de implementación y casos.
+Sistemas SCM con IA: optimización de la cadena de abastecimiento, trazabilidad y mantenimiento predictivo. Casos: Walmart.
+Sistemas CRM con IA: personalización masiva, predicción de necesidades y automatización comercial.
+Sistemas KMS: gestión del conocimiento como activo estratégico. Blockchain: concepto y aplicaciones en cadenas de valor.
+Agentic AI: diseño e incorporación de agentes en ERP y CRM. Capacidades, orquestación y gobernanza. Human in the loop como principio irrenunciable.
+E-business, e-government y cultura colaborativa. Impacto de la IA en las aplicaciones empresariales.
+
+ | 
+Clase 4
+ | 
+Lunes 24 de Agosto de 2026
+ | 
+Exámen Individual: Quiz
+Unidad IV: Sistemas de Apoyo al Proceso Decisorio, Business Intelligence, Knowledge Management y Ética de la IA
+Proceso de toma de decisiones en la organización. Tipos de decisiones y requerimientos de información. IA en procesos decisorios.
+Sistemas de Soporte a la Toma de Decisiones (DSS). Business Intelligence y analítica de negocios. Big Data: volumen, velocidad y variedad 
+Gestión del Conocimiento: el conocimiento en la cadena de valor. Dinámicas, sistemas expertos, redes neuronales y redes de conocimiento.
+Augmentation vs. Replacement: cuándo usar el juicio humano y cuándo la IA. El directivo como piloto del ecosistema.
+Ética de la Inteligencia Artificial: sesgos, privacidad, transparencia y desplazamiento laboral. Gobernanza digital: AI Governance, Data Stewardship 
+Asuntos éticos y sociales de los SI. El directivo como arquitecto de decisiones responsables en la era de la IA.
+Aplicaciones prácticas (Caso)
+Unidad IV: Sistemas de Apoyo al Proceso Decisorio, Business Intelligence, Knowledge Management y Ética de la IA
+Proceso de toma de decisiones en la organización. Tipos de decisiones y requerimientos de información. IA en procesos decisorios.
+Sistemas de Soporte a la Toma de Decisiones (DSS). Business Intelligence y analítica de negocios. Big Data: volumen, velocidad y variedad 
+Gestión del Conocimiento: el conocimiento en la cadena de valor. Dinámicas, sistemas expertos, redes neuronales y redes de conocimiento.
+Augmentation vs. Replacement: cuándo usar el juicio humano y cuándo la IA. El directivo como piloto del ecosistema.
+Ética de la Inteligencia Artificial: sesgos, privacidad, transparencia y desplazamiento laboral. Gobernanza digital: AI Governance, Data Stewardship 
+Asuntos éticos y sociales de los SI. El directivo como arquitecto de decisiones responsables en la era de la IA.
+Aplicaciones prácticas (Caso)
+ | Clase 5
+ | Lunes 31 de Agosto de 2026
+ | Exposición Oral — Presentación Final del Trabajo Práctico
+Feedback
+ | Clase 6
+ | Lunes 7 de Septiembre de 2026
+ | Exposición Oral — Presentación Final del Trabajo Práctico
+Feedback
+ | 

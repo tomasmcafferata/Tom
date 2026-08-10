@@ -1,5 +1,5 @@
 system_version: "1.0"
-last_updated: "2026-06-25"
+last_updated: "2026-08-10"
 
 courses:
   economia:
@@ -723,7 +723,7 @@ courses:
     schedule_day: Wednesday
     schedule_time: "19-22hs"
     modality: virtual
-    status: en_curso
+    status: completada
     classes_completed: 1
     total_classes: 6
     last_class_date: "2026-06-24"
@@ -759,6 +759,100 @@ courses:
           - Decisiones de producto (baja/alta capacidad)
           - Modelo comprar o producir
         hub_page_id: "8cm37vq-11419"
+
+  sistemas:
+    name: "Sistemas de Información"
+    schedule_day: Monday          # excepción: Clase 3 es jueves 20/08
+    modality: blend
+    status: en_curso
+    professor: "Juan Ignacio Parola"
+    classes_completed: 2
+    total_classes: 6
+    last_class_date: "2026-08-10"
+    last_class_topic: "Drivers de Cambio y SI como Ventaja Estratégica"
+    notes_available: false        # clases 1 y 2 precargadas desde los decks, sin notas aún
+    topics_covered:
+      # Clase 1 — Unidad I
+      - Del activo tangible al intangible (S&P 500 — 17% intangible 1975 → 90% 2020)
+      - Capital Intelectual (Humano, Estructural, Relacional)
+      - Dato → Información → Conocimiento
+      - Caso Nokia (tenía los datos, no el sistema)
+      - Componentes de un SI (Personas, Procesos, Datos, Tecnología)
+      - Ciclo INPUT → PROCESAMIENTO → OUTPUT
+      - Cadena de valor de la información y sus 4 puntos de ruptura
+      - Las 4 causas de fracaso de un SI (datos sucios, silos, baja adopción, gobierno deficiente)
+      - Data Ownership, Data Steward, AI Product Owner
+      - Process Mining y Data Quality Management
+      - Data Lake y ERP como verdad única
+      - Ecosistema digital — 3 capas (Operacional, Analítica, Decisión)
+      - Cloud — de CAPEX a OPEX
+      - Convergencia Cloud + Datos + IA
+      - Taxonomía IA (Tradicional / Generativa / Agéntica)
+      - La paradoja de la adopción (88% adopta, 6% captura valor, USD 4,4T sin capturar)
+      - Los 4 patrones de los AI High Performers
+      - Commodity vs. data moat propio
+      - BCG Digital Acceleration Index — 6 dimensiones × 4 niveles de madurez
+      - Caso comparativo Banco Galicia vs. Nubank
+      # Clase 2 — Unidad I (cont.) + apertura Unidad II
+      - Los 4 drivers de cambio (globalización, aceleración, consumerización, democratización)
+      - "70% del Fortune 500 de 1990 ya no existe — Kodak, Blockbuster"
+      - "Ciclos de 18 meses: el costo de no actuar crece más rápido que el de actuar"
+      - "Consumerización: la app ya es el producto"
+      - Caso Mercado Pago (democratización tecnológica)
+      - Teoría de la Firma — costos de búsqueda, negociación y coordinación
+      - Las 6 decisiones de IT que no puede tomar IT (Ross & Weill)
+      - Los 4 niveles de cambio organizacional (automatización → racionalización → reinvención → cambio de paradigma)
+      - Reshape (BCG) — proceso, roles, datos, métricas, decisiones
+      - Cambio de paradigma con IA (Walmart SaaS, JPMorgan LLM Suite, Tesla)
+      - "Hammer: pave the cow path vs. clean sheet — don't automate, obliterate"
+      - Caso Ford Cuentas a Pagar (14 pasos → 3)
+      - Los 5 pasos para rediseñar un proceso con IA
+      - Caso DBS Bank (GANDALF, Live More Bank Less, start-up de 26.000 personas, medición del valor digital, organización por plataformas)
+      - Ejercicio North Star
+    concepts_to_review:
+      - {topic: "Los 4 componentes de un SI y por qué la tecnología no es el determinante", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Las 4 causas de fracaso de un SI y su mitigación", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Taxonomía IA — tradicional vs. generativa vs. agéntica", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Los 4 patrones de los AI High Performers", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "BCG DAI — 6 dimensiones y 4 niveles de madurez", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Data moat vs. herramienta commodity", class_number: 1, urgency: high, last_reviewed: null}
+      - {topic: "Los 4 drivers de cambio con ejemplo de cada uno", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Teoría de la Firma — los 3 costos de transacción", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Las 6 decisiones de IT de Ross & Weill", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Los 4 niveles de cambio organizacional — no confundir nivel 1 con nivel 3", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Hammer — clean sheet y los 5 pasos de rediseño con IA", class_number: 2, urgency: high, last_reviewed: null}
+      - {topic: "Caso DBS — GANDALF, los 3 pilares y la medición del valor digital", class_number: 2, urgency: high, last_reviewed: null}
+    bibliography_priority:
+      - "Laudon (2022) — Sistemas de Información Gerencial, 17ª ed. [referencia de consulta, no fuente primaria]"
+      - "Ross & Weill — Six IT Decisions Your IT People Shouldn't Make (HBR)"
+      - "Hammer (1990) — Reengineering Work: Don't Automate, Obliterate (HBR)"
+      - "McAfee & Brynjolfsson (2012) — Big Data: The Management Revolution (HBR)"
+    class_history:
+      - class_number: 1
+        date: "2026-08-03"
+        topic: "El Valor de los SI en la Era del Conocimiento e IA"
+        notes_available: false
+        source: "unidad1.pdf (precargada desde el deck)"
+        hub_page_id: "8cm37vq-11719"
+      - class_number: 2
+        date: "2026-08-10"
+        topic: "Drivers de Cambio y SI como Ventaja Estratégica"
+        notes_available: false
+        source: "unidad2.pdf (precargada desde el deck)"
+        hub_page_id: "8cm37vq-11739"
+      - class_number: 3
+        date: "2026-08-20"   # JUEVES
+        topic: "Desarrollo de SI, Change Management y Aplicaciones Empresariales"
+        status: precargada
+        source: "unidad3.pdf + unidad45.pdf (primera mitad)"
+        hub_page_id: "8cm37vq-11759"
+      - class_number: 4
+        date: "2026-08-24"
+        topic: "Decisiones, BI, Knowledge Management y Ética de la IA"
+        status: precargada
+        quiz: true
+        source: "unidad45.pdf (segunda mitad)"
+        hub_page_id: "8cm37vq-11779"
 
 current_week:
   number: 5

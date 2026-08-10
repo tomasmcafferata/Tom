@@ -1,0 +1,564 @@
+Sistemas de Información
+Juan Ignacio Parola
+
+Drivers de Cambio y SI como Ventaja Estratégica
+Por qué no actuar tiene un costo creciente — y cómo los SI generan ventaja que nadie puede comprar
+
+¿Quiénes son hoy los competidores de un supermercado?
+
+HACE 10 AÑOS Carrefour · Coto · Jumbo El supermercado del barrio El mayorista
+
+HOY Mercado Libre · Rappi · PedidosYa Dark stores con entrega en 10-20 min Marcas directas al consumidor (DTC)
+
+El campo de batalla era claro. El enemigo era conocido.
+
+Los 4 drivers que hacen urgente la transformación/reivención
+No son tendencias — son presiones estructurales que operan simultáneamente sobre cualquier sector
+
+01 Globalización
+Los mercados se expanden — pero también los competidores. Un jugador de cualquier parte del mundo puede entrar a tu mercado con costos marginales casi nulos.
+Netflix compite con el tiempo libre. Spotify con la radio local. Ninguno eligió ese mercado — simplemente llegó.
+
+02 Aceleración tecnológica
+Los ciclos de ventaja competitiva se acortan. Lo que diferencia hoy es commodity en 18 meses. El ritmo de la IA hace esto aún más extremo.
+ChatGPT tardó 5 días en llegar a 1 millón de usuarios. Instagram tardó 2.5 meses. Facebook tardó 10 meses.
+
+03 Consumerización
+Los clientes tienen tecnología que antes no tenían. Sus expectativas subieron al nivel de las mejores experiencias digitales del mundo.
+Quien usa Mercado Pago espera la misma UX en el banco. Quien usa Netflix espera la misma personalización en el e-commerce.
+
+04 Democratización tecnológica
+Las herramientas que antes solo podían pagar las grandes empresas hoy son accesibles para cualquiera. El cloud eliminó la barrera de escala.
+Una startup de 10 personas hoy tiene la misma infraestructura de datos que una multinacional hace 15 años con 500 personas de IT.
+
+Globalización
+Los competidores más peligrosos no vienen de tu industria — vienen de afuera, habilitados por tecnología digital, con costos marginales casi nulos.
+
+DATO EMPÍRICO
+70% del Fortune 500 de 1990 ya no existe
+
+CASO CONCRETO
+Kodak vs. Apple Blockbuster vs. Netflix
+
+IMPLICANCIA PARA LOS SI
+El benchmark ya no es el competidor local
+
+La mayoría no fue desplazada por un competidor del mismo sector. Fue desplazada por alguien que entró desde afuera con un modelo habilitado por tecnología.
+
+Kodak no fue destruida por Fujifilm. Blockbuster no fue destruida por otra cadena de videoclubes. El competidor fatal vino de afuera de la industria — en ambos casos.
+
+Un sistema de atención al cliente compite en experiencia con Mercado Libre, Netflix y Rappi — que son globales. El estándar lo define el mejor del mundo en esa experiencia.
+
+¿Cuál es el competidor más peligroso para su empresa en los próximos 5 años? ¿Viene de adentro o de afuera de su industria?
+
+Aceleración tecnológica
+
+Lo que diferencia hoy es commodity en 18 meses. El costo de no actuar crece más rápido que el costo de actuar. Tiempo para llegar a 1 millón de usuarios
+
+Radio Televisión
+
+38 años 13 años
+
+El chat3b8oatñoqsue pasó de ventaja a piso mínimo en 3 años
+
+Internet
+
+4 años
+
+Facebook
+
+10 meses
+
+ChatGPT
+
+5 días
+
+IMPLICANCIA PARA LOS SI
+Con ciclos de 18 meses, esperar a que la tecnología madure significa llegar al mercado con algo que ya es commodity. El costo de no actuar crece más rápido que el costo de actuar.
+
+¿Cuánto tardan en implementar una nueva tecnología desde que la detectan como relevante? ¿Ese tiempo es compatible con ciclos de 18 meses?
+
+Consumerización
+Las expectativas del cliente se calibran con las mejores experiencias digitales del mundo — no con el promedio de tu industria.
+
+88%
+de argentinos usa internet activamente
+
+79%
+usa redes sociales como mínimo una vez al día
+
+73%
+abandona una marca tras 3 experiencias negativas
+
+60%
+de interacciones con empresas son desde el celular
+
+CASO
+Hudson River, 2009
+Un pasajero del ferry fotografió el aterrizaje de emergencia del vuelo de US Airways y lo publicó en Twitter — la foto llegó a los medios antes que cualquier comunicado oficial. Los clientes no esperan ser informados. Informan.
+
+IMPLICANCIA PARA LOS SI
+La app ya es el producto
+Los SI de cara al cliente dejaron de ser un canal de servicio para convertirse en el producto en sí mismo. La app bancaria no es la forma de acceder al banco — es el banco. Eso exige estándares de diseño, velocidad de iteración e inversión que antes no se aplicaban a IT.
+
+¿Cuál es la peor experiencia digital que ofrece su empresa hoy — y con qué producto cotidiano la está comparando el cliente sin decírselo?
+
+Democratización tecnológica
+Las herramientas que antes solo podían pagar las grandes empresas hoy son accesibles para cualquiera. Tu empresa tiene acceso a ellas — y tus competidores más pequeños, también.
+
+ANTES — Solo grandes empresas
+
+HOY — Cualquier empresa
+
+Infraestructura de datos enterprise
+
+AWS / GCP / Azure por $100/mes
+
+Equipo de 20 data scientists
+
+API de IA por centavos por consulta
+
+ERP de $5M de implementación
+
+SaaS por suscripción mensual
+
+Call center de 200 personas
+
+Agente de IA 24/7 sin escala fija
+
+CASO MERCADO PAGO
+
+Procesa hoy más transacciones que varios bancos medianos en Argentina — construido sobre infraestructura cloud que no requirió las décadas de inversión que tienen los bancos. La democratización eliminó esa barrera en menos de 10 años.
+
+¿Qué capacidades tecnológicas tiene su empresa hoy que un competidor más pequeño no podría replicar en 12 meses con presupuesto de startup?
+
+TEORÍA DE LA FIRMA
+Las organizaciones existen para reducir costos de transacción
+
+Búsqueda:
+
+Costo de encontrar el proveedor, producto o información correcta
+
+Negociación:
+
+Costo de llegar a un acuerdo y formalizar la transacción
+
+Coordinación:
+
+Costo de gestionar la relación y garantizar el cumplimiento
+
+Amazon
+Su ventaja no es el catálogo — es que redujo los costos de transacción de comprar cualquier cosa a casi cero.
+¿Qué costos de transacción con tus clientes o proveedores podrían absorber tus SI?
+
+6 decisiones de IT que no pueden quedar en IT
+Si las toma IT, son decisiones técnicas. Si las toma la dirección, son decisiones estratégicas.
+
+01 ¿Cuánto invertir en IT?
+No es una decisión de presupuesto — es una apuesta estratégica. ¿Cuánto vale la ventaja competitiva que estamos comprando o construyendo?
+
+02 ¿Qué servicios de IT son compartidos?
+Centralizar genera eficiencia. Descentralizar genera velocidad. La tensión entre ambas es una decisión de modelo operativo, no de IT. Que capacidades sos commnes?
+
+03 ¿Construir, comprar o asociarse?
+La más urgente en la era de la IA. Comprar = mismo sistema que el competidor. Construir sobre datos propios = moat que nadie puede replicar rápido.
+
+04 ¿Cuánto riesgo de seguridad asumir?
+Cada decisión de apertura digital implica un trade-off de seguridad. Es una decisión de riesgo empresarial, no técnica.
+
+05 ¿A qué proveedor darle poder?
+El proveedor tecnológico de hoy es el socio estratégico de mañana — o el rehén de pasado mañana. Lock-in vs. flexibilidad.
+
+06 ¿Centralizar o descentralizar IT?
+Centralizado: estándar y eficiente. Descentralizado: ágil y cercano al negocio. La respuesta correcta depende de la estrategia, no de la tecnología. Quién toma las decisiones?
+
+En tu empresa — ¿quién está tomando las decisions que debería tomar la dirección?
+01 ¿Cuál de las 6 decisiones de Ross & Weill está más delegada a IT — o a un proveedor — en su empresa hoy?
+02 ¿Están construyendo datos propios que los diferencien — o comprando las mismas herramientas que el competidor?
+03 ¿Cuál de los 4 drivers de cambio es el más urgente para su industria en los próximos 2 años?
+
+Cambio Organizacional como Condición Necesaria
+La tecnología no transforma organizaciones. La transformación organizacional usa tecnología.
+
+La pregunta que casi nadie hace
+
+La pregunta que todos hacen
+¿Cómo hago este proceso más eficiente?
+→ Automatización. Hacés lo mismo más rápido. Si el proceso estaba mal diseñado, ahora está mal diseñado a mayor velocidad.
+
+La pregunta que casi nadie hace
+¿Este proceso debería existir?
+→ Reivención. Partís de cero. El resultado puede ser un proceso completamente diferente — o ningún proceso.
+
+No automatices el proceso viejo. Cuestioná si debe existir.
+
+Los 4 niveles de cambio organizacional
+El error más costoso: invertir en tecnología en el nivel 1 creyendo que es el nivel 3
+
+01
+Automatización
+Hacer lo mismo, más rápido
+Se usa tecnología para acelerar tareas existentes sin cuestionar el proceso. Es el nivel más fácil de implementar y el que genera menos valor estratégico.
+Un banco que procesa solicitudes de crédito en 2 horas en lugar de 2 días — pero con el mismo proceso de evaluación.
+de iniciativas de IA están en este nivel
+
+02
+Racionalización
+Rediseñar los procesos alrededor de la tecnología
+Se eliminan pasos redundantes y se reorganizan los procedimientos para aprovechar mejor la tecnología. Se cuestiona cómo, pero no el qué ni el por qué.
+El mismo banco que elimina la revisión manual de documentos digitalizados pero mantiene los mismos criterios de aprobación.
+de iniciativas llegan a este nivel
+
+03
+Reinvención
+Rediseñar el proceso desde cero
+Se parte de la pregunta '¿cómo debería funcionar esto si lo diseñáramos hoy sabiendo lo que sabemos?' El resultado puede ser radicalmente diferente al proceso original.
+Un banco que pregunta '¿qué información realmente necesitamos para dar un crédito?' y construye un proceso nuevo basado en comportamiento transaccional — como Nubank.
+de empresas llegan a este nivel
+
+04
+Cambio de paradigma
+Cuestionar el modelo de negocio completo
+Se pregunta no solo cómo hacer el negocio de manera diferente, sino si el negocio debería existir en su forma actual. Implica reinvención total.
+Netflix no mejoró el videoclub — lo eliminó. Airbnb no mejoró el hotel — creó un modelo alternativo. Amazon no mejoró la librería — redefinió el retail.
+llega a este nivel — y define sectores
+
+Reinvención: rediseñar cómo trabaja la empresa
+
+Reshape es donde está el 90% del valor. Según BCG, la mayoría del valor de IA vendrá de esta fase en los próximos 3 años. Pero también es la más difícil — porque requiere cambiar procesos, roles y cultura, no solo herramientas.
+
+PROCESO
+De flujo lineal de tareas humanas
+a workflow orquestado entre
+humanos y agentes de IA
+
+ROLES
+De 'ejecutar cada paso' a 'supervisar, validar
+y gestionar excepciones'
+
+DATOS
+De datos como subproducto de la operación a datos como insumo del diseño
+
+MÉTRICAS
+De 'horas ahorradas' a 'valor generado por
+ciclo de proceso'
+
+DECISIONES
+De decisiones centralizadas en humanos a decisiones distribuidas con IA +
+validación
+
+Cambio de paradigma: crear lo que antes era imposible — nuevos negocios con IA
+No es mejorar lo que existe — es crear categorías nuevas. Solo es posible cuando la empresa tiene datos propios únicos y la madurez para construir sobre ellos.
+
+Walmart
+
+De retailer a plataforma SaaS
+
+Su sistema de optimización de rutas de entrega — construido sobre décadas de datos logísticos propios — lo convirtió en producto SaaS que hoy vende a otras empresas. El activo operativo se volvió línea de negocio.
+
+JPMorgan
+
+De banco a plataforma de inteligencia
+
+LLM Suite entrenada sobre datos propios de transacciones y mercados genera análisis que antes requerían equipos de analistas. El conocimiento institucional se convirtió en producto escalable.
+
+Tesla
+
+De fabricante de autos a empresa de datos
+
+Cada Tesla en la calle genera datos de conducción que entrenan el modelo de autopilot. La flota se volvió el moat de datos. El auto es el hardware; los datos son el negocio.
+
+Cómo se rediseña un proceso con IA: del 'pave the cow path' al 'clean sheet'
+El principio central de Hammer (1990) sigue vigente: no automatizar lo que existe — cuestionarlo desde cero. Con IA, ese principio se vuelve aún más potente: ahora podés diseñar procesos que antes eran imposibles.
+
+ENFOQUE EQUIVOCADO: 'Pave the cow path'
+1. Tomar el proceso actual tal como está 2. Identificar qué tareas puede hacer la IA 3. Reemplazar esas tareas con herramientas de IA 4. Llamarlo 'transformación digital' → Resultado: proceso roto + IA = proceso roto más rápido
+
+✓ ENFOQUE CORRECTO: 'Clean sheet'
+1. Definir el outcome de negocio deseado 2. Preguntar: ¿cómo sería este proceso si lo diseñáramos hoy con IA? 3. Rediseñar el flujo completo alrededor de las capacidades de IA 4. Definir qué hacen los humanos: supervisar, validar, excepciones → Resultado: ventaja competitiva construida desde el diseño
+
+Ejemplo clásico: Ford Cuentas a Pagar. En lugar de automatizar el proceso de 14 pasos, lo rediseñaron a 3. Resultado: 75% menos de personal, 300% más productividad, >95% precisión.
+
+Los 5 pasos para rediseñar un proceso con IA: del diagnóstico al diseño
+
+Framework operativo que combina los principios de Hammer con la práctica de McKinsey y BCG. Es la hoja de ruta que usan los equipos de consultoría en proyectos de transformación real.
+
+01
+
+DEFINIR EL OUTCOME DE NEGOCIO
+
+No 'ahorrar tiempo' — sino: reducir cycle time de 15 a 3 días, aumentar conversión 20%, reducir errores al 0.1%. El outcome dicta el diseño del proceso.
+
+02
+
+MAPEAR EL ESTADO ACTUAL (para descartarlo)
+
+03
+
+DISEÑAR DESDE CERO CON IA COMO NÚCLEO
+
+Documentar cada paso, handoff, decisión y excepción del proceso actual. Identificar dónde se rompe y dónde está la fricción — no para automatizarlo, sino para entender qué eliminar.
+¿Cómo sería este proceso si lo diseñáramos hoy? ¿Qué pasos desaparecen? ¿Qué decide la IA autónomamente? Principio Hammer: organizar alrededor del outcome, no de las tareas.
+
+04
+
+DEFINIR ROLES HUMANO-IA EXPLÍCITAMENTE
+
+05
+
+MEDIR EN NEGOCIO, ITERAR Y ESCALAR
+
+Especificar qué hace la IA (ejecutar, predecir, recomendar) y qué hace el humano (supervisar, validar, decidir en excepciones). Sin esta definición, el rediseño fracasa en implementación.
+Definir KPIs de negocio antes del lanzamiento. Nunca medir en adopción de herramientas. El primer diseño no es el final — el valor se acumula en ciclos de mejora continua.
+
+DBS BANK
+De «El Mejor Banco del Mundo» a Construir la Empresa del Futuro
+Caso de Estudio
+
+RECONOCIMIENTOS
+2016 & 2018
+Mejor Banco Digital del Mundo
+Euromoney
+Ago 2018
+Mejor Banco del Mundo
+Global Finance
+2016-2018
+Precio de acción ×2 en 2 años
+
+1 | CONTEXTO: ¿Quién es DBS?
+
+Banco comercial de Singapur. Opera en +18 mercados en Asia. En 2017: ganancia neta récord de USD 3.200M.
+
+FASE 1
+2009 – 2014
+"Rewiring" de la empresa
+
+FASE 2
+2015 – 2018
+"Make Banking Joyful"
+
+• Inversión fuerte en tecnología • Rediseño de experiencia del cliente • Incubación interna y socios externos
+
+• Budget: USD 600M/año • Tres grandes pilares estratégicos • Misión: Live More, Bank Less
+
++9% CAGR ingresos | +13% CAGR ganancia neta
+
+Precio de acción ×2 | Mejor Banco del Mundo 2018
+
+2 | EL PROBLEMA: Amenazas del entorno
+
+"12.000 nuevas fintech/año con USD 31.000M de capital privado. Si sólo el 1% sobrevive, son 120 nuevos competidores. El punto de quiebre fue cuando las grandes tech decidieron entrar."
+— Bidyut Dumra, Head of Innovation, DBS
+
+FINTECH
+
+BIG TECH
+
+NO-TECH
+
+REGULATORIO
+
+• 12.000 start-ups/año • USD 31.000M de
+capital
+
+• Alibaba (AliPay + Lazada)
+• Grab (GrabPay)
+
+• AirAsia y otros con grandes bases de clientes
+
+• Freno a expansión orgánica en mercados emergentes
+
+La Oportunidad: La industria fintech permite crecer en mercados emergentes sin construir bancos tradicionales
+
+3 | PILAR 1: Ser Digital en el Núcleo — Transformación GANDALF
+
+G
+
+Diseño para sistemas modernos
+1
+
+Virtualización, nube, micro-servicios, APIs. Costo de apps ↓ 80%.
+
+A
+
+Automatizar todo (NoOps)
+
+2
+
+N
+
+Automatización del pipeline DevOps. Cadencia de releases ×10.
+
+Equipos ágiles de alto rendimiento
+
+D
+
+3 Metodología Agile. Equipos auto-organizados y colaborativos.
+
+A
+
+Organizarse para el éxito
+
+4
+
+DevOps integrado. Negocio y tecnología alineados en una unidad.
+
+L
+
+De Proyecto a Plataforma
+
+F
+
+5 Financiar plataformas completas con autonomía, no proyectos aislados.
+
+Se convirtieron en una empresa tech. Pasaron del 85% tercerización al 85% internalización
+
+4 | PILAR 2: Embeber el Banco en el Journey del Cliente
+
+Visión: "Live More, Bank Less" — hacer al banco invisible. El cliente vive; el banco trabaja de fondo.
+
+ADQUIRIR
+
+TRANSACCIONAR
+
+FIDELIZAR
+
+ECOSISTEMAS
+
+DATA
+
+Captación digital. Menos sucursales, más marketing online.
+
+Sin papel. Apertura en 1 click. Pago automático.
+
+Comportamientos "sticky“ (integrado a su vida cotidiana) con marketing Contextual y personalizado
+
+APIs con socios: McDelivery, Grab, SoCash, AIG…
+
+Modelos predictivos: ATMs, fraude, riesgo crediticio, RRHH.
+
+5 | PILAR 3: Una Start-up de 26.000 Personas
+
+26.000
+empleados como potenciales innovadores
+USD 15M
+invertidos en 5 años en reskilling digital
+
+Customer Obsessed
+El cliente en el centro de cada
+decisión
+
+DataDriven
+
+Tomar riesgos y experimentar
+
+Métricas antes que intuición
+
+Fallar rápido, aprender rápido
+
+Ágil
+Equipos autoorganizados y
+adaptativos
+
+Organización que aprende
+Curiosidad y actualización permanente
+
+MAKER UNI.CORN
+
+Semana inmersiva: banqueros construyen con tecnología (IoT, data, 3D printing)
+Internship millennial: 1.500 postulantes → 24 seleccionados → start-ups internas
+
+Mentoría inversa Jóvenes enseñan redes sociales a líderes C-suite
+
+iTQ
+
+App de reconocimiento entre pares. "Ganar cabezas y corazones."
+
+6 | Midiendo el Valor de la Digitalización
+
+DBS fue el 1er banco del mundo en medir el valor financiero real de su transformación digital. Clasificaron a sus clientes en Digital y Tradicional
+
+Cliente DIGITAL
+
+Cliente TRADICIONAL
+
+42% de la base de clientes
+
+63% de los ingresos
+
+72% de la ganancia
+
+ROE: 27% (2017)
+
+58% de la base de clientes
+
+37% de los ingresos
+
+28% de la ganancia
+
+ROE: 18% (2017)
+
+CAGR ingresos digitales (2015→2017): +27% vs ingresos tradicionales: -4%
+
+7 | Reorganización por Plataformas: Fusionar Negocio y Tecnología
+Negocio = Tecnología | Tecnología = Negocio
+NEGOCIO
+1
+Banca consumo, empresas, tesorería
+SOPORTE EMPRESARIAL
+2
+Finanzas, RRHH, core banking
+PLATAFORMAS COMPARTIDAS
+3
+Datos, pagos, APIs, IA, blockchain, chatbots
+HABILITADORAS
+4
+Infraestructura, ciberseguridad, arquitectura
+Cada plataforma tiene un líder de negocio + un líder tech, con KPIs conjuntos y poder de decisión compartido — como CEO y CTO de una start-up.
+
+Dinámica Grupal
+Caso DBS
+
+Bloque 1: Preguntas de debate
+¿Cuáles son las motivaciones de DBS para embarcarse en esta transformación digital?
+¿Por qué es tan importante ser future-ready?
+
+Bloque 1: Preguntas de debate
+¿Cómo van a competir las empresas en el futuro? ¿Qué diferencia a un banco de una empresa tech?
+¿Cómo van a relacionarse los clientes con los bancos en el futuro?
+
+Bloque 1: Preguntas de debate
+¿Cómo va a evolucionar la función de IT en el futuro? ¿Cómo van a relacionarse los clientes con los bancos en el futuro?
+
+Bloque 1: Preguntas de debate
+¿Cómo se conduce una transformación tan radical a escala de toda la empresa? ¿Cómo equilibrar el viejo negocio con el nuevo mientras te transformás?
+
+Bloque 1: North Star
+
+Elegir una industria
+
+b
+
+DIAGNÓSTICO
+
+¿Dónde está la industria hoy? Puden usar la matriz de BCG (DAI)
+Identifiquen cuál es la brecha más crítica:
+¿Tecnología? ¿Datos? ¿Cultura? ¿Experiencia del cliente?
+
+NORTH STAR 2035
+Describir experiencias del cliente
+DBS no dijo «vamos a implementar APIs». Dijo «Live More, Bank Less». ¿Cuál es el equivalente para su industria?
+¿Qué le gustaría experimentar al cliente que hoy no experimenta?
+¿Cómo van trabajar las personas dentro de la empresa?
+¿Qué métricas nuevas reemplazan a las métricas actuales?
+
+Bloque 2: North Star
+OBSTÁCULOS
+Tiene que ser nombrable y concreto: · Una regulación específica · Una estructura de incentivos particular · Ausencia de datos históricos · Un poder sindical concreto
+¿Ese obstáculo es eliminable — o hay que diseñar el North Star alrededor de él?
+
+DECISIONES A TOMAR DBS tomó decisiones contraintuitivas y costosas:
+· 85% tercerización → 85% insourcing · USD 15M en reskilling sin garantía de retorno · Lanzar digibank India sin saber si funcionaría · Medir el valor de cada cliente individualmente
+¿Cuál es la decisión equivalente en la industria que eligieron — y por qué nadie la está tomando?
+
+

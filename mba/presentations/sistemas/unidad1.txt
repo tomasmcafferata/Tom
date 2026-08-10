@@ -1,0 +1,625 @@
+Sistemas de Información
+Juan Ignacio Parola
+Agosto 2026
+
+JUAN IGNACIO PAROLA
+
+Director Ejecutivo - Accenture Argentina
+
+Experiencia
+
+Áreas de Especialización
+
+Transformaciones digitales en empresas multinacionales
+
+Tecnología y Estrategia de negocios
+
+Formación Académica
+Licenciado en Marketing & MBA
+
+Proyectos de productividad y eficiencia en Supply Chain, Manufacura, Compras y IT
+Estrategia comercial y Goto-Market
+
+Inteligencia Artificial aplicada a operaciones
+Consumo Masivo y Minería
+
+Estudios en Liderazgo Ejecutivo
+Profesor universitario de grado y maestría
+
+Agregar un título aquí
+Agregar bajada de título aquí
+Presentaciones Personales
+
+Agregar un título aquí
+Agregar bajada de título aquí
+Journey de la materia
+
+Nuestro recorrido
+Estamos aquí
+
+01 UNID AD 1
+
+02 UNID AD 2
+
+03 UNID AD 3
+
+04 UNID AD 4
+
+El Valor de los SI en la Era del Conocimiento e IA
+Por qué la información es el activo más valioso de mi empresa — y qué estoy haciendo mal con ella
+
+Cambio Organizacional y Desarrollo de SI
+Por qué los proyectos de tecnología fracasan. Cómo liderarlos para que no
+
+Aplicaciones Empresariales con IA
+Qué sistemas necesita mi empresa y cuáles son solo ruido del mercado.
+
+Decisiones, BI, Knowledge Mgmt y Ética de la IA
+Tomar mejores decisiones. Saber qué datos mirar, cómo interpretarlos y dónde está el límite ético
+
+EVALUACIÓN TRABAJO PRÁCTICO GRUPAL + QUIZ INDIVIDUAL
+
+PRESENTACIÓN ORAL GRUPAL / INDIVIDUAL
+
+Dinámica de aprendizaje
+Cómo vamos a trabajar juntos en cada clase
+
+01
+Learning by Doing
+Cada concepto se trabaja sobre situaciones reales. El aula es un laboratorio, no un auditorio.
+
+02
+Método del Caso y Storytelling
+Aprendemos desde casos reales de empresas globales y locales. La teoría cobra sentido en la historia.
+
+03
+Trabajo en Equipo Interdisciplinario
+La diversidad de industrias y perfiles en el aula es un activo. Las mejores ideas nacen del cruce.
+
+04
+Liderazgo Personal y Autoconocimiento
+Los SI y la IA son herramientas. El directivo que las usa con criterio y juicio propio es la diferencia.
+
+Agregar un
+título aquí
+De que consta el Trabajo Práctico y comoAgsreergeamr boasjada de título aquí evaluados
+
+Evaluación y contacto fuera de clase
+Cómo nos comunicamos y cómo se evalúa la materia
+
+Mail
+jiparola@ucema.edu.ar
+
+Evaluación
+
+WhatsApp — MBA SI UCEMA 2026
+
+[ QR grupo WA ]
+
+2 reglas para el uso del WA: 1. Sentido común 2. No ignorar la Regla 1
+
+60% Evaluación individual Presentación oral del Trabajo Práctico evaluada de forma individual + Quiz + participación en clase
+40% Trabajo Práctico grupal Preparación y presentación grupal según consignas y rúbrica de evaluación
+Nota mínima: 4 (60%) · Asistencia mínima: 4 clases · Examen final: última clase
+
+Del Activo Tangible al Intangible
+Por qué el conocimiento es el nuevo capital
+
+¿Cuál es el activo más importante de tu empresa?
+
+Edificios y maquinaria
+ACTIVOS FÍSICOS
+Capital y flujo de caja
+ACTIVOS FINANCIEROS
+Conocimiento y datos
+ACTIVOS INTANGIBLES
+
+El cambio ya ocurrió
+
+Composición del valor de mercado del S&P 500 · 1975–2020
+
+100
+
+90
+
+17
+
+80
+
+70
+
+60
+
+50
+
+40
+
+83
+
+30
+
+20
+
+10
+
+0 1975
+
+32
+
+68
+
+80
+
+84
+
+68
+
+32
+
+20
+
+16
+
+1985
+
+1995
+
+Activos Tangibles
+
+2005
+
+2015
+
+Activos Intangibles
+
+Fuente: Ocean Tomo / Visual Capitalist — citado en MIT Sloan & HBR
+
+90
+10
+2020
+
+90%
+del valor del S&P 500 es intangible en 2020
+17%
+era intangible en 1975
+
+Datos → Información → Conocimiento
+El problema real de management no es tener datos — es convertirlos en decisiones
+
+DATOS
+Hechos crudos sin contexto ni significado
+
+INFORMACIÓN
+Datos organizados con contexto y significado
+
+CONOCIMIENTO
+Información aplicada para tomar decisiones
+
+Ejemplo: 10.000 transacciones por día
+
+Ejemplo: Ventas caen 12% en el segmento B2B
+
+Ejemplo: Lanzar campaña en Q3 para revertir caída
+
+¿Cuántos datos tiene tu empresa que nunca se transformaron en decisiones?
+
+Nokia: Tenía los datos. No tenía el sistema para usarlos.
+2007: Nokia dominaba el 40% del mercado global de móviles 2007: Internamente sabían que el touch era el futuro (lo documentaron) 2010: No lograron convertir ese conocimiento en productos a tiempo 2013: Venden la división de móviles a Microsoft por U$S 7.200M
+
+La lección
+Los datos sin sistemas para procesarlos son ruido
+El conocimiento sin cultura para actuar sobre él es inútil
+La IA puede acelerar esta conversión — pero no reemplaza la decisión
+
+¿Qué es realmente un Sistema de Información y cómo se arquitectura?
+Del concepto al ecosistema digital de la empresa
+
+DEFINAMOS EL BASELINE
+
+¿QUÉ ENTIENDEN POR SISTEMAS DE INFORMACIÓN?
+
+DEFINAMOS EL BASELINE
+
+¿CUÁL ES SU MEJOR Y TU PEOR EXPERIENCIA EN SISTEMAS DE
+INFORMACIÓN?
+
+DEFINAMOS EL BASELINE
+
+¿CUÁL ES SU VISIÓN DE LOS SI EN SU FUTURO PROFESIONAL?
+
+COMO VA A SER NUESTRO RECORRIDO
+
+Un SI no es solo software
+Cuando falla un sistema de información, raramente falla la tecnología
+
+Personas
+Quienes operan, diseñan y usan el sistema. El eslabón más crítico — y el que más falla.
+SI
+Datos
+La materia prima. Sin datos de calidad, el mejor sistema produce basura.
+
+Procesos
+Las reglas y flujos de trabajo que definen cómo se captura y usa la información.
+Tecnología
+El habilitador. Indispensable, pero no suficiente por sí solo.
+
+Los SI son el sistema nervioso de la empresa. Los datos son los impulsos, los procesos son los nervios, la tecnología es la red, las personas son el cerebro que interpreta y decide.
+
+Todo SI del mundo hace exactamente esto
+Desde una planilla de Excel hasta el sistema de recomendaciones de Netflix
+
+01
+
+02
+
+03
+
+INPUT → Transacciones → Sensores / IoT → Formularios → Datos externos
+
+PROCESAMIENTO → Clasificación → Cálculo y análisis → Modelos de IA → Aprendizaje de patrones
+
+OUTPUT → Reportes y dashboards → Alertas automáticas → Recomendaciones → Decisiones aumentadas
+
+La IA transforma el procesamiento: antes ejecutaba reglas, ahora aprende patrones
+
+Cómo fluye la información en una organización
+Cada evento del negocio genera datos. Esos datos viajan por los sistemas hasta convertirse en información para la toma de decisiones — o se pierden en el camino.
+
+EVENTO (OPERACIÓN)
+Venta, compra, reclamo, movimiento
+de stock
+
+CAPTURA (DE DATOS)
+ERP, POS, sensor, formulario web,
+app móvil
+
+PROCESAMIENTO (DE INFORMACIÓN)
+Validación, cálculo, alertas automáticas
+
+ALMACENAMIENTO (DE DATOS)
+Base de datos, data warehouse,
+data lake
+
+TOMA DE DECISIONES
+Dashboard, reporte, recomendación IA,
+alerta gerencial
+
+¿Dónde se rompe la cadena?
+1. Datos sin capturar o mal estructurados desde el origen 2. Personas que no confían en los datos y deciden por intuición
+
+3. Sistemas que no hablan entre sí (silos de información) 4. Datos capturados pero nunca analizados ni accionados
+
+Por qué fracasan los SI. Qué tiene que ver con la IA
+Antes de hablar de IA hay que ser honestos: la mayoría de las empresas tiene sus SI en mal estado. Poner IA sobre eso no lo soluciona — lo amplifica.
+
+1. DATOS SUCIOS O INCOMPLETOS
+Si el input es malo, el output es malo. La IA entrenada con datos incorrectos aprende patrones incorrectos. El 'garbage in, garbage out' se aplica con el doble de fuerza en IA.
+
+2. SILOS SIN INTEGRACIÓN
+El ERP no habla con el CRM, que no habla con el SCM. Cada área tiene su propia verdad. Las decisiones se toman con información parcial o contradictoria.
+
+3. BAJA ADOPCIÓN DE USUARIOS
+El sistema existe pero nadie lo usa correctamente. Los vendedores no cargan el CRM. Los gerentes piden Excel. El dato nunca llega.
+
+4. GOBIERNO DEFICIENTE
+No hay dueño de los datos. No hay estándares de calidad. No hay proceso para corregir errores. El SI se degrada solo con el tiempo.
+
+DATOS SUCIOS O INCOMPLETOS · Cómo mitigarlo
+Garbage in, garbage out — con IA el error se multiplica a escala
+
+01 Data Ownership
+Asignar un dueño de negocio (no de IT) responsable de la calidad de cada dominio de datos. El dueño responde por la completitud, consistencia y actualización del dato en el tiempo.
+¿Por dónde comenzar? Mapear los 5-10 dominios de datos críticos de tu empresa y asignar un ejecutivo responsable de cada uno.
+
+02 Process Mining
+Diagnosticar con precisión en qué paso del proceso se generan los errores de datos. En lugar de asumir el origen del problema, el Process Mining lo mapea en tiempo real sobre los logs reales del sistema.
+¿Por dónde comenzar? Antes de limpiar datos, identificar el punto de origen del error — corregir aguas arriba siempre es más efectivo que limpiar aguas abajo.
+
+03 Data Quality Management
+Establecer estándares de entrada obligatorios, validaciones automáticas en el momento de captura y auditorías periódicas. La clave: intervenir en el origen, no intentar limpiar después.
+¿Por dónde comenzar? Definir reglas de validación en el punto de entrada de datos (formularios, ERP, app) que impidan guardar datos incompletos o fuera de formato.
+
+SILOS SIN INTEGRACIÓN · Cómo mitigarlo
+Cada área tiene su propia verdad — la IA de cada silo genera recomendaciones contradictorias
+
+01 ERP como verdad única
+El valor real del ERP no es la eficiencia operativa — es que todos los procesos comparten una única fuente de datos. Sin integración, finanzas y operaciones miran números distintos y toman decisiones contradictorias.
+¿Por dónde comenzar? Auditar cuántas 'versiones de la verdad' existen hoy en tu empresa. Cada Excel paralelo al ERP es un silo activo.
+
+02 Arquitectura de Data Lake
+Un repositorio centralizado donde todos los sistemas depositan sus datos y desde donde se alimentan los modelos de IA. Sin esto, cada área entrena su propio modelo con su propia verdad y las recomendaciones se contradicen.
+¿Por dónde comenzar? Identificar los 3 sistemas que más datos generan en tu empresa y mapear si hoy se integran o si cada uno es una isla.
+
+03 Governance como decisión directiva
+La integración de sistemas no puede delegarse a IT. Es una decisión política — quién cede control de sus datos, quién define los estándares — que solo puede resolverse desde la dirección general.
+¿Por dónde comenzar? Si la integración de sistemas lleva más de 2 años en agenda sin resolverse, el problema no es técnico. Es político — y necesita una decisión de CEO.
+
+BAJA ADOPCIÓN DE USUARIOS · Cómo mitigarlo
+El sistema más sofisticado vale cero si los vendedores siguen usando el Excel
+
+01 UX centrado en el usuario
+Diseñar el sistema para quien lo usa, no para quien lo compra. Un vendedor que tarda 8 minutos en cargar una visita al CRM deja de cargarlo en la semana 3. La adopción empieza en el diseño, no en la capacitación.
+¿Por dónde comenzar? Medir el tiempo que le toma al usuario realizar la tarea más frecuente. Si supera 3 minutos, hay un problema de diseño antes de un problema de adopción.
+
+02 Change Management
+Las transformaciones exitosas dedican tanto presupuesto a gestión del cambio como a tecnología. Comunicación temprana, formación práctica y líderes internos que traccionan desde adentro — no desde IT.
+¿Por dónde comenzar? Identificar 3-5 usuarios influyentes en cada área (los que otros consultan) y convertirlos en influencers del sistema antes del lanzamiento.
+
+03 Embebido en el workflow
+El usuario adopta cuando el sistema resuelve su problema en su flujo de trabajo, sin fricciones adicionales. Si tiene que salir de su herramienta habitual para usar el sistema nuevo, la adopción muere — independientemente del tiempo.
+¿Por dónde comenzar? Mapear el flujo de trabajo real del usuario e integrar el sistema ahí. No crear una nueva herramienta — mejorar la que ya usa.
+
+GOBIERNO DEFICIENTE · Cómo establecer gobierno de datos e IA
+Sin gobierno el SI se degrada solo. Con IA sin gobierno, los errores escalan a velocidad imposible de corregir
+
+01 Mapear decisiones por riesgo
+Clasificar cada decisión que toma la IA según impacto del error (bajo/alto) y velocidad de la decisión (lenta/rápida). Las de alto impacto y alta velocidad requieren gobierno estricto y supervisión humana obligatoria.
+Construir una matriz 2x2 con las decisiones clave de tu empresa. Las que caen en 'alto impacto + alta velocidad' son prioridad de gobierno.
+03 Establecer Human in the Lead
+Definir explícitamente para cada modelo: qué decisiones puede tomar solo, qué requiere validación humana antes de ejecutarse, y qué alertas disparan revisión manual. Previene que un sesgo no detectado tome miles de decisiones incorrectas.
+Para cada modelo de IA en producción, documentar en una línea qué pasa cuando el modelo se equivoca. Si no hay respuesta, no hay gobierno.
+
+02 Asignar roles formales
+Tres roles con nombre y apellido: Data Owner (ejecutivo de negocio responsable de un dominio de datos), Data Steward (rol operativo que ejecuta los estándares), y AI Product Owner (responsable de que un modelo funcione correctamente y no se desvíe).
+Si no podés nombrar hoy quién es el Data Owner de tus datos, tenés un problema de gobierno activo.
+04 Auditoría y mejora continua
+El gobierno no es un proyecto que se termina — es un proceso continuo. Revisiones trimestrales de calidad de datos, auditorías semestrales de modelos para detectar drift, y un registro de decisiones tomadas por IA disponible para revisión.
+Revisiones trimestrales de calidad de datos, auditorías semestrales de modelos para detectar riesgos
+
+El ecosistema digital de la empresa
+Los directivos invierten en la base y nunca en las capas donde está el valor
+
+CAPA 3 — DECISIÓN
+Modelos de IA · Analítica predictiva
+CAPA 2 — ANALÍTICA
+BI · Dashboards · Big Data · Reportes
+CAPA 1 — OPERACIONAL
+ERP · CRM · SCM · Sistemas transaccionales
+
+Donde está el valor estratégico. Pocos la tienen bien.
+Convierte operaciones en insights para mandos medios y dirección.
+La base. Todas las empresas la tienen, pero pocas la aprovechan al máximo.
+
+CLOUD
+El cambio de paradigma que democratizó la tecnología
+
+ANTES (On-Premise) → CAPEX: inversión inicial masiva → Servidores propios + datacenter → Equipo de IT dedicado 24/7 → Escalar = comprar hardware → Solo las grandes podían pagarlo
+
+AHORA (Cloud) → OPEX: pago por lo que usás → Infraestructura bajo demanda VS → Actualizaciones automáticas → Escalar = un click → Una startup puede jugar igual que una Multinacional
+
+La convergencia que lo cambia todo
+Cloud, datos e IA no son tres tecnologías separadas — son tres capas del mismo ecosistema
+
++ CLOUD
+
++ DATOS
+
+IA
+
+Infraestructura bajo demanda, global y escalable
+
+Volumen, velocidad y variedad sin precedentes
+
+Modelos que aprenden y deciden a escala
+
+= Ecosistema digital que aprende, se adapta y toma decisiones en tiempo real
+
+Inteligencia Artificial: de qué hablamos realmente
+Desde Machine Learning hasta Agentic AI — lo que todo directivo necesita entender
+
+Tres tipos de IA que todo gerente debe distinguir
+
+IA TRADICIONAL
+¿Qué va a pasar?
+Analiza patrones históricos para anticipar resultados futuros.
+Detección de fraude en tiempo real Forecast de demanda y optimización de stock Credit scoring y predicción de churn Mantenimiento predictivo en planta
+
+IA GENERATIVA
+¿Qué puedo crear?
+Genera contenido nuevo: texto, código, imágenes, audio.
+Redacción de propuestas y contratos Resumen automático de reportes Generación de código y documentación Atención al cliente con NLU avanzado
+
+IA AGÉNTICA
+¿Qué puedo hacer solo?
+Planifica, decide y ejecuta flujos completos de forma autónoma.
+Agente que gestiona un pedido de punta a punta Agente que monitorea y reordena inventario solo Agente que cierra tickets de soporte sin humano Agente que genera y envía reportes regulatorios
+
+La paradoja de la adopción masiva de IA
+
+88%
+de empresas usan IA en alguna función
+
+⅓
+escala IA más allá del piloto inicial
+
+6%
+son AI High Performers con impacto en EBIT
+
+¿Qué hacen diferente el 6% que sí captura valor?
+→ Redesignan workflows alrededor de la IA, no agregan IA encima de procesos viejos → Fijan objetivos de crecimiento e innovación, no solo de eficiencia operativa → El liderazgo ejecutivo lidera la IA — no la delega a IT ni a una célula de innovación → Construyen ventaja sobre datos propios únicos, no sobre herramientas que cualquiera compra
+
+$4.4T
+valor potencial estimado que el mercado no captura
+
+El dato propio como fuente de ventaja competitiva sostenible
+Las empresas que usan las mismas herramientas de IA no se diferencian entre sí. La ventaja sostenible viene de entrenar IA sobre datos que nadie más tiene.
+
+COMMODITY (cualquiera los tiene) ✗ ChatGPT, Copilot, Gemini off-the-shelf ✗ Modelos pre-entrenados sin customización ✗ Mismos algoritmos que el competidor ✗ Ventaja: temporal, replicable en semanas ✗ No acumula valor con el tiempo
+
+ACTIVO ESTRATÉGICO PROPIO (nadie más lo tiene)
+✓ Historial de transacciones de tus clientes únicos ✓ Modelos entrenados sobre tu operación específica ✓ Conocimiento institucional embebido en IA ✓ Ventaja: acumulativa y difícil de copiar ✓ Cada dato nuevo la hace más precisa y diferencial
+
+La pregunta no es "¿estás usando IA?" sino "¿estás construyendo datos propios que hagan tu IA cada vez más difícil de replicar?"
+
+Los 4 patrones que distinguen al 6% que captura valor real
+
+REDESIGN
+01 NO AUTOMATION
+No ponen IA encima de procesos existentes. Redesignan el flujo de trabajo completo alrededor de la capacidad de la IA. El proceso nuevo es estructuralmente diferente al anterior.
+EXECUTIVE
+03 OWNERSHIP
+El CEO o el COO son responsables directos de la estrategia de IA — no IT, no un Chief AI Officer aislado. La IA está en la agenda de negocio, no en la agenda tecnológica.
+
+GROWTH OVER
+02 EFFICIENCY
+El objetivo primario es crecer ingresos o crear nuevos negocios, no solo reducir costos. Las empresas que buscan solo eficiencia capturan valor 3x menor que las que buscan crecimiento.
+PROPRIETARY
+04 DATA MOATS
+Identifican los datos únicos que tienen y construyen ventaja sobre ellos. No usan IA genérica — construyen IA diferencial entrenada sobre su propio historial operativo.
+
+Framework: BCG Digital Acceleration Index (DAI)
+El BCG DAI es el modelo de madurez digital más citado y utilizado por empresas globales. Mide 42 dimensiones en 6 bloques clave y compara contra 8.000+ organizaciones en más de 79 países.
+
+ESTRATEGIA
+
+1
+
+DIGITAL
+
+¿Hay visión, hoja de ruta y gobierno digital claro?
+
+DATOS E IA
+2
+¿Qué tan maduros son los datos, analytics e IA?
+
+TECNOLOGÍA
+
+3
+
+Y PLATAFORMAS
+
+¿Qué tan moderno y conectado es el stack tecnológico?
+
+OPERACIONES
+
+4
+
+Y AUTOMATIZ.
+
+¿Qué tan automatizados y digitalizados están los procesos?
+
+EXPERIENCIA
+
+5
+
+DEL CLIENTE
+
+¿Cómo es el journey digital del cliente de punta a punta?
+
+TALENTO
+
+6
+
+Y CULTURA
+
+¿Tiene la organización el talento y la cultura para escalar?
+
+Las empresas más maduras digitalmente generan en promedio un 23% más de valuación que sus pares de menor madurez
+
+Banco Galicia vs. Nubank:Dos modelos, el mismo mercado
+Antes de que el grupo haga el diagnóstico de su propia empresa, veamos un caso real: dos bancos que compiten en el mismo mercado con modelos radicalmente distintos de SI e IA.
+
+BANCO GALICIA
+→ 5M+ clientes (tras adquisición de HSBC Argentina) → Inició transformación digital hace ~8 años → 44M interacciones/año — 80% resueltas en primer contacto → Asistente virtual 'Gala' vía WhatsApp 24×7 → 2024: chat generativo interno para colaboradores → Plataforma NLP con Red Hat: onboarding de semanas a minutos
+
+NUBANK
+→ 100M+ clientes en Brasil, México y Colombia → IA embebida en el núcleo del negocio desde el día uno → Foundation models propios entrenados en billones de transacciones → Precog: predice necesidades del cliente en tiempo real (+50% precisión) → 5.000+ empleados usando IA interna mensualmente → Reducción del 60% en tiempo de transacciones Pix con IA multimodal
+
+Los 4 niveles de madurez digital — BCG DAI
+
+1. DIGITAL STARTER
+Iniciativas digitales aisladas, sin estrategia unificada. Los sistemas no están integrados. Las decisiones se toman sin datos. La IA es un tema ajeno.
+→ Tecnología básica pero sin visión → Datos en silos, calidad baja
+→ Sin liderazgo digital claro
+→ Resistencia cultural al cambio
+
+2. DIGITAL ADOPTER
+Implementaciones digitales en áreas específicas. Comienzan a integrar sistemas. Algunos proyectos de analytics o IA en piloto. Sin escala. → BI funcional en algunas áreas
+→ ERP o CRM implementado
+→ Primeros pilotos de IA
+→ Talento digital emergente
+
+3. DIGITAL TRANSFORMER
+Procesos rediseñados con foco digital. Datos integrados entre sistemas. IA en producción con impacto medible. Cultura de datos instalada.
+→ Stack tecnológico moderno
+→ Analytics avanzado en decisiones → IA generando valor concreto
+→ Organización ágil y orientada a datos
+
+4. DIGITAL LEADER
+IA embebida en el modelo de negocio. Ventaja competitiva sostenida basada en datos propios. Capacidad de innovar digitalmente de forma continua.
+→ Agentes autónomos en producción
+→ Datos propios como activo estratégico
+→ Plataforma digital propia o en ecosistema
+→ IA genera ingresos nuevos (fase Invent)
+
+~40% de empresas en Latam
+
+~35% de empresas en Latam
+
+~18% de empresas en Latam
+
+~7% de empresas en Latam
+
+Diagnóstico BCG DAI de una empresa real
+
+Elegir la empresa (5 min)
+
+01
+
+El grupo acuerda sobre qué empresa hacer el diagnóstico. Debe ser una organización que alguien conozca por dentro — no por
+
+reputación externa.
+
+Completar el Scorecard DAI (15 min)
+
+02
+
+Para cada una de las 6 dimensiones, el grupo debate y acuerda un nivel (1-4). Para cada nivel deben nombrar UNA evidencia concreta
+
+que lo justifique.
+
+Identificar las 2 brechas críticas (10 min)
+
+03
+
+¿Cuáles son las 2 dimensiones más urgentes de mejorar? ¿Por qué esas y no otras? ¿Qué pasaría si no se cierran esas brechas en 12
+
+meses?
+
+Presentación plenaria (10 min)
+
+04
+
+Cada grupo presenta en 2 minutos: empresa elegida, nivel general de madurez, 2 brechas críticas y una recomendación inicial. El
+
+docente cierra mapeando patrones.
+
+BCG DAI Scorecard — autoevaluación de la empresa elegida
+
+Para cada dimensión, el grupo elige el nivel (1-4) que mejor describe el estado actual de la empresa. No hay respuesta correcta — lo que importa es la honestidad del diagnóstico.
+
+DIMENSIÓN BCG DAI
+
+1 Starter
+
+2 Adopter
+
+3 Transformer
+
+4 Leader
+
+EVIDENCIA CONCRETA
+
+1. Estrategia Digital
+
+2. Datos e IA
+
+3. Tecnología y Plataformas
+
+4. Operaciones y Automatización
+
+5. Experiencia del Cliente
+
+6. Talento y Cultura
+
+
