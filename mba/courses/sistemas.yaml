@@ -86,13 +86,14 @@ deadlines:
 tp_final:
   name: "Diagnóstico y Reinvención Organizacional"
   hub_page_id: "8cm37vq-11799"
-  grupos: "6 grupos de 6 personas predefinidos (ver tp_grupos.xlsx)"
+  # La consigna dice "6 grupos de 6"; el xlsx real tiene 7 grupos y el Grupo 1 tiene 7 personas.
+  grupos: "7 grupos (ver tp_grupos.xlsx — gitignored: datos personales de terceros)"
   entregables:
     - "Documento narrativo en prosa, máx 10 páginas sin anexos"
     - "Presentación oral 20 min + 10/15 min Q&A"
   empresa_seleccionada: null
-  grupo_asignado: null
-  fecha_exposicion: null
+  grupo_asignado: 1              # integrantes en la página TP Final del Hub (ClickUp, privado)
+  fecha_exposicion: null         # 31/08 o 07/09 — a confirmar con el profesor
 
 materials_available:
   - "programa.pdf"        # versión 2025 — desactualizada, ver arriba
