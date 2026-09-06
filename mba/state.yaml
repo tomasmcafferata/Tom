@@ -1,5 +1,5 @@
 system_version: "1.0"
-last_updated: "2026-08-10"
+last_updated: "2026-09-06"
 
 courses:
   economia:
@@ -853,6 +853,136 @@ courses:
         quiz: true
         source: "unidad45.pdf (segunda mitad)"
         hub_page_id: "8cm37vq-11779"
+
+  diseno_organizacional:
+    name: "Diseño Organizacional"
+    code: "DO-10788"
+    schedule_day: null            # a confirmar con la cátedra
+    modality: blend
+    status: en_curso
+    professor: "Dra. Adriana Delle Donne"
+    classes_completed: 0
+    total_classes: 6
+    last_class_date: null
+    last_class_topic: null
+    notes_available: false        # las 5 clases están precargadas desde los decks, sin notas aún
+    notebooklm: false             # materia conceptual dirigida por decks
+    topics_covered:
+      # Clase 1 — Modelo de comportamiento
+      - Punto de fuga de valor (caso ASOS 2023)
+      - Comportamiento Organizacional (Robbins & Judge) — 3 niveles de análisis
+      - Modelo económico y su límite (no explica el altruismo)
+      - Modelo sociológico y su límite (imposibilidad del cambio social)
+      - Modelo psicológico / Maslow y su límite (jerarquía rígida, sin sustitución)
+      - Modelo político y su límite (ideal normativo, no descriptivo)
+      - REMM — Ingenioso, Evaluador, Maximizador
+      - "REMM: no existen necesidades, todo es sustituible por cantidad suficiente"
+      - Diseño de restricciones como herramienta de influencia
+      - Conocimiento general vs. conocimiento de tiempo y lugar
+      - Conflicto de intereses entre stakeholders
+      - Kerr (1975) — recompensar A esperando B
+      - Casos — ASOS, Stearns & Co., Amazon devoluciones, Wells Fargo, subprime, Medicare
+      # Clase 2 — Incentivos, entorno y contratos
+      - Tipos de incentivo — económicos, sociales, morales
+      - Contrato cost-plus y su incentivo perverso (Halliburton, Sikorsky/Derco)
+      - Cinco fuentes de conflicto dueños-gerentes
+      - Problema del cash-flow libre
+      - Acreedor residual según forma organizacional
+      - Free rider y efecto Ringelmann (63/53/31 kg)
+      - Efecto escala del free riding (oficina de 10 vs. 200)
+      - Los tres pilares de la Arquitectura Organizacional
+      - Principio básico — información relevante + incentivos para usarla
+      - Teoría contingente
+      - Costos directos e indirectos de modificar la AO
+      - Casos — agente inmobiliario, Business Roundtable 2019, Xerox 1976-82
+      # Clase 3 — Asignación de autoridad
+      - Beneficios y costos de la descentralización
+      - Regla de asignación óptima de derechos de decisión
+      - Cultura organizacional como resultado de la AO
+      - Las cuatro formas de Mintzberg
+      - Pensamiento grupal (Janis 1972) y sus 5 síntomas
+      - Decisiones de management vs. decisiones de control
+      - Costos de influencia y normas burocráticas
+      - Agrupación de tareas y miopía funcional
+      - Precio de transferencia (introducido, se desarrolla en Clase 5)
+      - Casos — Spotify vs. Apple Music, Microsoft/Nadella, Best Buy/Joly, Enron, Haier, JP Morgan London Whale, United Airlines, Delta vs. China Eastern
+      # Clase 4 — Política compensatoria
+      - Los dos objetivos de la política compensatoria
+      - Trade-off reparto del riesgo vs. incentivos
+      - Valor presente de la curva de ingresos y compensación diferida
+      - Modelo up-or-out (Big Four)
+      - Indicadores de bonus — EBITDA, utilidad neta, cash flow, EVA, ROIC
+      - Incentivos perversos del EBITDA
+      - Manipulación del contrato de incentivos (Morse, Nanda & Seru 2009)
+      - Stock options, RSU y PSU
+      - Vesting
+      - Paracaídas de oro
+      - Pay mix del CEO por región (FW Cook Global Top 250, 2024)
+      - Casos — Salomon Brothers/Rubin, UBS 2010, Quantum/Nextel, Nardelli en Home Depot, Bank of America 2022
+      # Clase 5 — Medición de desempeño
+      - Las dos funciones de la evaluación del desempeño
+      - Los cuatro criterios de eficacia — validez, fiabilidad, costo, equidad
+      - "Modelo de Holmström (1979): Q = α·e + μ ; W(Q) = W + β·Q"
+      - Ruido de medición (varianza de μ) y compensación diferencial por riesgo
+      - Efecto trinquete
+      - Barzel (1982) — costos de medición y variables proxy
+      - Stack ranking como sistema de incentivos disfrazado de medición
+      - Experimento de Muir (gallinas) — 89% mortalidad vs. +160% productividad
+      - Selección adversa del stack ranking
+      - Cuándo el stack ranking tiene sentido (interdependencia como criterio)
+      - Sesgo del evaluador (Mount, Scullen & Goff 2000 — 62% vs. 21%)
+      - Autoevaluación (85% en el cuartil superior, 4% de superposición)
+      - Sistema de Deloitte y las 4 preguntas prospectivas
+      - Precio de transferencia = costo de oportunidad
+      - Casos — GE/Welch, Microsoft, memo a Bezos, maestros y exámenes estandarizados, Vanderschmidt
+    evaluations:
+      - type: "examen multiple choice"
+        weight: "40%"
+        min_grade: 5
+        date: null
+        note: "68 preguntas conocidas de antemano — ver hub page 8cm37vq-12019"
+      - type: "trabajo final individual"
+        weight: "40%"
+        min_grade: 5
+        date: null
+        note: "caso corto del pool de 12 + consigna de 3 preguntas, bajo Safe Exam Browser"
+      - type: "contribución en clase"
+        weight: "10%"
+      - type: "asistencia"
+        weight: "10%"
+        note: "mínimo 4 clases completas con cámara encendida"
+    class_log:
+      - class_number: 1
+        date: null
+        topic: "Modelo de comportamiento · Conflictos de interés · Rol del conocimiento"
+        status: precargada
+        source: "clase1.pptx"
+        hub_page_id: "8cm37vq-11919"
+      - class_number: 2
+        date: null
+        topic: "Rol de los incentivos · Medio ambiente de negocios · AO · Contratos"
+        status: precargada
+        source: "clase2.pptx"
+        hub_page_id: "8cm37vq-11939"
+      - class_number: 3
+        date: null
+        topic: "AO — Asignación de autoridad"
+        status: precargada
+        source: "clase3.pptx"
+        hub_page_id: "8cm37vq-11959"
+      - class_number: 4
+        date: null
+        topic: "AO — Política compensatoria"
+        status: precargada
+        source: "clase4.pptx"
+        hub_page_id: "8cm37vq-11979"
+      - class_number: 5
+        date: null
+        topic: "AO — Medición de desempeño"
+        status: precargada
+        source: "clase5.pptx"
+        hub_page_id: "8cm37vq-11999"
+
 
 current_week:
   number: 5

@@ -1,0 +1,139 @@
+name: "Diseño Organizacional"
+code: "DO-10788"
+schedule_day: null            # a confirmar — el calendario solo tiene bloques genéricos "Clase Presencial/Virtual MBA"
+modality: blend               # carpeta original: DO-10788-AD-BLEND2-2026-2T
+total_classes: 6
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: "8cm37vq-11079"
+  hub_pages:
+    indice: "8cm37vq-11859"
+    progreso: "8cm37vq-11879"
+    glosario: "8cm37vq-11899"
+    clase_1: "8cm37vq-11919"
+    clase_2: "8cm37vq-11939"
+    clase_3: "8cm37vq-11959"
+    clase_4: "8cm37vq-11979"
+    clase_5: "8cm37vq-11999"
+    examen: "8cm37vq-12019"
+    trabajo_final: "8cm37vq-12039"
+
+professor: "Dra. Adriana Delle Donne (Profesora Titular)"
+
+evaluation_breakdown:
+  trabajo_final_individual: "40%"   # caso corto + consigna, web campus con Safe Exam Browser
+  examen_multiple_choice: "40%"
+  contribucion_en_clase: "10%"
+  asistencia: "10%"
+  nota_minima_trabajo_final: 5
+  nota_minima_examen: 5
+  asistencia_minima: "4 clases completas con cámara encendida"
+  # En clases virtuales la asistencia se toma como mínimo en dos oportunidades, con cámara encendida.
+
+# El listado de las 68 preguntas del examen SIN las opciones se entrega una semana antes.
+# Ese listado ya está en el repo y precargado en el Hub: son las preguntas reales.
+examen:
+  preguntas_conocidas: true
+  cantidad: 68
+  archivo: "examen_multiple_choice_preguntas.docx"
+  hub_page_id: "8cm37vq-12019"
+  safe_exam_browser: true          # instalar antes de la fecha
+  preguntas_que_exigen_lectura:    # NO se contestan con los decks — 11 de 68
+    culture_is_not_the_culprit: [22, 23, 24]
+    por_que_cuesta_tanto_un_incentivo: [25, 26]
+    economics_of_organizational_architecture: [38, 39]
+    zhu_xie_compensation_incentives: [40, 41]
+    microsofts_lost_decade: [54, 55, 56]
+    ranking_workers_tech_companies: [57]
+
+trabajo_final:
+  tipo: "individual — caso corto + consigna, en web campus bajo Safe Exam Browser"
+  hub_page_id: "8cm37vq-12039"
+  pool_casos: 12   # el docx trae 13, pero el 13 es idéntico al 4 (Amazon/Whole Foods)
+  casos:
+    - "Boeing 737 MAX"
+    - "Twitter / X bajo Musk"
+    - "Wells Fargo"
+    - "Amazon / Whole Foods — Just Walk Out"
+    - "Microsoft: Ballmer → Nadella"
+    - "Uber: Kalanick → Khosrowshahi"
+    - "Google: el 20% y el stack ranking"
+    - "Best Buy / Hubert Joly"
+    - "Lockheed Martin y Skunk Works"
+    - "Starbucks: Schultz → Niccol"
+    - "Disney: Chapek → Iger"
+    - "McKinsey y el up-or-out"
+  ejemplos_resueltos: ["Volkswagen / Dieselgate", "Haier / Rendanheyi"]
+  estructura_consigna: >
+    Siempre tres preguntas: (1) explicar la conducta desde el modelo de comportamiento (REMM),
+    (2) identificar las fallas en los tres pilares de la AO, (3) recomendar una intervención por pilar.
+
+# Materia CONCEPTUAL dirigida por decks — mismo patrón que Sistemas de Información:
+content_management:
+  type: conceptual_deck_driven
+  notebooklm: false
+  notebooklm_rationale: >
+    Brickley (Managerial Economics and Organizational Architecture) es la bibliografía obligatoria
+    y son ~600 páginas, pero las dos evaluaciones no lo requieren: las 68 preguntas del examen ya
+    se conocen y 57 se contestan con los decks, las 11 restantes con seis artículos cortos que
+    están todos en el repo. El trabajo final aplica el marco de tres pilares, que los decks
+    desarrollan completo y con respuestas modelo. El costo de setup de NotebookLM no se paga.
+  unified_page: "una página por clase, precargada desde el deck y refinada con las notas"
+  metodo: >
+    El estudio se organiza alrededor de las dos evaluaciones, no del temario: se responde el banco
+    de 68 preguntas y se practican los 12 casos con el trigger "caso" en modo completo.
+
+bibliography_priority:
+  - "Brickley, Smith & Zimmerman — Managerial Economics and Organizational Architecture [OBLIGATORIA — referencia de consulta]"
+  - "Lorsch, J. & McTague, E. (2016) — Culture Is Not the Culprit (HBR) [examen: P22-24]"
+  - "Eichenwald, K. (2012) — Microsoft's Lost Decade (Vanity Fair) [examen: P54-56]"
+  - "Brickley, Smith & Zimmerman (2020) — The Economics of Organizational Architecture (JACF) [examen: P38-39]"
+  - "Zhu & Xie (2023) — The Role and Optimization Strategies of Compensation Incentives [examen: P40-41]"
+  - "Pérez Navarro, J. (2020) — ¿Por qué cuesta tanto obtener los resultados deseados de un incentivo? [examen: P25-26]"
+  - "Hess, A.J. (2023) — Ranking workers can hurt morale and productivity (Fast Company) [examen: P57]"
+  - "Jensen, M. & Meckling, W. (1994) — The Nature of Man / La Naturaleza del Hombre [fuente del REMM]"
+  - "Jensen, M. & Meckling, W. (1995) — Specific and General Knowledge, and Organizational Structure"
+  - "Kerr, S. (1975) — On the Folly of Rewarding A, While Hoping for B"
+  - "Levitt & Dubner — Freakonomics, Intro y Cap. 1"
+  - "Janis, I. (1972) — Pensamiento Grupal"
+
+cronograma:
+  # SIN FECHAS: la carpeta de la cátedra no trae cronograma y el calendario de Google solo
+  # tiene bloques genéricos "Clase Presencial MBA" (lunes) / "Clase Virtual MBA" (miércoles).
+  clase_1:
+    date: null
+    topic: "Modelo de comportamiento · Conflictos de interés · Rol del conocimiento"
+  clase_2:
+    date: null
+    topic: "Rol de los incentivos · Medio ambiente de negocios · AO · Contratos"
+  clase_3:
+    date: null
+    topic: "AO — Asignación de autoridad"
+  clase_4:
+    date: null
+    topic: "AO — Política compensatoria"
+  clase_5:
+    date: null
+    topic: "AO — Medición de desempeño"
+  clase_6:
+    date: null
+    topic: "Elaboración y presentación del trabajo final. Examen."
+
+politica_ia_catedra: >
+  El uso de IA debe ser complementario y declarado al docente. La profesora puede pedir en
+  cualquier instancia el desarrollo oral de los conceptos y su fundamentación teórica.
+  El uso indebido se trata conforme a las normas éticas del MBA y de la UCEMA.
+
+materials_available:
+  - "programa.doc"
+  - "clase1.pptx"  # a clase5.pptx — los 5 decks de Delle Donne
+  - "examen_multiple_choice_preguntas.docx"
+  - "tf_casos_individuales.docx"
+  - "tf_ejemplos_resueltos.docx"
+  - "taller_agente_inmobiliario.xlsx"
+  - "lecturas/"   # 15 artículos — ver MATERIAL.md
+  # Descartados y por qué: ver MATERIAL.md
+
+notebooklm_notebook: ""  # no se usa en esta materia

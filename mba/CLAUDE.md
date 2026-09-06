@@ -21,7 +21,8 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
-   - Lunes = Sistemas de Información (en curso — Clase 3 es la excepción: jueves 20/08)
+   - Diseño Organizacional (en curso — 6 clases, día a confirmar)
+   - Sistemas de Información (completada — ya no genera clases nuevas)
    - Finanzas Corporativas (completada — ya no genera clases nuevas)
    - Información Gerencial y Control de Gestión — IGyCG (completada — ya no genera clases nuevas)
    - Liderazgo y Gestión de Equipos (completada — ya no genera clases nuevas)
@@ -193,7 +194,7 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - **Materia cuantitativa**: sin NotebookLM (Claude lee los PDFs directo), Glosario = Formulario, modo ejercicios on-command.
 - Pendiente: correr el trigger **"cierre"** para unificar el doc.
 
-### Sistemas de Información (en curso — Lunes)
+### Sistemas de Información (completada)
 - Hub Doc: `8cm37vq-11059`
   - Página Índice: `8cm37vq-11659`
   - Página Progreso: `8cm37vq-11679`
@@ -205,16 +206,32 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - **Ojo con el calendario**: Clase 3 es **jueves 20/08** (no lunes). Quiz individual el **24/08**. Documento del TP vence el **27/08**.
 - `programa.pdf` de la carpeta del curso es la versión **2025** (otros profesores, otras ponderaciones) — desactualizado. El cronograma y el deck mandan.
 
+### Diseño Organizacional (en curso)
+- Hub Doc: `8cm37vq-11079`
+  - Página Índice: `8cm37vq-11859`
+  - Página Progreso: `8cm37vq-11879`
+  - Página Glosario: `8cm37vq-11899`
+  - Página Examen (banco de 68 preguntas): `8cm37vq-12019`
+  - Página Trabajo Final Individual: `8cm37vq-12039`
+  - Páginas de clase: ver `mba/courses/diseno_organizacional.yaml` → hub_pages
+- **Materia conceptual dirigida por decks**: sin NotebookLM. Los 5 decks de Delle Donne son autosuficientes (teoría + casos + respuestas modelo de los talleres) y Claude los lee directo desde `mba/presentations/diseno_organizacional/`. Brickley queda como referencia de consulta puntual.
+- **Las 68 preguntas del examen se conocen de antemano** — la cátedra entrega el listado sin las opciones una semana antes, y ya está precargado. 57 se contestan con los decks; **11 exigen seis lecturas específicas** (ver `preguntas_que_exigen_lectura` en el yaml). Ese es el riesgo real del examen.
+- **El trabajo final sale de un pool de 12 casos ya conocido**, con dos ejemplos resueltos por la cátedra que revelan la estructura exacta de la consigna: tres preguntas (REMM → fallas en los tres pilares → una recomendación por pilar).
+- **El estudio se organiza alrededor de las dos evaluaciones, no del temario**: responder el banco de 68 y practicar los casos con el trigger `caso` en modo completo.
+- Ojo: falta el cronograma. La carpeta de la cátedra no lo trae y el calendario de Google solo tiene bloques genéricos "Clase Presencial/Virtual MBA". Fechas en `null` hasta confirmar.
+- Triage completo del material (qué se trajo, qué se descartó y por qué): `mba/presentations/diseno_organizacional/MATERIAL.md`.
+
 ---
 
 ## Calendario Google
-- Lunes: Sistemas de Información (en curso) — **sin bloques automáticos de Calendar** (no usa NotebookLM)
-- Finanzas / IGyCG / Liderazgo / IFE / Economía / Gestión de Personas: completadas
+- Diseño Organizacional (en curso) — **sin bloques automáticos de Calendar** (no usa NotebookLM). Día de cursada a confirmar.
+- Sistemas / Finanzas / IGyCG / Liderazgo / IFE / Economía / Gestión de Personas: completadas
 - Bloques de estudio (materias con NotebookLM): 2 sesiones de 1 hora, creadas después de recibir la respuesta de NotebookLM
 
 ## NotebookLM (plan gratuito — suficiente)
 - Un notebook por curso (Economía, Gestión, IFE, Liderazgo)
 - **Finanzas Corporativas NO usa NotebookLM** — es cuantitativa; Claude lee los PDFs de teoría (cortos y curados) directamente, clase a clase. El estudio se basa en resolver ejercicios, no en excerpts (ver trigger "ejercicios").
+- **Diseño Organizacional NO usa NotebookLM** — los decks de Delle Donne son autosuficientes y las dos evaluaciones (68 preguntas conocidas + pool de 12 casos con ejemplos resueltos) no requieren la bibliografía obligatoria. Brickley (~600 pág.) queda como consulta puntual.
 - **Sistemas de Información NO usa NotebookLM** — los decks del profesor son autocontenidos y opinados (frameworks propios y casos), y son lo que evalúa el quiz. Laudon (17ª ed., 81MB, en inglés) se cita solo puntualmente: no justifica el setup.
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
 - **IFE**: subir Fowler Newton — Análisis de estados contables + Fowler Newton — Contabilidad con inflación
