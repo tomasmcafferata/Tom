@@ -213,6 +213,7 @@ Se ejecuta al finalizar una materia completa. Claude debe:
   - Página Glosario: `8cm37vq-11899`
   - Página Examen (banco de 68 preguntas): `8cm37vq-12019`
   - Página Trabajo Final Individual: `8cm37vq-12039`
+  - Página Preparación (plan de estudio + 68 respuestas resueltas + protocolo de casos): `8cm37vq-12059` — **es la página operativa de estudio**; las de clase son la referencia de fondo
   - Páginas de clase: ver `mba/courses/diseno_organizacional.yaml` → hub_pages
 - **Materia conceptual dirigida por decks**: sin NotebookLM. Los 5 decks de Delle Donne son autosuficientes (teoría + casos + respuestas modelo de los talleres) y Claude los lee directo desde `mba/presentations/diseno_organizacional/`. Brickley queda como referencia de consulta puntual.
 - **Las 68 preguntas del examen se conocen de antemano** — la cátedra entrega el listado sin las opciones una semana antes, y ya está precargado. 57 se contestan con los decks; **11 exigen seis lecturas específicas** (ver `preguntas_que_exigen_lectura` en el yaml). Ese es el riesgo real del examen.
