@@ -28,6 +28,7 @@ Se ejecuta automáticamente después de cada clase. Claude debe:
    - IFE — Información Financiera de la Empresa (completada — ya no genera clases nuevas)
    - Economía y Negocios (completada — ya no genera clases nuevas)
    - Gestión de Personas (completada — ya no genera clases nuevas)
+   - Diseño Organizacional (en curso — clases 1-5 precargadas; el foco está en el examen y el trabajo final, no en clases nuevas)
 2. Leer `mba/state.yaml` para contexto acumulado
 3. Si el usuario no adjuntó la presentación (PDF) y/o notas, pedirlos — una sola vez
    - El PDF debe estar en la carpeta local `mba/presentations/[curso]/` antes de iniciar la sesión (ej: `mba/presentations/ife/clase3.pdf`, `mba/presentations/liderazgo/clase2.pdf`). Claude lo lee directamente con el Read tool — así se preservan imágenes y gráficos. Nombre sugerido: `clase1.pdf`, `clase2.pdf`, etc.
@@ -204,6 +205,23 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - Clases 1-4 **precargadas** desde los decks; se refinan cuando el usuario pegue las notas.
 - **Ojo con el calendario**: Clase 3 es **jueves 20/08** (no lunes). Quiz individual el **24/08**. Documento del TP vence el **27/08**.
 - `programa.pdf` de la carpeta del curso es la versión **2025** (otros profesores, otras ponderaciones) — desactualizado. El cronograma y el deck mandan.
+
+### Diseño Organizacional — DO-10788 (en curso — Dra. Adriana Delle Donne)
+- Hub Doc: `8cm37vq-11079`
+  - Página Índice: `8cm37vq-11859`
+  - Página Progreso: `8cm37vq-11879`
+  - Página Glosario: `8cm37vq-11899`
+  - Página Examen (68 preguntas con respuesta): `8cm37vq-12019`
+  - Página Trabajo Final (12 casos con respuesta modelo): `8cm37vq-12039`
+  - Página Plan de estudio y logística: `8cm37vq-12059`
+  - Páginas de clase: ver `mba/courses/diseno_organizacional.yaml` → hub_pages
+- **Materia conceptual dirigida por decks**: sin NotebookLM. Los decks de Delle Donne son autocontenidos (teoría + casos + respuestas modelo de los talleres). Brickley queda como referencia de consulta puntual.
+- **Espejo local del hub**: `mba/presentations/diseno_organizacional/*.md` — las 11 páginas de ClickUp exportadas a markdown. Claude las lee directo, sin depender de la API de ClickUp.
+- **Esta materia se prepara al revés**: el 80% de la nota son dos instancias cuyo contenido **ya se conoce** (las 68 preguntas del examen y el pool de 12 casos del trabajo final). No hay que anticipar qué van a tomar — hay que producir las respuestas y validarlas. El estudio se organiza alrededor de las evaluaciones, no del temario.
+- **Marco único de análisis**: los tres pilares de la Arquitectura Organizacional (asignación de autoridad · medición del desempeño · política compensatoria) y su consistencia mutua. Todo caso se resuelve buscando la inconsistencia entre pilares.
+- Las 11 preguntas marcadas ⚠ (22-26, 38-41, 54-57) **no se contestan con los decks**: salen de las lecturas obligatorias. Son el 16% de la nota del examen.
+- **Bloqueantes con deadline propio**: instalar Safe Exam Browser (si falla, rendir en UCEMA exige solicitud con **2 semanas** de anticipación) y **declarar el uso de IA** a la profesora (requisito del programa; puede pedir desarrollo oral de cualquier concepto).
+- Faltan en el repo los PDFs originales de los decks y el programa de la cátedra.
 
 ---
 

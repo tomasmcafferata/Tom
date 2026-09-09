@@ -37,11 +37,11 @@ courses:
       - UIP (Paridad de Tasas No Cubierta)
       - Expectativa de devaluación (dev^e)
       - Riesgo País (RP)
-      - UIP completa: i = i^f + dev^e + RP
-      - Argentina: CC + FAE como % PBI (2006-2027)
-      - Argentina: tipos de cambio y bandas (evolución 2024-2026)
-      - Argentina: TCR histórico (jun-97 a mar-26)
-      - Argentina: Reservas internacionales (brutas, netas, netas FMI)
+      - "UIP completa: i = i^f + dev^e + RP"
+      - "Argentina: CC + FAE como % PBI (2006-2027)"
+      - "Argentina: tipos de cambio y bandas (evolución 2024-2026)"
+      - "Argentina: TCR histórico (jun-97 a mar-26)"
+      - "Argentina: Reservas internacionales (brutas, netas, netas FMI)"
       # Clase 5
       - Dicotomía Clásica
       - Neutralidad del dinero
@@ -49,14 +49,14 @@ courses:
       - Producto potencial (Y*) y tasa natural de producción
       - OALP (Oferta Agregada Largo Plazo) — curva vertical en Y*
       - OACP (Oferta Agregada Corto Plazo) — curva con pendiente positiva
-      - Función consumo: C = Ca + cy·Yd − a·i
+      - "Función consumo: C = Ca + cy·Yd − a·i"
       - Consumo autónomo (Ca) y animal spirits
       - Propensión marginal a consumir (cy)
-      - Ingreso disponible: Yd = Y − T
-      - Función inversión: I = Ia − b·i
-      - Demanda Agregada CP: DA = C + I + G
-      - Multiplicador fiscal: 1/(1−cy)
-      - Equilibrio CP: DA = Y
+      - "Ingreso disponible: Yd = Y − T"
+      - "Función inversión: I = Ia − b·i"
+      - "Demanda Agregada CP: DA = C + I + G"
+      - "Multiplicador fiscal: 1/(1−cy)"
+      - "Equilibrio CP: DA = Y"
       - Shocks de demanda y oferta
       - Estanflación — shock de costos desplaza OACP
       - Ajuste LP desde desequilibrio CP
@@ -176,7 +176,7 @@ courses:
       - Potencial — definición
       - Medición del potencial (proceso sistematizado de evaluación)
       - HiPos / Talento crítico / Top Talent (5-7% de la población)
-      - 3 dimensiones de potencial (BASE: cognitivas/personalidad; CRECIMIENTO: aprendizaje/motivación; CARRERA: liderazgo/conocimientos/desempeño/fit cultural)
+      - "3 dimensiones de potencial (BASE: cognitivas/personalidad; CRECIMIENTO: aprendizaje/motivación; CARRERA: liderazgo/conocimientos/desempeño/fit cultural)"
       - Factores de calibración del talento (ratings, fuentes, revisiones, planes de acción, sesión de calibración)
       - Herramientas de identificación (360°, evaluaciones por competencias, personalidad, cognitivas, estilos de liderazgo)
       - Talent Review (matriz 3x3 Potencial × Desempeño)
@@ -312,7 +312,7 @@ courses:
       - Hechos contingentes — tabla completa (probabilidad alta/medible, alta/no medible, sin prob. alta, remota)
       - Hechos posteriores — dos categorías (evidencia de situación al cierre vs hecho nuevo)
       - AREA — corrección de error o cambio de norma; cambios de estimación NO generan AREA
-      - Medición de 6 rubros — inicial y al cierre:
+      - "Medición de 6 rubros — inicial y al cierre:"
       - Caja y bancos — valor nominal; moneda extranjera al TC de cierre
       - Créditos y deudas — VAFF a TIR/TEE; cancelación anticipada VNR/VAFF acreedor
       - Inversiones en acciones — VNR / Costo / VPP según tipo; títulos de deuda — VNR o Costo+RFD según intención
@@ -320,17 +320,17 @@ courses:
       - Bienes de uso — uso/alquiler costo−depreciación; venta VNR; erogaciones posteriores gasto vs mejora; revalúo técnico RT31 (resultado diferido PN)
       - Bienes intangibles — condiciones reconocimiento; exclusiones; casos especiales activación; depreciación 20 años (5 años organización/preoperativos)
       # Clase 4
-      - Los 4 estados básicos + notas: ESP, ER, EEPN, EFE
+      - "Los 4 estados básicos + notas: ESP, ER, EEPN, EFE"
       - Estados individuales vs consolidados
       - Usuarios de los estados contables (8 tipos)
       - ESP — estructura Activo/Pasivo/PN; corriente vs no corriente; contenido de activos y pasivos; Activo=Inversión / Pasivo+PN=Financiación
       - Previsiones — compromisos contingentes dentro del pasivo
-      - Estado de Resultados — estructura completa: Ventas → Resultado Bruto → EBIT → EBITDA
+      - "Estado de Resultados — estructura completa: Ventas → Resultado Bruto → EBIT → EBITDA"
       - EBITDAC — variante COVID (gastos/pérdidas por COVID se agregan al EBITDA)
       - Otros Resultados Integrales (ORI) — van directo al PN sin pasar por el ER
-      - EEPN — muestra cambios en el PN: aportes, distribuciones y resultado del ejercicio
+      - "EEPN — muestra cambios en el PN: aportes, distribuciones y resultado del ejercicio"
       - Notas y Anexos — características (parte integrante), contenido (datos generales, bases presentación, otra información)
-      - Síntesis: mapa de informes contables para terceros vs internos
+      - "Síntesis: mapa de informes contables para terceros vs internos"
       # Clase 5
       - Criterios de medición de inversiones en acciones (VNR / Costo / VPP según tipo)
       - VPP — definiciones de influencia dominante, control conjunto e influencia significativa (RT 21)
@@ -344,8 +344,8 @@ courses:
       - Definiciones de consolidación (control, controlante, controlada, GE, EECC individuales vs consolidados, PM)
       - Métodos de consolidación (total, proporcional, una sola línea — VPP)
       - Requisitos de consolidación (fecha, moneda, normas contables)
-      - Actividades heterogéneas: deben consolidarse; control temporal: no se consolida
-      - Esquema de consolidación (7 pasos: saldos, homogeneización, eliminaciones, PM)
+      - "Actividades heterogéneas: deben consolidarse; control temporal: no se consolida"
+      - "Esquema de consolidación (7 pasos: saldos, homogeneización, eliminaciones, PM)"
       - Ejemplo numérico (60% de tenencia, proporcional vs total)
       - Expresión en moneda homogénea — Ajuste por Inflación (AxI)
       - Modelo contable y unidad de medida (homogénea vs nominal)
@@ -532,38 +532,38 @@ courses:
       - Resultados MBTI de la clase (ESTJ/ENTJ dominantes) — tabla Higgs (1996) MBTI-Belbin
       - Caso UTE — motivación individual en contexto de equipo
       - Caso Matías — "you only eat what you kill" (anti-patrón de equipo)
-      - Principio: el equipo no es la suma de los individuos
+      - "Principio: el equipo no es la suma de los individuos"
       - Modelo Belbin — origen (investigación Henley Management College, 1970s)
       - Belbin vs MBTI — autoevaluación + evaluación de terceros (IAP = Inventario de Autopercepción)
       - Belbin integra personalidad + valores + comportamientos observables
       - 9 Roles Belbin en 3 categorías (Mentales, Sociales, Acción)
-      - Cerebro (CE) — creativo, heterodoxo, resolutivo / sombra: ignora detalles prácticos
-      - Investigador de Recursos (IR) — extrovertido, explora oportunidades / sombra: pierde interés rápido
-      - Coordinador (CO) — maduro, confiante, delega bien / sombra: puede verse como manipulador
-      - Impulsor (IS) — retador, dinámico, supera obstáculos / sombra: propenso a provocar
-      - Monitor Evaluador (ME) — estratégico, perspicaz, evalúa opciones / sombra: le falta capacidad de inspirar
-      - Cohesionador (CH) — cooperador, perceptivo, evita fricciones / sombra: indeciso bajo presión
-      - Implementador (ID) — disciplinado, confiable, convierte ideas en acciones / sombra: inflexible
-      - Finalizador (FI) — meticuloso, detecta errores, cumple plazos / sombra: se preocupa innecesariamente
-      - Especialista (ES) — dedicado, provee conocimiento profundo / sombra: se centra solo en su especialidad
+      - "Cerebro (CE) — creativo, heterodoxo, resolutivo / sombra: ignora detalles prácticos"
+      - "Investigador de Recursos (IR) — extrovertido, explora oportunidades / sombra: pierde interés rápido"
+      - "Coordinador (CO) — maduro, confiante, delega bien / sombra: puede verse como manipulador"
+      - "Impulsor (IS) — retador, dinámico, supera obstáculos / sombra: propenso a provocar"
+      - "Monitor Evaluador (ME) — estratégico, perspicaz, evalúa opciones / sombra: le falta capacidad de inspirar"
+      - "Cohesionador (CH) — cooperador, perceptivo, evita fricciones / sombra: indeciso bajo presión"
+      - "Implementador (ID) — disciplinado, confiable, convierte ideas en acciones / sombra: inflexible"
+      - "Finalizador (FI) — meticuloso, detecta errores, cumple plazos / sombra: se preocupa innecesariamente"
+      - "Especialista (ES) — dedicado, provee conocimiento profundo / sombra: se centra solo en su especialidad"
       - Debilidades Permitidas — inherentes al rol, el equipo las acepta y comprende
       - Debilidades No Permitidas — comportamientos que dañan al equipo (no se justifican por el rol)
       - Fichas Qué Hacer / Qué No Hacer por cada rol (gestión y liderazgo)
       - 7 aplicaciones del modelo Belbin en organizaciones
       - 5 tipos de informes Belbin (Individual, Equipo, Persona-Puesto, RRLL, Grupo Observador)
-      - Caso RRLL Bechis — Controller A (IS+ID) vs Facturación B (CH+IR) vs Director C (CO+IS): análisis de conflicto por roles
-      - Autoevaluación: identificar rol propio en 3 experiencias de equipo
+      - "Caso RRLL Bechis — Controller A (IS+ID) vs Facturación B (CH+IR) vs Director C (CO+IS): análisis de conflicto por roles"
+      - "Autoevaluación: identificar rol propio en 3 experiencias de equipo"
       - Clip "The Expert — 7 Red Lines" (CE sin anclaje + Especialista que bloquea)
       # Clase 4
       - Perspectivas sobre el conflicto (Tradicional vs Interaccionista)
       - Tipos de conflicto (Tareas/Procesos = funcional; Relaciones = disfuncional)
-      - Conflicto: Intensidad vs Desempeño
+      - "Conflicto: Intensidad vs Desempeño"
       - Dinámica del conflicto — 5 Etapas
-      - Etapa 1: Contraposición (causas: comunicación, estructura, variables personales)
-      - Etapa 2: Conocimiento y personalización (percibido vs sentido)
-      - Etapa 3: Intenciones (Escalera de las inferencias)
-      - Etapa 4: Comportamiento (continuo de intensidad)
-      - Etapa 5: Resultados (desempeño del grupo)
+      - "Etapa 1: Contraposición (causas: comunicación, estructura, variables personales)"
+      - "Etapa 2: Conocimiento y personalización (percibido vs sentido)"
+      - "Etapa 3: Intenciones (Escalera de las inferencias)"
+      - "Etapa 4: Comportamiento (continuo de intensidad)"
+      - "Etapa 5: Resultados (desempeño del grupo)"
       - Instrumento Thomas-Kilmann (TKI) — 5 modos de manejo de conflicto
       - TKI Competir (alta asertividad, baja cooperación)
       - TKI Colaborar (alta asertividad, alta cooperación)
@@ -578,12 +578,12 @@ courses:
       - 4 Arquetipos de desafíos adaptativos (discrepancias, compromisos contradictorios, evitar tareas, el elefante)
       - Modelo FRL de Bass (Full Range Leadership)
       - Liderazgo Laissez Faire — estilo más inactivo
-      - Liderazgo Transaccional (2 componentes: Recompensa contingente + Dirección por excepción)
-      - Liderazgo Transformacional (4 I: Carisma, Estimulación Intelectual, Inspiración, Consideración Individualizada)
+      - "Liderazgo Transaccional (2 componentes: Recompensa contingente + Dirección por excepción)"
+      - "Liderazgo Transformacional (4 I: Carisma, Estimulación Intelectual, Inspiración, Consideración Individualizada)"
       - Riesgo del Transformacional — autoengrandecimiento narcisista
       - Liderazgo Situacional Hersey & Blanchard (Dirección, Coaching, Apoyo, Delegación)
       - Superposición Bass + Blanchard + tipos de motivación
-      - Goldsmith — Gerente vs Líder (3 puntos: crear/contar valor; poder/influencia; gestionar/liderar)
+      - "Goldsmith — Gerente vs Líder (3 puntos: crear/contar valor; poder/influencia; gestionar/liderar)"
       - Agentic AI y Liderazgo — trade-offs y nuevas capacidades del líder
       - Caso "El Piloto de IA que nadie quería liderar" (Camila Rossi, Nexo)
       - TEST CELID (mide perfil FRL)
@@ -853,6 +853,122 @@ courses:
         quiz: true
         source: "unidad45.pdf (segunda mitad)"
         hub_page_id: "8cm37vq-11779"
+
+  diseno_organizacional:
+    name: "Diseño Organizacional"
+    codigo: "DO-10788"
+    schedule_day: null            # las 6 fechas siguen sin confirmar con la cátedra
+    modality: blend
+    status: en_curso
+    professor: "Dra. Adriana Delle Donne"
+    classes_completed: 5
+    total_classes: 6
+    last_class_date: null
+    last_class_topic: "AO — Medición de desempeño"
+    notes_available: false        # clases 1-5 precargadas desde los decks, sin notas aún
+    # Materia que se prepara AL REVÉS: el 80% de la nota son dos instancias cuyo
+    # contenido ya se conoce (68 preguntas + pool de 12 casos). No hay que anticipar
+    # qué van a tomar: hay que producir las respuestas y validarlas.
+    topics_covered:
+      # Clase 1 — Comportamiento y conocimiento
+      - Punto de fuga de valor (caso ASOS — 6% de clientes, £100M)
+      - Comportamiento Organizacional (Robbins & Judge) — individuo, grupo, estructura
+      - Los cinco modelos de comportamiento (económico, sociológico, psicológico, político, REMM)
+      - REMM — Resourceful, Evaluative, Maximizing Model
+      - Ingenioso / Evaluador / Maximizador (los tres postulados)
+      - Conocimiento general vs. conocimiento de tiempo y lugar
+      - Conflicto de intereses entre stakeholders
+      - Kerr (1975) — recompensar A esperando B
+      - Casos Wells Fargo, Amazon devoluciones, subprime, Medicare
+      # Clase 2 — Incentivos, entorno y contratos
+      - Tipos de incentivo (económicos, sociales, morales)
+      - Contrato cost-plus (Halliburton, Sikorsky/Derco)
+      - Cinco fuentes de conflicto dueños-gerentes
+      - Problema del cash-flow libre
+      - Acreedor residual por forma organizacional
+      - Free rider y efecto Ringelmann (1913)
+      - Efecto escala del free riding
+      - Arquitectura Organizacional (AO) — los tres pilares
+      - Teoría contingente
+      - Darwinismo económico
+      - Costos directos e indirectos de modificar la AO
+      - Caso Xerox (1976-1982) — exhortar no alcanza
+      - Business Roundtable 2019 y qué pasó cinco años después
+      # Clase 3 — Asignación de autoridad
+      - Beneficios y costos de la descentralización
+      - Decisiones de management (iniciación, implementación) vs. de control (ratificación, evaluación)
+      - Principio de separación y su excepción (decisor = acreedor residual)
+      - Costos de influencia
+      - Cultura organizacional como RESULTADO de la AO (Lorsch & McTague)
+      - Las cuatro formas de Mintzberg
+      - Pensamiento grupal (Janis, 1972)
+      - Rendanheyi (Haier) — 4.000 microempresas
+      - Miopía funcional
+      # Clase 4 — Política compensatoria
+      - Los dos objetivos de la política compensatoria
+      - Trade-off riesgo / incentivos
+      - Valor presente de la curva de ingresos
+      - Compensación diferida y up-or-out
+      - EBITDA vs. EVA como base de bonus
+      - Stock options / RSU / PSU / vesting
+      - Paracaídas de oro
+      - Manipulación del contrato de incentivos (Nardelli en Home Depot)
+      - Capital humano general vs. específico
+      - Selección adversa por fuga
+      # Clase 5 — Medición del desempeño
+      - Las dos funciones de la evaluación
+      - Los cuatro criterios de eficacia (validez, fiabilidad, costo, equidad)
+      - Modelo de Holmström (1979) — Q = α·e + μ, W(Q) = W + β·Q
+      - Ruido de medición (varianza de μ)
+      - Efecto trinquete (ratchet)
+      - "Barzel (1982) — la naranja: se pesa el peso, se valora el jugo"
+      - Variable proxy
+      - Stack ranking / rank and yank / vitality curve (GE 20/70/10)
+      - Experimento de Muir (las gallinas)
+      - Cuándo el stack ranking tiene sentido y cuándo no
+      - Sesgo del evaluador (Mount, Scullen & Goff 2000 — 62% vs. 21%)
+      - Autoevaluación (85% se ubica en el 25% superior)
+      - Sistema de Deloitte (4 afirmaciones prospectivas)
+      - Precio de transferencia
+    cases_analyzed: []
+    classes:
+      - class_number: 1
+        date: null
+        topic: "Modelo de comportamiento · Conflictos de interés · Rol del conocimiento"
+        status: precargada
+        hub_page_id: "8cm37vq-11919"
+        preguntas_examen: "1-9"
+      - class_number: 2
+        date: null
+        topic: "Rol de los incentivos · Medio ambiente de negocios · AO · Contratos"
+        status: precargada
+        hub_page_id: "8cm37vq-11939"
+        preguntas_examen: "10-26"
+      - class_number: 3
+        date: null
+        topic: "AO — Asignación de autoridad"
+        status: precargada
+        hub_page_id: "8cm37vq-11959"
+        preguntas_examen: "27-41"
+      - class_number: 4
+        date: null
+        topic: "AO — Política compensatoria"
+        status: precargada
+        hub_page_id: "8cm37vq-11979"
+        preguntas_examen: "42-57"
+      - class_number: 5
+        date: null
+        topic: "AO — Medición de desempeño"
+        status: precargada
+        hub_page_id: "8cm37vq-11999"
+        preguntas_examen: "58-68"
+    evaluaciones_pendientes:
+      examen: {peso: "40%", fecha: null, banco: "68 preguntas resueltas", minimo: 5}
+      trabajo_final: {peso: "40%", fecha: null, pool: "12 casos con respuesta modelo", minimo: 5}
+    bloqueantes:
+      - "Instalar Safe Exam Browser (alternativa en UCEMA requiere 2 semanas de anticipación)"
+      - "Declarar el uso de IA a la profesora (requisito del programa)"
+      - "Confirmar las 6 fechas de clase, la del examen y la de entrega del TP"
 
 current_week:
   number: 5

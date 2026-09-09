@@ -1,0 +1,130 @@
+name: "Diseño Organizacional"
+codigo: "DO-10788"
+schedule_day: null            # las 6 fechas siguen sin confirmar con la cátedra
+modality: blend               # BLEND2 — 2° trimestre 2026
+total_classes: 6              # 5 de contenido + 1 de trabajo final y examen
+language: spanish
+status: en_curso
+
+clickup:
+  hub_doc_id: "8cm37vq-11079"
+  hub_pages:
+    indice: "8cm37vq-11859"
+    progreso: "8cm37vq-11879"
+    glosario: "8cm37vq-11899"
+    clase_1: "8cm37vq-11919"
+    clase_2: "8cm37vq-11939"
+    clase_3: "8cm37vq-11959"
+    clase_4: "8cm37vq-11979"
+    clase_5: "8cm37vq-11999"
+    examen: "8cm37vq-12019"
+    trabajo_final: "8cm37vq-12039"
+    plan_estudio: "8cm37vq-12059"
+
+professor: "Dra. Adriana Delle Donne"
+
+evaluation_breakdown:
+  trabajo_final: "40%"        # caso corto del pool de 12 + consigna
+  examen: "40%"               # multiple choice individual, 68 preguntas conocidas
+  contribucion: "10%"
+  asistencia: "10%"           # 4 clases completas con cámara encendida
+  nota_minima: 5              # mínimo 5 en trabajo final y en examen por separado
+  # Ejemplo del propio programa: 5 + 5 con dos ausencias y sin participación = nota final 4.
+
+# Materia CONCEPTUAL dirigida por decks — mismo patrón que Sistemas de Información:
+content_management:
+  type: conceptual_deck_driven
+  notebooklm: false
+  notebooklm_rationale: >
+    Los decks de Delle Donne son autocontenidos y opinados: traen teoría, casos y las
+    respuestas modelo de los talleres. Brickley (el libro obligatorio) queda como
+    referencia de consulta puntual, no como fuente de estudio. Además el 80% de la nota
+    son dos instancias cuyo contenido ya se conoce, así que no hay nada que anticipar.
+  local_mirror: "mba/presentations/diseno_organizacional/"   # espejo .md del hub de ClickUp
+
+# El marco que estructura TODA la materia. Todo caso se analiza buscando la
+# inconsistencia entre estos tres pilares.
+marco_tres_pilares:
+  asignacion_de_autoridad: "¿Qué se va a hacer y quién decide?      → Clase 3"
+  medicion_del_desempeno: "¿Cómo confirmamos que se hizo lo pactado? → Clase 5"
+  politica_compensatoria: "¿Qué se recibe por hacer lo pactado?      → Clase 4"
+  principio_rector: >
+    El diseño de una empresa debe maximizar la probabilidad de que los tomadores de
+    decisión tengan (1) la información relevante y (2) los incentivos para usarla
+    productivamente. Una debilidad en cualquiera de los tres pilares hace fracasar
+    la estrategia.
+
+bibliography_priority:
+  - "Brickley, Smith & Zimmerman — Managerial Economics and Organizational Architecture [OBLIGATORIA]"
+  - "Jensen & Meckling (1994, 1995) — The Nature of Man / Specific and General Knowledge"
+  - "Kerr (1975) — On the folly of rewarding A while hoping for B"
+  - "Levitt & Dubner — Freakonomics"
+  - "Lorsch & McTague (2016) — Culture Is Not the Culprit (HBR)"
+  - "Eichenwald (2012) — Microsoft's Lost Decade (Vanity Fair)"
+  - "Kwoh (2012) — Rank and Yank (WSJ)"
+  - "Beck (2017)"
+  - "Pérez Navarro (2020) — ¿Por qué cuesta tanto obtener los resultados deseados de un incentivo? (Capital Humano)"
+
+cronograma:
+  clase_1:
+    date: null
+    topic: "Modelo de comportamiento · Conflictos de interés · Rol del conocimiento"
+    preguntas_examen: "1-9"
+  clase_2:
+    date: null
+    topic: "Rol de los incentivos · Medio ambiente de negocios · AO · Contratos"
+    preguntas_examen: "10-26"
+  clase_3:
+    date: null
+    topic: "AO — Asignación de autoridad"
+    preguntas_examen: "27-41"
+  clase_4:
+    date: null
+    topic: "AO — Política compensatoria"
+    preguntas_examen: "42-57"
+  clase_5:
+    date: null
+    topic: "AO — Medición de desempeño"
+    preguntas_examen: "58-68"
+  clase_6:
+    date: null
+    topic: "Trabajo final individual + examen"
+
+evaluaciones:
+  examen:
+    formato: "multiple choice individual, web campus bajo Safe Exam Browser"
+    banco: "68 preguntas, ya resueltas en mba/presentations/diseno_organizacional/examen_68_preguntas.md"
+    # El listado de preguntas SIN las opciones se entrega una semana antes. Son las reales.
+    preguntas_que_exigen_lectura: [22, 23, 24, 25, 26, 38, 39, 40, 41, 54, 55, 56, 57]
+    # ~11 preguntas no se contestan con el deck: salen de las lecturas obligatorias.
+    fecha: null
+  trabajo_final:
+    formato: "un caso corto del pool de 12 + consigna, bajo Safe Exam Browser"
+    pool: "12 casos con respuesta modelo en mba/presentations/diseno_organizacional/trabajo_final_12_casos.md"
+    estructura_respuesta: "los tres pilares de la AO + consistencia entre ellos"
+    fecha_entrega: null
+
+# Bloqueantes con deadline propio — ver plan_de_estudio.md
+checklist_previa:
+  safe_exam_browser: pendiente
+  # Si no se puede instalar: rendir en UCEMA (solicitud al Depto. de Alumnos con
+  # DOS SEMANAS de anticipación) o rendir oral al finalizar los trabajos de la clase 6.
+  declarar_uso_de_ia: pendiente     # requisito explícito del programa
+  confirmar_fechas: pendiente       # las 6 clases + examen + entrega del TP
+
+materials_available:
+  # Espejo local del hub de ClickUp (mba/presentations/diseno_organizacional/):
+  - "examen_68_preguntas.md"        # 68 preguntas con respuesta + tabla de datos duros
+  - "trabajo_final_12_casos.md"     # 12 casos + 2 ejemplos resueltos por la cátedra
+  - "glosario.md"
+  - "clase_1_comportamiento_conocimiento.md"
+  - "clase_2_incentivos_ao_contratos.md"
+  - "clase_3_asignacion_autoridad.md"
+  - "clase_4_politica_compensatoria.md"
+  - "clase_5_medicion_desempeno.md"
+  - "plan_de_estudio.md"
+  - "indice.md"
+  - "progreso.md"
+  # FALTAN: los PDFs originales de los decks de la profesora y el programa de la cátedra.
+
+notebooklm_notebook: ""  # no se usa en esta materia
