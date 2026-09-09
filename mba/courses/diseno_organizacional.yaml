@@ -134,6 +134,7 @@ materials_available:
   - "tf_casos_individuales.docx"
   - "tf_ejemplos_resueltos.docx"
   - "taller_agente_inmobiliario.xlsx"
+  - "one-pager.md"   # sintesis de toda la materia en una hoja: los 3 pilares, REMM, Holmstrom, stack ranking y el metodo de 4 pasos para atacar casos
   - "lecturas/"   # 15 artículos — ver MATERIAL.md
   # Descartados y por qué: ver MATERIAL.md
 
