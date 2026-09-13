@@ -1,0 +1,64 @@
+name: "Analítica de Negocios"
+schedule_day: null            # a confirmar
+modality: null                # a confirmar
+total_classes: null           # a confirmar cuando arranque la cursada
+language: spanish
+status: nivelatorio_en_curso  # la materia todavía no empezó; solo está el curso de nivelación
+
+clickup:
+  hub_doc_id: "8cm37vq-11099"
+  hub_pages:
+    nivelatorio: "8cm37vq-12079"   # única página del curso de nivelación: teoría + guía resuelta + erratas + resumen
+    # indice / progreso / formulario / clase_N: se crean cuando empiece la materia
+
+# Curso de Nivelación en Métodos Cuantitativos (UCEMA MADE) — prerequisito de la materia
+nivelatorio:
+  professor: "Ing. Carlos Arana"
+  formato: "autogestionado: 7 módulos con slides + videoclases (YouTube) + guía de ejercicios con clave"
+  evaluacion: null   # la carpeta no trae condiciones de aprobación — confirmar en el campus
+  prepara_para:
+    - "Métodos Cuantitativos para la Toma de Decisiones"
+    - "Introducción a la Ciencia de Datos"
+  modulos:
+    modulo_1: "Intro a la estadística descriptiva — tipos de variables (C, DN, DO, DC), transversal vs longitudinal"
+    modulo_2: "Expresión gráfica — distribución de frecuencias (absoluta, relativa), histogramas"
+    modulo_3: "Posición, dispersión y medidas robustas — media, mediana, moda, asimetría, varianza, desvío, percentiles, cuartiles"
+    modulo_4: "Análisis bivariado — dispersión, covarianza, Pearson, R²"
+    modulo_5: "Probabilidad — clásica/frecuencia/subjetiva, adición, condicional, independencia, multiplicación, total, Bayes"
+    modulo_6: "V.a. discreta — distribución, E(X), varianza, binomial, DISTR.BINOM"
+    modulo_7: "V.a. continua — densidad, normal, regla empírica 68-95-99,7, DISTR.NORM"
+  # Errores del material verificados con Python (detalle en la página del Hub, sección "Fe de erratas")
+  erratas:
+    - "Slides M5, Bayes aseguradora: P(VW|R) da 0,5263 (es P(Nissan|R)); correcto 0,0454"
+    - "Guía M7 Ej3: la versión por módulo usa sigma=25 (clave 0,26); correcto sigma=sqrt(25)=5 -> 0,8965"
+    - "Clave M5 Ej2 (versión unificada): da conjuntas 0,17/0,11; correcto condicionales 0,37/0,197"
+    - "Clave M2 Ej3b: 20,31% (13/64); correcto 20,63%"
+    - "Clave M1 Ej2i (versión por módulo): alquiler DC; correcto C"
+
+content_management:
+  type: cuantitativa
+  notebooklm: false   # mismo criterio que Finanzas: PDFs cortos, Claude los lee directo
+  ejercicios_mode: on_command
+  source_of_truth: "guia_ejercicios_unificada.pdf + claves verificadas en la página del Hub (no las claves por módulo, que tienen errores)"
+
+bibliography_priority:
+  - "Anderson, Sweeney & Williams — Estadística para Administración y Economía (fuente de casi todos los ejercicios)"
+  - "Canavos — Probabilidad y Estadística"
+  - "De Groot — Probabilidad y Estadística"
+  # Los 3 libros quedan en Descargas; no se traen al repo (36 MB y no hacen falta para el nivelatorio)
+
+materials_available:
+  - "nivelatorio.md"                          # copia local de la página del Hub
+  - "nivelatorio/programa.pdf"
+  - "nivelatorio/guia_ejercicios_unificada.pdf"
+  - "nivelatorio/moduloN_slides.pdf"          # N = 1..7
+  - "nivelatorio/moduloN_guia.pdf"            # N = 1..7, guía por módulo con su clave
+
+videoclases:
+  modulo_1: ["https://youtu.be/BQv8zskfghs"]
+  modulo_2: ["https://youtu.be/sLbuv7ae0_I"]
+  modulo_3: ["https://youtu.be/wb2Z1i4l67I", "https://youtu.be/61Vj2qexEYk"]
+  modulo_4: ["https://youtu.be/z40O-SR0VOE"]
+  modulo_5: ["https://youtu.be/mdeFgLtX6QE", "https://youtu.be/4ctxZhpaIK8", "https://youtu.be/WbXI7C_TrS8", "https://youtu.be/Po-mvaA7kYw", "https://youtu.be/QDPcy8Z5iGo"]
+  modulo_6: ["https://youtu.be/IJk4VrcM8OA", "https://youtu.be/qLhkhJSu8Aw"]
+  modulo_7: ["https://youtu.be/3o23-aoNerE", "https://youtu.be/AHdH0IzQEPQ"]

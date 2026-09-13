@@ -21,6 +21,7 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
+   - Analítica de Negocios (por empezar — solo nivelatorio cargado; clases a confirmar)
    - Diseño Organizacional (en curso — 6 clases, día a confirmar)
    - Sistemas de Información (completada — ya no genera clases nuevas)
    - Finanzas Corporativas (completada — ya no genera clases nuevas)
@@ -222,6 +223,14 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - **El estudio se organiza alrededor de las dos evaluaciones, no del temario**: responder el banco de 68 y practicar los casos con el trigger `caso` en modo completo.
 - Ojo: falta el cronograma. La carpeta de la cátedra no lo trae y el calendario de Google solo tiene bloques genéricos "Clase Presencial/Virtual MBA". Fechas en `null` hasta confirmar.
 - Triage completo del material (qué se trajo, qué se descartó y por qué): `mba/presentations/diseno_organizacional/MATERIAL.md`.
+
+### Analítica de Negocios (por empezar)
+- Hub Doc: `8cm37vq-11099`
+  - Página Curso de Nivelación — Métodos Cuantitativos: `8cm37vq-12079` — **una sola página para todo el nivelatorio** (7 módulos: teoría, ejemplos del profe, guía completa con datos y resolución, fe de erratas, resumen de una hoja). Copia local: `mba/presentations/analitica_negocios/nivelatorio.md`.
+  - Índice / Progreso / Formulario / clases: se crean cuando empiece la cursada.
+- **Materia cuantitativa**: mismo esquema que Finanzas (sin NotebookLM, ejercicios on-command, Glosario = Formulario).
+- **Las claves de la guía tienen errores.** La versión por módulo (`moduloN_guia.pdf`) y la unificada (`guia_ejercicios_unificada.pdf`) se contradicen en M1, M5 y M7, y la slide de Bayes (M5) resuelve mal. La verdad son las resoluciones verificadas de la página del Hub; ver `erratas` en `mba/courses/analitica_negocios.yaml`.
+- Falta: condiciones de aprobación del nivelatorio, profesor y cronograma de la materia.
 
 ---
 
