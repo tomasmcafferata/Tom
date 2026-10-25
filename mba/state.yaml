@@ -994,6 +994,8 @@ courses:
     last_class_date: null
     last_class_topic: "Análisis y Mejora de Procesos"
     notes_available: false        # páginas armadas solo desde decks + guías (2026-10-25)
+    evaluation: "multiple choice situacional, 25-30 preguntas en 1 hora"
+    study_mode: "preguntas situacionales multiple choice (no recall de listas)"
     notebooklm: false             # conceptual dirigida por decks + práctica de camino crítico
     topics_covered:
       # Módulo 1 — Estrategia de Operaciones

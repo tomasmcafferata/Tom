@@ -237,6 +237,8 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - Hub Doc: `8cm37vq-11119`
   - Página Índice: `8cm37vq-12099` · Progreso: `8cm37vq-12119` · Glosario: `8cm37vq-12139`
   - Módulos 1-4: `8cm37vq-12159` · `8cm37vq-12179` · `8cm37vq-12199` · `8cm37vq-12219` (cada uno con preguntas de práctica y su respuesta)
+  - Página Examen — situaciones tipo: `8cm37vq-12239` (pares parecidos + situación → respuesta + reglas de desempate)
+- **Examen: multiple choice situacional, 25-30 preguntas en 1 hora.** Las sesiones `estudiar` / `repaso` de esta materia usan preguntas situacionales de opción múltiple, no recall de listas.
 - Profesores: **Gabriel Romano** (Estrategia de Operaciones, Gestión de Proyectos, Mejora de Procesos) y **Matías Castano Lucero** (Agile).
 - **Materia conceptual dirigida por decks**: sin NotebookLM. Decks cortos que Claude lee directo desde `mba/presentations/direccion_operaciones/`. Agile Samurai y la Guía Práctica Ágil (PMI) quedaron en Descargas como consulta puntual.
 - **Los decks son muy visuales**: el texto extraído pierde diagramas. Las notas de clase son imprescindibles para la página de clase.

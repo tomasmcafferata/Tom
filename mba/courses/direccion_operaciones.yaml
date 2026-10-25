@@ -15,6 +15,7 @@ clickup:
     modulo_2: "8cm37vq-12179"   # Agile Management
     modulo_3: "8cm37vq-12199"   # Gestión de Proyectos (incluye camino crítico resuelto)
     modulo_4: "8cm37vq-12219"   # Análisis y Mejora de Procesos
+    examen: "8cm37vq-12239"     # situaciones tipo examen
 
 professors:
   - name: "Gabriel Romano"
@@ -24,7 +25,12 @@ professors:
     perfil: "Certified Scrum Master, Agile Coach, Director Posgrado en Agilidad y Transformación Organizacional UCEMA"
     modulos: [agile]
 
-evaluation_breakdown: null    # la carpeta no trae programa — confirmar en el campus
+evaluation_breakdown:
+  examen: "multiple choice situacional, 25-30 preguntas en 1 hora (~2 min c/u)"
+  fuente: "Resumen de estudio (Downloads, 2026-10-25)"
+  hub_page_id: "8cm37vq-12239"   # Examen — situaciones tipo: pares parecidos + situación → respuesta
+orden_clases_real: ["Estrategia y cadena de suministro", "Proyectos", "Procesos", "Agile (aparte)"]
+# La numeración "Módulo N" del Hub sigue la carpeta del material, no el orden de dictado.
 
 # Los 5 ejes del curso según el deck de Romano (slide 3). El orden real de dictado está a confirmar.
 modulos:
