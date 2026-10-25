@@ -3,7 +3,7 @@ schedule_day: null            # a confirmar
 modality: null                # a confirmar
 total_classes: null           # a confirmar — la carpeta trae 4 módulos; el deck de Romano anuncia 5 ejes
 language: spanish
-status: por_empezar           # confirmar si ya hubo clases
+status: cursada_terminada     # todas las clases dictadas; páginas armadas solo desde el material (sin notas)
 
 clickup:
   hub_doc_id: "8cm37vq-11119"
@@ -11,7 +11,10 @@ clickup:
     indice: "8cm37vq-12099"
     progreso: "8cm37vq-12119"
     glosario: "8cm37vq-12139"
-    # clase_N: se agregan con el trigger "clase"
+    modulo_1: "8cm37vq-12159"   # Estrategia de Operaciones
+    modulo_2: "8cm37vq-12179"   # Agile Management
+    modulo_3: "8cm37vq-12199"   # Gestión de Proyectos (incluye camino crítico resuelto)
+    modulo_4: "8cm37vq-12219"   # Análisis y Mejora de Procesos
 
 professors:
   - name: "Gabriel Romano"
@@ -60,5 +63,13 @@ content_management:
     Los decks son muy visuales: pdftotext pierde diagramas y ejemplos con imágenes. Las notas de clase
     son la fuente que completa el contenido — pedirlas siempre con el trigger "clase".
   ejercicios: >
-    El ejercicio de camino crítico no trae resolución: Claude la calcula y la verifica antes de usarla
-    como clave (mismo criterio que las erratas de Analítica).
+    La resolución del camino crítico está en el deck (slide 41, solo ida). Verificada con ida, vuelta y
+    holguras: crítico A-B-D-M-FIN, duración 50. Tabla completa en la página del Módulo 3.
+
+erratas:
+  guia_riesgos_escala_costo: >
+    Tabla p.5: muy bajo <5%, bajo 5-10%, medio 10-15%, alto >15%. Anexo I: muy bajo <3%, bajo 3-5%,
+    medio 5-10%, alto >10%. La guía aclara que los % se adaptan al presupuesto.
+  scrum_deck_vs_guia_2020: >
+    El deck usa "Scrum Team" para los Developers y tiempos por sprint de 1 semana (Planning 2h, Review 1h,
+    Retro 60-90 min). Máximos oficiales para sprint de 1 mes: 8h / 4h / 3h; Daily 15 min.

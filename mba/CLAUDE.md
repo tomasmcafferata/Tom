@@ -21,7 +21,7 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
-   - Dirección de Operaciones (por empezar — material cargado; cronograma a confirmar)
+   - Dirección de Operaciones (cursada terminada — páginas armadas desde el material, sin notas)
    - Analítica de Negocios (por empezar — solo nivelatorio cargado; clases a confirmar)
    - Diseño Organizacional (en curso — 6 clases, día a confirmar)
    - Sistemas de Información (completada — ya no genera clases nuevas)
@@ -233,15 +233,16 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - **Las claves de la guía tienen errores.** La versión por módulo (`moduloN_guia.pdf`) y la unificada (`guia_ejercicios_unificada.pdf`) se contradicen en M1, M5 y M7, y la slide de Bayes (M5) resuelve mal. La verdad son las resoluciones verificadas de la página del Hub; ver `erratas` en `mba/courses/analitica_negocios.yaml`.
 - Falta: condiciones de aprobación del nivelatorio, profesor y cronograma de la materia.
 
-### Dirección de Operaciones (por empezar)
+### Dirección de Operaciones (cursada terminada)
 - Hub Doc: `8cm37vq-11119`
   - Página Índice: `8cm37vq-12099` · Progreso: `8cm37vq-12119` · Glosario: `8cm37vq-12139`
-  - Páginas de clase: ver `mba/courses/direccion_operaciones.yaml` → hub_pages
+  - Módulos 1-4: `8cm37vq-12159` · `8cm37vq-12179` · `8cm37vq-12199` · `8cm37vq-12219` (cada uno con preguntas de práctica y su respuesta)
 - Profesores: **Gabriel Romano** (Estrategia de Operaciones, Gestión de Proyectos, Mejora de Procesos) y **Matías Castano Lucero** (Agile).
 - **Materia conceptual dirigida por decks**: sin NotebookLM. Decks cortos que Claude lee directo desde `mba/presentations/direccion_operaciones/`. Agile Samurai y la Guía Práctica Ágil (PMI) quedaron en Descargas como consulta puntual.
 - **Los decks son muy visuales**: el texto extraído pierde diagramas. Las notas de clase son imprescindibles para la página de clase.
-- **Parte práctica en Gestión de Proyectos**: camino crítico (xlsx sin resolución: Claude la calcula y verifica), EDT y riesgos. Usar el trigger `ejercicios`.
-- No se precargan clases: cada página se arma con el trigger `clase` (deck + notas).
+- **Parte práctica en Gestión de Proyectos**: camino crítico (resuelto y verificado en la página del Módulo 3: A-B-D-M-FIN = 50), PERT, EDT y riesgos. Usar el trigger `ejercicios`.
+- **Todas las clases ya se dictaron y no hay notas**: las 4 páginas se armaron leyendo las 216 slides como texto e imagen (PyMuPDF → hojas de contacto). Si aparecen notas, se refinan; no hace falta el trigger `clase`.
+- Erratas del material (escala de costo de la Guía de Riesgos, Scrum del deck vs Guía 2020): `erratas` en el yaml.
 - Falta: programa, cronograma, evaluación y material de Customer Experience (anunciado como 5º eje). Triage: `mba/presentations/direccion_operaciones/MATERIAL.md`.
 
 ---

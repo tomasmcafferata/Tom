@@ -987,15 +987,60 @@ courses:
     name: "Dirección de Operaciones"
     schedule_day: null            # a confirmar
     modality: null
-    status: por_empezar
+    status: cursada_terminada
     professors: ["Gabriel Romano", "Matías Castano Lucero"]
-    classes_completed: 0
+    classes_completed: 4          # 4 módulos con material; Customer Experience sin material
     total_classes: null
     last_class_date: null
-    last_class_topic: null
+    last_class_topic: "Análisis y Mejora de Procesos"
+    notes_available: false        # páginas armadas solo desde decks + guías (2026-10-25)
     notebooklm: false             # conceptual dirigida por decks + práctica de camino crítico
-    topics_covered: []
-    classes: []
+    topics_covered:
+      # Módulo 1 — Estrategia de Operaciones
+      - Manufactura vs servicio (5 dimensiones de transformación)
+      - Estrategia de operaciones (definición y flujo)
+      - 3 principios de la estrategia (arte, vida o muerte, permanente)
+      - Análisis de mercado y tipos de necesidades
+      - Prioridad vs capacidad competitiva (gap)
+      - 9 prioridades competitivas en 4 ejes
+      - Cadena de suministro (3 vínculos, procesos centrales y de apoyo)
+      - Presiones internas sobre la cadena
+      - Personalización masiva
+      - Cadenas eficientes vs sensibles
+      # Módulo 2 — Agile Management
+      - VUCA / BANI
+      - Manifiesto Ágil (4 valores, 12 principios)
+      - Corazón de la agilidad (colabora, entrega, reflexiona, mejora)
+      - Iceberg ser / hacer; mindset, skillset, workset, toolset
+      - Organización mecánica vs orgánica
+      - Complicado vs complejo, Cynefin, Stacey
+      - Ciclos de vida predictivo / iterativo / incremental / ágil
+      - 18th State of Agile + IA
+      - Prototipo / MVP / producto; Discovery vs Delivery
+      - Scrum (pilares, valores, roles, artefactos, eventos)
+      - Kanban, Lean (5 principios, casa Lean), Design Thinking
+      # Módulo 3 — Gestión de Proyectos
+      - Proyecto, rol del PM (piloto), PMO
+      - Evaluación y selección, Project Charter
+      - Interesados (roles, grilla poder/interés), requisitos
+      - EDT (formas, principios, diccionario, gobernanza)
+      - Secuenciación (PDM/AON)
+      - Estimación (analogía, paramétrica, PERT), reservas
+      - Camino crítico (ida, vuelta, holgura)
+      - Riesgos (fuentes, matriz, respuestas, RBS, registro)
+      - Cierre, integración, línea base, Tuckman, comunicaciones
+      # Módulo 4 — Análisis y Mejora de Procesos
+      - 4 decisiones de estrategia de procesos
+      - Estructuras de servicio (mostrador, híbrida, trastienda) y de manufactura (trabajo, lotes, línea, continuo)
+      - Regla de la diagonal
+      - Producción por pedido / ensamble / almacenar; layout
+      - Participación del cliente, flexibilidad de recursos, intensidad de capital
+      - Metodología de mejora en 6 pasos y sus herramientas
+    classes:
+      - {class_number: 1, topic: "Estrategia de Operaciones", status: armada_sin_notas, hub_page_id: "8cm37vq-12159"}
+      - {class_number: 2, topic: "Agile Management", status: armada_sin_notas, hub_page_id: "8cm37vq-12179"}
+      - {class_number: 3, topic: "Gestión de Proyectos", status: armada_sin_notas, hub_page_id: "8cm37vq-12199"}
+      - {class_number: 4, topic: "Análisis y Mejora de Procesos", status: armada_sin_notas, hub_page_id: "8cm37vq-12219"}
     cases_analyzed: []
 
 
