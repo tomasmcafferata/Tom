@@ -983,6 +983,21 @@ courses:
         source: "clase5.pptx"
         hub_page_id: "8cm37vq-11999"
 
+  direccion_operaciones:
+    name: "Dirección de Operaciones"
+    schedule_day: null            # a confirmar
+    modality: null
+    status: por_empezar
+    professors: ["Gabriel Romano", "Matías Castano Lucero"]
+    classes_completed: 0
+    total_classes: null
+    last_class_date: null
+    last_class_topic: null
+    notebooklm: false             # conceptual dirigida por decks + práctica de camino crítico
+    topics_covered: []
+    classes: []
+    cases_analyzed: []
+
 
 current_week:
   number: 5

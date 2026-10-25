@@ -21,6 +21,7 @@ Este repo contiene el sistema de estudio MBA de Tomas. Claude Code actúa como a
 ### "clase" o "clase [curso]"
 Se ejecuta automáticamente después de cada clase. Claude debe:
 1. Detectar el curso por el día de la semana o por el contexto:
+   - Dirección de Operaciones (por empezar — material cargado; cronograma a confirmar)
    - Analítica de Negocios (por empezar — solo nivelatorio cargado; clases a confirmar)
    - Diseño Organizacional (en curso — 6 clases, día a confirmar)
    - Sistemas de Información (completada — ya no genera clases nuevas)
@@ -232,6 +233,17 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - **Las claves de la guía tienen errores.** La versión por módulo (`moduloN_guia.pdf`) y la unificada (`guia_ejercicios_unificada.pdf`) se contradicen en M1, M5 y M7, y la slide de Bayes (M5) resuelve mal. La verdad son las resoluciones verificadas de la página del Hub; ver `erratas` en `mba/courses/analitica_negocios.yaml`.
 - Falta: condiciones de aprobación del nivelatorio, profesor y cronograma de la materia.
 
+### Dirección de Operaciones (por empezar)
+- Hub Doc: `8cm37vq-11119`
+  - Página Índice: `8cm37vq-12099` · Progreso: `8cm37vq-12119` · Glosario: `8cm37vq-12139`
+  - Páginas de clase: ver `mba/courses/direccion_operaciones.yaml` → hub_pages
+- Profesores: **Gabriel Romano** (Estrategia de Operaciones, Gestión de Proyectos, Mejora de Procesos) y **Matías Castano Lucero** (Agile).
+- **Materia conceptual dirigida por decks**: sin NotebookLM. Decks cortos que Claude lee directo desde `mba/presentations/direccion_operaciones/`. Agile Samurai y la Guía Práctica Ágil (PMI) quedaron en Descargas como consulta puntual.
+- **Los decks son muy visuales**: el texto extraído pierde diagramas. Las notas de clase son imprescindibles para la página de clase.
+- **Parte práctica en Gestión de Proyectos**: camino crítico (xlsx sin resolución: Claude la calcula y verifica), EDT y riesgos. Usar el trigger `ejercicios`.
+- No se precargan clases: cada página se arma con el trigger `clase` (deck + notas).
+- Falta: programa, cronograma, evaluación y material de Customer Experience (anunciado como 5º eje). Triage: `mba/presentations/direccion_operaciones/MATERIAL.md`.
+
 ---
 
 ## Calendario Google
@@ -243,6 +255,7 @@ Se ejecuta al finalizar una materia completa. Claude debe:
 - Un notebook por curso (Economía, Gestión, IFE, Liderazgo)
 - **Finanzas Corporativas NO usa NotebookLM** — es cuantitativa; Claude lee los PDFs de teoría (cortos y curados) directamente, clase a clase. El estudio se basa en resolver ejercicios, no en excerpts (ver trigger "ejercicios").
 - **Diseño Organizacional NO usa NotebookLM** — los decks de Delle Donne son autosuficientes y las dos evaluaciones (68 preguntas conocidas + pool de 12 casos con ejemplos resueltos) no requieren la bibliografía obligatoria. Brickley (~600 pág.) queda como consulta puntual.
+- **Dirección de Operaciones NO usa NotebookLM** — decks cortos que Claude lee directo; la bibliografía de Agile es complementaria.
 - **Sistemas de Información NO usa NotebookLM** — los decks del profesor son autocontenidos y opinados (frameworks propios y casos), y son lo que evalúa el quiz. Laudon (17ª ed., 81MB, en inglés) se cita solo puntualmente: no justifica el setup.
 - Subir todos los PDFs de bibliografía al notebook correspondiente (setup único)
 - **IFE**: subir Fowler Newton — Análisis de estados contables + Fowler Newton — Contabilidad con inflación

@@ -1,0 +1,64 @@
+name: "Dirección de Operaciones"
+schedule_day: null            # a confirmar
+modality: null                # a confirmar
+total_classes: null           # a confirmar — la carpeta trae 4 módulos; el deck de Romano anuncia 5 ejes
+language: spanish
+status: por_empezar           # confirmar si ya hubo clases
+
+clickup:
+  hub_doc_id: "8cm37vq-11119"
+  hub_pages:
+    indice: "8cm37vq-12099"
+    progreso: "8cm37vq-12119"
+    glosario: "8cm37vq-12139"
+    # clase_N: se agregan con el trigger "clase"
+
+professors:
+  - name: "Gabriel Romano"
+    perfil: "PMP, MBA UCEMA, Director Especialización en Gestión de Proyectos UCEMA, ex Coca-Cola y Ford"
+    modulos: [estrategia_operaciones, gestion_proyectos, mejora_procesos]
+  - name: "Matías Castano Lucero"
+    perfil: "Certified Scrum Master, Agile Coach, Director Posgrado en Agilidad y Transformación Organizacional UCEMA"
+    modulos: [agile]
+
+evaluation_breakdown: null    # la carpeta no trae programa — confirmar en el campus
+
+# Los 5 ejes del curso según el deck de Romano (slide 3). El orden real de dictado está a confirmar.
+modulos:
+  estrategia_operaciones:
+    archivo: "modulo1_estrategia_operaciones.pdf"
+    temas: "procesos servicio vs manufactura, estrategia de operaciones, análisis de mercado, 9 prioridades competitivas (costo, calidad, tiempo, flexibilidad), cadena de suministro, procesos centrales vs de apoyo, presiones internas, personalización masiva, cadenas eficientes vs sensibles"
+  agile:
+    archivo: "modulo2_agile.pdf"
+    complementaria: ["bibliografia/scrum_guide_2020.pdf"]
+    temas: "VUCA/BANI, Manifiesto Ágil, iceberg ser/hacer (mindset, skillset, workset, toolset), complicado vs complejo, Cynefin, Stacey, ciclo de vida, 18th State of Agile + IA, prototipo vs MVP vs producto, predictivo vs ágil, Scrum, Design Thinking, Kanban, Lean"
+  gestion_proyectos:
+    archivos:
+      - "modulo3_gestion_proyectos.pdf"          # deck completo
+      - "modulo3_gestion_proyectos_dictado.pdf"  # versión resumida de lo que se dicta
+      - "modulo3_guia_edt.pdf"
+      - "modulo3_guia_riesgos.pdf"
+      - "modulo3_herramienta_trabajo.xlsx"       # plantilla: control de cambios, interesados, actividades y costo, EDT, cronograma, riesgos, comunicaciones, contrataciones
+      - "modulo3_ejercicio_camino_critico.xlsx"  # actividades A-N + predecesoras, SIN resolución
+    temas: "definición de proyecto (PMBOK), rol del director de proyectos, ciclo de vida, EDT, cronograma y camino crítico, interesados, riesgos"
+  mejora_procesos:
+    archivo: "modulo4_mejora_procesos.pdf"
+    temas: "estrategia de procesos: estructura (mostrador / oficina híbrida / trastienda), participación del cliente, flexibilidad de recursos, intensidad de capital; revisión y mejora de procesos"
+  customer_experience:
+    archivo: null   # anunciado en el deck de Romano, sin material en la carpeta
+
+# Materia CONCEPTUAL dirigida por decks (mismo patrón que Sistemas y Diseño Organizacional),
+# con una parte PRÁCTICA en Gestión de Proyectos (camino crítico, EDT, riesgos).
+content_management:
+  type: conceptual_deck_driven
+  notebooklm: false
+  notebooklm_rationale: >
+    Los decks son cortos (1.400-4.300 palabras) y Claude los lee directo. La bibliografía
+    complementaria de Agile (Agile Samurai ~59k palabras en inglés, Guía Práctica Ágil del PMI ~48k)
+    es de consulta, no núcleo. No justifica el setup de NotebookLM.
+  notas_criticas: >
+    Los decks son muy visuales: pdftotext pierde diagramas y ejemplos con imágenes. Las notas de clase
+    son la fuente que completa el contenido — pedirlas siempre con el trigger "clase".
+  ejercicios: >
+    El ejercicio de camino crítico no trae resolución: Claude la calcula y la verifica antes de usarla
+    como clave (mismo criterio que las erratas de Analítica).
